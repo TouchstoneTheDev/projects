@@ -67,9 +67,9 @@ ${regardingListMd}
     markdownContent: emailMarkdown,
   };
 
-  // Pair 3: Tool Scans
+  // Pair 3: Tool Scans (Compulsory 3 Screenshots: WAVE, Axe DevTools, Lighthouse)
   const accessibilityReportPath = path.join(companyDir, `${safeCompany}_accessibility_report.md`);
-  const toolScreenshotPath = report.pages[0]?.screenshots[1] || report.pages[0]?.screenshots[0] || path.join(companyDir, `${safeCompany}_accessibility_tool.png`);
+  const toolScreenshotPath = report.pages[0]?.screenshots[0] || path.join(companyDir, `${safeCompany}_WAVE_Overlay.png`);
 
   const accessibilityMarkdown = `# Accessibility Tool Scan Report — ${report.company.companyName}
 
@@ -86,7 +86,13 @@ ${regardingListMd}
 ${report.botBlock.isBlocked ? `> ⚠️ **BOT BLOCK WARNING:** Website blocked automated scan (Matched Signature: "${report.botBlock.signatureMatched}"). Reclassified as Blocked (Bot Protection).` : ''}
 
 ---
-*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via Axe DevTools & Lighthouse.*
+
+### Compulsory Tool Screenshots
+1. **WAVE Overlay Screenshot:** \`${safeCompany}_Homepage_WAVE_Overlay.png\`
+2. **Axe DevTools Panel Screenshot:** \`${safeCompany}_Homepage_Axe_DevTools.png\`
+3. **Lighthouse Summary Screenshot:** \`${safeCompany}_Homepage_Lighthouse_Summary.png\`
+
+*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*
 `;
   fs.writeFileSync(accessibilityReportPath, accessibilityMarkdown, 'utf8');
 

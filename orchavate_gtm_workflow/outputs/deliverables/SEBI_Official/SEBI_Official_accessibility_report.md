@@ -13,4 +13,10 @@
 
 
 ---
-*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via Axe DevTools & Lighthouse.*
+
+### Compulsory Tool Screenshots
+1. **WAVE Overlay Screenshot:** `SEBI_Official_Homepage_WAVE_Overlay.png`
+2. **Axe DevTools Panel Screenshot:** `SEBI_Official_Homepage_Axe_DevTools.png`
+3. **Lighthouse Summary Screenshot:** `SEBI_Official_Homepage_Lighthouse_Summary.png`
+
+*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*

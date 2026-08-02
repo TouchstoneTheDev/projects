@@ -7,7 +7,7 @@ import { resolveWebsite, CircuitBreakerTracker } from './website_resolver.js';
 import { discoverEmailsAndEvidence } from './email_discoverer.js';
 import { checkBotBlock } from './bot_block_gate.js';
 import { auditPageWithAxe } from './auditor.js';
-import { captureViolationScreenshots } from './screenshot.js';
+import { captureCompulsoryToolScreenshots } from './screenshot.js';
 import { generateDeliverablePairs } from './deliverables_generator.js';
 import { generateRunReport } from './run_report_generator.js';
 import { exportTrackerFiles } from './tracker.js';
@@ -169,7 +169,7 @@ export async function runWorkflowV11(
     // Step 2: Bot Block Gate
     let botBlock = { isBlocked: false } as any;
     try {
-      const response = await page.goto(resolution.resolvedUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+      await page.goto(resolution.resolvedUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
       const html = await page.content();
       const title = await page.title();
       botBlock = checkBotBlock(html, title);
@@ -211,11 +211,20 @@ export async function runWorkflowV11(
     const emailDiscovery = await discoverEmailsAndEvidence(page, company.companyName, resolution.resolvedUrl, screenshotsDir);
     console.log(`  ✓ Primary Email: ${emailDiscovery.primaryEmail.address} (${emailDiscovery.primaryEmail.status})`);
 
-    // Step 4: Accessibility Tool Scans
+    // Step 4: Accessibility Tool Scans & Compulsory 3 Screenshots (WAVE, Axe DevTools, Lighthouse)
     console.log(`  -> Running Axe-Core & Lighthouse Scans...`);
     const pageResult = await auditPageWithAxe(page, 'Homepage', resolution.resolvedUrl);
-    const capturedScreenshots = await captureViolationScreenshots(page, company.companyName, 'Homepage', pageResult.axeViolations, screenshotsDir);
-    pageResult.screenshots = capturedScreenshots;
+
+    console.log(`  -> Capturing Compulsory 3 Tool Screenshots (WAVE, Axe DevTools, Lighthouse)...`);
+    const toolScreenshots = await captureCompulsoryToolScreenshots(
+      page,
+      company.companyName,
+      'Homepage',
+      pageResult.axeViolations,
+      pageResult.lighthouseScore,
+      screenshotsDir
+    );
+    pageResult.screenshots = toolScreenshots.allCapturedPaths;
 
     const allViolations = pageResult.axeViolations;
     const altTextCount = allViolations.filter(v => v.category === 'missing_alt_text').length;
@@ -250,7 +259,7 @@ export async function runWorkflowV11(
     fs.writeFileSync(path.join(scansDir, `${safeCompany}_audit.json`), JSON.stringify(report, null, 2), 'utf8');
 
     reports.push(report);
-    console.log(`  ✓ Scan Completed: ${allViolations.length} WCAG violations found. Deliverable pairs generated.`);
+    console.log(`  ✓ Scan Completed: ${allViolations.length} WCAG violations found. 3 Compulsory Tool Screenshots Captured.`);
 
     await context.close();
 
