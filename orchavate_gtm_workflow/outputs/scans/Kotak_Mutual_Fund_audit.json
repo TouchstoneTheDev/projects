@@ -1,0 +1,773 @@
+{
+  "company": {
+    "srNo": 22,
+    "companyName": "Kotak Mutual Fund",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.kotakmf.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.kotakmf.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@kotakmf.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@kotakmf.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@kotakmf.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.kotakmf.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "ngb-carousel",
+          "html": "<ngb-carousel tabindex=\"0\" class=\"carousel slide\" aria-activedescendant=\"slide-ngb-slide-0\" style=\"display: block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "input[placeholder=\"Search for Funds\"]",
+          "html": "<input _ngcontent-kotakkkk-c162=\"\" ngbdropdownanchor=\"\" placeholder=\"Search for Funds\" type=\"text\" class=\"dropdown-toggle kmf-input no-background ng-untouched ng-pristine ng-valid\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#fundSliderParent > .custom-slider-next.custom-slider-arrow",
+          "html": "<button class=\"custom-slider-arrow custom-slider-next\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#cafeSliderParent > .custom-slider-next.custom-slider-arrow",
+          "html": "<button class=\"custom-slider-arrow custom-slider-next\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(1) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 18.96% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(2) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 18.68% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(3) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 13.25% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(4) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 20.12% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(5) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 7.79% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(7) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 16.69% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(8) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 10.67% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(9) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 10.59% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-custom-slider-item[_ngcontent-kotakkkk-c162=\"\"]:nth-child(10) > kmf-fund-card > .fund-item.add-hover-effect.add-innerpadding > .fund-upper-content.flex-column.h-100 > .pb-1.w-100 > .mt-3.justify-content-between.w-100 > .w-50 > .height-28.flex-nowrap[color=\"success\"]",
+          "html": "<p class=\"mb-0 font-20 weight-500 height-28 d-flex align-items-center flex-nowrap\" color=\"success\"><span class=\"triangle-up\"></span><!----><!----> 15.89% </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-horz-scroller-item[data-selected=\"true\"][type=\"button\"]",
+          "html": "<button _ngcontent-kotakkkk-c162=\"\" color=\"light\" type=\"button\" class=\"kmf-horz-scroller-item font-16\" data-selected=\"true\">For Beginners</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".footer-label.ml-2.font-16",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 footer-label ml-2\" href=\"https://www.kotakmf.com/feedback/customer\">Write to Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href=\"tel:18003091490\"]",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 ml-2 mr-2\" href=\"tel:18003091490\">18003091490</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href=\"tel:044-40229101\"]",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 ml-2\" href=\"tel:044-40229101\">044-40229101</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(3) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .mt-2.px-0.col-12 > .no-break.font-12[color=\"light\"]",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-12 weight-400 no-break\">(Monday to Friday between 9.30am to 6.00 pm &amp; Saturday between 9.30am to 12.30pm)</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(4) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .mt-2.px-0.col-12 > .no-break.font-12[color=\"light\"]",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-12 weight-400 no-break\">Kotak Mutual Fund may contact you from numbers starting with 1600 for important service and folio-related updates.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(5) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .mt-2.px-0.col-12 > .no-break.font-12[color=\"light\"]",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-12 weight-400 no-break\">SEBI Registered Name - Kotak Mahindra Mutual Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(6) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .mt-2.px-0.col-12 > .no-break.font-12[color=\"light\"]",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-12 weight-400 no-break\">SEBI Registered Number - MF/038/98/1</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(1) > .no-text-decoration:nth-child(2) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Contact Us</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(1) > .no-text-decoration:nth-child(3) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">About Us</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(1) > .no-text-decoration:nth-child(4) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Careers</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(1) > .no-text-decoration:nth-child(5) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Corporate Disclousure</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(2) > .no-text-decoration:nth-child(2) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">All Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".no-text-decoration[href$=\"sip\"] > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">SIP</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(2) > .no-text-decoration:nth-child(4) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">SIP Calculator</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(2) > .no-text-decoration:nth-child(5) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">MF Calculators</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(2) > .no-text-decoration:nth-child(6) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">SWP Calculator</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"sif/\"] > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">SIF</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(3) > .no-text-decoration:nth-child(2) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Total Expense Ratio</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".no-text-decoration[href$=\"nav\"] > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Get NAV &amp; IDCW</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(3) > .no-text-decoration:nth-child(4) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Forms and Downloads</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(3) > .no-text-decoration:nth-child(5) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Investor Service</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(3) > .no-text-decoration:nth-child(6) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Corporate</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(4) > .no-text-decoration:nth-child(2) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Mutual Fund Blogs</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(4) > .no-text-decoration:nth-child(3) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Sitemap</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(4) > .no-text-decoration:nth-child(4) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Privacy Policy</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(4) > .no-text-decoration:nth-child(5) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Statutory Disclosure</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"ESG/\"] > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">ESG Framework</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-4.mb-lg-0.mb-4:nth-child(4) > .no-text-decoration:nth-child(7) > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Zero Balance Folio</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"kotakbusinesshub.com/\"] > .d-inline-block.add-hover-color.mb-3",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-3 font-16 weight-400 add-hover-color d-inline-block\">Advisor</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(2) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Equity Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(3) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Debt Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(4) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Tax Saver Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(5) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Hybrid Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(6) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Passive Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(2) > .kmf-footer-link.no-text-decoration:nth-child(7) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">FOF Mutual Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(2) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Flexicap Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(3) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Multicap Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(4) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Arbitrage Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(5) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Small Cap Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(6) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Mid Cap Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-4.px-0.col-12:nth-child(3) > .kmf-footer-link.no-text-decoration:nth-child(7) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Large and Mid Cap Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-footer-link.no-text-decoration:nth-child(8) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">Kotak Balanced Advantage Fund</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".kmf-footer-link.no-text-decoration:nth-child(9) > .d-inline.mb-1.add-hover-color",
+          "html": "<p _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-1 font-14 weight-400 d-inline add-hover-color\">View All Funds</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": ".link",
+          "html": "<a _ngcontent-kotakkkk-c162=\"\" class=\"link\" href=\"/sip\">Systematic Investment Plan (SIP)</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(4) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .px-0.col-12.align-items-center > div[_ngcontent-kotakkkk-c149=\"\"] > .footer-label.font-16[href=\"\"]",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 footer-label\" href=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(5) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .px-0.col-12.align-items-center > div[_ngcontent-kotakkkk-c149=\"\"] > .footer-label.font-16[href=\"\"]",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 footer-label\" href=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-3[_ngcontent-kotakkkk-c149=\"\"]:nth-child(6) > .mx-0.row[_ngcontent-kotakkkk-c149=\"\"] > .px-0.col-12.align-items-center > div[_ngcontent-kotakkkk-c149=\"\"] > .footer-label.font-16[href=\"\"]",
+          "html": "<a _ngcontent-kotakkkk-c149=\"\" color=\"light\" class=\"mb-0 font-16 weight-400 footer-label\" href=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 62,
+  "altTextViolations": 0,
+  "contrastViolations": 53,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Kotak_Mutual_Fund/Kotak_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — Kotak Mutual Fund\n\n- **Company Name:** Kotak Mutual Fund\n- **Resolved URL:** https://www.kotakmf.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.kotakmf.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Kotak_Mutual_Fund/Kotak_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Email Discovery Report — Kotak Mutual Fund\n\n- **Primary Contact Email:** `info@kotakmf.com`\n- **Primary Email Status:** `Unverified - guessed pattern`\n\n### Regarding Accessibility Emails\n- **General Contact Email (Guessed Pattern):** `info@kotakmf.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@kotakmf.com` | **Status:** `Unverified - guessed pattern`\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Kotak_Mutual_Fund/Kotak_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — Kotak Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 62\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 53\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `Kotak_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `Kotak_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `Kotak_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 62. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T05:55:43.936Z"
+}

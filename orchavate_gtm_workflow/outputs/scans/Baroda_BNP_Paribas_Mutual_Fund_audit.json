@@ -1,0 +1,591 @@
+{
+  "company": {
+    "srNo": 11,
+    "companyName": "Baroda BNP Paribas Mutual Fund",
+    "readymadeWebsite": "https://www.barodabnpparibasmf.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.barodabnpparibasmf.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.barodabnpparibasmf.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "cs.barodabnppmf@kfintech.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.barodabnpparibasmf.in/contact-us#get-call"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "cs.barodabnppmf@kfintech.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.barodabnpparibasmf.in/contact-us#get-call"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.barodabnpparibasmf.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide30",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation30\" id=\"slick-slide30\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide40",
+          "html": "<li class=\"slick-active\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation40\" id=\"slick-slide40\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide41",
+          "html": "<li class=\"slick-secondary\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation41\" id=\"slick-slide41\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-slick-index=\"-1\"]",
+          "html": "<div class=\"slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" tabindex=\"-1\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide01\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide01\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide02\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide02\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide03\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide03\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide04\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide04\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-slick-index=\"6\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"6\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide06\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-slick-index=\"7\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"7\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide07\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-slick-index=\"8\"]",
+          "html": "<div class=\"slick-slide slick-cloned\" data-slick-index=\"8\" id=\"\" aria-hidden=\"true\" tabindex=\"-1\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide10\"]",
+          "html": "<div class=\"slide-item slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide10\" style=\"width: 397px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".slick-center",
+          "html": "<div class=\"slide-item slick-slide slick-current slick-center\" data-slick-index=\"1\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide11\" style=\"width: 397px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide12\"]",
+          "html": "<div class=\"slide-item slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide12\" style=\"width: 397px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide21\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide21\" style=\"width: 454px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide31",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation31\" id=\"slick-slide31\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide32",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation32\" id=\"slick-slide32\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">3</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide33",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation33\" id=\"slick-slide33\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">4</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide34",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation34\" id=\"slick-slide34\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">5</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[aria-describedby=\"slick-slide43\"]",
+          "html": "<div class=\"slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide43\" style=\"width: 420px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".banner-slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 19200px; transform: translate3d(-1920px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".trending-slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 1191px; transform: translate3d(0px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".video-slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 908px; transform: translate3d(0px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".instagram-widget > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 2270px; transform: translate3d(0px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".faq-slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          "html": "<div class=\"slick-track\" role=\"listbox\" style=\"opacity: 1; width: 1760px; transform: translate3d(0px, 0px, 0px);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".instagram-widget > .slick-dots[role=\"tablist\"]",
+          "html": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".faq-slider > .slick-dots[role=\"tablist\"]",
+          "html": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-toggle-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA toggle field has an accessible name",
+          "help": "ARIA toggle fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-toggle-field-name?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide00\"]",
+          "html": "<div class=\"slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide00\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide30",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation30\" id=\"slick-slide30\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide40",
+          "html": "<li class=\"slick-active\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation40\" id=\"slick-slide40\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-center > .trending-box > .trending-top > h3",
+          "html": "<h3>Baroda BNP Paribas Multi Cap Fund</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".blackColor",
+          "html": "<h3 class=\"small-heading mb-4 blackColor\">\n                            TOGETHER FOR MORE\n                        </h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(2) > p > .orangeText",
+          "html": "<span class=\"orangeText\">132+ </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "li:nth-child(4) > p > .orangeText",
+          "html": "<span class=\"orangeText\">300+</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p > .link",
+          "html": "<a href=\"https://www.barodabnpparibasmf.in/disclaimers\" class=\"link\">Read all Disclaimers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-describedby=\"slick-slide20\"] > .thumb-img > a[data-fancybox=\"\"] > img",
+          "html": "<img src=\"https://www.barodabnpparibasmf.in/new-assets/img/thumbnail/father-day.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide00\"] > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.barodabnpparibasmf.in/mutual-fund-schemes/equity-funds/baroda-bnp-paribas-large-cap-fund/regular-growth\" target=\"_blank\" tabindex=\"0\"><img src=\"https://www.barodabnpparibasmf.in/new-assets/img/LCF-N-D.jpg?random=404\" alt=\"\" loading=\"lazy\" class=\"mobile-hide\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide00\"] > a[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://www.barodabnpparibasmf.in/mutual-fund-schemes/equity-funds/baroda-bnp-paribas-large-cap-fund/regular-growth\" target=\"_blank\" tabindex=\"0\"><img src=\"https://www.barodabnpparibasmf.in/new-assets/img/LCF-N-M.jpg?random=404\" alt=\"\" loading=\"lazy\" class=\"desk-hide\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide20\"] > .thumb-img > a[data-fancybox=\"\"]",
+          "html": "<a data-fancybox=\"\" href=\"https://www.youtube.com/embed/s1B1EI62kt4?si=ADEXhamndtqbxLIq\" tabindex=\"0\">\n                                        <img src=\"https://www.barodabnpparibasmf.in/new-assets/img/thumbnail/father-day.png\">\n                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": ".mobHide > marquee",
+          "html": "<marquee behavior=\"scroll\" scrollamount=\"5\" class=\"marquee-text\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide00\"]",
+          "html": "<div class=\"slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide00\" style=\"width: 1920px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide20\"]",
+          "html": "<div class=\"slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide20\" style=\"width: 454px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide40\"]",
+          "html": "<div class=\"slick-slide slick-current slick-active\" data-slick-index=\"0\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide40\" style=\"width: 420px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide41\"]",
+          "html": "<div class=\"slick-slide slick-active\" data-slick-index=\"1\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide41\" style=\"width: 420px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "div[aria-describedby=\"slick-slide42\"]",
+          "html": "<div class=\"slick-slide slick-active\" data-slick-index=\"2\" aria-hidden=\"false\" tabindex=\"-1\" role=\"option\" aria-describedby=\"slick-slide42\" style=\"width: 420px;\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Baroda_BNP_Paribas_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Baroda_BNP_Paribas_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Baroda_BNP_Paribas_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 46,
+  "altTextViolations": 1,
+  "contrastViolations": 5,
+  "labelViolations": 0,
+  "keyboardViolations": 17,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Baroda_BNP_Paribas_Mutual_Fund/Baroda_BNP_Paribas_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Baroda_BNP_Paribas_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — Baroda BNP Paribas Mutual Fund\n\n- **Company Name:** Baroda BNP Paribas Mutual Fund\n- **Resolved URL:** https://www.barodabnpparibasmf.in\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.barodabnpparibasmf.in\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Baroda_BNP_Paribas_Mutual_Fund/Baroda_BNP_Paribas_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Baroda_BNP_Paribas_Mutual_Fund/Baroda_BNP_Paribas_Mutual_Fund_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — Baroda BNP Paribas Mutual Fund\n\n- **Primary Contact Email:** `cs.barodabnppmf@kfintech.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `cs.barodabnppmf@kfintech.com` | **Status:** `Verified` | **Source Page:** https://www.barodabnpparibasmf.in/contact-us#get-call\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Baroda_BNP_Paribas_Mutual_Fund/Baroda_BNP_Paribas_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Baroda_BNP_Paribas_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — Baroda BNP Paribas Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 46\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 1\n- **Color Contrast Failures:** 5\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 17\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `Baroda_BNP_Paribas_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `Baroda_BNP_Paribas_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `Baroda_BNP_Paribas_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 46. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T06:37:59.846Z"
+}

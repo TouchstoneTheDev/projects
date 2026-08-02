@@ -1,0 +1,217 @@
+{
+  "company": {
+    "srNo": 56,
+    "companyName": "Unifi Mutual Fund",
+    "readymadeWebsite": "https://www.unifimf.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.unifimf.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.unifimf.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "services@unifimf.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.unifimf.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "services@unifimf.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.unifimf.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.unifimf.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-178565436578005-1",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-178565436578005-1\" aria-haspopup=\"true\" aria-controls=\"sm-178565436578005-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#sm-178565436578005-3",
+          "html": "<a aria-expanded=\"false\" class=\"elementor-item menu-link has-submenu\" id=\"sm-178565436578005-3\" aria-haspopup=\"true\" aria-controls=\"sm-178565436578005-4\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#sm-178565436578005-2",
+          "html": "<ul class=\"sub-menu elementor-nav-menu--dropdown\" id=\"sm-178565436578005-2\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-178565436578005-1\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#sm-178565436578005-4",
+          "html": "<ul class=\"sub-menu elementor-nav-menu--dropdown\" id=\"sm-178565436578005-4\" role=\"group\" aria-hidden=\"true\" aria-labelledby=\"sm-178565436578005-3\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".algntp > .umf_hdrgtRT > a[target=\"_blank\"] > span > img",
+          "html": "<img src=\"https://unifimf.com/wp-content/uploads/2024/10/cta-arrowright.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"#daaf\"] > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://unifimf.com/wp-content/uploads/2025/02/unifi-homescroll.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-64d67d5 > .elementor-widget-container > a[href=\"/\"]",
+          "html": "<a href=\"/\">\n\t\t\t\t\t\t\t<img width=\"250\" height=\"66\" src=\"https://unifimf.com/wp-content/uploads/fund-sheets/unifi-mf-logo.svg\" class=\"attachment-full size-full wp-image-9772\" alt=\"\">\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"#daaf\"]",
+          "html": "<a href=\"#daaf\"><img decoding=\"async\" src=\"https://unifimf.com/wp-content/uploads/2025/02/unifi-homescroll.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-52d0fec > .elementor-widget-container > a[href=\"/\"]",
+          "html": "<a href=\"/\">\n\t\t\t\t\t\t\t<img width=\"250\" height=\"66\" src=\"https://unifimf.com/wp-content/uploads/fund-sheets/unifi-mf-logo-white.svg\" class=\"attachment-full size-full wp-image-9773\" alt=\"\">\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-f5ac96d > .elementor-widget-container > a[href=\"/\"]",
+          "html": "<a href=\"/\">\n\t\t\t\t\t\t\t<img width=\"130\" height=\"84\" src=\"https://unifimf.com/wp-content/uploads/fund-sheets/mutualFundSahiHai_logo.png\" class=\"attachment-full size-full wp-image-11427\" alt=\"\">\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-cbfea52",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-cbfea52\" href=\"https://www.linkedin.com/company/unifi-mutual-fund/\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-d063176",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-d063176\" href=\"https://x.com/Unifi_MF\" target=\"_blank\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 52,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 12,
+  "altTextViolations": 2,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 2,
+  "lighthouseAvgScore": 52,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/Unifi_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — Unifi Mutual Fund\n\n- **Company Name:** Unifi Mutual Fund\n- **Resolved URL:** https://www.unifimf.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.unifimf.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/Unifi_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — Unifi Mutual Fund\n\n- **Primary Contact Email:** `services@unifimf.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `services@unifimf.com` | **Status:** `Verified` | **Source Page:** https://www.unifimf.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/Unifi_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/Unifi_Mutual_Fund/screenshots/Unifi_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — Unifi Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 12\n- **Lighthouse A11y Score:** 52 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 2\n- **Color Contrast Failures:** 0\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 2\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `Unifi_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `Unifi_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `Unifi_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 12. Lighthouse A11y: 52/100.",
+  "timestamp": "2026-08-02T07:06:07.385Z"
+}

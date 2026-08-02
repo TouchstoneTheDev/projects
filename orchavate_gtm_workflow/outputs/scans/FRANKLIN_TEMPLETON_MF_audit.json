@@ -1,0 +1,415 @@
+{
+  "company": {
+    "srNo": 19,
+    "companyName": "FRANKLIN TEMPLETON MF",
+    "readymadeWebsite": "https://www.franklintempletonindia.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.franklintempletonindia.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.franklintempletonindia.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "service@franklintempleton.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.franklintempletonindia.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "service@franklintempleton.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.franklintempletonindia.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.franklintempletonindia.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Investor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Investor\" aria-selected=\"[object Object]\" class=\"active\"><a _ngcontent-gpw-c13=\"\" data-id=\"inv\" href=\"/\">Investor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Distributor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Distributor\" aria-selected=\"[object Object]\"><a _ngcontent-gpw-c13=\"\" href=\"/distributor\">Distributor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#v-pills-focus > ngx-slick-carousel > .slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(1)",
+          "html": "<div _ngcontent-gpw-c131=\"\" ngxslickitem=\"\" class=\"slide\" style=\"\" aria-hidden=\"true\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#openlearning0",
+          "html": "<div _ngcontent-gpw-c28=\"\" ngxslickitem=\"\" class=\"slide col-4\" id=\"openlearning0\" style=\"\" aria-hidden=\"true\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Investor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Investor\" aria-selected=\"[object Object]\" class=\"active\"><a _ngcontent-gpw-c13=\"\" data-id=\"inv\" href=\"/\">Investor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Distributor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Distributor\" aria-selected=\"[object Object]\"><a _ngcontent-gpw-c13=\"\" href=\"/distributor\">Distributor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": "ul[aria-role=\"listbox\"]",
+          "html": "<ul _ngcontent-gpw-c13=\"\" aria-role=\"listbox\" class=\"user-type\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Investor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Investor\" aria-selected=\"[object Object]\" class=\"active\"><a _ngcontent-gpw-c13=\"\" data-id=\"inv\" href=\"/\">Investor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": "li[aria-label=\"Distributor\"]",
+          "html": "<li _ngcontent-gpw-c13=\"\" aria-role=\"option\" aria-label=\"Distributor\" aria-selected=\"[object Object]\"><a _ngcontent-gpw-c13=\"\" href=\"/distributor\">Distributor</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".right-arrow",
+          "html": "<button type=\"button\" class=\"btn btn-outline-secondary right-arrow slick-arrow\" style=\"\" aria-disabled=\"false\"><i class=\"bi-arrow-right-short\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(1) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .recommend-tag",
+          "html": "<span _ngcontent-gpw-c127=\"\" class=\"recommend-tag\">Trending</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(1) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(1) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(1) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(2) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(1) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > .last-item > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\" style=\"vertical-align: super;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(2) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .recommend-tag",
+          "html": "<span _ngcontent-gpw-c127=\"\" class=\"recommend-tag\">Trending</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(2) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(1) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(2) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(2) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(2) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > .last-item > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\" style=\"vertical-align: super;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(3) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .recommend-tag",
+          "html": "<span _ngcontent-gpw-c127=\"\" class=\"recommend-tag\">Trending</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(3) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(1) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(3) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > li:nth-child(2) > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\">Fund Size <!----></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slide[ngxslickitem=\"\"][aria-hidden=\"true\"]:nth-child(3) > ft-home-fund-card > .fund-card-wrapper[_ngcontent-gpw-c127=\"\"] > .fund-block.position-relative[_ngcontent-gpw-c127=\"\"] > .info.justify-content-between.row > .mt-2.d-md-block.col-auto > .last-item > .mb-2[_ngcontent-gpw-c127=\"\"]",
+          "html": "<div _ngcontent-gpw-c127=\"\" class=\"mb-2\" style=\"vertical-align: super;\">Annualized Returns <!----></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#Target-tab",
+          "html": "<button _ngcontent-gpw-c22=\"\" id=\"Target-tab\" type=\"button\" role=\"tab\" aria-controls=\"Target\" aria-selected=\"false\" class=\"btn\">I know my goal </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"\"]",
+          "html": "<a _ngcontent-gpw-c17=\"\" target=\"\" href=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(1) > .update-box.mb-md-3.mb-2:nth-child(1) > a[alt=\"Updates\"][data-event-name=\"Event Homepage\"][data-category=\"Homepage\"]",
+          "html": "<a _ngcontent-gpw-c117=\"\" target=\"_blank\" data-event-name=\"Event Homepage\" data-category=\"Homepage\" data-action=\"Updates\" alt=\"Updates\" class=\"analytics-link\" href=\"download/en-in/lates...\" data-label=\"Notice - Temporary b...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(1) > .update-box.mb-md-3.mb-2:nth-child(2) > a[alt=\"Updates\"][data-event-name=\"Event Homepage\"][data-category=\"Homepage\"]",
+          "html": "<a _ngcontent-gpw-c117=\"\" target=\"_blank\" data-event-name=\"Event Homepage\" data-category=\"Homepage\" data-action=\"Updates\" alt=\"Updates\" class=\"analytics-link\" href=\"download/en-in/lates...\" data-label=\"IDCW Notice - Income...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(2) > .update-box.mb-md-3.mb-2:nth-child(1) > a[alt=\"Updates\"][data-event-name=\"Event Homepage\"][data-category=\"Homepage\"]",
+          "html": "<a _ngcontent-gpw-c117=\"\" target=\"_blank\" data-event-name=\"Event Homepage\" data-category=\"Homepage\" data-action=\"Updates\" alt=\"Updates\" class=\"analytics-link\" href=\"download/en-in/lates...\" data-label=\"Notice - Annual Repo...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(2) > .update-box.mb-md-3.mb-2:nth-child(2) > a[alt=\"Updates\"][data-event-name=\"Event Homepage\"][data-category=\"Homepage\"]",
+          "html": "<a _ngcontent-gpw-c117=\"\" target=\"_blank\" data-event-name=\"Event Homepage\" data-category=\"Homepage\" data-action=\"Updates\" alt=\"Updates\" class=\"analytics-link\" href=\"download/en-in/lates...\" data-label=\"Addendum - Change in...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(1) > .update-box.mb-md-3.mb-2:nth-child(1) > div[_ngcontent-gpw-c117=\"\"]",
+          "html": "<div _ngcontent-gpw-c117=\"\"><img _ngcontent-gpw-c117=\"\" alt=\"icon\" loading=\"lazy\" src=\"/assets/images/pdf.svg\"><!----> Notice - Temporary branch closure on account of Elections in Patna (Bihar) - July 30, 2026 </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".col-md-6.col-12[_ngcontent-gpw-c117=\"\"]:nth-child(1) > .update-box.mb-md-3.mb-2:nth-child(2) > div[_ngcontent-gpw-c117=\"\"]",
+          "html": "<div _ngcontent-gpw-c117=\"\"><img _ngcontent-gpw-c117=\"\" alt=\"icon\" loading=\"lazy\" src=\"/assets/images/pdf.svg\"><!----> IDCW Notice - Income Distribution cum capital withdrawal in certain schemes/plans/options of Franklin Templeton Mutual Fund - July 2026 </div>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/FRANKLIN_TEMPLETON_MF_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/FRANKLIN_TEMPLETON_MF_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/FRANKLIN_TEMPLETON_MF_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 30,
+  "altTextViolations": 0,
+  "contrastViolations": 13,
+  "labelViolations": 0,
+  "keyboardViolations": 4,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/FRANKLIN_TEMPLETON_MF/FRANKLIN_TEMPLETON_MF_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/FRANKLIN_TEMPLETON_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — FRANKLIN TEMPLETON MF\n\n- **Company Name:** FRANKLIN TEMPLETON MF\n- **Resolved URL:** https://www.franklintempletonindia.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.franklintempletonindia.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/FRANKLIN_TEMPLETON_MF/FRANKLIN_TEMPLETON_MF_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/FRANKLIN_TEMPLETON_MF/FRANKLIN_TEMPLETON_MF_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — FRANKLIN TEMPLETON MF\n\n- **Primary Contact Email:** `service@franklintempleton.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `service@franklintempleton.com` | **Status:** `Verified` | **Source Page:** https://www.franklintempletonindia.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/FRANKLIN_TEMPLETON_MF/FRANKLIN_TEMPLETON_MF_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/FRANKLIN_TEMPLETON_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — FRANKLIN TEMPLETON MF\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 30\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 13\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 4\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `FRANKLIN_TEMPLETON_MF_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `FRANKLIN_TEMPLETON_MF_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `FRANKLIN_TEMPLETON_MF_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 30. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T06:39:21.244Z"
+}

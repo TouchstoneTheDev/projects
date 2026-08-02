@@ -1,0 +1,129 @@
+{
+  "company": {
+    "srNo": 41,
+    "companyName": "N J Mutual Fund",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.njmutualfund.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.njmutualfund.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "customercare@njmutualfund.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.njmutualfund.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "customercare@njmutualfund.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.njmutualfund.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.njmutualfund.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-index=\"5\"]",
+          "html": "<div data-index=\"5\" class=\"slick-slide\" tabindex=\"-1\" aria-hidden=\"true\" style=\"outline: none; width: 260px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "div[data-index=\"6\"]",
+          "html": "<div data-index=\"6\" class=\"slick-slide\" tabindex=\"-1\" aria-hidden=\"true\" style=\"outline: none; width: 260px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".factor-book:nth-child(6) > .container > .row > .col-lg-5.v-align.d-lg-block > .mt-20.nav.flex-column > li:nth-child(1) > .active.tab-btn[aria-controls=\"accordion-panel-0\"]",
+          "html": "<button class=\"nav-link tab-btn active\" type=\"button\" aria-expanded=\"true\" aria-controls=\"accordion-panel-0\" id=\"accordion-tab-0\">What are Factors?</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".flex-lg-row-reverse > .col-lg-5.v-align.d-lg-block > .mt-20.nav.flex-column > li:nth-child(1) > .active.tab-btn[aria-controls=\"accordion-panel-0\"]",
+          "html": "<button class=\"nav-link tab-btn active\" type=\"button\" aria-expanded=\"true\" aria-controls=\"accordion-panel-0\" id=\"accordion-tab-0\">Stock-based Equity Investment Approaches</button>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 84,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 4,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 2,
+  "lighthouseAvgScore": 84,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/N_J_Mutual_Fund/N_J_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — N J Mutual Fund\n\n- **Company Name:** N J Mutual Fund\n- **Resolved URL:** https://www.njmutualfund.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.njmutualfund.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/N_J_Mutual_Fund/N_J_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/N_J_Mutual_Fund/N_J_Mutual_Fund_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — N J Mutual Fund\n\n- **Primary Contact Email:** `customercare@njmutualfund.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `customercare@njmutualfund.com` | **Status:** `Verified` | **Source Page:** https://www.njmutualfund.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/N_J_Mutual_Fund/N_J_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — N J Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 4\n- **Lighthouse A11y Score:** 84 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 0\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 2\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `N_J_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `N_J_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `N_J_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 4. Lighthouse A11y: 84/100.",
+  "timestamp": "2026-08-02T06:00:33.469Z"
+}

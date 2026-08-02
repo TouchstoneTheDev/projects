@@ -116,6 +116,10 @@ export interface RunReportStats {
   timestamp: string;
   durationSeconds: number;
   totalCompanies: number;
+  searchMode?: string;
+  searchProviderName?: string;
+  searchAttempts?: number;
+  avgSearchTimeMs?: number;
   resolutionStats: {
     selfSearchCount: number;
     fallbackCount: number;

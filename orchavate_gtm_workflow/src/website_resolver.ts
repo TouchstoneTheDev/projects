@@ -1,4 +1,10 @@
 import { CompanyInput, WebsiteResolution } from './types.js';
+import { WebsiteResolver, ResolutionResult } from './resolvers/resolver_types.js';
+import { AutomatedWebsiteResolver } from './resolvers/automated_resolver.js';
+import { ReadymadeWebsiteResolver } from './resolvers/readymade_resolver.js';
+import { HybridWebsiteResolver } from './resolvers/hybrid_resolver.js';
+import { CircuitBreaker } from './circuit_breaker/circuit_breaker.js';
+import { SearchCache } from './cache/search_cache.js';
 
 export function normalizeDomain(urlStr: string): string {
   try {
@@ -15,111 +21,80 @@ export function normalizeDomain(urlStr: string): string {
 
 export async function resolveWebsite(
   company: CompanyInput,
-  readymadeList?: Record<string, string>
+  readymadeList?: Record<string, string>,
+  cache?: SearchCache,
+  mode: 'AUTOMATED_SEARCH' | 'READYMADE' | 'HYBRID' = 'AUTOMATED_SEARCH'
 ): Promise<WebsiteResolution> {
-  const readymadeUrl = company.readymadeWebsite || (readymadeList ? readymadeList[company.companyName] : undefined);
-  
-  // Step 1: Self-Search FIRST
-  // Simulate multi-engine / DDG search query validation
-  let selfSearchUrl: string | undefined = undefined;
-  let selfSearchConfidence: 'HIGH' | 'LOW' | 'FAILED' = 'FAILED';
+  let resolver: WebsiteResolver;
 
-  if (readymadeUrl) {
-    // In automated environment, cross-validate against independent query signals
-    const normalizedReadymade = normalizeDomain(readymadeUrl);
-    if (normalizedReadymade && !normalizedReadymade.includes('invalid') && !normalizedReadymade.includes('test')) {
-      selfSearchUrl = readymadeUrl.startsWith('http') ? readymadeUrl : `https://${readymadeUrl}`;
-      selfSearchConfidence = 'HIGH';
-    }
-  }
+  const autoResolver = new AutomatedWebsiteResolver(undefined, cache);
+  const readyResolver = new ReadymadeWebsiteResolver(readymadeList);
 
-  // Step 3: FALLBACK & Conflict Checks
-  if (selfSearchUrl && readymadeUrl) {
-    const normSelf = normalizeDomain(selfSearchUrl);
-    const normReadymade = normalizeDomain(readymadeUrl);
-
-    if (normSelf === normReadymade) {
-      return {
-        resolvedUrl: selfSearchUrl,
-        source: 'both-agreed',
-        confidence: 'HIGH',
-        hasConflict: false,
-        selfSearchUrl,
-        readymadeUrl,
-      };
+  if (mode === 'READYMADE') {
+    resolver = readyResolver;
+  } else if (mode === 'HYBRID') {
+    resolver = new HybridWebsiteResolver(autoResolver, readyResolver);
+  } else {
+    // AUTOMATED_SEARCH
+    if (readymadeList && Object.keys(readymadeList).length > 0) {
+      resolver = new HybridWebsiteResolver(autoResolver, readyResolver);
     } else {
-      // Conflict flagged - self search and readymade disagree
-      return {
-        resolvedUrl: '',
-        source: 'self-search',
-        confidence: 'LOW',
-        hasConflict: true,
-        conflictDetails: `Conflict - needs manual review (Self-search: ${selfSearchUrl} vs Readymade: ${readymadeUrl})`,
-        selfSearchUrl,
-        readymadeUrl,
-      };
+      resolver = autoResolver;
     }
   }
 
-  if (selfSearchUrl && selfSearchConfidence === 'HIGH') {
-    return {
-      resolvedUrl: selfSearchUrl,
-      source: 'self-search',
-      confidence: 'HIGH',
-      hasConflict: false,
-      selfSearchUrl,
-    };
-  }
+  const result: ResolutionResult = await resolver.resolve(company);
 
-  if (readymadeUrl) {
-    return {
-      resolvedUrl: readymadeUrl.startsWith('http') ? readymadeUrl : `https://${readymadeUrl}`,
-      source: 'readymade-fallback',
-      confidence: 'LOW',
-      hasConflict: false,
-      conflictDetails: 'Source: Readymade list (self-search failed)',
-      readymadeUrl,
-    };
-  }
+  // Convert ResolutionResult to WebsiteResolution interface for backward compatibility
+  let compatSource: 'self-search' | 'readymade-fallback' | 'both-agreed' = 'self-search';
+  if (result.source === 'hybrid-agreed') compatSource = 'both-agreed';
+  else if (result.source === 'readymade-mapping' || result.source === 'hybrid-fallback') compatSource = 'readymade-fallback';
 
   return {
-    resolvedUrl: '',
-    source: 'self-search',
-    confidence: 'FAILED',
-    hasConflict: false,
-    conflictDetails: 'Self-search failed and no readymade URL available',
+    resolvedUrl: result.resolvedUrl,
+    source: compatSource,
+    confidence: result.confidence,
+    hasConflict: result.hasConflict,
+    conflictDetails: result.conflictDetails,
+    selfSearchUrl: result.selfSearchUrl,
+    readymadeUrl: result.readymadeUrl,
   };
 }
 
 export class CircuitBreakerTracker {
-  private totalProcessed = 0;
-  private lowConfidenceCount = 0;
-  private thresholdRate = 0.30; // 30% failure/low confidence rate
+  private cb: CircuitBreaker;
+
+  constructor(thresholdRate = 0.30) {
+    this.cb = new CircuitBreaker(thresholdRate, 5);
+  }
 
   public recordResult(resolution: WebsiteResolution): boolean {
-    this.totalProcessed++;
-    if (resolution.confidence === 'LOW' || resolution.confidence === 'FAILED' || resolution.hasConflict) {
-      this.lowConfidenceCount++;
-    }
-
-    if (this.totalProcessed >= 5) {
-      const failureRate = this.lowConfidenceCount / this.totalProcessed;
-      if (failureRate > this.thresholdRate) {
-        return true; // Trigger circuit breaker
-      }
-    }
-    return false;
+    return this.cb.recordResult({
+      resolvedUrl: resolution.resolvedUrl,
+      source: 'automated-search',
+      confidence: resolution.confidence,
+      hasConflict: resolution.hasConflict,
+      candidateDomains: [],
+      searchQueries: [],
+      searchDurationMs: 0,
+      reason: resolution.conflictDetails || '',
+    });
   }
 
   public getFailureRate(): number {
-    return this.totalProcessed > 0 ? Math.round((this.lowConfidenceCount / this.totalProcessed) * 100) : 0;
+    return this.cb.getStats().failureRatePercent;
   }
 
   public getStats() {
+    const s = this.cb.getStats();
     return {
-      totalProcessed: this.totalProcessed,
-      lowConfidenceCount: this.lowConfidenceCount,
-      failureRatePercent: this.getFailureRate(),
+      totalProcessed: s.totalProcessed,
+      lowConfidenceCount: s.failureCount,
+      failureRatePercent: s.failureRatePercent,
     };
+  }
+
+  public reset(): void {
+    this.cb.resetCount();
   }
 }

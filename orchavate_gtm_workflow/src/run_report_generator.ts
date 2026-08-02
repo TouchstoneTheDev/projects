@@ -71,6 +71,10 @@ This file is written for a human/Claude reviewer to understand the run at a glan
 
 ## 1. What this run did
 
+- **Execution Mode:** ${stats.searchMode || 'AUTOMATED_SEARCH'}
+- **Search Provider:** ${stats.searchProviderName || 'DuckDuckGo HTML'}
+- **Search Attempts:** ${stats.searchAttempts || 0}
+- **Average Search Duration:** ${stats.avgSearchTimeMs ? `${stats.avgSearchTimeMs}ms` : '0ms'}
 - **Companies processed:** ${stats.totalCompanies}
 - **Website resolution:**
   - Resolved via self-search: ${stats.resolutionStats.selfSearchCount}

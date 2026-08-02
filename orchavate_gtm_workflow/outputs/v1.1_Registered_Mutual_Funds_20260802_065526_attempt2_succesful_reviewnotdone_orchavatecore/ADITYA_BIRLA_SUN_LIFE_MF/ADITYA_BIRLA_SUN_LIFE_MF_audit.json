@@ -1,0 +1,932 @@
+{
+  "company": {
+    "srNo": 2,
+    "companyName": "ADITYA BIRLA SUN LIFE MF",
+    "readymadeWebsite": "https://mutualfund.adityabirlacapital.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://mutualfund.adityabirlacapital.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://mutualfund.adityabirlacapital.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "care.mutualfunds@adityabirlacapital.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://mutualfund.adityabirlacapital.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "care.mutualfunds@adityabirlacapital.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://mutualfund.adityabirlacapital.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mutualfund.adityabirlacapital.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#refreshGetInTouchCaptchaBtn",
+          "html": "<button type=\"button\" id=\"refreshGetInTouchCaptchaBtn\" class=\"btn btn-outline-secondary\">\n                               <i class=\"fa fa-refresh\" aria-hidden=\"true\"></i>\n                            </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub-heading",
+          "html": "<p class=\"sub-heading\">Investment Solutions, NAVs, Fund Factsheets, Investor Services, Account Statements etc </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#SearchText",
+          "html": "<input type=\"search\" class=\"form-control rounded border-0 gcse-search\" id=\"SearchText\" onkeyup=\"return searchResult(event);\" placeholder=\"Inv\" aria-label=\"Search\" aria-describedby=\"search-addon\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(1) > .search-item > .returns_main > .returns_child.chil > strong",
+          "html": "<strong> Since Inception - 16% </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(2) > .search-item > .returns_main > .returns_child.chil > strong",
+          "html": "<strong> 3Y - 15% </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(3) > .search-item > .returns_main > .returns_child.chil > strong",
+          "html": "<strong> 3Y - 11% </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(4) > .search-item > .returns_main > .returns_child.chil > strong",
+          "html": "<strong> 3Y - 10% </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(5) > .search-item > .returns_main > .returns_child.chil > strong",
+          "html": "<strong> 3Y - 6% </strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#lf-otp2",
+          "html": "<input class=\"leadform-button my-btn\" type=\"submit\" id=\"lf-otp2\" value=\"Accept &amp; Submit\" style=\"cursor: pointer; padding: 3px 0px 6px; background-color: rgb(112, 184, 101); color: rgb(255, 255, 255); width: 100%; font-size: 16px; border-radius: 35px; opacity: 1;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sub_head",
+          "html": "<p class=\"sub_head\">You know where you want to go, let us help you get there by knowing you better.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".get_investment_plan",
+          "html": "<p class=\"get_investment_plan\">Already filled in the details? Click to <a href=\"javascript:void(0);\" class=\"get_investment_plan_btn\">Get Investment Plan <img src=\"/Content/Investment Planner/images/red_right_chev.png\"></a></p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide1 > .mycard > .content-box > .dynamic_row.drow.m-0 > .col-9.card-header-info > a > h2:nth-child(1)",
+          "html": "<h2 style=\"color: rgb(62, 89, 60)\">ABSL</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide1 > .mycard > .content-box > .dynamic_row.drow.m-0 > .col-9.card-header-info > a > .titletext",
+          "html": "<h2 class=\"titletext\">Large Cap Fund</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide1 > .mycard > .content-box > .wealth_equity_tabs.tags.col-12 > .tag:nth-child(1)",
+          "html": "<li class=\"tag\" style=\"background: #f7a500; color: #ffffff\">Wealth Creation</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".benchmarkvaluee0",
+          "html": "<div class=\"benchmarkvaluee0\">18.00</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide1 > .mycard > .content-box > .returns.drow.m-0 > .col-5 > p",
+          "html": "<p style=\"font-size: 12px\">Annualized Returns</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btnbb0",
+          "html": "<div class=\"btn btn_green btnbb0\" onclick=\"yearvaluee('Since Inception','0');\">Since Inception</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide2 > .mycard > .content-box > .wealth_equity_tabs.tags.col-12 > .tag:nth-child(1)",
+          "html": "<li class=\"tag\" style=\"background: #f7a500; color: #ffffff\">Wealth Creation</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btnn1Y1",
+          "html": "<div class=\"btn btn_green btnn1Y1\" onclick=\"yearvaluee('1Y','1');\">1Y</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide2 > .mycard > .content-box > .sip_lumpsum_btn.col-12.p-0 > .col-6:nth-child(1) > .cta-button",
+          "html": "<a class=\"cta-button\" href=\"https://mutualfund.adityabirlacapital.com/portal/investor/quick-invest/fund-select;fundcode=AEF\">\n                                                                Start SIP\n                                                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide2 > .mycard > .content-box > .sip_lumpsum_btn.col-12.p-0 > .col-6:nth-child(2) > .cta-button",
+          "html": "<a class=\"cta-button\" href=\"https://mutualfund.adityabirlacapital.com/portal/investor/quick-invest/fund-select;fundcode=AEF\">\n                                                                Lumpsum\n                                                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btnn5Y2",
+          "html": "<div class=\"btn btn_nor btnn5Y2\" onclick=\"yearvaluee('5Y','2');\">5Y</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#slide3 > .mycard > .content-box > .sip_lumpsum_btn.col-12.p-0 > .col-6:nth-child(2) > .cta-button",
+          "html": "<a class=\"cta-button\" href=\"https://mutualfund.adityabirlacapital.com/portal/investor/quick-invest/fund-select;fundcode=BF\">\n                                                                Lumpsum\n                                                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#FocusFunds > .MostPopularHyperLink > a > span:nth-child(1)",
+          "html": "<span>To view more funds click here</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".title > p",
+          "html": "<p>WHY CH0OSE US?</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".get_started > span",
+          "html": "<span>GET STARTED WITH OUR APP</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".fci_Wrp > div > p",
+          "html": "<p>Toll Free Number</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#pills-footer-grey1-tab",
+          "html": "<button class=\"nav-link\" id=\"pills-footer-grey1-tab\" data-bs-target=\"#pills-footer-grey1\" type=\"button\" role=\"tab\" aria-controls=\"pills-footer-grey1\" aria-selected=\"false\">OUR SUBSIDIARIES</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#pills-footer-grey2-tab",
+          "html": "<button class=\"nav-link\" id=\"pills-footer-grey2-tab\" data-bs-target=\"#pills-footer-grey2\" type=\"button\" role=\"tab\" aria-controls=\"pills-footer-grey2\" aria-selected=\"false\">COMPANY</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#pills-footer-grey3-tab",
+          "html": "<button class=\"nav-link\" id=\"pills-footer-grey3-tab\" data-bs-target=\"#pills-footer-grey3\" type=\"button\" role=\"tab\" aria-controls=\"pills-footer-grey3\" aria-selected=\"false\">SOLUTIONS</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#pills-footer-grey4-tab",
+          "html": "<button class=\"nav-link\" id=\"pills-footer-grey4-tab\" data-bs-target=\"#pills-footer-grey4\" type=\"button\" role=\"tab\" aria-controls=\"pills-footer-grey4\" aria-selected=\"false\">TOOLS &amp; RESOURCES</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#pills-footer-grey5-tab",
+          "html": "<button class=\"nav-link\" id=\"pills-footer-grey5-tab\" data-bs-target=\"#pills-footer-grey5\" type=\"button\" role=\"tab\" aria-controls=\"pills-footer-grey5\" aria-selected=\"false\">USEFUL LINKS</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".copyright_div > p",
+          "html": "<p>© 2026, Aditya Birla Capital Ltd. All Rights Reserved.     An Aditya Birla Group company</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".dropdown_arrow",
+          "html": "<img src=\"/Content/Navigation/assets/images/chevron-down-red.svg\" class=\"dropdown_arrow\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".dropdown-item[href=\"tel:1800-270-7000\"] > img",
+          "html": "<img src=\"/Content/Navigation/assets/images/nav_phone.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(1) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_1.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(2) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_2.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(3) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_3.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(4) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_4.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(5) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_5.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(6) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_6.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(7) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_7.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".options_col_Wrapper:nth-child(8) > img",
+          "html": "<img src=\"/Content/Investment Planner/images/goals_8.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".step_wrapper_first > .first_step_btn.stepper_solid_btn > img",
+          "html": "<img src=\"/Content/Investment Planner/images/white_right_chev.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".get_investment_plan_btn > img",
+          "html": "<img src=\"/Content/Investment Planner/images/red_right_chev.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".bran_logo_footer > a[href=\"\"] > img",
+          "html": "<img src=\"/-/media/192x65-png-logo.png?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(1) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/social_facebook.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(2) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/social_instagram.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(3) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/social_linkedin.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(4) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/social_twitter.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".get_started > .qr_img > img",
+          "html": "<img src=\"/Content/images/Homepage/Footer_QR.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".gray_footer_brand > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/footer_brand_logo.webp?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".fci_Wrp > span > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/ftr-phone-icon.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".abcd_logo",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/abcd_logo.svg\" class=\"abcd_logo\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".download_app_wrapper > .list-inline > .list-inline-item:nth-child(1) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/red_playstore.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".download_app_wrapper > .list-inline > .list-inline-item:nth-child(2) > a > img",
+          "html": "<img src=\"/-/media/bsl/images/header-icons/footer/red_apple.svg?extension=webp&amp;extension=webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(1) > a > img",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/social_light_facebook.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(2) > a > img",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/social_light_instagram.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(3) > a > img",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/social_light_youtube.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"abcapital\"] > img",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/social_light_twitter.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-inline-item:nth-child(5) > a > img",
+          "html": "<img src=\"/content/Navigation/assets/images/footer/social_light_linkedin.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"40\"]",
+          "html": "<img height=\"40\" width=\"40\" src=\"https://communicate-ai.adityabirlacapital.com/images/logo.png\" style=\"padding: 6px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#leadRemark",
+          "html": "<textarea class=\"git-custom-input\" maxlength=\"1000\" id=\"leadRemark\"></textarea>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#leadTerms",
+          "html": "<input type=\"checkbox\" class=\"git-form-check-input form-check-input me-3\" id=\"leadTerms\" checked=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-current.slick-active[data-slick-index=\"0\"] > .links",
+          "html": "<a href=\"https://mutualfund.adityabirlacapital.com/cybercrime-awareness\" class=\"links\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bran_logo_footer > a[href=\"\"]",
+          "html": "<a href=\"\"><img src=\"/-/media/192x65-png-logo.png?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(1) > a",
+          "html": "<a href=\"https://www.facebook.com/abslmutualfund/\"><img src=\"/-/media/bsl/images/header-icons/footer/social_facebook.svg?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(2) > a",
+          "html": "<a href=\"https://www.instagram.com/abslmutualfund/\"><img src=\"/-/media/bsl/images/header-icons/footer/social_instagram.svg?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(3) > a",
+          "html": "<a href=\"https://in.linkedin.com/company/abslmf/\"><img src=\"/-/media/bsl/images/header-icons/footer/social_linkedin.svg?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".d-lg-flex > .list-inline > .list-inline-item:nth-child(4) > a",
+          "html": "<a href=\"https://twitter.com/abslmf?s=08\"><img src=\"/-/media/bsl/images/header-icons/footer/social_twitter.svg?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".gray_footer_brand > a",
+          "html": "<a href=\"https://www.adityabirlacapital.com/?lob=true\"><img src=\"/-/media/bsl/images/header-icons/footer/footer_brand_logo.webp?extension=webp&amp;extension=webp\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(1) > a",
+          "html": "<a href=\"https://www.facebook.com/AdityaBirlaCapital/\"><img src=\"/content/Navigation/assets/images/footer/social_light_facebook.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(2) > a",
+          "html": "<a href=\"https://www.instagram.com/adityabirlacapital/\"><img src=\"/content/Navigation/assets/images/footer/social_light_instagram.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(3) > a",
+          "html": "<a href=\"https://www.youtube.com/channel/UCSki2tX_5kadIdz3m8Q4Fvg/\"><img src=\"/content/Navigation/assets/images/footer/social_light_youtube.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"abcapital\"]",
+          "html": "<a href=\"https://twitter.com/abcapital\"><img src=\"/content/Navigation/assets/images/footer/social_light_twitter.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer_strip_socil > .list-inline > .list-inline-item:nth-child(5) > a",
+          "html": "<a href=\"https://www.linkedin.com/company/aditya-birla-capital\"><img src=\"/content/Navigation/assets/images/footer/social_light_linkedin.svg\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 77,
+  "altTextViolations": 29,
+  "contrastViolations": 32,
+  "labelViolations": 2,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/ADITYA_BIRLA_SUN_LIFE_MF_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — ADITYA BIRLA SUN LIFE MF\n\n- **Company Name:** ADITYA BIRLA SUN LIFE MF\n- **Resolved URL:** https://mutualfund.adityabirlacapital.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://mutualfund.adityabirlacapital.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/ADITYA_BIRLA_SUN_LIFE_MF_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — ADITYA BIRLA SUN LIFE MF\n\n- **Primary Contact Email:** `care.mutualfunds@adityabirlacapital.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `care.mutualfunds@adityabirlacapital.com` | **Status:** `Verified` | **Source Page:** https://mutualfund.adityabirlacapital.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/ADITYA_BIRLA_SUN_LIFE_MF_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/ADITYA_BIRLA_SUN_LIFE_MF/screenshots/ADITYA_BIRLA_SUN_LIFE_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — ADITYA BIRLA SUN LIFE MF\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 77\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 29\n- **Color Contrast Failures:** 32\n- **Form & Structural Labels:** 2\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `ADITYA_BIRLA_SUN_LIFE_MF_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `ADITYA_BIRLA_SUN_LIFE_MF_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `ADITYA_BIRLA_SUN_LIFE_MF_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 77. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T06:55:51.238Z"
+}

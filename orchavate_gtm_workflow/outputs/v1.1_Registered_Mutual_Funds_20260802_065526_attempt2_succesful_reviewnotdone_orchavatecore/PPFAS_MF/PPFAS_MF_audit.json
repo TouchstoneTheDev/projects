@@ -1,0 +1,591 @@
+{
+  "company": {
+    "srNo": 44,
+    "companyName": "PPFAS MF",
+    "readymadeWebsite": "https://amc.ppfas.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://amc.ppfas.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://amc.ppfas.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "mf@ppfas.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://amc.ppfas.com/investor-desk"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "mf@ppfas.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://amc.ppfas.com/investor-desk"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://amc.ppfas.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".me-auto.navbar-nav.mb-lg-0 > .nav-item:nth-child(1) > .nav-link[href=\"/index.php\"][data-base-font-size=\"16\"]",
+          "html": "<a class=\"nav-link\" href=\"/index.php\" data-base-font-size=\"16\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".dropdown-toggle",
+          "html": "<a class=\"nav-link dropdown-toggle\" href=\"/schemes\" data-base-font-size=\"16\">\n                                                      Schemes\n                                                  </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".me-auto.navbar-nav.mb-lg-0 > .nav-item:nth-child(3) > .nav-link[data-base-font-size=\"16\"]",
+          "html": "<a class=\"nav-link\" href=\"/downloads/ConfirmCitizenship.php\" data-base-font-size=\"16\">Downloads</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nav-item:nth-child(4) > .nav-link[href$=\"knowledge-center/\"][data-base-font-size=\"16\"]",
+          "html": "<a class=\"nav-link\" href=\"/knowledge-center/\" data-base-font-size=\"16\">Knowledge\n                                                      Centre</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".me-auto.navbar-nav.mb-lg-0 > .nav-item:nth-child(5) > .nav-link[data-base-font-size=\"16\"]",
+          "html": "<a class=\"nav-link\" href=\"/statutory-disclosures/ConfirmCitizenship.php\" data-base-font-size=\"16\">Statutory\n                                                      Disclosures</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-outline-light",
+          "html": "<button class=\"btn btn-outline-light pt-1 pb-1 me-3 ppfas-hdr-login-btn text-light signup-button-hdr\" data-base-font-size=\"16\">\n                                                      Login\n                                                  </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-light",
+          "html": "<button class=\"btn btn-light pt-1 pb-1 ppfas-hdr-login-btn\" data-base-font-size=\"16\">\n                                                      Sign Up\n                                                  </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-success",
+          "html": "<a href=\"https://selfinvest.ppfas.com/investor/new\" class=\"btn btn-success px-4\" data-base-font-size=\"16\">Start\n                            Investing</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-outline-success",
+          "html": "<a href=\"/schemes/\" class=\"btn btn-outline-success px-4\" data-base-font-size=\"16\">View All\n                            Schemes</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .fund-stats > .stat-item:nth-child(1) > .stat-label",
+          "html": "<div class=\"stat-label\">Min SIP Amount</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .fund-stats > .nav-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">NAV</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .fund-stats > .nav-stat.stat-item > .nav-date.stat-date",
+          "html": "<div class=\"stat-date nav-date\">29 Jul 2026</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .fund-stats > .aum-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">Fund Size</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .fund-stats > .aum-stat.stat-item > .aum-date.stat-date",
+          "html": "<div class=\"stat-date aum-date\">30 Jun 2026</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-content-section > .plan-toggle-section > .plan-toggle > .plan-btn[data-plan=\"direct\"][data-base-font-size=\"12\"]",
+          "html": "<button class=\"plan-btn\" data-plan=\"direct\" data-base-font-size=\"12\">Direct</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"pptsf\"] > .card-content-section > .fund-stats > .stat-item:nth-child(1) > .stat-label",
+          "html": "<div class=\"stat-label\">Min SIP Amount</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"pptsf\"] > .card-content-section > .fund-stats > .nav-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">NAV</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"pptsf\"] > .card-content-section > .fund-stats > .aum-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">Fund Size</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"pptsf\"] > .card-content-section > .plan-toggle-section > .plan-toggle > .plan-btn[data-plan=\"direct\"][data-base-font-size=\"12\"]",
+          "html": "<button class=\"plan-btn\" data-plan=\"direct\" data-base-font-size=\"12\">Direct</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppchf\"] > .card-content-section > .fund-stats > .stat-item:nth-child(1) > .stat-label",
+          "html": "<div class=\"stat-label\">Min SIP Amount</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppchf\"] > .card-content-section > .fund-stats > .nav-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">NAV</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppchf\"] > .card-content-section > .fund-stats > .aum-stat.stat-item > .stat-label",
+          "html": "<div class=\"stat-label\">Fund Size</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-scheme=\"ppchf\"] > .card-content-section > .plan-toggle-section > .plan-toggle > .plan-btn[data-plan=\"direct\"][data-base-font-size=\"12\"]",
+          "html": "<button class=\"plan-btn\" data-plan=\"direct\" data-base-font-size=\"12\">Direct</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p:nth-child(1)",
+          "html": "<p data-base-font-size=\"16\">For more information on performance of other schemes managed by the Fund Managers : <a href=\"https://amc.ppfas.com/schemes/fund-manager-performance/\" target=\"_blank\" style=\"color: #1AA74F;\" data-base-font-size=\"16\">Click here</a> </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p:nth-child(1) > a[target=\"_blank\"][data-base-font-size=\"16\"]",
+          "html": "<a href=\"https://amc.ppfas.com/schemes/fund-manager-performance/\" target=\"_blank\" style=\"color: #1AA74F;\" data-base-font-size=\"16\">Click here</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".note-tab-content > p:nth-child(2)",
+          "html": "<p data-base-font-size=\"16\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p:nth-child(2) > a[target=\"_blank\"][data-base-font-size=\"16\"]",
+          "html": "<a href=\"https://amc.ppfas.com/downloads/kim-sid-and-sai/\" target=\"_blank\" style=\"color: #1AA74F;\" data-base-font-size=\"16\">Download SID,KIM AND SAI</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(1) > .calculator-card > .calculator-link[data-base-font-size=\"14\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/future-value-calculator/\" class=\"calculator-link\" data-base-font-size=\"14\">\n                                Calculate Now <i class=\"bi bi-arrow-right\"></i>\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(2) > .calculator-card > .calculator-link[data-base-font-size=\"14\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/monthly-sip-calculator/\" class=\"calculator-link\" data-base-font-size=\"14\">\n                            Calculate Now <i class=\"bi bi-arrow-right\"></i>\n                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(3) > .calculator-card > .calculator-link[data-base-font-size=\"14\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/lumpsum-calculator/\" class=\"calculator-link\" data-base-font-size=\"14\">\n                            Calculate Now <i class=\"bi bi-arrow-right\"></i>\n                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".newsletter-title",
+          "html": "<h2 class=\"newsletter-title\" data-base-font-size=\"17\">Subscribe to our Newsletter</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".newsletter-subtitle",
+          "html": "<p class=\"newsletter-subtitle\" data-base-font-size=\"18\">Get the Insights You Need—Delivered to Your Inbox.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".newsletter-btn",
+          "html": "<a href=\"/newsletter\" class=\"newsletter-btn\" data-base-font-size=\"13\">Past Newsletters</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(1) > a[target=\"_blank\"][data-base-font-size=\"16\"]",
+          "html": "<a href=\"https://amc.ppfas.com/schemes/fund-manager-performance/\" target=\"_blank\" style=\"color: #1AA74F;\" data-base-font-size=\"16\">Click here</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(2) > a[target=\"_blank\"][data-base-font-size=\"16\"]",
+          "html": "<a href=\"https://amc.ppfas.com/downloads/kim-sid-and-sai/\" target=\"_blank\" style=\"color: #1AA74F;\" data-base-font-size=\"16\">Download SID,KIM AND SAI</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ppfas-hdr-curve-svg > a[href=\"/\"][data-base-font-size=\"16\"]",
+          "html": "<a href=\"/\" data-base-font-size=\"16\"><img src=\"/Curve_logo.svg\" alt=\"\" class=\"ppfas-hdr-img\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(1) > a[data-base-font-size=\"16\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/future-value-calculator/\" data-base-font-size=\"16\">\n                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(2) > a[data-base-font-size=\"16\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/monthly-sip-calculator/\" data-base-font-size=\"16\">\n                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4.col-12.col-md-6:nth-child(3) > a[data-base-font-size=\"16\"]",
+          "html": "<a href=\"/investor-desk/financial-calculators/lumpsum-calculator/\" data-base-font-size=\"16\">\n                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"ppfcf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\"><option value=\"1y\">1Y Return</option><option value=\"3y\">3Y Return</option><option value=\"5y\">5Y Return</option><option value=\"10y\">10Y Return</option><option value=\"si\">Since Inception</option></select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"pptsf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                        </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"ppchf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                        </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"ppdaaf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                            <option value=\"si\">Since Inception</option>\n                                        </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"pplcf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                        </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"ppaf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                            <option value=\"si\">Since Inception</option>\n                                        </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-scheme=\"pplf\"] > .card-top-section > .return-display > .return-label > .period-dropdown",
+          "html": "<select class=\"period-dropdown\">\n                                            <option value=\"1y\">1Y Return</option>\n                                        </select>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 46,
+  "altTextViolations": 0,
+  "contrastViolations": 33,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/PPFAS_MF_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — PPFAS MF\n\n- **Company Name:** PPFAS MF\n- **Resolved URL:** https://amc.ppfas.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://amc.ppfas.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/PPFAS_MF_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — PPFAS MF\n\n- **Primary Contact Email:** `mf@ppfas.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **General Contact Email:** `mf@ppfas.com` | **Status:** `Verified` | **Source Page:** https://amc.ppfas.com/investor-desk\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/PPFAS_MF_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/PPFAS_MF/screenshots/PPFAS_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — PPFAS MF\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 46\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 33\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `PPFAS_MF_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `PPFAS_MF_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `PPFAS_MF_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 46. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T07:03:47.115Z"
+}

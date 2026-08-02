@@ -1,0 +1,411 @@
+{
+  "company": {
+    "srNo": 33,
+    "companyName": "LIC MF",
+    "readymadeWebsite": "https://www.licmf.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.licmf.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.licmf.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "service_licmf@kfintech.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.licmf.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "service_licmf@kfintech.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.licmf.com"
+      },
+      {
+        "address": "service_licmf@kfintech.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.licmf.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.licmf.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".invest-online.hide-767:nth-child(3) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://online.licmf.com/ETFTransaction\" id=\"header-href\" target=\"_blank\">Invest in ETFs </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#user_type",
+          "html": "<select id=\"user_type\">\n                              <option value=\"Investor\">&nbsp;&nbsp;Individual Investor</option>\n                              <option value=\"Distributor\"> &nbsp;&nbsp;Distributor</option>\n                           </select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "span:nth-child(6) > a[target=\"_blank\"] > img",
+          "html": "<img src=\"/assets/images/instagram-logo.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[target=\"_blank\"]:nth-child(5) > img",
+          "html": "<img src=\"/assets/images/instagram-logo.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"cmots.com/\"]",
+          "html": "<a href=\"http://www.cmots.com/\" target=\"_blank\"> CMOTS InfoTech \n\n          </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".font-white",
+          "html": "<a href=\"/screen-reader\" class=\"font-white\"><i class=\"fa fa-volume-up\" aria-hidden=\"true\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quicklink-panel > a[rel=\"nofollow\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://online.licmf.com/General/MailBackServices.aspx\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(2) > a[rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://online.licmf.com/General/MailBackServices.aspx\" rel=\"nofollow\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(2) > .quick-options-link > a[rel=\"nofollow\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://online.licmf.com/General/MailBackServices.aspx\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quicklink-panel > a[href$=\"current-nav\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/current-nav\" rel=\"nofollow\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(4) > a[href$=\"current-nav\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/current-nav\" rel=\"nofollow\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options-link > a[href$=\"current-nav\"][rel=\"nofollow\"]:nth-child(1)",
+          "html": "<a href=\"/investor/current-nav\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quicklink-panel > a[href$=\"daily_SIP\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"/investor/campaign/daily_SIP\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(6) > a[href$=\"daily_SIP\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"/investor/campaign/daily_SIP\" rel=\"nofollow\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options-link > a[href$=\"daily_SIP\"][rel=\"nofollow\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"/investor/campaign/daily_SIP\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quicklink-panel > a[href$=\"e-kyc\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/e-kyc\" rel=\"nofollow\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(8) > a[href$=\"e-kyc\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/e-kyc\" rel=\"nofollow\">\n\t\t\t\t\t\t\t<div class=\"quick-options-img\">\n\t\t\t\t\t\t\t\t<span class=\"sprite-ekyc\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options-link > a[href$=\"e-kyc\"][rel=\"nofollow\"]:nth-child(1)",
+          "html": "<a href=\"/investor/e-kyc\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[rel=\"nofollow\"][target=\"_blank\"]:nth-child(9)",
+          "html": "<a href=\"https://www.karvymfs.com/panupdation/\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(10) > a[rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.karvymfs.com/panupdation/\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t\t<div class=\"quick-options-img\">\n\t\t\t\t\t\t\t\t<span class=\"sprite-update-pan\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(10) > .quick-options-link > a[rel=\"nofollow\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.karvymfs.com/panupdation/\" rel=\"nofollow\" target=\"_blank\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quicklink-panel > a[href$=\"contact-us\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/contact-us\" rel=\"nofollow\">\n\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options:nth-child(12) > a[href$=\"contact-us\"][rel=\"nofollow\"]",
+          "html": "<a href=\"/investor/contact-us\" rel=\"nofollow\">\n\t\t\t\t\t\t\t<div class=\"quick-options-img\">\n\t\t\t\t\t\t\t\t<span class=\"sprite-locate-us\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".quick-options-link > a[href$=\"contact-us\"][rel=\"nofollow\"]:nth-child(1)",
+          "html": "<a href=\"/investor/contact-us\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "span:nth-child(6) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.instagram.com/licmutualfund/\" target=\"_blank\">\n              <img src=\"/assets/images/instagram-logo.png\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".sticky-content > a[target=\"_blank\"]:nth-child(5)",
+          "html": "<a href=\"https://www.instagram.com/licmutualfund/\" target=\"_blank\">\n          <img src=\"/assets/images/instagram-logo.png\">\n        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "div:nth-child(2) > marquee",
+          "html": "<marquee id=\"\" behavior=\"scroll\" direction=\"left\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": ".fixed-info > marquee",
+          "html": "<marquee id=\"\" behavior=\"scroll\" direction=\"left\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "#user_type",
+          "html": "<select id=\"user_type\">\n                              <option value=\"Investor\">&nbsp;&nbsp;Individual Investor</option>\n                              <option value=\"Distributor\"> &nbsp;&nbsp;Distributor</option>\n                           </select>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 29,
+  "altTextViolations": 2,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/LIC_MF_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — LIC MF\n\n- **Company Name:** LIC MF\n- **Resolved URL:** https://www.licmf.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.licmf.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/LIC_MF_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — LIC MF\n\n- **Primary Contact Email:** `service_licmf@kfintech.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **Investor Grievance / Compliance Officer Email:** `service_licmf@kfintech.com` | **Status:** `Verified` | **Source Page:** https://www.licmf.com\n- **General Contact Email:** `service_licmf@kfintech.com` | **Status:** `Verified` | **Source Page:** https://www.licmf.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/LIC_MF_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Registered_Mutual_Funds_20260802_065526_attempt2_succesful_reviewnotdone_orchavatecore/LIC_MF/screenshots/LIC_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — LIC MF\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 29\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 2\n- **Color Contrast Failures:** 2\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `LIC_MF_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `LIC_MF_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `LIC_MF_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 29. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T07:01:42.248Z"
+}

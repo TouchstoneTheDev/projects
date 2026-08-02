@@ -1,0 +1,278 @@
+{
+  "company": {
+    "srNo": 33,
+    "companyName": "TAURUS MF",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.taurusmutualfund.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.taurusmutualfund.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@taurusmutualfund.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@taurusmutualfund.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@taurusmutualfund.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.taurusmutualfund.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "ul[role=\"menubar\"]",
+          "html": "<ul data-region=\"navbar\" region=\"navbar\" class=\"nav navbar-nav\" role=\"menubar\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown.first > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"0\">Our Funds</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(4) > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"-1\">Downloads</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(5) > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"-1\">Knowledge Center</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(6) > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"-1\">Customer Corner</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(8) > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"-1\">About Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".dropdown.last > .dropdown-toggle[role=\"menuitem\"][href=\"/\"]",
+          "html": "<a class=\"dropdown-toggle\" href=\"/\" data-toggle=\"dropdown\" role=\"menuitem\" aria-haspopup=\"true\" aria-expanded=\"false\" tabindex=\"-1\">Contact Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown.first",
+          "html": "<li class=\"dropdown first\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[role=\"menubar\"] > li:nth-child(2)",
+          "html": "<li>\n                                  <a href=\"/latest-nav\" data-region=\"navbar\" region=\"navbar\" data-drupal-link-system-path=\"node/32659\" tabindex=\"-1\">NAV's</a>\n                            </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[role=\"menubar\"] > li:nth-child(3)",
+          "html": "<li>\n                                  <a href=\"/dividends\" data-region=\"navbar\" region=\"navbar\" data-drupal-link-system-path=\"dividends\" tabindex=\"-1\">Dividends</a>\n                            </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(4)",
+          "html": "<li class=\"dropdown\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(5)",
+          "html": "<li class=\"dropdown\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(6)",
+          "html": "<li class=\"dropdown\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "ul[role=\"menubar\"] > li:nth-child(7)",
+          "html": "<li>\n                                  <a href=\"/how-to-become-a-distributor\" data-region=\"navbar\" region=\"navbar\" data-drupal-link-system-path=\"node/565\" tabindex=\"-1\">For Distributors</a>\n                            </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown:nth-child(8)",
+          "html": "<li class=\"dropdown\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".dropdown.last",
+          "html": "<li class=\"dropdown last\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee style=\"width:100%;\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\" direction=\"left\" behavior=\"scroll\" scrollamount=\"7\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 32,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 17,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 32,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/TAURUS_MF/TAURUS_MF_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — TAURUS MF\n\n- **Company Name:** TAURUS MF\n- **Resolved URL:** https://www.taurusmutualfund.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.taurusmutualfund.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/TAURUS_MF/TAURUS_MF_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Email Discovery Report — TAURUS MF\n\n- **Primary Contact Email:** `info@taurusmutualfund.com`\n- **Primary Email Status:** `Unverified - guessed pattern`\n\n### Regarding Accessibility Emails\n- **General Contact Email (Guessed Pattern):** `info@taurusmutualfund.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@taurusmutualfund.com` | **Status:** `Unverified - guessed pattern`\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/TAURUS_MF/TAURUS_MF_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/TAURUS_MF_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — TAURUS MF\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 17\n- **Lighthouse A11y Score:** 32 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 0\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `TAURUS_MF_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `TAURUS_MF_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `TAURUS_MF_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 17. Lighthouse A11y: 32/100.",
+  "timestamp": "2026-08-02T05:58:39.793Z"
+}
