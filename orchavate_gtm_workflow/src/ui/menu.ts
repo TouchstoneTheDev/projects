@@ -6,6 +6,7 @@ import { CircuitBreakerStats } from '../circuit_breaker/circuit_breaker.ts';
 export interface StartupMenuResult {
   mode: SearchMode;
   readymadeFilePath?: string;
+  inputFilePath?: string;
 }
 
 export type CircuitBreakerAction = 'RESUME' | 'SWITCH_READYMADE' | 'RETRY' | 'ABORT';
@@ -21,6 +22,33 @@ function promptUser(query: string): Promise<string> {
       resolve(answer.trim());
     });
   });
+}
+
+/**
+ * Prompt for the input file path (Excel/JSON with company list).
+ * Returns the validated file path or empty string if skipped.
+ */
+export async function promptForInputFile(): Promise<string> {
+  console.log(`\n=====================================================`);
+  console.log(`Input File Selection`);
+  console.log(`=====================================================\n`);
+  console.log(`Please provide the input file containing company names.`);
+  console.log(`Supported formats: .xlsx, .xls, .json\n`);
+
+  const filePath = (await promptUser(`Enter file path (or press Enter to skip): `)).replace(/^['"]|['"]$/g, '');
+
+  if (!filePath) {
+    console.warn(`\n⚠️ No file path provided. Will use dummy test data.\n`);
+    return '';
+  }
+
+  if (!fs.existsSync(filePath)) {
+    console.warn(`\n⚠️ File not found at "${filePath}". Will use dummy test data.\n`);
+    return '';
+  }
+
+  console.log(`\n✓ Input file found: "${filePath}"\n`);
+  return filePath;
 }
 
 export async function renderStartupMenu(config: AppConfig): Promise<StartupMenuResult> {

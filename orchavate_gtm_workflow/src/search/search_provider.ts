@@ -129,6 +129,7 @@ export class DuckDuckGoSearchProvider implements SearchProvider {
   }
 }
 
+
 export class MockSearchProvider implements SearchProvider {
   public name = 'Mock Search Provider';
   private mockMap: Record<string, SearchResult[]> = {};

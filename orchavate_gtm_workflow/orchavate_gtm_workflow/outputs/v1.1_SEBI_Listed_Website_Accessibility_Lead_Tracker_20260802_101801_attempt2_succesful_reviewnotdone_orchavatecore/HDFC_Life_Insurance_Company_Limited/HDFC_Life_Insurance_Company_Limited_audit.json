@@ -1,0 +1,195 @@
+{
+  "company": {
+    "srNo": 15,
+    "companyName": "HDFC Life Insurance Company Limited",
+    "readymadeWebsite": "https://www.hdfclife.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.hdfclife.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.hdfclife.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "buyonline@hdfclife.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.hdfclife.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "buyonline@hdfclife.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.hdfclife.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.hdfclife.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".mobSearchClose",
+          "html": "<a class=\"mobSearchClose\" role=\"link\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".BuyOnlineStrip",
+          "html": "<span class=\"BuyOnlineStrip\">Buy Online</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".PhnNoDiv.singleClick",
+          "html": "<span class=\"PhnNoDiv singleClick\">\n      <strong style=\"font-size: 12px;\">1800-266-9777</strong> (9:00am To 9pm)\n\t  <span class=\"dropdownArrow\"><i class=\"arrowDwao downArrow\"></i></span>\n    </span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".PhnNoDiv.singleClick > strong",
+          "html": "<strong style=\"font-size: 12px;\">1800-266-9777</strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#homepagewith3rdparty-ae9a529a2b > img",
+          "html": "<img src=\"https://tpcs.payu.in/pixelwithcookie.gif?cid=7001&amp;uid=brand_name&amp;pid=%2F\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#search-right",
+          "html": "<input class=\"search-input\" id=\"search-right\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".scb-checkbox",
+          "html": "<input type=\"checkbox\" class=\"scb-checkbox\" name=\"ndnc_flag\" style=\"float:left;\" checked=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": ".alertDesk",
+          "html": "<marquee class=\"marquee alertDesk at-element-marker\" scrollamount=\"3\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": ".alertMob",
+          "html": "<marquee class=\"marquee alertMob\" scrollamount=\"3\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\">\n                        HDFC Life  Click 2 Protect Supreme Plus —  Term plan with advanced features and smarter premium benefits.</marquee>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".search-drop-down > select",
+          "html": "<select>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 60,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 10,
+  "altTextViolations": 1,
+  "contrastViolations": 3,
+  "labelViolations": 2,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 60,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — HDFC Life Insurance Company Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `buyonline@hdfclife.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `buyonline@hdfclife.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** HDFC Life Insurance Company Limited\n- **Resolved URL:** [https://www.hdfclife.com](https://www.hdfclife.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `buyonline@hdfclife.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `buyonline@hdfclife.in` | **Status:** `Verified` | **Source Page:** https://www.hdfclife.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.mobSearchClose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.BuyOnlineStrip`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick > strong`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#homepagewith3rdparty-ae9a529a2b > img`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#search-right`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.scb-checkbox`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertDesk`\n9. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertMob`\n10. **`[other] select-name`** (CRITICAL)\n   - **Help:** Select element must have an accessible name\n   - **Selector:** `.search-drop-down > select`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — HDFC Life Insurance Company Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `buyonline@hdfclife.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `buyonline@hdfclife.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** HDFC Life Insurance Company Limited\n- **Resolved URL:** [https://www.hdfclife.com](https://www.hdfclife.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `buyonline@hdfclife.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `buyonline@hdfclife.in` | **Status:** `Verified` | **Source Page:** https://www.hdfclife.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.mobSearchClose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.BuyOnlineStrip`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick > strong`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#homepagewith3rdparty-ae9a529a2b > img`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#search-right`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.scb-checkbox`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertDesk`\n9. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertMob`\n10. **`[other] select-name`** (CRITICAL)\n   - **Help:** Select element must have an accessible name\n   - **Selector:** `.search-drop-down > select`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_101801_attempt2_succesful_reviewnotdone_orchavatecore/HDFC_Life_Insurance_Company_Limited/screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — HDFC Life Insurance Company Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `buyonline@hdfclife.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `buyonline@hdfclife.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** HDFC Life Insurance Company Limited\n- **Resolved URL:** [https://www.hdfclife.com](https://www.hdfclife.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `buyonline@hdfclife.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `buyonline@hdfclife.in` | **Status:** `Verified` | **Source Page:** https://www.hdfclife.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.mobSearchClose`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.BuyOnlineStrip`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.PhnNoDiv.singleClick > strong`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `#homepagewith3rdparty-ae9a529a2b > img`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#search-right`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `.scb-checkbox`\n8. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertDesk`\n9. **`[other] marquee`** (SERIOUS)\n   - **Help:** <marquee> elements are deprecated and must not be used\n   - **Selector:** `.alertMob`\n10. **`[other] select-name`** (CRITICAL)\n   - **Help:** Select element must have an accessible name\n   - **Selector:** `.search-drop-down > select`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/HDFC_Life_Insurance_Company_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 10. Lighthouse A11y: 60/100.",
+  "timestamp": "2026-08-02T10:23:17.404Z"
+}

@@ -1,0 +1,752 @@
+{
+  "company": {
+    "srNo": 52,
+    "companyName": "Adani Ports and Special Economic Zone Limited",
+    "readymadeWebsite": "https://www.adaniports.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.adaniports.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.adaniports.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "ankita.shah@elaracapital.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.adaniports.com/Investors/Analyst-Coverage"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "rnt.helpdesk@in.mpms.mufg.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.adaniports.com/Investors"
+      },
+      {
+        "address": "ankita.shah@elaracapital.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.adaniports.com/Investors/Analyst-Coverage"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.adaniports.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-prev\"><i class=\"fa fa-angle-left\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#other-ventures > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"bootstrape-next\"><i class=\"fa fa-angle-right\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".position-relative.d-block.container > .row > .col-lg-4 > .video-content.p-4 > p:nth-child(3) > a",
+          "html": "<a href=\"/our-stories/Empowering-Youth-with-Hydrographic-Training\" data-bs-target=\"/our-stories/Empowering-Youth-with-Hydrographic-Training\">Read\n                            More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-white.p-4.h-100 > .mt-3 > .txt-xs",
+          "html": "<a class=\"txt-xs\" href=\"https://www.adaniports.com/Sustainability/Communities\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pb-3 > .mt-3 > .txt-xs",
+          "html": "<a class=\"txt-xs\" href=\"https://www.adaniports.com/Sustainability/Maintaining-Coastal-Ecosystem\">Read\n                                    more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-sm-12.text-center:nth-child(3) > .img-fluid[loading=\"lazy\"]",
+          "html": "<img src=\"-/media/CEE9E8C58B1546DEBF848C78CDD7B9D8.ashx\" class=\"img-fluid\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"#footprint\"]",
+          "html": "<a href=\"#footprint\"><span class=\"blink blink-infinite blink-1\"></span><span class=\"blink blink-infinite blink-2\"></span><span class=\"blink blink-infinite blink-3\"></span><span class=\"blink blink-infinite blink-4\"></span><span class=\"blink blink-infinite blink-5\"></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(1) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanirealty.com\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/realty.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(2) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aimsl.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/aimsl.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(3) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanicapital.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-capital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(4) > .zoomin.item > a[href$=\"adanibunkering.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanibunkering.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-bunker.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(5) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adaniagrilogistics.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-agri-logistics.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(6) > .zoomin.item > a[href$=\"farmpik.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.farmpik.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/farmpik.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(7) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniaustralia.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-australia.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(8) > .zoomin.item > a[href$=\"adanihospitals.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanihospitals.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-hospital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(9) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanividyamandir.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-vidyamandir.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(10) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniinternationalschool.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/power/group-of-website/ais.jpg\" class=\"mb-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(11) > .zoomin.item > a[href$=\"aii.ac.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.aii.ac.in/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/project/ports/home/all.jfif\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(12) > .zoomin.item > a[href$=\"aptri.org/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.aptri.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/aptri.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(13) > .zoomin.item > a[href$=\"adanione.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanione.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/adani/home/adanione.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(14) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanifoundation.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/adani-foundation1.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(15) > .zoomin.item > a[href$=\"adani.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adani.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/adani_group.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(16) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanienterprises.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-enterprises.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(17) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigreenenergy.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-green-energy.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(18) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanitransmission.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-transmission.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.bootstrape-item:nth-child(19) > .zoomin.item > a[href$=\"adanipower.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanipower.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(20) > .zoomin.item > a[href$=\"adanigas.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigas.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-gas.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(21) > .zoomin.item > a[href$=\"adanisolar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://adanisolar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(22) > .zoomin.item > a[href$=\"adaniwilmar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniwilmar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-wilmar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(23) > .zoomin.item > a[href$=\"adaniports.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniports.com/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/project/ports/home/port.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(24) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanirealty.com\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/realty.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(25) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.aimsl.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/aimsl.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(26) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanicapital.in/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-capital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(27) > .zoomin.item > a[href$=\"adanibunkering.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanibunkering.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-bunker.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(28) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adaniagrilogistics.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-agri-logistics.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(29) > .zoomin.item > a[href$=\"farmpik.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.farmpik.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/farmpik.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(30) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniaustralia.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-australia.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(31) > .zoomin.item > a[href$=\"adanihospitals.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanihospitals.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-hospital.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(32) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanividyamandir.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-vidyamandir.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(33) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniinternationalschool.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/power/group-of-website/ais.jpg\" class=\"mb-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(34) > .zoomin.item > a[href$=\"aii.ac.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.aii.ac.in/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/project/ports/home/all.jfif\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bootstrape-item:nth-child(35) > .zoomin.item > a[href$=\"aptri.org/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.aptri.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/aptri.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(36) > .zoomin.item > a[href$=\"adanione.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanione.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/adani/home/adanione.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(37) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanifoundation.org/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/adani-foundation1.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(38) > .zoomin.item > a[href$=\"adani.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adani.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/adani_group.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(39) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanienterprises.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-enterprises.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(40) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigreenenergy.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-green-energy.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(41) > .zoomin.item > a[rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanitransmission.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-transmission.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(42) > .zoomin.item > a[href$=\"adanipower.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"http://www.adanipower.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(43) > .zoomin.item > a[href$=\"adanigas.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanigas.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-gas.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(44) > .zoomin.item > a[href$=\"adanisolar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://adanisolar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-power.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(45) > .zoomin.item > a[href$=\"adaniwilmar.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniwilmar.com/\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/portsandterminals/home/adani-wilmar.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(46) > .zoomin.item > a[href$=\"adaniports.com/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adaniports.com/\" target=\"_blank\"><img alt=\"\" height=\"119\" width=\"126\" src=\"/-/media/project/ports/home/port.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.bootstrape-item:nth-child(47) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]",
+          "html": "<a rel=\"noopener noreferrer\" href=\"https://www.adanirealty.com\" target=\"_blank\"><img alt=\"\" src=\"/-/media/project/ports/home/realty.jpg\" class=\"mb-2\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".ft-business",
+          "html": "<ul class=\"ft-business\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "h5:nth-child(1) > li",
+          "html": "<li><a href=\"/ports-and-terminals\">Ports &amp; Terminals</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "h5:nth-child(2) > li",
+          "html": "<li><a href=\"/industrial-land\">Industrial Land</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "h5:nth-child(3) > li",
+          "html": "<li><a href=\"/logistics\">Logistics</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "h5:nth-child(4) > li",
+          "html": "<li><a href=\"/dredging\">Dredging</a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".bg-gradient.form-group > select",
+          "html": "<select class=\"form-control bg-gradient\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 60,
+  "altTextViolations": 1,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Ports and Special Economic Zone Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ankita.shah@elaracapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ankita.shah@elaracapital.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `56` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Ports and Special Economic Zone Limited\n- **Resolved URL:** [https://www.adaniports.com](https://www.adaniports.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ankita.shah@elaracapital.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors\n- **General Contact Email:** `ankita.shah@elaracapital.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors/Analyst-Coverage\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.position-relative.d-block.container > .row > .col-lg-4 > .video-content.p-4 > p:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-white.p-4.h-100 > .mt-3 > .txt-xs`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pb-3 > .mt-3 > .txt-xs`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-sm-12.text-center:nth-child(3) > .img-fluid[loading=\"lazy\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"#footprint\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(1) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(2) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(3) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Ports and Special Economic Zone Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ankita.shah@elaracapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ankita.shah@elaracapital.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `56` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Ports and Special Economic Zone Limited\n- **Resolved URL:** [https://www.adaniports.com](https://www.adaniports.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ankita.shah@elaracapital.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors\n- **General Contact Email:** `ankita.shah@elaracapital.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors/Analyst-Coverage\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.position-relative.d-block.container > .row > .col-lg-4 > .video-content.p-4 > p:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-white.p-4.h-100 > .mt-3 > .txt-xs`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pb-3 > .mt-3 > .txt-xs`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-sm-12.text-center:nth-child(3) > .img-fluid[loading=\"lazy\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"#footprint\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(1) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(2) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(3) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Adani_Ports_and_Special_Economic_Zone_Limited/screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Adani Ports and Special Economic Zone Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ankita.shah@elaracapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ankita.shah@elaracapital.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `56` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Adani Ports and Special Economic Zone Limited\n- **Resolved URL:** [https://www.adaniports.com](https://www.adaniports.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ankita.shah@elaracapital.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `rnt.helpdesk@in.mpms.mufg.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors\n- **General Contact Email:** `ankita.shah@elaracapital.com` | **Status:** `Verified` | **Source Page:** https://www.adaniports.com/Investors/Analyst-Coverage\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-prev[role=\"presentation\"][type=\"button\"]`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#other-ventures > .bootstrape-nav > .bootstrape-next[role=\"presentation\"][type=\"button\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.position-relative.d-block.container > .row > .col-lg-4 > .video-content.p-4 > p:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bg-white.p-4.h-100 > .mt-3 > .txt-xs`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pb-3 > .mt-3 > .txt-xs`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-sm-12.text-center:nth-child(3) > .img-fluid[loading=\"lazy\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"#footprint\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(1) > .zoomin.item > a[href$=\"www.adanirealty.com\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(2) > .zoomin.item > a[href$=\"aimsl.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.cloned.bootstrape-item:nth-child(3) > .zoomin.item > a[href$=\"adanicapital.in/\"][rel=\"noopener noreferrer\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Adani_Ports_and_Special_Economic_Zone_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 60. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T08:28:17.961Z"
+}
