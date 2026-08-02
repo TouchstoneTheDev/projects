@@ -1,0 +1,105 @@
+{
+  "company": {
+    "srNo": 29,
+    "assignedTo": "Unassigned",
+    "companyName": "Invesco Mutual Fund",
+    "website": "https://www.invescomutualfund.com",
+    "contactPerson": "N/A",
+    "emailId": "RootId@odata.type; AvailableLanguages@odata.type",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.invescomutualfund.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".css-17jil0t[aria-label=\"Previous slide\"][aria-controls=\"banner-track-_R_1ct59inqtb_\"]",
+          "html": "<button class=\"MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeMedium css-17jil0t\" tabindex=\"-1\" type=\"button\" disabled=\"\" aria-label=\"Previous slide\" aria-controls=\"banner-track-_R_1ct59inqtb_\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Homepage_other.png"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".css-17jil0t[aria-label=\"Play autoplay\"][aria-controls=\"banner-track-_R_1ct59inqtb_\"]",
+          "html": "<button class=\"MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-17jil0t\" tabindex=\"0\" type=\"button\" aria-label=\"Play autoplay\" aria-controls=\"banner-track-_R_1ct59inqtb_\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".css-aul42w",
+          "html": "<button class=\"MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-sizeMedium css-aul42w\" tabindex=\"-1\" type=\"button\" disabled=\"\" aria-label=\"Next slide\" aria-controls=\"banner-track-_R_1ct59inqtb_\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#download-invesco-desktop-_R_2pinqtb_",
+          "html": "<h2 class=\"MuiTypography-root MuiTypography-body1 css-7lk0bz\" id=\"download-invesco-desktop-_R_2pinqtb_\">Download<br aria-hidden=\"true\"> Invesco Mutual Fund App</h2>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Homepage_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".css-14486xs",
+          "html": "<p class=\"MuiTypography-root MuiTypography-body1 css-14486xs\">Download the app today and start investing instantly with quick, secure access to mutual funds, anytime and anywhere you choose.</p>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 39,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Homepage_other.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Homepage_color_contrast.png"
+      ]
+    },
+    {
+      "pageName": "Contact",
+      "url": "https://www.invescomutualfund.com/contact-us",
+      "accessible": true,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Invesco_Mutual_Fund_Contact_Overview.png"
+      ]
+    }
+  ],
+  "totalViolations": 5,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 70,
+  "remarks": "Scanned 2 pages. Violations: 5. Lighthouse: 70/100.",
+  "timestamp": "2026-08-02T03:47:45.115Z"
+}

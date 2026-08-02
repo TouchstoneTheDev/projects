@@ -1,0 +1,12 @@
+export { Header } from './Header';
+export { Hero } from './Hero';
+export { Projects } from './Projects';
+export { Resume } from './Resume';
+export { Contact } from './Contact';
+export { Footer } from './Footer';
+export { AIProjects } from './AIProjects';
+export { TechnicalWriting } from './TechnicalWriting';
+export { DeveloperConcepts } from './DeveloperConcepts';
+export { ProjectPreview } from './ProjectPreview';
+export { Login } from './Login';
+export { AdminPanel } from './AdminPanel';

@@ -1,0 +1,83 @@
+{
+  "company": {
+    "srNo": 30,
+    "assignedTo": "Unassigned",
+    "companyName": "JM FINANCIAL MF",
+    "website": "https://www.jmfinancialmf.com",
+    "contactPerson": "N/A",
+    "emailId": "investor@jmfl.com; partnercare@jmfl.com",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.jmfinancialmf.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-menu:nth-child(2) > ul > li:nth-child(1) > a[href$=\"Forms\"]",
+          "html": "<a href=\"downloads/Forms\"> </a>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_Homepage_other.png"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_Homepage_other.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://www.jmfinancialmf.com/AboutUs",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-menu:nth-child(2) > ul > li:nth-child(1) > a[href$=\"Forms\"]",
+          "html": "<a href=\"downloads/Forms\"> </a>",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_About_other.png"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_About_other.png"
+      ]
+    },
+    {
+      "pageName": "Investor Relations",
+      "url": "https://www.jmfinancialmf.com/CMS/downloads/Investor%20Awareness%20Program/AMFI%20Presentation/InvestorsAwarenessProgrampresentation.pdf",
+      "accessible": false,
+      "axeViolations": [],
+      "lighthouseScore": 0,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/JM_FINANCIAL_MF_Investor_Relations_Overview.png"
+      ]
+    }
+  ],
+  "totalViolations": 2,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 61,
+  "remarks": "Scanned 3 pages. Violations: 2. Lighthouse: 61/100.",
+  "timestamp": "2026-08-02T03:48:52.827Z"
+}

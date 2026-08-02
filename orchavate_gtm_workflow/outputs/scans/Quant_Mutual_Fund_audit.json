@@ -1,0 +1,209 @@
+{
+  "company": {
+    "srNo": 46,
+    "assignedTo": "Unassigned",
+    "companyName": "Quant Mutual Fund",
+    "website": "https://www.quantmutual.com",
+    "contactPerson": "N/A",
+    "emailId": "help.investor@quant.in; help.distributor@quant.in",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.quantmutual.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".inver-now > a[target=\"_blank\"]",
+          "html": "<a href=\"/QuantTransaction/QuantTransaction.html\" target=\"_blank\" style=\"font-size: 13px;\">\n                            <blink> Transaction &amp; Service Portal</blink>\n                        </a>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Homepage_other.png"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.carousel-item > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.mutualfundssahihai.com\" target=\"_blank\" style=\"font-size: 16px;\">\n          <img src=\"/images/MF01.jpg\" alt=\"\" class=\"dispwidth\">\n        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".inrlinkfootr > ul",
+          "html": "<ul>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Homepage_other.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://www.quantmutual.com/#",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "blink",
+          "impact": "serious",
+          "description": "Ensure <blink> elements are not used",
+          "help": "<blink> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/blink?application=playwright",
+          "category": "other",
+          "selector": "a[target=\"_blank\"] > blink",
+          "html": "<blink> Transaction &amp; Service Portal</blink>",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_About_other.png"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.carousel-item > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.mutualfundssahihai.com\" target=\"_blank\" style=\"font-size: 16px;\">\n          <img src=\"/images/MF01.jpg\" alt=\"\" class=\"dispwidth\">\n        </a>",
+          "pageName": "About"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".inrlinkfootr > ul",
+          "html": "<ul>",
+          "pageName": "About"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_About_other.png"
+      ]
+    },
+    {
+      "pageName": "Contact",
+      "url": "https://www.quantmutual.com/about-us/contact-us",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".center",
+          "html": "<img src=\"/images/Contact-Us-AllIcon.png\" class=\"center\" style=\"margin-bottom:2%;\">",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Contact_missing_alt_text.png"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(5) > a[href=\"mailto:help.investor@quant.in\"]",
+          "html": "<a href=\"mailto:help.investor@quant.in\" style=\"color: rgb(51, 51, 51); font-size: 16px;\">help.investor@quant.in</a>",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Contact_other.png"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(5) > a:nth-child(3)",
+          "html": "<a href=\"mailto:help.distributor@quant.in\" style=\"color: rgb(51, 51, 51); font-size: 16px;\">help.distributor@quant.in</a>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"mailto:escalation@quant.in\"]",
+          "html": "<a href=\"mailto:escalation@quant.in\" style=\"color: rgb(51, 51, 51); font-size: 16px;\">escalation@quant.in </a>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(11) > a",
+          "html": "<a href=\"mailto:compliance.help@quant.in\" style=\"color: rgb(51, 51, 51); font-size: 16px;\">compliance.help@quant.in</a>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".inver-now > a[target=\"_blank\"]",
+          "html": "<a href=\"/QuantTransaction/QuantTransaction.html\" target=\"_blank\" style=\"font-size: 13px;\">\n                            <blink> Transaction &amp; Service Portal</blink>\n                        </a>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".inrlinkfootr > ul",
+          "html": "<ul>",
+          "pageName": "Contact"
+        }
+      ],
+      "lighthouseScore": 37,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Contact_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Contact_missing_alt_text.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Quant_Mutual_Fund_Contact_other.png"
+      ]
+    }
+  ],
+  "totalViolations": 13,
+  "altTextViolations": 1,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 63,
+  "remarks": "Scanned 3 pages. Violations: 13. Lighthouse: 63/100.",
+  "timestamp": "2026-08-02T03:51:13.188Z"
+}

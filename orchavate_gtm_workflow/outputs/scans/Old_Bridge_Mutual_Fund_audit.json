@@ -1,0 +1,49 @@
+{
+  "company": {
+    "srNo": 42,
+    "assignedTo": "Unassigned",
+    "companyName": "Old Bridge Mutual Fund",
+    "website": "https://www.oldbridgemf.com",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.oldbridgemf.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: &lt;17087840820834853931&gt;<br><br><a href=\"javascript:history.back();\">[Go Back]</a></body></html>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Old_Bridge_Mutual_Fund_Homepage_other.png"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Old_Bridge_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Old_Bridge_Mutual_Fund_Homepage_other.png"
+      ]
+    }
+  ],
+  "totalViolations": 1,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 92,
+  "remarks": "Scanned 1 pages. Violations: 1. Lighthouse: 92/100.",
+  "timestamp": "2026-08-02T03:50:12.447Z"
+}

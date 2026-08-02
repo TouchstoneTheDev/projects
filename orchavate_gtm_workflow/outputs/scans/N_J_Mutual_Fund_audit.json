@@ -1,0 +1,126 @@
+{
+  "company": {
+    "srNo": 38,
+    "assignedTo": "Unassigned",
+    "companyName": "N J Mutual Fund",
+    "website": "https://www.njmutualfund.com",
+    "contactPerson": "N/A",
+    "emailId": "customercare@njmutualfund.com",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.njmutualfund.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "other",
+          "selector": "div[data-index=\"5\"]",
+          "html": "<div data-index=\"5\" class=\"slick-slide\" tabindex=\"-1\" aria-hidden=\"true\" style=\"outline: none; width: 260px;\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_other.png"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "other",
+          "selector": "div[data-index=\"6\"]",
+          "html": "<div data-index=\"6\" class=\"slick-slide\" tabindex=\"-1\" aria-hidden=\"true\" style=\"outline: none; width: 260px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".factor-book:nth-child(6) > .container > .row > .col-lg-5.v-align.d-lg-block > .mt-20.nav.flex-column > li:nth-child(1) > .active.tab-btn[aria-controls=\"accordion-panel-0\"]",
+          "html": "<button class=\"nav-link tab-btn active\" type=\"button\" aria-expanded=\"true\" aria-controls=\"accordion-panel-0\" id=\"accordion-tab-0\">What are Factors?</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": ".flex-lg-row-reverse > .col-lg-5.v-align.d-lg-block > .mt-20.nav.flex-column > li:nth-child(1) > .active.tab-btn[aria-controls=\"accordion-panel-0\"]",
+          "html": "<button class=\"nav-link tab-btn active\" type=\"button\" aria-expanded=\"true\" aria-controls=\"accordion-panel-0\" id=\"accordion-tab-0\">Stock-based Equity Investment Approaches</button>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 54,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Homepage_other.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://www.njmutualfund.com/about-us",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "document-title",
+          "impact": "serious",
+          "description": "Ensure each HTML document contains a non-empty <title> element",
+          "help": "Documents must have <title> element to aid in navigation",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/document-title?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html lang=\"en\" style=\"font-size: 100%;\">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_About_other.png"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_About_other.png"
+      ]
+    },
+    {
+      "pageName": "Contact",
+      "url": "https://www.njmutualfund.com/njgiftcity/contact-us",
+      "accessible": true,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Contact_Overview.png"
+      ]
+    },
+    {
+      "pageName": "Investor Relations",
+      "url": "https://www.njmutualfund.com/NRI-Investor",
+      "accessible": true,
+      "axeViolations": [],
+      "lighthouseScore": 100,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/N_J_Mutual_Fund_Investor_Relations_Overview.png"
+      ]
+    }
+  ],
+  "totalViolations": 5,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 87,
+  "remarks": "Scanned 4 pages. Violations: 5. Lighthouse: 87/100.",
+  "timestamp": "2026-08-02T03:50:01.579Z"
+}
