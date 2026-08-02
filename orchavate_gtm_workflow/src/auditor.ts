@@ -1,18 +1,21 @@
 import { Page } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
-import { AuditViolation, PageAuditResult, ViolationCategory } from './types';
+import { AuditViolation, PageAuditResult, ViolationCategory } from './types.js';
 
-export function categorizeAxeRule(ruleId: string): ViolationCategory {
-  if (['image-alt', 'input-image-alt', 'role-img-alt', 'area-alt', 'svg-img-alt'].includes(ruleId)) {
+export function categorizeViolation(id: string, help: string): ViolationCategory {
+  const lowerId = id.toLowerCase();
+  const lowerHelp = help.toLowerCase();
+
+  if (lowerId.includes('image-alt') || lowerId.includes('alt') || lowerHelp.includes('alternative text') || lowerHelp.includes('alt text')) {
     return 'missing_alt_text';
   }
-  if (['color-contrast'].includes(ruleId)) {
+  if (lowerId.includes('color-contrast') || lowerId.includes('contrast') || lowerHelp.includes('contrast')) {
     return 'color_contrast';
   }
-  if (['label', 'select-name', 'form-field-multiple-labels', 'label-title-only', 'input-button-name'].includes(ruleId)) {
+  if (lowerId.includes('label') || lowerId.includes('form') || lowerHelp.includes('label') || lowerHelp.includes('form element')) {
     return 'form_labels';
   }
-  if (['tabindex', 'focus-order-semantics', 'keyboard-trap', 'accesskeys', 'bypass', 'scrollable-region-focusable'].includes(ruleId)) {
+  if (lowerId.includes('tabindex') || lowerId.includes('keyboard') || lowerId.includes('focus') || lowerHelp.includes('keyboard')) {
     return 'keyboard_navigation';
   }
   return 'other';
@@ -20,31 +23,26 @@ export function categorizeAxeRule(ruleId: string): ViolationCategory {
 
 export async function auditPageWithAxe(
   page: Page,
-  pageName: 'Homepage' | 'About' | 'Contact' | 'Investor Relations' | 'Annual Report / PDF',
+  pageName: PageAuditResult['pageName'],
   url: string
 ): Promise<PageAuditResult> {
-  const result: PageAuditResult = {
-    pageName,
-    url,
-    accessible: true,
-    axeViolations: [],
-    lighthouseScore: 85,
-    screenshots: [],
-  };
+  let accessible = true;
+  let axeViolations: AuditViolation[] = [];
+  let lighthouseScore = 100;
 
   try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 15000 });
-    
+    if (page.url() !== url) {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    }
+
     const axeResults = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
       .analyze();
 
-    const violations: AuditViolation[] = [];
-
     for (const v of axeResults.violations) {
-      const category = categorizeAxeRule(v.id);
+      const category = categorizeViolation(v.id, v.help);
       for (const node of v.nodes) {
-        violations.push({
+        axeViolations.push({
           id: v.id,
           impact: (v.impact as any) || 'moderate',
           description: v.description,
@@ -58,24 +56,20 @@ export async function auditPageWithAxe(
       }
     }
 
-    result.axeViolations = violations;
-    result.accessible = violations.length === 0;
-
-    const criticalCount = violations.filter(v => v.impact === 'critical').length;
-    const seriousCount = violations.filter(v => v.impact === 'serious').length;
-    const moderateCount = violations.filter(v => v.impact === 'moderate').length;
-
-    const penalty = (criticalCount * 15) + (seriousCount * 8) + (moderateCount * 3);
-    result.lighthouseScore = Math.max(10, Math.min(100, 100 - penalty));
-
-    return result;
+    if (axeViolations.length > 0) {
+      lighthouseScore = Math.max(30, 100 - (axeViolations.length * 4));
+    }
   } catch (err: any) {
-    result.accessible = false;
-    result.lighthouseScore = 0;
-    return result;
+    console.warn(`  [Auditor Warning] ${pageName} (${url}): ${err?.message}`);
+    accessible = false;
   }
-}
 
-export function getWaveWebUrl(websiteUrl: string): string {
-  return `https://wave.webaim.org/report#/${encodeURIComponent(websiteUrl)}`;
+  return {
+    pageName,
+    url,
+    accessible,
+    axeViolations,
+    lighthouseScore,
+    screenshots: [],
+  };
 }

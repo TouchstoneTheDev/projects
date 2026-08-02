@@ -2,13 +2,23 @@ import fs from 'fs';
 import path from 'path';
 import XLSX from 'xlsx';
 import { chromium } from 'playwright';
-import { CompanyTarget, CompanyAuditReport, PageAuditResult } from './types';
-import { verifyAndDiscoverPages } from './discovery';
-import { auditPageWithAxe } from './auditor';
-import { captureViolationScreenshots } from './screenshot';
-import { exportTrackerFiles } from './tracker';
+import { CompanyInput, CompanyAuditReportV11, PageAuditResult, RunReportStats } from './types.js';
+import { resolveWebsite, CircuitBreakerTracker } from './website_resolver.js';
+import { discoverEmailsAndEvidence } from './email_discoverer.js';
+import { checkBotBlock } from './bot_block_gate.js';
+import { auditPageWithAxe } from './auditor.js';
+import { captureViolationScreenshots } from './screenshot.js';
+import { generateDeliverablePairs } from './deliverables_generator.js';
+import { generateRunReport } from './run_report_generator.js';
+import { exportTrackerFiles } from './tracker.js';
 
-export function parseInputFile(filePath: string): CompanyTarget[] {
+const DESKTOP_USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0'
+];
+
+export function parseInputFile(filePath: string): CompanyInput[] {
   const ext = path.extname(filePath).toLowerCase();
 
   if (ext === '.xlsx' || ext === '.xls') {
@@ -28,12 +38,12 @@ export function parseInputFile(filePath: string): CompanyTarget[] {
 
       return {
         srNo: parseInt(getVal('sr. no.', 'sr.no.', 'sr no', 'srno') || String(index + 1), 10),
-        assignedTo: getVal('assigned to', 'assigned') || 'Unassigned',
         companyName: getVal('company name', 'company', 'name') || 'Unknown',
-        website: getVal('website', 'url', 'company website') || '',
+        readymadeWebsite: getVal('website', 'url', 'company website') || '',
+        assignedTo: getVal('assigned to', 'assigned') || 'Unassigned',
         contactPerson: getVal('contact person', 'contact') || 'N/A',
         emailId: getVal('email id', 'email', 'emailid') || 'N/A',
-        verifiedBy: getVal('verified by', 'verified') || 'Orchavate Automated Tool',
+        verifiedBy: getVal('verified by', 'verified') || 'Orchavate Automated Tool v1.1',
       };
     });
   } else if (ext === '.json') {
@@ -41,168 +51,272 @@ export function parseInputFile(filePath: string): CompanyTarget[] {
     const raw = JSON.parse(content);
     return raw.map((item: any, index: number) => ({
       srNo: item.srNo || index + 1,
-      assignedTo: item.assignedTo || 'Unassigned',
       companyName: item.companyName || item.name || 'Unknown',
-      website: item.website || item.url || '',
+      readymadeWebsite: item.website || item.readymadeWebsite || item.url || '',
+      assignedTo: item.assignedTo || 'Unassigned',
       contactPerson: item.contactPerson || 'N/A',
       emailId: item.emailId || item.email || 'N/A',
-      verifiedBy: item.verifiedBy || 'Orchavate Automated Tool',
+      verifiedBy: item.verifiedBy || 'Orchavate Automated Tool v1.1',
     }));
-  } else if (ext === '.csv') {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const lines = content.split('\n').map(l => l.trim()).filter(Boolean);
-    const headers = lines[0].split(',').map(h => h.replace(/^"|"$/g, '').trim().toLowerCase());
-    const targets: CompanyTarget[] = [];
-
-    for (let i = 1; i < lines.length; i++) {
-      const cols = lines[i].split(',').map(c => c.replace(/^"|"$/g, '').trim());
-      if (cols.length < 2) continue;
-      
-      const getVal = (name: string) => {
-        const idx = headers.indexOf(name);
-        return idx !== -1 ? cols[idx] : '';
-      };
-
-      targets.push({
-        srNo: parseInt(getVal('sr. no.') || getVal('srno') || String(i), 10),
-        assignedTo: getVal('assigned to') || 'Unassigned',
-        companyName: getVal('company name') || getVal('company') || cols[0] || 'Unknown',
-        website: getVal('website') || getVal('url') || cols[1] || '',
-        contactPerson: getVal('contact person') || 'N/A',
-        emailId: getVal('email id') || getVal('email') || 'N/A',
-        verifiedBy: getVal('verified by') || 'Orchavate Automated Tool',
-      });
-    }
-    return targets;
   }
-  throw new Error(`Unsupported input file format: ${filePath}. Please provide a .xlsx, .xls, .csv, or .json file.`);
+  throw new Error(`Unsupported file format: ${filePath}`);
 }
 
-export async function runWorkflow(
-  inputCompanies: CompanyTarget[],
+export async function runWorkflowV11(
+  inputCompanies: CompanyInput[],
   baseOutputDir: string
-): Promise<CompanyAuditReport[]> {
-  const notFoundDir = path.join(baseOutputDir, 'searched_not_found');
+): Promise<CompanyAuditReportV11[]> {
+  const startTime = Date.now();
+  const deliverablesDir = path.join(baseOutputDir, 'deliverables');
   const scansDir = path.join(baseOutputDir, 'scans');
   const screenshotsDir = path.join(baseOutputDir, 'screenshots');
   const trackerDir = path.join(baseOutputDir, 'tracker');
+  const reportsDir = path.join(baseOutputDir, 'reports');
+  const notFoundDir = path.join(baseOutputDir, 'searched_not_found');
 
-  [notFoundDir, scansDir, screenshotsDir, trackerDir].forEach(dir => {
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  [deliverablesDir, scansDir, screenshotsDir, trackerDir, reportsDir, notFoundDir].forEach(d => {
+    if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
   });
 
-  const reports: CompanyAuditReport[] = [];
+  const reports: CompanyAuditReportV11[] = [];
+  const circuitBreaker = new CircuitBreakerTracker();
+  const circuitBreakerEvents: string[] = [];
+
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({ viewport: { width: 1920, height: 1080 } });
-  const page = await context.newPage();
 
-  console.log(`Starting Orchavate Accessibility Audit Workflow for ${inputCompanies.length} target websites...`);
+  console.log(`\n===============================================================`);
+  console.log(`Starting Accessibility Audit Tool — v1.1 Final Spec`);
+  console.log(`Processing ${inputCompanies.length} target companies...`);
+  console.log(`===============================================================\n`);
 
-  for (const company of inputCompanies) {
-    console.log(`\n[Processing Provided Website] Sr. ${company.srNo}: ${company.companyName} (${company.website})`);
+  for (let i = 0; i < inputCompanies.length; i++) {
+    const company = inputCompanies[i];
+    console.log(`\n[Company ${i + 1}/${inputCompanies.length}] ${company.companyName}`);
 
-    const discovery = await verifyAndDiscoverPages(page, company, notFoundDir);
+    // Step 1: Website Resolution (Dual-Source)
+    const resolution = await resolveWebsite(company);
+    console.log(`  -> Resolution Source: ${resolution.source} (${resolution.confidence} Confidence)`);
+    console.log(`  -> Resolved URL: ${resolution.resolvedUrl || 'NONE'}`);
 
-    if (!discovery.verified) {
-      console.log(`  ❌ Provided website is unreachable/inaccessible: ${discovery.errorMessage}`);
-      const failedReport: CompanyAuditReport = {
+    const triggered = circuitBreaker.recordResult(resolution);
+    if (triggered) {
+      const msg = `Circuit Breaker Triggered at company #${company.srNo} (${company.companyName}): Self-search failure rate reached ${circuitBreaker.getFailureRate()}%.`;
+      console.warn(`  ⚠️ ${msg}`);
+      circuitBreakerEvents.push(msg);
+    }
+
+    if (resolution.hasConflict) {
+      console.warn(`  ⚠️ CONFLICT FLAGGED: Self-search & readymade URL mismatch. Pausing scan for manual review.`);
+      const report: CompanyAuditReportV11 = {
         company,
-        websiteVerified: false,
-        scanCompleted: false,
-        screenshotTaken: false,
-        status: 'Inaccessible',
+        resolution,
+        emailDiscovery: {
+          primaryEmail: { address: 'N/A', type: 'primary', label: 'Primary Contact Email', status: 'Not Found' },
+          regardingAccessibility: [],
+          overallStatus: 'Not Found',
+          evidenceScreenshots: [],
+        },
+        botBlock: { isBlocked: false },
         pages: [],
+        status: 'Conflict Flagged',
         totalViolations: 0,
         altTextViolations: 0,
         contrastViolations: 0,
         labelViolations: 0,
         keyboardViolations: 0,
         lighthouseAvgScore: 0,
-        remarks: `Unreachable: ${discovery.errorMessage}`,
+        deliverables: {} as any,
+        remarks: resolution.conflictDetails || 'Conflict flagged - needs manual review',
         timestamp: new Date().toISOString(),
       };
-      reports.push(failedReport);
+      reports.push(report);
       continue;
     }
 
-    console.log(`  ✓ Website Verified: "${discovery.title}"`);
-    if (discovery.extractedEmails.length > 0 && (!company.emailId || company.emailId === 'N/A')) {
-      company.emailId = discovery.extractedEmails.join('; ');
-      console.log(`  ✓ Gathered Contacts: ${company.emailId}`);
+    if (!resolution.resolvedUrl) {
+      console.error(`  ❌ Website Resolution Failed.`);
+      const report: CompanyAuditReportV11 = {
+        company,
+        resolution,
+        emailDiscovery: {
+          primaryEmail: { address: 'N/A', type: 'primary', label: 'Primary Contact Email', status: 'Not Found' },
+          regardingAccessibility: [],
+          overallStatus: 'Not Found',
+          evidenceScreenshots: [],
+        },
+        botBlock: { isBlocked: false },
+        pages: [],
+        status: 'Inaccessible',
+        totalViolations: 0,
+        altTextViolations: 0,
+        contrastViolations: 0,
+        labelViolations: 0,
+        keyboardViolations: 0,
+        lighthouseAvgScore: 0,
+        deliverables: {} as any,
+        remarks: 'Inaccessible: Could not resolve valid website URL',
+        timestamp: new Date().toISOString(),
+      };
+      reports.push(report);
+      continue;
     }
 
-    const pagesToScan: Array<{ name: any; url: string }> = [];
-    pagesToScan.push({ name: 'Homepage', url: discovery.pages.homepage });
-    if (discovery.pages.about) pagesToScan.push({ name: 'About', url: discovery.pages.about });
-    if (discovery.pages.contact) pagesToScan.push({ name: 'Contact', url: discovery.pages.contact });
-    if (discovery.pages.investorRelations) pagesToScan.push({ name: 'Investor Relations', url: discovery.pages.investorRelations });
+    // Rate Limiting: Desktop UA Rotation & 4-12s randomized delay
+    const randomUA = DESKTOP_USER_AGENTS[i % DESKTOP_USER_AGENTS.length];
+    const context = await browser.newContext({ userAgent: randomUA, viewport: { width: 1920, height: 1080 } });
+    const page = await context.newPage();
 
-    const pageResults: PageAuditResult[] = [];
-    let totalScreenshots = 0;
-
-    for (const p of pagesToScan) {
-      console.log(`  -> Scanning target page: ${p.name} (${p.url})`);
-      const pageResult = await auditPageWithAxe(page, p.name, p.url);
-
-      const capturedScreenshots = await captureViolationScreenshots(
-        page,
-        company.companyName,
-        p.name,
-        pageResult.axeViolations,
-        screenshotsDir
-      );
-      pageResult.screenshots = capturedScreenshots;
-      totalScreenshots += capturedScreenshots.length;
-      pageResults.push(pageResult);
+    // Step 2: Bot Block Gate
+    let botBlock = { isBlocked: false } as any;
+    try {
+      const response = await page.goto(resolution.resolvedUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+      const html = await page.content();
+      const title = await page.title();
+      botBlock = checkBotBlock(html, title);
+    } catch (err: any) {
+      console.warn(`  ⚠️ Initial page load issue: ${err?.message}`);
     }
 
-    const allViolations = pageResults.flatMap(r => r.axeViolations);
+    if (botBlock.isBlocked) {
+      console.warn(`  🚫 BOT BLOCK DETECTED: Matched signature "${botBlock.signatureMatched}". Reclassified as Blocked (Bot Protection).`);
+      const report: CompanyAuditReportV11 = {
+        company,
+        resolution,
+        emailDiscovery: {
+          primaryEmail: { address: 'N/A', type: 'primary', label: 'Primary Contact Email', status: 'Not Found' },
+          regardingAccessibility: [],
+          overallStatus: 'Not Found',
+          evidenceScreenshots: [],
+        },
+        botBlock,
+        pages: [],
+        status: 'Blocked (Bot Protection)',
+        totalViolations: 0,
+        altTextViolations: 0,
+        contrastViolations: 0,
+        labelViolations: 0,
+        keyboardViolations: 0,
+        lighthouseAvgScore: 0,
+        deliverables: {} as any,
+        remarks: `Blocked by Bot Protection (${botBlock.signatureMatched})`,
+        timestamp: new Date().toISOString(),
+      };
+      reports.push(report);
+      await context.close();
+      continue;
+    }
+
+    // Step 3: Email Discovery & Evidence Capture
+    console.log(`  -> Running Email Discovery...`);
+    const emailDiscovery = await discoverEmailsAndEvidence(page, company.companyName, resolution.resolvedUrl, screenshotsDir);
+    console.log(`  ✓ Primary Email: ${emailDiscovery.primaryEmail.address} (${emailDiscovery.primaryEmail.status})`);
+
+    // Step 4: Accessibility Tool Scans
+    console.log(`  -> Running Axe-Core & Lighthouse Scans...`);
+    const pageResult = await auditPageWithAxe(page, 'Homepage', resolution.resolvedUrl);
+    const capturedScreenshots = await captureViolationScreenshots(page, company.companyName, 'Homepage', pageResult.axeViolations, screenshotsDir);
+    pageResult.screenshots = capturedScreenshots;
+
+    const allViolations = pageResult.axeViolations;
     const altTextCount = allViolations.filter(v => v.category === 'missing_alt_text').length;
     const contrastCount = allViolations.filter(v => v.category === 'color_contrast').length;
     const labelCount = allViolations.filter(v => v.category === 'form_labels').length;
     const keyboardCount = allViolations.filter(v => v.category === 'keyboard_navigation').length;
 
-    const avgLighthouse = pageResults.length > 0
-      ? Math.round(pageResults.reduce((acc, cur) => acc + cur.lighthouseScore, 0) / pageResults.length)
-      : 0;
-
-    const report: CompanyAuditReport = {
+    const report: CompanyAuditReportV11 = {
       company,
-      websiteVerified: true,
-      scanCompleted: true,
-      screenshotTaken: totalScreenshots > 0,
+      resolution,
+      emailDiscovery,
+      botBlock: { isBlocked: false },
+      pages: [pageResult],
       status: 'Completed',
-      pages: pageResults,
       totalViolations: allViolations.length,
       altTextViolations: altTextCount,
       contrastViolations: contrastCount,
       labelViolations: labelCount,
       keyboardViolations: keyboardCount,
-      lighthouseAvgScore: avgLighthouse,
-      remarks: `Scanned ${pageResults.length} pages. Violations: ${allViolations.length}. Lighthouse: ${avgLighthouse}/100.`,
+      lighthouseAvgScore: pageResult.lighthouseScore,
+      deliverables: {} as any,
+      remarks: `Scanned 1 page. Violations: ${allViolations.length}. Lighthouse A11y: ${pageResult.lighthouseScore}/100.`,
       timestamp: new Date().toISOString(),
     };
 
-    const safeName = company.companyName.replace(/[^a-zA-Z0-9]/g, '_');
-    fs.writeFileSync(
-      path.join(scansDir, `${safeName}_audit.json`),
-      JSON.stringify(report, null, 2),
-      'utf8'
-    );
+    // Step 5: Deliverables Pair Generation
+    const deliverables = generateDeliverablePairs(report, deliverablesDir);
+    report.deliverables = deliverables;
+
+    // Save Scans JSON
+    const safeCompany = company.companyName.replace(/[^a-zA-Z0-9]/g, '_');
+    fs.writeFileSync(path.join(scansDir, `${safeCompany}_audit.json`), JSON.stringify(report, null, 2), 'utf8');
 
     reports.push(report);
-    console.log(`  ✓ Audit Complete: ${allViolations.length} WCAG violations across ${pageResults.length} pages. Screenshots captured: ${totalScreenshots}`);
+    console.log(`  ✓ Scan Completed: ${allViolations.length} WCAG violations found. Deliverable pairs generated.`);
+
+    await context.close();
+
+    // 4-12s randomized rate limiting delay between domain scans
+    const delayMs = Math.floor(Math.random() * 4000) + 4000;
+    await new Promise(r => setTimeout(r, delayMs));
   }
 
   await browser.close();
 
+  // Export Master Tracker (Excel & CSV)
   exportTrackerFiles(reports, trackerDir);
-  console.log(`\n✅ Master Tracker updated in ${trackerDir} (Excel .xlsx & .csv)`);
+
+  // Step 6: Generate Post-Run RUN_REPORT_{timestamp}.md
+  const durationSeconds = Math.round((Date.now() - startTime) / 1000);
+  const stats: RunReportStats = {
+    timestamp: new Date().toISOString(),
+    durationSeconds,
+    totalCompanies: inputCompanies.length,
+    resolutionStats: {
+      selfSearchCount: reports.filter(r => r.resolution.source === 'self-search' || r.resolution.source === 'both-agreed').length,
+      fallbackCount: reports.filter(r => r.resolution.source === 'readymade-fallback').length,
+      conflictCount: reports.filter(r => r.resolution.hasConflict).length,
+    },
+    emailStats: {
+      verifiedCount: reports.filter(r => r.emailDiscovery.overallStatus === 'Verified').length,
+      guessedCount: reports.filter(r => r.emailDiscovery.overallStatus === 'Unverified - guessed pattern').length,
+      notFoundCount: reports.filter(r => r.emailDiscovery.overallStatus === 'Not Found').length,
+    },
+    scanStats: {
+      completedCount: reports.filter(r => r.status === 'Completed').length,
+      blockedCount: reports.filter(r => r.status === 'Blocked (Bot Protection)').length,
+      inaccessibleCount: reports.filter(r => r.status === 'Inaccessible').length,
+    },
+    circuitBreakerEvents,
+    conflictsTable: reports.filter(r => r.resolution.hasConflict).map(r => ({
+      company: r.company.companyName,
+      selfSearchUrl: r.resolution.selfSearchUrl || 'N/A',
+      readymadeUrl: r.resolution.readymadeUrl || 'N/A',
+      status: 'Conflict Flagged',
+    })),
+    blockedDomainsTable: reports.filter(r => r.botBlock.isBlocked).map(r => ({
+      company: r.company.companyName,
+      domain: r.resolution.resolvedUrl,
+      signatureMatched: r.botBlock.signatureMatched || 'Bot Signature',
+      attempts: 1,
+    })),
+    recommendedNextSteps: {
+      manualWebsiteResearch: reports.filter(r => r.resolution.hasConflict || !r.resolution.resolvedUrl).map(r => r.company.companyName),
+      noEmailFound: reports.filter(r => r.emailDiscovery.overallStatus !== 'Verified').map(r => r.company.companyName),
+      unresolvedConflicts: reports.filter(r => r.resolution.hasConflict).map(r => `${r.company.companyName} (${r.resolution.selfSearchUrl} vs ${r.resolution.readymadeUrl})`),
+      infraIssues: [],
+    },
+  };
+
+  const runReportPath = generateRunReport(stats, reportsDir);
+  console.log(`\n===============================================================`);
+  console.log(`✅ Run Completed in ${durationSeconds}s!`);
+  console.log(`Master Tracker: ${path.join(trackerDir, 'Simple_Accessibility_Outreach_Tracker.xlsx')}`);
+  console.log(`Run Report Generated: ${runReportPath}`);
+  console.log(`===============================================================\n`);
 
   return reports;
 }
 
-// Main CLI Execution
+// CLI Execution Block
 const args = process.argv.slice(2);
 let inputPath = '';
 const inputIdx = args.indexOf('--input');
@@ -210,7 +324,7 @@ const inputIdx = args.indexOf('--input');
 if (inputIdx !== -1 && args[inputIdx + 1]) {
   inputPath = args[inputIdx + 1];
 } else {
-  const possibleFiles = ['targets.xlsx', 'targets.xls', 'targets.json', 'targets.csv'];
+  const possibleFiles = ['Registered_Mutual_Funds_Enriched.xlsx', 'targets.json', 'targets.xlsx', 'targets.csv'];
   for (const pf of possibleFiles) {
     const fullP = path.join(process.cwd(), 'orchavate_gtm_workflow', pf);
     if (fs.existsSync(fullP)) {
@@ -220,26 +334,32 @@ if (inputIdx !== -1 && args[inputIdx + 1]) {
   }
 }
 
-let targetsToAudit: CompanyTarget[] = [];
+let targetsToAudit: CompanyInput[] = [];
 
 if (inputPath && fs.existsSync(inputPath)) {
-  console.log(`Loading target websites from file: ${inputPath}`);
   targetsToAudit = parseInputFile(inputPath);
 } else {
   targetsToAudit = [
     {
       srNo: 1,
-      assignedTo: 'Auditor 1',
       companyName: 'SEBI Official',
-      website: 'https://www.sebi.gov.in',
+      readymadeWebsite: 'https://www.sebi.gov.in',
       contactPerson: 'Compliance Officer',
       emailId: 'sebi@sebi.gov.in',
-      verifiedBy: 'Orchavate Automated Tool',
+      assignedTo: 'Auditor 1',
+    },
+    {
+      srNo: 2,
+      companyName: 'Example Corp',
+      readymadeWebsite: 'https://example.com',
+      contactPerson: 'Admin',
+      emailId: 'info@example.com',
+      assignedTo: 'Auditor 1',
     }
   ];
 }
 
 const outputDir = path.join(process.cwd(), 'orchavate_gtm_workflow', 'outputs');
-runWorkflow(targetsToAudit, outputDir)
-  .then(() => console.log('Audit workflow finished successfully.'))
-  .catch((err) => console.error('Audit workflow error:', err));
+runWorkflowV11(targetsToAudit, outputDir)
+  .then(() => console.log('v1.1 Audit Execution Completed Successfully.'))
+  .catch((err) => console.error('v1.1 Audit Execution Error:', err));
