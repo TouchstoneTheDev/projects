@@ -1,1 +1,3 @@
-export { createTrackerRow, exportTrackerFiles } from './reports/tracker.js';
+export { createTrackerRow, exportTrackerFiles, exportInfraTrackerFile, exportArtExperiencesTrackerFile, exportDigitalV13TrackerFile } from './reports/tracker.js';
+
+

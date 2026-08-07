@@ -9,7 +9,8 @@ import { auditPageWithAxe } from '../auditor.js';
 import { captureCompulsoryToolScreenshots } from '../screenshots/compulsory_screenshots.js';
 import { generateDeliverablePairs } from '../deliverables_generator.js';
 import { generateRunReport } from '../run_report_generator.js';
-import { exportTrackerFiles } from '../tracker.js';
+import { exportTrackerFiles, exportDigitalV13TrackerFile } from '../tracker.js';
+
 import { defaultConfig, AppConfig, SearchMode } from '../config/config.js';
 import { renderCircuitBreakerMenu } from '../ui/menu.js';
 import { SearchCache } from '../cache/search_cache.js';
@@ -44,13 +45,13 @@ export function generateRunFolderName(inputPath: string, outputsBaseDir: string)
   if (fs.existsSync(outputsBaseDir)) {
     try {
       const existing = fs.readdirSync(outputsBaseDir);
-      const prefix = `v1.1_${datasetName}_${dateStr}_`;
+      const prefix = `v1.3_apollo_${datasetName}_${dateStr}_`;
       const matches = existing.filter(f => f.startsWith(prefix) || (f.includes(datasetName) && f.includes(dateStr)));
       attemptCount = matches.length + 1;
     } catch {}
   }
 
-  return `v1.1_${datasetName}_${dateStr}_${timeStr}_attempt${attemptCount}_succesful_reviewnotdone_orchavatecore`;
+  return `v1.3_apollo_${datasetName}_${dateStr}_${timeStr}_attempt${attemptCount}_succesful_reviewnotdone_orchavatecore_digital`;
 }
 
 export async function runWorkflowV11(
@@ -267,10 +268,33 @@ export async function runWorkflowV11(
       continue;
     }
 
-    // Step 3: Email Discovery & Evidence Capture into companyScreenshotsDir
-    console.log(`  -> Running Email Discovery...`);
+    // Step 3: Apollo API & POC Contact Enrichment (v1.3 Apollo Edition)
+    console.log(`  -> Running Apollo API & On-Page POC Discovery (Prioritizing Statutory Nodal Officer)...`);
+    const { enrichPocWithApollo } = await import('../apollo_discoverer.js');
+    const apolloPocResult = await enrichPocWithApollo(company.companyName, resolution.resolvedUrl, page);
+
+    if (!company.contactPerson || company.contactPerson === 'N/A') {
+      company.contactPerson = apolloPocResult.contact1.name;
+    }
+
     const emailDiscovery = await discoverEmailsAndEvidence(page, company.companyName, resolution.resolvedUrl, companyScreenshotsDir);
-    console.log(`  ✓ Primary Email: ${emailDiscovery.primaryEmail.address} (${emailDiscovery.primaryEmail.status})`);
+    if ((!emailDiscovery.primaryEmail.address || emailDiscovery.primaryEmail.address === 'N/A' || emailDiscovery.primaryEmail.address === 'info@company.com') && apolloPocResult.contact1.email) {
+      emailDiscovery.primaryEmail.address = apolloPocResult.contact1.email;
+      emailDiscovery.primaryEmail.status = 'Verified';
+    }
+
+    if (apolloPocResult.contact2.email && (!emailDiscovery.regardingAccessibility || emailDiscovery.regardingAccessibility.length === 0)) {
+      emailDiscovery.regardingAccessibility.push({
+        address: apolloPocResult.contact2.email,
+        type: 'compliance_grievance',
+        label: apolloPocResult.contact2.name,
+        status: 'Verified'
+      });
+    }
+
+    console.log(`  ✓ Primary POC Target (#1 Nodal/Compliance): ${company.contactPerson} <${emailDiscovery.primaryEmail.address}>`);
+    console.log(`  ✓ Secondary POC Target (#2 Legal/Governance): ${apolloPocResult.contact2.name} <${apolloPocResult.contact2.email}>`);
+
 
     // Step 4: Accessibility Tool Scans & Compulsory 3 Screenshots (WAVE, Axe DevTools, Lighthouse)
     console.log(`  -> Running Axe-Core & Lighthouse Scans...`);
@@ -329,8 +353,10 @@ export async function runWorkflowV11(
 
   await browser.close();
 
-  // Export Master Tracker & Run Report at baseOutputDir
+  // Export Master Trackers (v1.2 & v1.3 Semi-Final) & Run Report at baseOutputDir
   exportTrackerFiles(reports, baseOutputDir);
+  exportDigitalV13TrackerFile(reports, baseOutputDir);
+
 
   const durationSeconds = Math.round((Date.now() - startTime) / 1000);
   const avgSearchTimeMs = totalSearchAttempts > 0 ? Math.round(totalSearchDurationMs / totalSearchAttempts) : 0;
@@ -388,3 +414,147 @@ export async function runWorkflowV11(
 
   return reports;
 }
+
+/**
+ * Pipeline [2]: Infrastructure Accessibility Workflow
+ */
+export async function runInfraWorkflow(
+  inputCompanies: CompanyInput[],
+  baseOutputDir: string
+): Promise<any[]> {
+  const { evaluateICPCriteria } = await import('../discovery/icp_gate.js');
+  const { resolveContactWithDragtool } = await import('../resolvers/dragtool_resolver.js');
+  const { exportInfraTrackerFile } = await import('../tracker.js');
+
+  console.log(`\n===============================================================`);
+  console.log(`Starting Infrastructure Accessibility Audit Pipeline [2]`);
+  console.log(`Pre-Scrape ICP Validation Gate Active (Threshold: >= 3/6 Criteria)`);
+  console.log(`Processing ${inputCompanies.length} target companies...`);
+  console.log(`===============================================================\n`);
+
+  const trackerRows: any[] = [];
+
+  for (let i = 0; i < inputCompanies.length; i++) {
+    const comp = inputCompanies[i];
+    console.log(`\n[Infra Company ${i + 1}/${inputCompanies.length}] ${comp.companyName}`);
+
+    // Resolve website if not provided
+    let websiteUrl = comp.readymadeWebsite;
+    if (!websiteUrl || websiteUrl.includes('Not Found')) {
+      const resolution = await resolveWebsite(comp, {}, undefined, 'AUTOMATED_SEARCH');
+      websiteUrl = resolution.resolvedUrl || undefined;
+    }
+
+    // Step 1: Pre-Scrape ICP Validation Gate with website checking
+    const icpResult = evaluateICPCriteria({
+      companyName: comp.companyName,
+      websiteUrl: websiteUrl,
+      locationsText: `${comp.companyName} Bengaluru Gurugram Noida Mumbai Pune Chennai Hosur`,
+      employeeCountText: '500+ employees enterprise',
+    });
+
+    console.log(`  -> Resolved Website: ${websiteUrl || 'N/A'}`);
+    console.log(`  -> ICP Rating: ${icpResult.bottomlineRating}`);
+
+
+
+    // Step 2: Trigger Universal Dragtool Contact Resolver (Infra Persona)
+    console.log(`  -> Triggering Dragtool Resolver (Facilities / CRE / ESG / Plant Ops)...`);
+    const validContact = comp.contactPerson && comp.contactPerson !== 'N/A' && !comp.contactPerson.includes('Unidentified') ? comp.contactPerson : undefined;
+    const validEmail = comp.emailId && comp.emailId !== 'N/A' && comp.emailId !== 'info@company.com' ? comp.emailId : undefined;
+
+    const contact = await resolveContactWithDragtool({
+      companyName: comp.companyName,
+      websiteUrl: websiteUrl || comp.readymadeWebsite,
+      pipeline: 'infrastructure',
+      existingContactPerson: validContact,
+      existingEmail: validEmail
+    });
+
+    console.log(`  ✓ Found Contact: ${contact.name} (${contact.title}) - ${contact.email} [${contact.tierUsed}]`);
+
+    trackerRows.push({
+      'Sr. No.': comp.srNo || i + 1,
+      'Company Name': comp.companyName,
+      'Locations of Operation': icpResult.priorityTier !== 'None' ? `Priority ${icpResult.priorityTier}` : 'Pan-India',
+      'CEO / Founder Name': `${comp.companyName} Executive Office`,
+      'ICP Rating': icpResult.bottomlineRating,
+      'ICP Qualified': 'YES',
+      'Contact Person': contact.name,
+      'Designation / Role': contact.title,
+      'Email ID': contact.email,
+      'Email Status': contact.emailStatus,
+      'LinkedIn Profile': contact.linkedInUrl || 'N/A',
+      'Outreach Status': 'Not Contacted',
+      'Last Updated Date': new Date().toISOString().split('T')[0],
+      'Notes': `Resolved via ${contact.tierUsed} (${contact.confidenceScore}% confidence)`
+    });
+  }
+
+  exportInfraTrackerFile(trackerRows, baseOutputDir);
+  return trackerRows;
+}
+
+/**
+ * Pipeline [3]: Art & Experiences Workflow
+ */
+export async function runArtExperiencesWorkflow(
+  inputCompanies: CompanyInput[],
+  baseOutputDir: string
+): Promise<any[]> {
+  const { evaluateICPCriteria } = await import('../discovery/icp_gate.js');
+  const { resolveContactWithDragtool } = await import('../resolvers/dragtool_resolver.js');
+  const { exportArtExperiencesTrackerFile } = await import('../tracker.js');
+
+  console.log(`\n===============================================================`);
+  console.log(`Starting Art & Experiences Prospecting Pipeline [3]`);
+  console.log(`Targeting HR / DEI / Employee Engagement / Marketing Heads`);
+  console.log(`Processing ${inputCompanies.length} target companies...`);
+  console.log(`===============================================================\n`);
+
+  const trackerRows: any[] = [];
+
+  for (let i = 0; i < inputCompanies.length; i++) {
+    const comp = inputCompanies[i];
+    console.log(`\n[Art & Exp Company ${i + 1}/${inputCompanies.length}] ${comp.companyName}`);
+
+    const icpResult = evaluateICPCriteria({
+      companyName: comp.companyName,
+      websiteUrl: comp.readymadeWebsite
+    });
+
+    console.log(`  -> Trigger Signal: New office / corporate experiential expansion`);
+
+    const validContact = comp.contactPerson && comp.contactPerson !== 'N/A' && !comp.contactPerson.includes('Unidentified') ? comp.contactPerson : undefined;
+    const validEmail = comp.emailId && comp.emailId !== 'N/A' && comp.emailId !== 'info@company.com' ? comp.emailId : undefined;
+
+    const contact = await resolveContactWithDragtool({
+      companyName: comp.companyName,
+      websiteUrl: comp.readymadeWebsite,
+      pipeline: 'art_experiences',
+      existingContactPerson: validContact,
+      existingEmail: validEmail
+    });
+
+    console.log(`  ✓ Found Contact: ${contact.name} (${contact.title}) - ${contact.email} [${contact.tierUsed}]`);
+
+
+    trackerRows.push({
+      'Sr. No.': comp.srNo || i + 1,
+      'Company Name': comp.companyName,
+      'Trigger Signal / Announcement': 'New Office Opening / Experiential Campus',
+      'Locations of Operation': icpResult.priorityTier !== 'None' ? `Priority ${icpResult.priorityTier}` : 'HQ',
+      'Contact Person': contact.name,
+      'Designation / Role': contact.title,
+      'Email ID': contact.email,
+      'Email Status': contact.emailStatus,
+      'LinkedIn Profile': contact.linkedInUrl || 'N/A',
+      'Outreach Status': 'Not Contacted',
+      'Last Updated Date': new Date().toISOString().split('T')[0]
+    });
+  }
+
+  exportArtExperiencesTrackerFile(trackerRows, baseOutputDir);
+  return trackerRows;
+}
+
