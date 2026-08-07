@@ -12,7 +12,7 @@ export function parseInputFile(filePath: string): CompanyInput[] {
     const nameKeywords = [
       'name of the stock broker', 'name of the broker', 'name of broker',
       'name of the applicant', 'name of fund', 'name of venture capital fund',
-      'name of entity', 'intermediary name', 'company name', 'name of amc',
+      'name of entity', 'intermediary name', 'company name', 'name of company', 'name_of_company', 'name of amc',
       'name of the intermediary', 'applicant name', 'company', 'name', 'fund name', 'entity'
     ];
 
@@ -84,7 +84,8 @@ export function parseInputFile(filePath: string): CompanyInput[] {
       const nameIdx = findColIndex(nameKeywords);
       if (nameIdx === -1) continue;
 
-      const websiteIdx = findColIndex(['website', 'url', 'company website', 'web address', 'site', 'web']);
+      const websiteIdx = findColIndex(['authentic website', 'readymade website', 'website url', 'company website', 'web address', 'website', 'url', 'domain', 'link', 'site', 'web']);
+
       const assignedIdx = findColIndex(['assigned to', 'assigned', 'auditor']);
       const contactIdx = findColIndex(['contact person', 'contact', 'contact person name', 'person']);
       const emailIdx = findColIndex(['email id', 'email', 'emailid', 'e-mail', 'contact email', 'email address']);
@@ -208,7 +209,8 @@ export function parseInputFile(filePath: string): CompanyInput[] {
 
     const srIdx = findColIndex(['sr. no.', 'sr.no.', 'sr no', 'srno', 's.no', 'sl.no', 's.n.', 'sl no']);
     const nameIdx = findColIndex(nameKeywords);
-    const websiteIdx = findColIndex(['website', 'url', 'company website', 'web address', 'site', 'web']);
+    const websiteIdx = findColIndex(['authentic website', 'readymade website', 'website url', 'company website', 'web address', 'website', 'url', 'domain', 'link', 'site', 'web']);
+
     const assignedIdx = findColIndex(['assigned to', 'assigned', 'auditor']);
     const contactIdx = findColIndex(['contact person', 'contact', 'contact person name', 'person']);
     const emailIdx = findColIndex(['email id', 'email', 'emailid', 'e-mail', 'contact email', 'email address']);
