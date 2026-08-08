@@ -8,15 +8,52 @@ import time
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-input_file = '/workspaces/projects/nse_ 100_first_Simple_Accessibility_Outreach_Tracker_EQUITY_L_from_nse_dataset_2390_uncategorized.xlsx'
-output_file = 'nse_tracker_enriched_clearbit.xlsx'
+import sys
+import os
 
-print(f"Loading {input_file}...")
+default_input = '/workspaces/projects/SME_EQUITY_L_562.csv'
+default_output = 'nse_tracker_enriched_clearbit.xlsx'
+
+# Check CLI arguments first or prompt interactively
+input_file = ''
+output_file = ''
+
+if '--input' in sys.argv:
+    idx = sys.argv.index('--input')
+    if idx + 1 < len(sys.argv):
+        input_file = sys.argv[idx + 1]
+
+if '--output' in sys.argv:
+    idx = sys.argv.index('--output')
+    if idx + 1 < len(sys.argv):
+        output_file = sys.argv[idx + 1]
+
+if not input_file:
+    user_in = input(f"Enter input file path [default: {default_input}]: ").strip().strip('"').strip("'")
+    input_file = user_in if user_in else default_input
+
+if not output_file:
+    user_out = input(f"Enter output file name [default: {default_output}]: ").strip().strip('"').strip("'")
+    output_file = user_out if user_out else default_output
+
+if not output_file.lower().endswith('.csv') and not output_file.lower().endswith('.xlsx') and not output_file.lower().endswith('.xls'):
+    output_file += '.xlsx'
+
+
+print(f"\nLoading {input_file}...")
 try:
-    df = pd.read_excel(input_file)
+    if input_file.lower().endswith('.csv'):
+        df = pd.read_csv(input_file)
+    else:
+        df = pd.read_excel(input_file)
 except FileNotFoundError:
     print(f"Error: Could not find {input_file}. Please check the file name.")
     exit()
+except Exception as e:
+    print(f"Error loading file: {e}")
+    exit()
+
+
 
 # Find the company name column dynamically
 company_col = None
@@ -118,5 +155,15 @@ df['LinkedIn'] = [res["LinkedIn"] for res in results]
 df['PDF Links'] = [res["PDF_Links"] for res in results]
 
 print("\nSaving updated tracker...")
-df.to_excel(output_file, index=False)
-print(f"Done! Saved as {output_file}")
+try:
+    if output_file.lower().endswith('.csv'):
+        df.to_csv(output_file, index=False)
+    else:
+        df.to_excel(output_file, index=False)
+    print(f"Done! Saved as {output_file}")
+except Exception as err:
+    fallback_csv = output_file.replace('.xlsx', '.csv').replace('.xls', '.csv')
+    if not fallback_csv.endswith('.csv'):
+        fallback_csv += '.csv'
+    df.to_csv(fallback_csv, index=False)
+    print(f"Done! Saved as {fallback_csv} (CSV fallback)")

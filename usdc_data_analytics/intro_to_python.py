@@ -34,26 +34,35 @@
 # Country = "India"
 # print(f"Hello, I'm {string_name}, {string_position} at the {Mission} of {Country}")
     
-operator
+print("assignment 1.welcome to python")
+print("question 1:what is python and its features \n answer: python is a high level programming language and its features are:\n1. easy to learn\n2. open source\n3. interpreted language\n4. dynamically typed\n5. object oriented\n6. portable\n7. extensible\n8. large standard library")
+print("question 2:what is the importance of python in data science \n answer: python is important in data science because it has a large number of libraries and frameworks that are specifically designed for data analysis, machine learning, and data visualization. It also has a simple syntax that makes it easy to learn and use for data scientists.")
+# operators, string
 
-comparison operators
-== equal to a==b #false
-!= not equal to a!=b
+print("operators in python are:\n1. arithmetic operators\n2. comparison operators\n3. logical operators\n4. assignment operators\n5. bitwise operators\n6. membership operators\n7. identity operators")
 
+print("arithmatic operators are:\n1. addition(+)\n2. subtraction(-)\n3. multiplication(*)\n4. division(/)\n5. modulus(%)\n6. exponentiation(**)\n7. floor division(//)")
 
+a= 10
+b = 20
+print("addition = ", a+b)
+print("subtraction = ", a-b)
+print("multiplication = ", a*b)
+print("division = ", a/b)
+print("modulus = ", a%b)
+print("exponentiation = ", a**b)
+print("floor division = ", a//b)
 
+print("comparison operators are:\n1. equal to(==)\n2. not equal to(!=)\n3. greater than(>)\n4. less than(<)\n5. greater than or equal to(>=)\n6. less than or equal to(<=)")    
 
-
-
-
-
-
-
-
-
-
-
-
+a = 10
+b = 20
+print("equal to = ", a==b)
+print("not equal to = ", a!=b)
+print("greater than = ", a>b)
+print("less than = ", a<b)
+print("greater than or equal to = ", a>=b)
+print("less than or equal to = ", a<=b)
 
 
 

@@ -5,7 +5,8 @@
   "description": "Automated digital accessibility outreach platform for SEBI-listed companies.",
   "main": "dist/cli.js",
   "bin": {
-    "orachavate": "dist/cli.js"
+    "orachavate": "dist/cli.js",
+    "infoharvester": "bin/infoharvester"
   },
   "scripts": {
     "clean": "rm -rf dist node_modules .turbo .cache",
@@ -13,7 +14,8 @@
     "lint": "eslint src tests --ext .ts",
     "test": "vitest run",
     "start": "node dist/cli.js",
-    "scan": "node --enable-source-maps dist/cli.js"
+    "scan": "node --enable-source-maps dist/cli.js",
+    "infoharvester": "./bin/infoharvester"
   },
   "keywords": [
     "accessibility",
