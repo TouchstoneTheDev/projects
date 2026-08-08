@@ -1,0 +1,223 @@
+{
+  "company": {
+    "srNo": 431,
+    "companyName": "Chemplast Sanmar Limited",
+    "readymadeWebsite": "chemplastsanmar.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://chemplastsanmar.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://chemplastsanmar.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@chemplastsanmar.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@chemplastsanmar.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@chemplastsanmar.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://chemplastsanmar.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span",
+          "html": "<span>Where integration is the key</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".search-box",
+          "html": "<input type=\"text\" class=\"search-box\" placeholder=\"Search\" name=\"search-box\" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href=\"specialty-paste-pvc-resin.php\"] > img[src$=\"more.jpg\"]",
+          "html": "<img src=\"images/more.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".chem:nth-child(2) > .r-more > a > img[src$=\"more.jpg\"]",
+          "html": "<img src=\"images/more.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"chlorochemicals.php\"] > img[src$=\"more.jpg\"]",
+          "html": "<img src=\"images/more.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[href$=\"hydrogen-peroxide.php\"] > img[src$=\"more.jpg\"]",
+          "html": "<img src=\"images/more.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "input-image-alt",
+          "impact": "critical",
+          "description": "Ensure <input type=\"image\"> elements have alternative text",
+          "help": "Image buttons must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/input-image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#search_btn",
+          "html": "<input type=\"image\" src=\"images/search.jpg\" id=\"search_btn\" value=\"Search\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".r-more > a[href=\"specialty-paste-pvc-resin.php\"]",
+          "html": "<a href=\"specialty-paste-pvc-resin.php\"><img src=\"images/more.jpg\" border=\"0\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".chem:nth-child(2) > .r-more > a",
+          "html": "<a href=\"custom-manufactured-chemicals.php\"><img src=\"images/more.jpg\" border=\"0\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".r-more > a[href$=\"chlorochemicals.php\"]",
+          "html": "<a href=\"chlorochemicals.php\"><img src=\"images/more.jpg\" border=\"0\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".r-more > a[href$=\"hydrogen-peroxide.php\"]",
+          "html": "<a href=\"hydrogen-peroxide.php\"><img src=\"images/more.jpg\" border=\"0\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 52,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 12,
+  "altTextViolations": 5,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 52,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chemplast Sanmar Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@chemplastsanmar.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chemplast Sanmar Limited\n- **Resolved URL:** [https://chemplastsanmar.com](https://chemplastsanmar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `span`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.search-box`\n3. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href=\"specialty-paste-pvc-resin.php\"] > img[src$=\"more.jpg\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a > img[src$=\"more.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chlorochemicals.php\"] > img[src$=\"more.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"hydrogen-peroxide.php\"] > img[src$=\"more.jpg\"]`\n8. **`[missing_alt_text] input-image-alt`** (CRITICAL)\n   - **Help:** Image buttons must have alternative text\n   - **Selector:** `#search_btn`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.r-more > a[href=\"specialty-paste-pvc-resin.php\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chemplast Sanmar Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@chemplastsanmar.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chemplast Sanmar Limited\n- **Resolved URL:** [https://chemplastsanmar.com](https://chemplastsanmar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `span`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.search-box`\n3. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href=\"specialty-paste-pvc-resin.php\"] > img[src$=\"more.jpg\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a > img[src$=\"more.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chlorochemicals.php\"] > img[src$=\"more.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"hydrogen-peroxide.php\"] > img[src$=\"more.jpg\"]`\n8. **`[missing_alt_text] input-image-alt`** (CRITICAL)\n   - **Help:** Image buttons must have alternative text\n   - **Selector:** `#search_btn`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.r-more > a[href=\"specialty-paste-pvc-resin.php\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Chemplast_Sanmar_Limited/screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Chemplast Sanmar Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@chemplastsanmar.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Chemplast Sanmar Limited\n- **Resolved URL:** [https://chemplastsanmar.com](https://chemplastsanmar.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@chemplastsanmar.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@chemplastsanmar.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `span`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.search-box`\n3. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href=\"specialty-paste-pvc-resin.php\"] > img[src$=\"more.jpg\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a > img[src$=\"more.jpg\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"chlorochemicals.php\"] > img[src$=\"more.jpg\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `a[href$=\"hydrogen-peroxide.php\"] > img[src$=\"more.jpg\"]`\n8. **`[missing_alt_text] input-image-alt`** (CRITICAL)\n   - **Help:** Image buttons must have alternative text\n   - **Selector:** `#search_btn`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.r-more > a[href=\"specialty-paste-pvc-resin.php\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.chem:nth-child(2) > .r-more > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Chemplast_Sanmar_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Chemplast_Sanmar_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 12. Lighthouse A11y: 52/100.",
+  "timestamp": "2026-08-06T21:30:22.713Z"
+}

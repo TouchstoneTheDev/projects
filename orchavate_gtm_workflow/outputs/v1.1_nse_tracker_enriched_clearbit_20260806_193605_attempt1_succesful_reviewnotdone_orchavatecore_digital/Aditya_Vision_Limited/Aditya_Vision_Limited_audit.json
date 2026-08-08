@@ -1,0 +1,1009 @@
+{
+  "company": {
+    "srNo": 233,
+    "companyName": "Aditya Vision Limited",
+    "readymadeWebsite": "adityavision.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://adityavision.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://adityavision.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "care@adityavision.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://adityavision.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "care@adityavision.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://adityavision.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://adityavision.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-attr",
+          "impact": "critical",
+          "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+          "help": "Required ARIA attributes must be provided",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-attr?application=playwright",
+          "category": "other",
+          "selector": "#searchbox",
+          "html": "<input id=\"searchbox\" data-mage-init=\"{\"quickSearch\":{\n\t\t\t...\" type=\"text\" name=\"q\" placeholder=\"Enter keywords to se...\" class=\"input-text input-sea...\" maxlength=\"128\" role=\"combobox\" aria-haspopup=\"false\" aria-expanded=\"true\" aria-autocomplete=\"both\" autocomplete=\"off\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".df-text",
+          "html": "<span class=\"df-text\">Shopping Cart</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-xs-3 > p",
+          "html": "<p>9955555544</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#newsletter-footer",
+          "html": "<input name=\"email\" type=\"email\" id=\"newsletter-footer\" onfocus=\"if(this.value=='Your email address') this.value='';\" onblur=\"if(this.value=='') this.value='Your email address';\" value=\"Your email address\" data-validate=\"{required:true, 'validate-email':true}\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "button[title=\"Subscribe\"] > span",
+          "html": "<span>Subscribe</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"developandpromote\"]",
+          "html": "<a title=\"developandpromote\" target=\"_blank\" href=\"https://www.developandpromote.co.uk/\">Develop and Promote Magento Websites. </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#newsletter-footer",
+          "html": "<input name=\"email\" type=\"email\" id=\"newsletter-footer\" onfocus=\"if(this.value=='Your email address') this.value='';\" onblur=\"if(this.value=='') this.value='Your email address';\" value=\"Your email address\" data-validate=\"{required:true, 'validate-email':true}\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .active.owl-item > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/sam.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(2) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/samg.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(3) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/a4.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(4) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/a1.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(5) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/a2.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(6) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/a3.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(7) > .item > a",
+          "html": "<a href=\"https://stores.adityavision.com/\"><img src=\"https://adityavision.com/media/wysiwyg/a5.jpeg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(13) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/iphone_17_air.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(14) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/Pro_1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(15) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/Air_1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(16) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/watch2.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(17) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/watch_1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(18) > .item > a",
+          "html": "<a href=\"https://adityavision.com/pre-booking\"><img src=\"https://adityavision.com/media/wysiwyg/airpods.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(3) > a",
+          "html": "<a href=\"https://adityavision.com/accessories-computer/headphones.html?p=2l\"><img src=\"https://adityavision.com/media/wysiwyg/bt-earphone.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(4) > a",
+          "html": "<a href=\"https://adityavision.com/saregama-carvaan-earphones-gx01-with-mic-designed-for-augmented-music-listening-experience-invoke-digital-assistance-classic-black.html\"><img src=\"https://adityavision.com/media/wysiwyg/carvaam-earphone.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(5) > a",
+          "html": "<a href=\"https://adityavision.com/saregama-carvaan-red-mini-scm02-3-w-bluetooth-speaker.html%7D%7D\"><img src=\"https://adityavision.com/media/wysiwyg/CARVAAN_2_1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(6) > a",
+          "html": "<a href=\"https://adityavision.com/personal-care/hair-dryer.html\"><img src=\"https://adityavision.com/media/wysiwyg/hair-dryer.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(7) > a",
+          "html": "<a href=\"https://adityavision.com/smart-watch-fitness-band.html\"><img src=\"https://adityavision.com/media/wysiwyg/smart-watch.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(8) > a",
+          "html": "<a href=\"https://adityavision.com/personal-care/hair-straightener.html\"><img src=\"https://adityavision.com/media/wysiwyg/Straightener-1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(9) > a",
+          "html": "<a href=\"https://adityavision.com/personal-care/trimmer.html\"><img src=\"https://adityavision.com/media/wysiwyg/trimmer-1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".speacial_offers:nth-child(10) > a",
+          "html": "<a href=\"https://adityavision.com/appliances/general-appliances/vaccum-cleaner.html\"><img src=\"https://adityavision.com/media/wysiwyg/vaccum-1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".custom-sm-imageslider-content > .owl-stage-outer > .owl-stage > .active.owl-item > .item > a",
+          "html": "<a href=\"https://adityavision.com/motorola-razr-gold-128-gb-6-gb-ram.html\"><img src=\"https://adityavision.com/media/wysiwyg/razr.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".custom-sm-imageslider-content > .owl-stage-outer > .owl-stage > .owl-item:nth-child(2) > .item > a",
+          "html": "<a href=\"https://adityavision.com/washing-machine.html\"><img src=\"https://adityavision.com/media/wysiwyg/wm-for-website.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".custom-sm-imageslider-content > .owl-stage-outer > .owl-stage > .owl-item:nth-child(3) > .item > a",
+          "html": "<a href=\"https://adityavision.com/smart-watch-fitness-band.html\"><img src=\"https://adityavision.com/media/wysiwyg/for-website.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8",
+          "html": "<ul id=\"ves-carousel35213966...\" class=\"custom-brand owl-car...\" data-rtl=\"false\" data-loop=\"false\" data-nav=\"false\" data-dot=\"true\" data-autoplay=\"true\" data-autoplay-timeou...=\"3000\" data-pauonhover=\"true\" data-mobile-items=\"1\" data-tablet-small-it...=\"2\" data-tablet-items=\"3\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(1) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/havells.html\" title=\"HAVELLS\"><img src=\"https://adityavision.com/media/ves/brand/HAVELS.png\" alt=\"HAVELLS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(2) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/godrej.html\" title=\"GODREJ\"><img src=\"https://adityavision.com/media/ves/brand/godrej.png\" alt=\"GODREJ\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(3) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/daikin.html\" title=\"DAIKIN\"><img src=\"https://adityavision.com/media/ves/brand/daikin.png\" alt=\"DAIKIN\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(4) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/carrier.html\" title=\"CARRIER\"><img src=\"https://adityavision.com/media/ves/brand/CARRIER.png\" alt=\"CARRIER\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(5) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/carvaan.html\" title=\"CARVAAN\"><img src=\"https://adityavision.com/media/ves/brand/caravan.png\" alt=\"CARVAAN\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(6) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/aisen.html\" title=\"AISEN\"><img src=\"https://adityavision.com/media/ves/brand/AISEN.png\" alt=\"AISEN\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(7) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/oneplus.html\" title=\"ONE PLUS\"><img src=\"https://adityavision.com/media/ves/brand/one-plus.png\" alt=\"ONE PLUS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(8) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/zebronics.html\" title=\"ZEBRONICS\"><img src=\"https://adityavision.com/media/ves/brand/zeb.png\" alt=\"ZEBRONICS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(9) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/whirlpool.html\" title=\"WHIRLPOOL\"><img src=\"https://adityavision.com/media/ves/brand/whirpool.png\" alt=\"WHIRLPOOL\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(10) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/hp.html\" title=\"H P\"><img src=\"https://adityavision.com/media/ves/brand/hp.png\" alt=\"H P\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(11) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/voltas.html\" title=\"VOLTAS\"><img src=\"https://adityavision.com/media/ves/brand/voltas.png\" alt=\"VOLTAS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(12) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/vivo.html\" title=\"VIVO\"><img src=\"https://adityavision.com/media/ves/brand/vivo.png\" alt=\"VIVO\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(13) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/v-guard.html\" title=\"V GUARD\"><img src=\"https://adityavision.com/media/ves/brand/VGUARD.png\" alt=\"V GUARD\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(14) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/vego.html\" title=\"VEGO\"><img src=\"https://adityavision.com/media/ves/brand/vego.png\" alt=\"VEGO\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(15) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/usha.html\" title=\"USHA\"><img src=\"https://adityavision.com/media/ves/brand/usha.png\" alt=\"USHA\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(16) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/tcl.html\" title=\"TCL\"><img src=\"https://adityavision.com/media/ves/brand/TCL.png\" alt=\"TCL\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(17) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/symphony.html\" title=\"SYMPHONY\"><img src=\"https://adityavision.com/media/ves/brand/symphony.png\" alt=\"SYMPHONY\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#ves-carousel35213966317860490826a74f23a2f9f8 > .owl-stage-outer > .owl-stage > .owl-item:nth-child(18) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/sony.html\" title=\"SONY\"><img src=\"https://adityavision.com/media/ves/brand/sony.png\" alt=\"SONY\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(19) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/samsung.html\" title=\"SAMSUNG\"><img src=\"https://adityavision.com/media/ves/brand/samsung_logo150_new.png\" alt=\"SAMSUNG\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(20) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/realme.html\" title=\"REALME\"><img src=\"https://adityavision.com/media/ves/brand/realme.png\" alt=\"REALME\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(21) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/racold.html\" title=\"RACLOD\"><img src=\"https://adityavision.com/media/ves/brand/racold.png\" alt=\"RACLOD\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(22) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/philips.html\" title=\"PHILIPS\"><img src=\"https://adityavision.com/media/ves/brand/philips.png\" alt=\"PHILIPS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(23) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/panasonic.html\" title=\"PANASONIC\"><img src=\"https://adityavision.com/media/ves/brand/panasonic.png\" alt=\"PANASONIC\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(24) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/oppo.html\" title=\"OPPO\"><img src=\"https://adityavision.com/media/ves/brand/oppo.png\" alt=\"OPPO\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(25) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/o-general.html\" title=\"O  GENERAL\"><img src=\"https://adityavision.com/media/ves/brand/general.png\" alt=\"O  GENERAL\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(26) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/motorola.html\" title=\"MOTOROLA\"><img src=\"https://adityavision.com/media/ves/brand/ar.png\" alt=\"MOTOROLA\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(27) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/morphy.html\" title=\"MORPHY\"><img src=\"https://adityavision.com/media/ves/brand/morphy.png\" alt=\"MORPHY\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(28) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/microsoft.html\" title=\"MICROSOFT\"><img src=\"https://adityavision.com/media/ves/brand/microsoft.png\" alt=\"MICROSOFT\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(29) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/mi.html\" title=\"MI\"><img src=\"https://adityavision.com/media/ves/brand/mi.png\" alt=\"MI\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(30) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/marshall.html\" title=\"MARSHALL\"><img src=\"https://adityavision.com/media/ves/brand/marshall.png\" alt=\"MARSHALL\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(31) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/lloyd.html\" title=\"LLOYD\"><img src=\"https://adityavision.com/media/ves/brand/lloyd.png\" alt=\"LLOYD\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(32) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/lg.html\" title=\"L G\"><img src=\"https://adityavision.com/media/ves/brand/lg.png\" alt=\"L G\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(33) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/lenovo.html\" title=\"LENOVO\"><img src=\"https://adityavision.com/media/ves/brand/lenovo.png\" alt=\"LENOVO\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(34) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/kent.html\" title=\"KENT\"><img src=\"https://adityavision.com/media/ves/brand/kent.png\" alt=\"KENT\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(35) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/hitachi.html\" title=\"HITACHI\"><img src=\"https://adityavision.com/media/ves/brand/htachi.png\" alt=\"HITACHI\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(36) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/haier.html\" title=\"HAIER \"><img src=\"https://adityavision.com/media/ves/brand/haier.png\" alt=\"HAIER \"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(37) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/eureka-forbes.html\" title=\"EUREKA FORBES\"><img src=\"https://adityavision.com/media/ves/brand/eufor.png.jpeg\" alt=\"EUREKA FORBES\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(38) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/dell.html\" title=\"DELL\"><img src=\"https://adityavision.com/media/ves/brand/dell.png\" alt=\"DELL\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(39) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/bosch.html\" title=\"BOSCH\"><img src=\"https://adityavision.com/media/ves/brand/bosch.png\" alt=\"BOSCH\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(40) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/bajaj.html\" title=\"BAJAJ\"><img src=\"https://adityavision.com/media/ves/brand/bajaj.png\" alt=\"BAJAJ\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(41) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/asus.html\" title=\"ASUS\"><img src=\"https://adityavision.com/media/ves/brand/asus.png\" alt=\"ASUS\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(42) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/apple.html\" title=\"APPLE\"><img src=\"https://adityavision.com/media/ves/brand/apple.png\" alt=\"APPLE\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(43) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/acer.html\" title=\"ACER\"><img src=\"https://adityavision.com/media/ves/brand/acer.png\" alt=\"ACER\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(44) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/amazon.html\" title=\"AMAZON \"><img src=\"https://adityavision.com/media/ves/brand/amazon.png\" alt=\"AMAZON \"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(45) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/i-f-b.html\" title=\"I F B\"><img src=\"https://adityavision.com/media/ves/brand/ifb.png\" alt=\"I F B\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(46) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/j-b-l.html\" title=\"J B L\"><img src=\"https://adityavision.com/media/ves/brand/jbl.png\" alt=\"J B L\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(47) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/ao-smith.html\" title=\"AO SMITH\"><img src=\"https://adityavision.com/media/ves/brand/ao_smith.png\" alt=\"AO SMITH\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(48) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/powerup.html\" title=\"POWERUP\"><img src=\"https://adityavision.com/media/ves/brand/powerup.png\" alt=\"POWERUP\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(49) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/blue-star.html\" title=\"BLUE STAR\"><img src=\"https://adityavision.com/media/ves/brand/bluestar.png\" alt=\"BLUE STAR\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(50) > .item",
+          "html": "<li class=\"item\">\n\t\t\t\t\t\t\t\t<div class=\"brand-item\">\n\t\t\t\t\t<div class=\"brand-image\"><a href=\"https://adityavision.com/brand/faber.html\" title=\"Faber\"><img src=\"https://adityavision.com/media/ves/brand/faber.png\" alt=\"Faber\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, minimum-scale=1.0, maximum-scale=1.0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select",
+          "html": "<select class=\"cat searchbox-cat\" name=\"cat\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 84,
+  "altTextViolations": 0,
+  "contrastViolations": 5,
+  "labelViolations": 1,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aditya Vision Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `84`  \n> **Verified Contact Email:** `care@adityavision.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@adityavision.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **84 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `80` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aditya Vision Limited\n- **Resolved URL:** [https://adityavision.com](https://adityavision.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@adityavision.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@adityavision.in` | **Status:** `Verified` | **Source Page:** https://adityavision.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#searchbox`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.df-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-xs-3 > p`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#newsletter-footer`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[title=\"Subscribe\"] > span`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"developandpromote\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#newsletter-footer`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .active.owl-item > .item > a`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(2) > .item > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(3) > .item > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aditya_Vision_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aditya_Vision_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aditya Vision Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `84`  \n> **Verified Contact Email:** `care@adityavision.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@adityavision.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **84 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `80` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aditya Vision Limited\n- **Resolved URL:** [https://adityavision.com](https://adityavision.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@adityavision.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@adityavision.in` | **Status:** `Verified` | **Source Page:** https://adityavision.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#searchbox`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.df-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-xs-3 > p`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#newsletter-footer`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[title=\"Subscribe\"] > span`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"developandpromote\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#newsletter-footer`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .active.owl-item > .item > a`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(2) > .item > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(3) > .item > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aditya_Vision_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aditya_Vision_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aditya_Vision_Limited/screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aditya Vision Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `84`  \n> **Verified Contact Email:** `care@adityavision.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@adityavision.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **84 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `80` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 1 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (1 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aditya Vision Limited\n- **Resolved URL:** [https://adityavision.com](https://adityavision.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@adityavision.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@adityavision.in` | **Status:** `Verified` | **Source Page:** https://adityavision.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#searchbox`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.df-text`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-xs-3 > p`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#newsletter-footer`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[title=\"Subscribe\"] > span`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"developandpromote\"]`\n7. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#newsletter-footer`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .active.owl-item > .item > a`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(2) > .item > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.diwali-banner > .sm-imageslider-inner > .sm-imageslider-content.owl-theme.owl-loaded > .owl-stage-outer > .owl-stage > .owl-item:nth-child(3) > .item > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aditya_Vision_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aditya_Vision_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aditya_Vision_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 84. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T20:44:45.037Z"
+}

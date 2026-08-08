@@ -1,0 +1,279 @@
+{
+  "company": {
+    "srNo": 133,
+    "companyName": "Amrutanjan Health Care Limited",
+    "readymadeWebsite": "amrutanjan.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://amrutanjan.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://amrutanjan.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investors@amrutanjan.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://amrutanjan.com/contact-address.html"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investors@amrutanjan.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://amrutanjan.com/contact-address.html"
+      },
+      {
+        "address": "investors@amrutanjan.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://amrutanjan.com/contact-address.html"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://amrutanjan.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[shape=\"circle\"]",
+          "html": "<area shape=\"circle\" coords=\"81,72,62\" href=\"index.html\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"12,28,98,81\"]",
+          "html": "<area shape=\"rect\" coords=\"12,28,98,81\" href=\"identity.html\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"-55,-3,-34,23\"]",
+          "html": "<area shape=\"rect\" coords=\"-55,-3,-34,23\" href=\"https://www.youtube.com/user/Amrutanjanforever\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"5,5,31,31\"]",
+          "html": "<area shape=\"rect\" coords=\"5,5,31,31\" href=\"https://www.youtube.com/user/Amrutanjanforever\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"-6,-4,161,71\"]",
+          "html": "<area shape=\"rect\" coords=\"-6,-4,161,71\" href=\"https://www.amrutanjanapmc.in\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"7,-2,96,112\"]",
+          "html": "<area shape=\"rect\" coords=\"7,-2,96,112\" target=\"_blank\" href=\"#\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"4,1,39,39\"]",
+          "html": "<area shape=\"rect\" coords=\"4,1,39,39\" href=\"https://www.facebook.com/WorldofAmrutanjan\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"identity.html\"][target=\"_blank\"] > .pd_1 > .pd_head",
+          "html": "<li class=\"pd_head\">About Amrutanjan Identity</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"www.amrutanjanapmc.in\"][target=\"_blank\"] > .pd_1 > .pd_head",
+          "html": "<li class=\"pd_head\">APMC</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"food-beverage.html\"][target=\"_blank\"] > .pd_1 > .pd_head",
+          "html": "<li class=\"pd_head\">Fruitnik</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[target=\"_blank\"]:nth-child(4) > .pd_1 > .pd_head",
+          "html": "<li class=\"pd_head\">Shop Online</li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"MRP_GST_Revision.pdf\"]",
+          "html": "<a style=\"font-size: 14px; color: #fff; font-weight: bold; background :#46b12e; margin: 3px;padding: 15px;box-shadow: 7px 9px 14px #bbe1a5;border-radius: 30px;font-family: Arial, Helvetica, sans-serif;\" href=\"pdf/MRP_GST_Revision.pdf\" target=\"_blank\" rel=\"noopener\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".left-footer > p",
+          "html": "<p>© Copyright 2015 - Amrutanjan Health Care Ltd. All rights reserved. Please read our privacy policy.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"bstat.png\"]",
+          "html": "<img src=\"images/bstat.png\" width=\"100%\" height=\"100%\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "td > a",
+          "html": "<a href=\"https://www.worldofamrutanjan.com\"><img src=\"images/bstat.png\" width=\"100%\" height=\"100%\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "ul[\\<li=\"\"]",
+          "html": "<ul <li=\"\"><a href=\"comfy-sanitary-napkin.html\"><span>Comfy Snug Fit</span></a><li><a href=\"comfyxl.html\"><span>Comfy Snug Fit XL</span></a></li><li><a href=\"comfyuxl.html\"><span>Comfy Snug Fit ULTRA XL</span></a></li>\n\t\t\t\t\t\t\t</ul>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 32,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 17,
+  "altTextViolations": 8,
+  "contrastViolations": 6,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 32,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Amrutanjan Health Care Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@amrutanjan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@amrutanjan.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Amrutanjan Health Care Limited\n- **Resolved URL:** [https://amrutanjan.com](https://amrutanjan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@amrutanjan.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n- **General Contact Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[shape=\"circle\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"12,28,98,81\"]`\n3. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-55,-3,-34,23\"]`\n4. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"5,5,31,31\"]`\n5. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-6,-4,161,71\"]`\n6. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"7,-2,96,112\"]`\n7. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,1,39,39\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"identity.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.amrutanjanapmc.in\"][target=\"_blank\"] > .pd_1 > .pd_head`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"food-beverage.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Amrutanjan Health Care Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@amrutanjan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@amrutanjan.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Amrutanjan Health Care Limited\n- **Resolved URL:** [https://amrutanjan.com](https://amrutanjan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@amrutanjan.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n- **General Contact Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[shape=\"circle\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"12,28,98,81\"]`\n3. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-55,-3,-34,23\"]`\n4. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"5,5,31,31\"]`\n5. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-6,-4,161,71\"]`\n6. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"7,-2,96,112\"]`\n7. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,1,39,39\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"identity.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.amrutanjanapmc.in\"][target=\"_blank\"] > .pd_1 > .pd_head`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"food-beverage.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Amrutanjan_Health_Care_Limited/screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Amrutanjan Health Care Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@amrutanjan.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@amrutanjan.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Amrutanjan Health Care Limited\n- **Resolved URL:** [https://amrutanjan.com](https://amrutanjan.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@amrutanjan.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n- **General Contact Email:** `investors@amrutanjan.com` | **Status:** `Verified` | **Source Page:** https://amrutanjan.com/contact-address.html\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[shape=\"circle\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"12,28,98,81\"]`\n3. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-55,-3,-34,23\"]`\n4. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"5,5,31,31\"]`\n5. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"-6,-4,161,71\"]`\n6. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"7,-2,96,112\"]`\n7. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,1,39,39\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"identity.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.amrutanjanapmc.in\"][target=\"_blank\"] > .pd_1 > .pd_head`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"food-beverage.html\"][target=\"_blank\"] > .pd_1 > .pd_head`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Amrutanjan_Health_Care_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 17. Lighthouse A11y: 32/100.",
+  "timestamp": "2026-08-06T20:22:43.660Z"
+}

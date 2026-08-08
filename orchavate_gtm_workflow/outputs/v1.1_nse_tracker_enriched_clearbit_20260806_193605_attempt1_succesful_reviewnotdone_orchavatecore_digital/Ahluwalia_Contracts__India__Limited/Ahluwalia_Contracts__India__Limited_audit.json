@@ -1,0 +1,179 @@
+{
+  "company": {
+    "srNo": 88,
+    "companyName": "Ahluwalia Contracts (India) Limited",
+    "readymadeWebsite": "acilnet.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://acilnet.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://acilnet.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@acilnet.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@acilnet.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@acilnet.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://acilnet.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".flex-active",
+          "html": "<a href=\"#\" aria-label=\"Show slide 1 of 6\" role=\"tab\" class=\"flex-active\">1</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 2 of 6\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 2 of 6\" role=\"tab\">2</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 3 of 6\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 3 of 6\" role=\"tab\">3</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 4 of 6\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 4 of 6\" role=\"tab\">4</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 5 of 6\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 5 of 6\" role=\"tab\">5</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 6 of 6\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 6 of 6\" role=\"tab\">6</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".page-feature",
+          "html": "<div class=\"page-feature\">GEOMETRY . PRECISION  . EXPERTISE  /  OVER 40 YEARS IN CONSTRTUCTION</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "ol",
+          "html": "<ol class=\"flex-control-nav flex-control-paging\" aria-label=\"Slide controls\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 68,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 8,
+  "altTextViolations": 0,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 68,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acilnet.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acilnet.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://acilnet.com](https://acilnet.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acilnet.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@acilnet.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@acilnet.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 6\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 6\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 6\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 6\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 6\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.page-feature`\n8. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `ol`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acilnet.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acilnet.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://acilnet.com](https://acilnet.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acilnet.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@acilnet.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@acilnet.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 6\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 6\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 6\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 6\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 6\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.page-feature`\n8. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `ol`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `68 / 100`  \n> **Total WCAG Violations:** `8`  \n> **Verified Contact Email:** `info@acilnet.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@acilnet.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **68/100** on automated WCAG 2.1 AA accessibility testing with **8 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `68/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://acilnet.com](https://acilnet.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@acilnet.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@acilnet.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@acilnet.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 6\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 6\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 6\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 6\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 6\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.page-feature`\n8. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `ol`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 8. Lighthouse A11y: 68/100.",
+  "timestamp": "2026-08-06T19:50:20.579Z"
+}

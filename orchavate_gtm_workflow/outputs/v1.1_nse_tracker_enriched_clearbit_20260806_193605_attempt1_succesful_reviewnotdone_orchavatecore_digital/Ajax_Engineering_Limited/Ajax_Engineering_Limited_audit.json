@@ -1,0 +1,256 @@
+{
+  "company": {
+    "srNo": 95,
+    "companyName": "Ajax Engineering Limited",
+    "readymadeWebsite": "ajax-engg.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://ajax-engg.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://ajax-engg.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@ajax-engg.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@ajax-engg.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@ajax-engg.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://ajax-engg.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#w-tabs-0-data-w-pane-0 > .padding-global > .container-large > .padding-section-large > .tabs_component > .tab-content > .heading-style-h2.text-color-grey",
+          "html": "<h2 class=\"heading-style-h2 text-color-grey capitalize\"><span class=\"text-color-black text-weight-light\">Batching Plant:</span> The Future of Construction</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .slider-head.background-color-00063f[aria-hidden=\"true\"] > .slider-text.fixed-height.heading-style-h1",
+          "html": "<h3 class=\"heading-style-h1 background-color-00063f fixed-height slider-text\" aria-hidden=\"true\">Training</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .worksans-font.fixed-height",
+          "html": "<p class=\"worksans-font text-size-medium fixed-height\" aria-hidden=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rl_footer1_logo-link",
+          "html": "<a href=\"#\" class=\"rl_footer1_logo-link w-nav-brand\"><img src=\"https://cdn.prod.website-files.com/65006e6ed741800ddeb94c08/657198b293e63844c0a77488_ajax_logo.svg\" loading=\"lazy\" alt=\"\" class=\"ajax-logo-footer\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.facebook.com/people/Ajaxengineering/100088345628518/\" target=\"_blank\" class=\"rl_footer1_social-link w-inline-block\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://www.instagram.com/ajaxengineering/\" target=\"_blank\" class=\"rl_footer1_social-link w-inline-block\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"AJAXENGG\"]",
+          "html": "<a href=\"https://twitter.com/AJAXENGG\" target=\"_blank\" class=\"rl_footer1_social-link w-inline-block\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(4)",
+          "html": "<a href=\"https://www.youtube.com/channel/UCXLcKDPPWN_CgCpSdAU_OFQ\" target=\"_blank\" class=\"rl_footer1_social-link w-inline-block\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(5)",
+          "html": "<a href=\"https://www.linkedin.com/company/ajax-engineering-official/\" target=\"_blank\" class=\"rl_footer1_social-link w-inline-block\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#w-dropdown-toggle-1",
+          "html": "<div class=\"rl_navbar2_dropdwn-toggle w-dropdown-toggle\" id=\"w-dropdown-toggle-1\" aria-controls=\"w-dropdown-list-1\" aria-haspopup=\"menu\" aria-expanded=\"false\" role=\"button\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "svg-img-alt",
+          "impact": "serious",
+          "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text",
+          "help": "<svg> elements with an img role must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/svg-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".p-button.w-inline-block[href$=\"about-us\"] > .button-inner.background-color-white > .icon-embed-xsmall.w-embed > svg[viewBox=\"0 0 22 12\"][preserveAspectRatio=\"xMidYMid meet\"][role=\"img\"]",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 22 12\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "svg-img-alt",
+          "impact": "serious",
+          "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text",
+          "help": "<svg> elements with an img role must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/svg-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"1 of 5\"] > .show-slide-content > .showcase-card-w > .p-button.w-inline-block[href$=\"showcase\"] > .text-color-black.button-inner.background-color-white > .icon-embed-xsmall.w-embed > svg[viewBox=\"0 0 22 12\"][preserveAspectRatio=\"xMidYMid meet\"][role=\"img\"]",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 22 12\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "svg-img-alt",
+          "impact": "serious",
+          "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text",
+          "help": "<svg> elements with an img role must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/svg-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"1 of 7\"] > .action-slide-content.overflow-hidden.background-color-00063f > .action-left > .light-box.w-lightbox[aria-label=\"open lightbox\"] > .icon-embed-xlarge.z-index-1.w-embed > svg[viewBox=\"0 0 107 107\"][preserveAspectRatio=\"xMidYMid meet\"][role=\"img\"]",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 107 107\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "svg-img-alt",
+          "impact": "serious",
+          "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text",
+          "help": "<svg> elements with an img role must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/svg-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"1 of 7\"] > .action-slide-content.overflow-hidden.background-color-00063f > .action-right > .slider-content-w > .qoute-top.w-embed > svg[viewBox=\"0 0 347 244\"][preserveAspectRatio=\"xMidYMid meet\"][role=\"img\"]",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 347 244\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "svg-img-alt",
+          "impact": "serious",
+          "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text",
+          "help": "<svg> elements with an img role must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/svg-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[aria-label=\"1 of 4\"] > .padding-global > .padding-section-medium > .container-large > .dealer-content-w > .dealer-content > .heading-wrapper.capitalize > .nav-button.w-inline-block[href$=\"contact-us\"] > .background-color-black.button-inner > .icon-embed-xsmall.w-embed > svg[viewBox=\"0 0 22 12\"][preserveAspectRatio=\"xMidYMid meet\"][role=\"img\"]",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 22 12\" fill=\"none\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 40,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 15,
+  "altTextViolations": 5,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 40,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ajax Engineering Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@ajax-engg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ajax Engineering Limited\n- **Resolved URL:** [https://ajax-engg.com](https://ajax-engg.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#w-tabs-0-data-w-pane-0 > .padding-global > .container-large > .padding-section-large > .tabs_component > .tab-content > .heading-style-h2.text-color-grey`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .slider-head.background-color-00063f[aria-hidden=\"true\"] > .slider-text.fixed-height.heading-style-h1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .worksans-font.fixed-height`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_logo-link`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(1)`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(2)`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"AJAXENGG\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(4)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(5)`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#w-dropdown-toggle-1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ajax_Engineering_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ajax_Engineering_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ajax Engineering Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@ajax-engg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ajax Engineering Limited\n- **Resolved URL:** [https://ajax-engg.com](https://ajax-engg.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#w-tabs-0-data-w-pane-0 > .padding-global > .container-large > .padding-section-large > .tabs_component > .tab-content > .heading-style-h2.text-color-grey`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .slider-head.background-color-00063f[aria-hidden=\"true\"] > .slider-text.fixed-height.heading-style-h1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .worksans-font.fixed-height`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_logo-link`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(1)`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(2)`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"AJAXENGG\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(4)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(5)`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#w-dropdown-toggle-1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ajax_Engineering_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ajax_Engineering_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Ajax_Engineering_Limited/screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ajax Engineering Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `40 / 100`  \n> **Total WCAG Violations:** `15`  \n> **Verified Contact Email:** `info@ajax-engg.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **40/100** on automated WCAG 2.1 AA accessibility testing with **15 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `40/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ajax Engineering Limited\n- **Resolved URL:** [https://ajax-engg.com](https://ajax-engg.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ajax-engg.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ajax-engg.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#w-tabs-0-data-w-pane-0 > .padding-global > .container-large > .padding-section-large > .tabs_component > .tab-content > .heading-style-h2.text-color-grey`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .slider-head.background-color-00063f[aria-hidden=\"true\"] > .slider-text.fixed-height.heading-style-h1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.timeline-slide.w-slide[aria-label=\"2 of 3\"] > .timeline-slide_content-w[aria-hidden=\"true\"] > .slide-head_timeline[aria-hidden=\"true\"] > .layout_component[aria-hidden=\"true\"] > .worksans-font.fixed-height`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_logo-link`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(1)`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(2)`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"AJAXENGG\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(4)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.rl_footer1_social-link.w-inline-block[target=\"_blank\"]:nth-child(5)`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#w-dropdown-toggle-1`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ajax_Engineering_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ajax_Engineering_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ajax_Engineering_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 15. Lighthouse A11y: 40/100.",
+  "timestamp": "2026-08-06T19:55:10.782Z"
+}

@@ -1,0 +1,201 @@
+{
+  "company": {
+    "srNo": 7,
+    "companyName": "Bank of Baroda",
+    "readymadeWebsite": "https://www.bankofbaroda.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Compliance Officer (Bank of Baroda)",
+    "emailId": "info@bankofbaroda.in",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.bankofbaroda.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.bankofbaroda.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@bankofbaroda.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@bankofbaroda.in",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@bankofbaroda.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.bankofbaroda.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".bpp-homepage-slider",
+          "html": "<button class=\"slick-play-pause bpp-homepage-slider playing\" tabindex=\"0\" role=\"button\" data-slider=\".slides\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bob-loader-parent-div > span",
+          "html": "<span>Loading Offers</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".info > a[href$=\"cookie-policy\"]",
+          "html": "<a href=\"/cookie-policy\" title=\"\">click here</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "#chatIframe",
+          "html": "<iframe id=\"chatIframe\" allow=\"microphone\" data-src=\"https://adi.bankofbaroda.bank.in?src=WEB\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "#videochatIframe",
+          "html": "<iframe id=\"videochatIframe\" data-src=\"/chat/bob/countrywebsite/india/videochat/video_calling.html\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#floatingIconsList",
+          "html": "<ul id=\"floatingIconsList\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#videoChatLi",
+          "html": "<li class=\"bob-video-chat-li\" id=\"videoChatLi\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".bob-msg-li",
+          "html": "<li class=\"bob-msg-li chat-adi\">\n            <a href=\"javascript:void(0);\" title=\"\">\n                <img src=\"/chat/bob/countrywebsite/india/build/logo/logo512.png\" alt=\"Chat\" width=\"28\" height=\"34\">\n            </a>\n        </li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".slide",
+          "html": "<li class=\"slide fade\" style=\"display: block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 60,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 10,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 60,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bank of Baroda\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `info@bankofbaroda.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bank of Baroda\n- **Resolved URL:** [https://www.bankofbaroda.in](https://www.bankofbaroda.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bpp-homepage-slider`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bob-loader-parent-div > span`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info > a[href$=\"cookie-policy\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#chatIframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#videochatIframe`\n6. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `#floatingIconsList`\n7. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `#videoChatLi`\n8. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.bob-msg-li`\n9. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.slide`\n10. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bank_of_Baroda_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bank_of_Baroda_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bank of Baroda\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `info@bankofbaroda.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bank of Baroda\n- **Resolved URL:** [https://www.bankofbaroda.in](https://www.bankofbaroda.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bpp-homepage-slider`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bob-loader-parent-div > span`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info > a[href$=\"cookie-policy\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#chatIframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#videochatIframe`\n6. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `#floatingIconsList`\n7. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `#videoChatLi`\n8. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.bob-msg-li`\n9. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.slide`\n10. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bank_of_Baroda_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bank_of_Baroda_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214434_attempt13_succesful_reviewnotdone_orchavatecore_digital/Bank_of_Baroda/screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bank of Baroda\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `60 / 100`  \n> **Total WCAG Violations:** `10`  \n> **Verified Contact Email:** `info@bankofbaroda.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **60/100** on automated WCAG 2.1 AA accessibility testing with **10 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `60/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bank of Baroda\n- **Resolved URL:** [https://www.bankofbaroda.in](https://www.bankofbaroda.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bankofbaroda.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@bankofbaroda.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.bpp-homepage-slider`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.bob-loader-parent-div > span`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.info > a[href$=\"cookie-policy\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#chatIframe`\n5. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `#videochatIframe`\n6. **`[other] list`** (SERIOUS)\n   - **Help:** <ul> and <ol> must only directly contain <li>, <script> or <template> elements\n   - **Selector:** `#floatingIconsList`\n7. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `#videoChatLi`\n8. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.bob-msg-li`\n9. **`[other] listitem`** (SERIOUS)\n   - **Help:** <li> elements must be contained in a <ul> or <ol>\n   - **Selector:** `.slide`\n10. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bank_of_Baroda_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bank_of_Baroda_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bank_of_Baroda_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 10. Lighthouse A11y: 60/100.",
+  "timestamp": "2026-08-06T21:46:03.287Z"
+}

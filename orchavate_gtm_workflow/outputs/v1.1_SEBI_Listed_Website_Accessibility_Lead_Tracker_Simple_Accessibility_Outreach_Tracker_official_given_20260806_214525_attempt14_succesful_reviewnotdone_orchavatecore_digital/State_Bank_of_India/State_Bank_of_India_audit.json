@@ -1,0 +1,113 @@
+{
+  "company": {
+    "srNo": 4,
+    "companyName": "State Bank of India",
+    "readymadeWebsite": "https://sbi.co.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Compliance Officer (State Bank of India)",
+    "emailId": "epg.cms@sbi.co.in",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://sbi.co.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://sbi.co.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@sbi.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@sbi.co.in",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@sbi.co.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://sbi.co.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": ".spinner",
+          "html": "<div class=\"spinner\" aria-label=\"Loading\"></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-refresh",
+          "impact": "critical",
+          "description": "Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh",
+          "help": "Delayed refresh under 20 hours must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-refresh?application=playwright",
+          "category": "other",
+          "selector": "meta[http-equiv=\"refresh\"]",
+          "html": "<meta http-equiv=\"refresh\" content=\"5; url=https://sbi.bank.in/\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 2,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 92,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — State Bank of India\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `92 / 100`  \n> **Total WCAG Violations:** `2`  \n> **Verified Contact Email:** `info@sbi.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **92/100** on automated WCAG 2.1 AA accessibility testing with **2 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `92/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `1` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** State Bank of India\n- **Resolved URL:** [https://sbi.co.in](https://sbi.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.spinner`\n2. **`[other] meta-refresh`** (CRITICAL)\n   - **Help:** Delayed refresh under 20 hours must not be used\n   - **Selector:** `meta[http-equiv=\"refresh\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/State_Bank_of_India_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/State_Bank_of_India_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — State Bank of India\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `92 / 100`  \n> **Total WCAG Violations:** `2`  \n> **Verified Contact Email:** `info@sbi.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **92/100** on automated WCAG 2.1 AA accessibility testing with **2 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `92/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `1` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** State Bank of India\n- **Resolved URL:** [https://sbi.co.in](https://sbi.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.spinner`\n2. **`[other] meta-refresh`** (CRITICAL)\n   - **Help:** Delayed refresh under 20 hours must not be used\n   - **Selector:** `meta[http-equiv=\"refresh\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/State_Bank_of_India_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/State_Bank_of_India_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214525_attempt14_succesful_reviewnotdone_orchavatecore_digital/State_Bank_of_India/screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — State Bank of India\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `92 / 100`  \n> **Total WCAG Violations:** `2`  \n> **Verified Contact Email:** `info@sbi.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟢 Excellent (Low Risk)\n- **What this Score Means:** The website adheres well to WCAG 2.1 AA accessibility standards. Disabled users and screen reader operators can navigate the platform with minimal friction.\n- **Business & Legal Risk:** Low compliance risk. Minor polish needed for complete digital inclusion.\n- **Primary Outreach Contact:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **92/100** on automated WCAG 2.1 AA accessibility testing with **2 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `92/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `1` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** State Bank of India\n- **Resolved URL:** [https://sbi.co.in](https://sbi.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@sbi.co.in` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@sbi.co.in` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.spinner`\n2. **`[other] meta-refresh`** (CRITICAL)\n   - **Help:** Delayed refresh under 20 hours must not be used\n   - **Selector:** `meta[http-equiv=\"refresh\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/State_Bank_of_India_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/State_Bank_of_India_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/State_Bank_of_India_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 2. Lighthouse A11y: 92/100.",
+  "timestamp": "2026-08-06T21:46:06.975Z"
+}

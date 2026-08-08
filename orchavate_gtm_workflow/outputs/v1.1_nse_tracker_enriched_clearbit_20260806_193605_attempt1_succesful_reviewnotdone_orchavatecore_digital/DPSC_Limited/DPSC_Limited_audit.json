@@ -1,0 +1,756 @@
+{
+  "company": {
+    "srNo": 580,
+    "companyName": "DPSC Limited",
+    "readymadeWebsite": "dpschile.cl",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://dpschile.cl",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://dpschile.cl"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "ventas@dpschile.cl",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://dpschile.cl"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "ventas@dpschile.cl",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://dpschile.cl"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://dpschile.cl",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-attr",
+          "impact": "critical",
+          "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+          "help": "Required ARIA attributes must be provided",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-attr?application=playwright",
+          "category": "other",
+          "selector": "#search",
+          "html": "<input id=\"search\" data-mage-init=\"{\"quickSearch\":{\n   ...\" type=\"text\" name=\"q\" value=\"\" placeholder=\"Buscar...\" class=\"input-text\" maxlength=\"128\" role=\"combobox\" aria-haspopup=\"false\" aria-autocomplete=\"both\" autocomplete=\"off\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-lg-10 > div",
+          "html": "<div style=\"text-align: justify; font-weight: 300; font-size: 14px; margin-bottom: 35px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#btn-accept-some",
+          "html": "<button id=\"btn-accept-some\" class=\"cookie-consent-button btn-outline\">Aceptar Selección</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#btn-reject-all",
+          "html": "<button id=\"btn-reject-all\" class=\"cookie-consent-button btn-grayscale\">Rechazar Todo</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "label:nth-child(2)",
+          "html": "<label><input id=\"consent-analytics\" type=\"checkbox\" value=\"Analytics\" checked=\"\"> Analytics</label>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "label:nth-child(3)",
+          "html": "<label><input id=\"consent-preferences\" type=\"checkbox\" value=\"Preferences\" checked=\"\"> Preferencias</label>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "label:nth-child(4)",
+          "html": "<label><input id=\"consent-marketing\" type=\"checkbox\" value=\"Marketing\"> Marketing</label>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"50\"]",
+          "html": "<img src=\"https://www.dpschile.cl/media/.thumbswysiwyg/wsp-button.png\" width=\"50\" height=\"50\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".showcart",
+          "html": "<a href=\"https://www.dpschile.cl/quotation/quote/\" class=\"action showcart\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".level0.ui-menu-item:nth-child(1) > a[href$=\"dpschile.cl/\"]",
+          "html": "<a href=\"https://www.dpschile.cl/\" class=\"level-top\"><span></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(1) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/bowl-kraft-1000-cc-6x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(2) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/vaso-pet-16-oz-pack-list-v-2-20x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(3) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/toalla-jumbo-promo-dps-2-x-rollos.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(4) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/rollo-aluminio-100-mts.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(5) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-1-0-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(6) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-1-5-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(7) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-0-75-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(8) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/cucahara-paleta-madera-9-4-cm-envasada-1x500.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(9) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/vaso-pet-12-oz-pack-list-v-2-20x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(10) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/tenedor-economico-blanco-10x100.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(11) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/bowl-kraft-1000-cc-6x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(12) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/vaso-pet-16-oz-pack-list-v-2-20x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(13) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/toalla-jumbo-promo-dps-2-x-rollos.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(14) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/rollo-aluminio-100-mts.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(15) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-1-0-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(16) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-1-5-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(17) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/pocillo-pp-0-75-oz-pack-list-10x250.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(18) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/cucahara-paleta-madera-9-4-cm-envasada-1x500.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(19) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/vaso-pet-12-oz-pack-list-v-2-20x50.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(20) > .product-item.item.product > .product-item-info.type4[data-container=\"product-grid\"] > .photo.product-item-photo.product > a",
+          "html": "<a href=\"https://www.dpschile.cl/tenedor-economico-blanco-10x100.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[alt=\"WhatsApp DPS\"]",
+          "html": "<a href=\"https://wa.me/56999372600\" alt=\"WhatsApp DPS\" target=\"_blank\"><img src=\"https://www.dpschile.cl/media/.thumbswysiwyg/wsp-button.png\" width=\"50\" height=\"50\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes",
+          "html": "<ul class=\"owl-carousel owl-theme carru-clientes owl-loaded owl-drag\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-md-4:nth-child(1) > .footer-links > .d-none.d-md-block > .tabBlock > .list-links.list-unstyled:nth-child(1)",
+          "html": "<ul class=\"list-links list-unstyled\" style=\"font-size: 16px; line-height: 25px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-md-4:nth-child(3) > .footer-links > .d-none.d-md-block > .tabBlock > .list-links.list-unstyled:nth-child(1)",
+          "html": "<ul class=\"list-links list-unstyled\" style=\"font-size: 16px; line-height: 25px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-md-4:nth-child(3) > .footer-links > .d-none.d-md-block > .tabBlock > .list-links.list-unstyled:nth-child(3)",
+          "html": "<ul class=\"list-links list-unstyled\" style=\"font-size: 16px; line-height: 25px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".list-links.list-unstyled:nth-child(5)",
+          "html": "<ul class=\"list-links list-unstyled\" style=\"font-size: 16px; line-height: 25px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(1) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/pronto-copec-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(2) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/sodexo-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(3) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/tavelli-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(4) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/upa-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(5) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/wallmart-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(6) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/xs-market-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(7) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/cencosud-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(8) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/deliboo-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(9) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/doggis-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .active.owl-item:nth-child(10) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/mamut-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(11) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/pollo-stop.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(12) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/pronto-copec-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .owl-item:nth-child(13) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/sodexo-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .owl-item:nth-child(14) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/tavelli-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .owl-item:nth-child(15) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/upa-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .owl-item:nth-child(16) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/wallmart-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .owl-item:nth-child(17) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/xs-market-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(18) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/cencosud-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(19) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/deliboo-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".carru-clientes > .owl-stage-outer > .owl-stage > .cloned.owl-item:nth-child(20) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/doggis-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(21) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/mamut-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(22) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/pollo-stop.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(23) > .item",
+          "html": "<li class=\"item\"><img src=\"https://www.dpschile.cl/media/logo/clientes/pronto-copec-logo.png\" alt=\"\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "#mpsearch-category",
+          "html": "<select id=\"mpsearch-category\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 61,
+  "altTextViolations": 1,
+  "contrastViolations": 6,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — DPSC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `61`  \n> **Verified Contact Email:** `ventas@dpschile.cl`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ventas@dpschile.cl` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **61 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** DPSC Limited\n- **Resolved URL:** [https://dpschile.cl](https://dpschile.cl)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ventas@dpschile.cl` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ventas@dpschile.cl` | **Status:** `Verified` | **Source Page:** https://dpschile.cl\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-lg-10 > div`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-accept-some`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-reject-all`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(3)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(4)`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"50\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.showcart`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.level0.ui-menu-item:nth-child(1) > a[href$=\"dpschile.cl/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/DPSC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/DPSC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — DPSC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `61`  \n> **Verified Contact Email:** `ventas@dpschile.cl`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ventas@dpschile.cl` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **61 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** DPSC Limited\n- **Resolved URL:** [https://dpschile.cl](https://dpschile.cl)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ventas@dpschile.cl` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ventas@dpschile.cl` | **Status:** `Verified` | **Source Page:** https://dpschile.cl\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-lg-10 > div`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-accept-some`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-reject-all`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(3)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(4)`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"50\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.showcart`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.level0.ui-menu-item:nth-child(1) > a[href$=\"dpschile.cl/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/DPSC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/DPSC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/DPSC_Limited/screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — DPSC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `61`  \n> **Verified Contact Email:** `ventas@dpschile.cl`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ventas@dpschile.cl` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **61 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 6 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (6 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** DPSC Limited\n- **Resolved URL:** [https://dpschile.cl](https://dpschile.cl)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ventas@dpschile.cl` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ventas@dpschile.cl` | **Status:** `Verified` | **Source Page:** https://dpschile.cl\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.col-lg-10 > div`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-accept-some`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#btn-reject-all`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(2)`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(3)`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `label:nth-child(4)`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[height=\"50\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.showcart`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.level0.ui-menu-item:nth-child(1) > a[href$=\"dpschile.cl/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/DPSC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/DPSC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/DPSC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 61. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T22:36:10.779Z"
+}

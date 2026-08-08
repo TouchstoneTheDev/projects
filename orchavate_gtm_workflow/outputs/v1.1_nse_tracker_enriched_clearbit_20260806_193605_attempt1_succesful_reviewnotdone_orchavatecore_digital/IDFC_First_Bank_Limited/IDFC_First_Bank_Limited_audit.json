@@ -1,0 +1,740 @@
+{
+  "company": {
+    "srNo": 935,
+    "companyName": "IDFC First Bank Limited",
+    "readymadeWebsite": "idfcfirstbank.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://idfcfirstbank.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://idfcfirstbank.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@idfcfirstbank.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@idfcfirstbank.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@idfcfirstbank.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://idfcfirstbank.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".financial-calc-carousal-container",
+          "html": "<div class=\"financial-calc-carousal-container\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#Popular-tab",
+          "html": "<button class=\"nav-link flex-grow-1...\" data-tab=\"popular\" data-bs-toggle=\"tab\" type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"Popular\" data-gtm-event=\"product_category_nav...\" data-gtm-click-categ...=\"Product Category Nav...\" data-gtm-click-text=\"Popular\" id=\"Popular-tab\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#Insurance-tab",
+          "html": "<button class=\"nav-link flex-grow-1...\" data-tab=\"insurance\" data-bs-toggle=\"tab\" type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"Insurance\" data-gtm-event=\"product_category_nav...\" data-gtm-click-categ...=\"Product Category Nav...\" data-gtm-click-text=\"Insurance\" id=\"Insurance-tab\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#Offers-tab",
+          "html": "<button class=\"nav-link flex-grow-1...\" data-tab=\"offers\" data-bs-toggle=\"tab\" type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"Offers\" data-gtm-event=\"product_category_nav...\" data-gtm-click-categ...=\"Product Category Nav...\" data-gtm-click-text=\"Offers\" id=\"Offers-tab\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".special-embla-slider > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--prev\" type=\"button\" disabled=\"\">\n            <span class=\"icon-Left\"></span>\n          </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".special-embla-slider > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n            <span class=\"icon-Right\"></span>\n          </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".financial-calc-carousal > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n                                            <span class=\"icon-Right\"></span>\n                                        </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".spotlight-carousel > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--prev\" type=\"button\" disabled=\"\">\n                        <span class=\"icon-Left\"></span>\n                    </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".spotlight-carousel > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n                        <span class=\"icon-Right\"></span>\n                    </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".embla-testi-slider > .embla__controls > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--prev\" type=\"button\" disabled=\"\">\n                                        <span class=\"icon-Left\"></span>\n                                    </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".embla-testi-slider > .embla__controls > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n                                        <span class=\"icon-Right\"></span>\n                                    </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#savingaccount > .embla-blogs-slider[data-autoplay=\"false\"][data-dots=\"false\"] > .embla__controls > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n                                            <span class=\"icon-Right\"></span>\n                                        </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".embla-awards-banner > .embla__controls > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--prev\" type=\"button\" disabled=\"\">\n            <span class=\"icon-Left\"></span>\n          </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".embla-awards-banner > .embla__controls > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]",
+          "html": "<button class=\"embla__button embla__button--next\" type=\"button\">\n            <span class=\"icon-Right\"></span>\n          </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".disabled > .right.form-txt",
+          "html": "<span class=\"form-txt right\">p.a.</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-box > .disclamir-btn[data-bs-target=\"#sa-popup\"][data-bs-toggle=\"modal\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"disclamir-btn data-modal\" data-bs-toggle=\"modal\" data-bs-target=\"#sa-popup\" role=\"button\" rel=\"nofollow\">\n                    Disclaimer\n                </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".cf-heading",
+          "html": "<h6 class=\"cf-heading\">ON A MISSION TO BUILD THE WORLD’S MOST</h6>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "h5",
+          "html": "<h5 class=\"cf-sub-heading\">CUSTOMER-FRIENDLY BANK</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#gsa-amt",
+          "html": "<input value=\"2000000\" type=\"text\" maxlength=\"12\" id=\"gsa-amt\" class=\"form-input amount-in...\" default=\"2000000\" min=\"10000\" max=\"500000000\" data-required=\"true\" data-label=\"Loan Amount\" data-format=\"inr\" data-msg-min=\"Minimum savings amou...\" data-msg-max=\"Maximum savings amou...\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#slider-gsa-amt",
+          "html": "<input type=\"range\" class=\"amount-range\" min=\"0\" max=\"9\" value=\"2000000\" id=\"slider-gsa-amt\" default=\"2000000\" drage-snippet=\"10000, 25000, 50000,...\" step=\"0.001\" style=\"background: linear-g...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#gsa-ir",
+          "html": "<input value=\"2.50\" type=\"text\" maxlength=\"5\" data-format=\"float\" id=\"gsa-ir\" class=\"form-input intrest-i...\" data-suffix=\"%\" default=\"2.50\" min=\"1.5\" max=\"3.50\" data-required=\"true\" data-label=\"Intrest Rate\" data-msg-max=\"Maximum Interest rat...\" oninput=\"this.value = this.va...\" disabled=\"\" ...>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#slider-gsa-ir",
+          "html": "<input type=\"range\" class=\"intrest-range\" value=\"2.50\" default=\"2.50\" min=\"0\" max=\"8\" id=\"slider-gsa-ir\" step=\"0.001\" drage-snippet=\"1.5, 1.75, 2, 2.25, ...\" style=\"background: linear-g...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(1) > .cust-new-box.position-relative > .cust-new-redirect[data-gtm-click-text=\"WhatsApp banking\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"https://api.whatsapp.com/send?phone=919555555555&amp;text=Hi\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"WhatsApp banking\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(2) > .cust-new-box.position-relative > .cust-new-redirect[data-gtm-click-text=\"Track Requests\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"/customer-care-sr/track-service-request\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"Track Requests\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(3) > .cust-new-box.position-relative > a[href$=\"product-page\"][data-gtm-click-text=\"Raise a Request\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"/customer-care-sr/product-page\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"Raise a Request\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(4) > .cust-new-box.position-relative > a[data-gtm-click-text=\"Locate Us\"][href$=\"branches\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"/support/branches\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"Locate Us\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(5) > .cust-new-box.position-relative > a[href$=\"compliment\"][data-gtm-click-text=\"Add a compliment\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"/compliment\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"Add a compliment\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-4:nth-child(6) > .cust-new-box.position-relative > a[href$=\"contact-us\"][data-gtm-click-text=\"Customer care\"][data-gtm-click-header=\"Customer Service\"]",
+          "html": "<a href=\"/contact-us\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Customer Service\" data-gtm-click-text=\"Customer care\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-gtm-click-text=\"Help Center\"]",
+          "html": "<a href=\"/customer-care-sr/customer-service\" class=\"cust-new-redirect gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Login\" data-gtm-click-text=\"Help Center\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".h-100.col-lg-4 > .new-login-box > .new-login-box-inner > .new-login-box-grid.position-relative:nth-child(2) > .lgbg-link[data-gtm-click-text=\"Personal Banking\"][data-gtm-click-header=\"Login to Internet banking\"]",
+          "html": "<a href=\"https://my.idfcfirst.bank.in/login\" class=\"lgbg-link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Login to Internet banking\" data-gtm-click-text=\"Personal Banking\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".h-100.col-lg-4 > .new-login-box > .new-login-box-inner > .new-login-box-grid.position-relative:nth-child(3) > .lgbg-link[data-gtm-click-text=\"Loan accounts\"][data-gtm-click-header=\"Login to Internet banking\"]",
+          "html": "<a href=\"https://partner.idfcfirst.bank.in/QuickPayEMI/Login/LoginEMI.aspx\" class=\"lgbg-link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Login to Internet banking\" data-gtm-click-text=\"Loan accounts\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".h-100.col-lg-4 > .new-login-box > .new-login-box-inner > .new-login-box-grid.position-relative:nth-child(4) > .lgbg-link[data-gtm-click-text=\"Corporate/Wholesale\"][data-gtm-click-header=\"Login to Internet banking\"]",
+          "html": "<a href=\"https://firstx.cel.idfcfirst.bank.in/\" class=\"lgbg-link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"Header Page Navigation\" data-gtm-click-header=\"Login to Internet banking\" data-gtm-click-text=\"Corporate/Wholesale\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card2 > .wmaspecial > .dark-blue.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Monthly interest credits on your Savings Account\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card3 > .wmaspecial > .orange.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Up to 6.50% interest p.a. on Savings Accounts\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card5 > .wmaspecial > .dark-blue.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Enhanced ATM withdrawal and POS spend limits on your Debit Card\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card6 > .wmaspecial > .sky-blue.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Low credit card interest rates starting at 8.5%\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card7 > .wmaspecial > .pink.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Premium credit cards, free for life!\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card8 > .wmaspecial > .dark-red.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Reward points that are as good as cash!\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card10 > .wmaspecial > .orange.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"0% interest on credit card ATM withdrawals up to 45 days\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card11 > .wmaspecial > .purple.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"The deposit-backed premium credit card, assured for everyone\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".brown > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"The first bank to offer 3-in-1 FASTag\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link[data-gtm-click-header=\"Recharge FASTag via WhatsApp\"][data-gtm-click-text=\"Read more\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Recharge FASTag via WhatsApp\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link[data-gtm-click-header=\"Advanced New Mobile App\"][data-gtm-click-text=\"Read more\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Advanced New Mobile App\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card15 > .wmaspecial > .dark-blue.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Contemporary Customer-first Wealth Management Solutions\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link[data-gtm-click-header=\"Seamless NRI Banking Services\"][data-gtm-click-text=\"Read more\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Seamless NRI Banking Services\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card17 > .wmaspecial > .pink.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Tailormade loan offerings for personal and business needs\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card18 > .wmaspecial > .dark-red.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Open a ZERO-balance Startup Current Account\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".dark-purple > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Access to our Startup Banking Programme\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card20 > .wmaspecial > .orange.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Cutting-edge Corporate Banking Portal\" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#card21 > .wmaspecial > .purple.flex-column.card > .link[data-gtm-click-text=\"Read more\"][data-gtm-click-category=\"What makes us special?\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-category=\"What makes us special?\" data-gtm-click-header=\"Complimentary business applications with our Current Account \" data-gtm-click-text=\"Read more\" role=\"button\" rel=\"nofollow\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".main-title.justify-content-center.align-items-center > .info-link[data-bs-target=\"#incomp-homepage\"][data-bs-toggle=\"modal\"]",
+          "html": "<a href=\"javascript:void(0);\" class=\"info-link data-modal\" data-bs-toggle=\"modal\" data-bs-target=\"#incomp-homepage\" role=\"button\" rel=\"nofollow\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".is-snapped.is-center.embla__slide > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank reco...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embla__slide:nth-child(2) > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank wins...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embla__slide:nth-child(3) > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank wins...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embla__slide:nth-child(4) > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank emer...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embla__slide:nth-child(5) > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank wins...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embla__slide:nth-child(6) > .position-relative > .link[data-gtm-click-category=\"Awards & Accolades\"][data-gtm-event=\"cta_click\"]",
+          "html": "<a href=\"/about-us/awards-and...\" class=\"link gtm-event\" data-gtm-event=\"cta_click\" data-gtm-click-categ...=\"Awards & Accolades\" data-gtm-click-heade...=\"A glimpse of IDFC FI...\" data-gtm-click-text=\"IDFC FIRST Bank wins...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".search-container-main > .cta-container",
+          "html": "<ul class=\"d-flex align-items-center cta-container\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 59,
+  "altTextViolations": 0,
+  "contrastViolations": 4,
+  "labelViolations": 4,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — IDFC First Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `59`  \n> **Verified Contact Email:** `info@idfcfirstbank.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **59 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `18` | Serious: `40` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** IDFC First Bank Limited\n- **Resolved URL:** [https://idfcfirstbank.com](https://idfcfirstbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.financial-calc-carousal-container`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Popular-tab`\n3. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Insurance-tab`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Offers-tab`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.financial-calc-carousal > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.embla-testi-slider > .embla__controls > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/IDFC_First_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/IDFC_First_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — IDFC First Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `59`  \n> **Verified Contact Email:** `info@idfcfirstbank.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **59 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `18` | Serious: `40` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** IDFC First Bank Limited\n- **Resolved URL:** [https://idfcfirstbank.com](https://idfcfirstbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.financial-calc-carousal-container`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Popular-tab`\n3. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Insurance-tab`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Offers-tab`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.financial-calc-carousal > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.embla-testi-slider > .embla__controls > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/IDFC_First_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/IDFC_First_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/IDFC_First_Bank_Limited/screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — IDFC First Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `59`  \n> **Verified Contact Email:** `info@idfcfirstbank.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **59 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `18` | Serious: `40` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 4 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (4 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** IDFC First Bank Limited\n- **Resolved URL:** [https://idfcfirstbank.com](https://idfcfirstbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@idfcfirstbank.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@idfcfirstbank.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.financial-calc-carousal-container`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Popular-tab`\n3. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Insurance-tab`\n4. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#Offers-tab`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.special-embla-slider > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.financial-calc-carousal > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n9. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.spotlight-carousel > .embla__buttons > .embla__button--next.embla__button[type=\"button\"]`\n10. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.embla-testi-slider > .embla__controls > .embla__buttons > .embla__button--prev.embla__button[type=\"button\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/IDFC_First_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/IDFC_First_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/IDFC_First_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 59. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-07T00:17:50.217Z"
+}

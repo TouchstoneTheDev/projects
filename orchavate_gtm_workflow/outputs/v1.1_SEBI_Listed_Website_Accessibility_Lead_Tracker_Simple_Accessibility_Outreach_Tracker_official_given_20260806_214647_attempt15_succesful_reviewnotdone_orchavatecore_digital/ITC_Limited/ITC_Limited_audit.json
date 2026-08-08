@@ -1,0 +1,349 @@
+{
+  "company": {
+    "srNo": 48,
+    "companyName": "ITC Limited",
+    "readymadeWebsite": "https://www.itcportal.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Compliance Officer (ITC Limited)",
+    "emailId": "contactus@itc.in",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.itcportal.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.itcportal.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "contactus@itc.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.itcportal.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "contactus@itc.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.itcportal.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.itcportal.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#item_1707387764759-tab",
+          "html": "<li role=\"tab\" id=\"item_1707387764759-t...\" class=\"swiper-slide cmp-tab...\" aria-controls=\"tabs-1be9045118-item...\" tabindex=\"0\" data-cmp-hook-tabs=\"tab\" data-cta-label=\"tab:Financial Highli...\" aria-selected=\"true\" style=\"background-color: rg...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#item_1703268035246-tab",
+          "html": "<li role=\"tab\" id=\"item_1703268035246-t...\" class=\"swiper-slide cmp-tab...\" aria-controls=\"tabs-a54b6c710b-item...\" tabindex=\"0\" data-cmp-hook-tabs=\"tab\" data-cta-label=\"tab:FMCG\" aria-selected=\"true\" style=\"background-color: rg...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-next.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(3) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(4) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(5) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(6) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(7) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": ".swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(8) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]",
+          "html": "<span aria-highlights-icon=\"press_release_white\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-swiper-slide-index=\"0\"] > .bannerComponentWrapper__imageDiv > picture > .bannerComponentWrapper__image.banner-image-desktop[fetchpriority=\"low\"]",
+          "html": "<img class=\"bannerComponentWrapper__image banner-image-desktop\" src=\"https://s7ap1.scene7.com/is/image/itcportalprod/agm-home-banner-2026-desk-v2?fmt=webp-alpha\" loading=\"lazy\" fetchpriority=\"low\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-swiper-slide-index=\"1\"] > .bannerComponentWrapper__imageDiv > picture > .bannerComponentWrapper__image.banner-image-desktop[fetchpriority=\"low\"]",
+          "html": "<img class=\"bannerComponentWrapper__image banner-image-desktop\" src=\"https://s7ap1.scene7.com/is/image/itcportalprod/home-desk-ar-2026-v1?fmt=webp-alpha\" loading=\"lazy\" fetchpriority=\"low\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-swiper-slide-index=\"2\"] > .bannerComponentWrapper__imageDiv > picture > .bannerComponentWrapper__image.banner-image-desktop[fetchpriority=\"low\"]",
+          "html": "<img class=\"bannerComponentWrapper__image banner-image-desktop\" src=\"https://s7ap1.scene7.com/is/image/itcportalprod/home-desk-sr-2026?fmt=webp-alpha\" loading=\"lazy\" fetchpriority=\"low\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-swiper-slide-index=\"3\"] > .bannerComponentWrapper__imageDiv > picture > .bannerComponentWrapper__image.banner-image-desktop[fetchpriority=\"low\"]",
+          "html": "<img class=\"bannerComponentWrapper__image banner-image-desktop\" src=\"https://s7ap1.scene7.com/is/image/itcportalprod/itc-tripple-bottom-banner-home-desk-v3?fmt=webp-alpha\" loading=\"lazy\" fetchpriority=\"low\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "div[data-swiper-slide-index=\"4\"] > .bannerComponentWrapper__imageDiv > picture > .bannerComponentWrapper__image.banner-image-desktop[fetchpriority=\"low\"]",
+          "html": "<img class=\"bannerComponentWrapper__image banner-image-desktop\" src=\"https://s7ap1.scene7.com/is/image/itcportalprod/home-desh-ek-raag-2-desk?fmt=webp-alpha\" loading=\"lazy\" fetchpriority=\"low\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".tabTilelink[data-cta-label=\"ITC Report & Accounts 2026\"]",
+          "html": "<a class=\"tabTilelink link--clicks-link\" href=\"/content/dam/itc-corporate/open-pdfs/report-and-accounts/ITC-Report-and-Accounts-2026.pdf\" data-cta-label=\"ITC Report &amp; Accounts 2026\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".tabTilelink[data-cta-label=\"ITC Sustainability Report 2026\"]",
+          "html": "<a class=\"tabTilelink link--clicks-link\" href=\"/content/dam/itc-corporate/pdfs/sustainability-report/itc-sustainability-report-2026.pdf\" data-cta-label=\"ITC Sustainability Report 2026\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".tabTilelink[data-cta-label=\"ITC ESG Fact Book 2025\"]",
+          "html": "<a class=\"tabTilelink link--clicks-link\" href=\"/content/dam/itc-corporate/pdfs/itc-publications/itc-esg-factbook-2025.pdf\" data-cta-label=\"ITC ESG Fact Book 2025\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".articleListingCardBox.swiper-slide-active.swiper-slide > .articleListingRightBox > .articleListingCta.link--clicks-link-parent > a[data-cta-region=\"body\"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/home/food-tech.html\" data-cta-region=\"body\" data-cta-label=\"ITC FoodTech – A New Vector of  Growth\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".articleListingCardBox.swiper-slide-next.swiper-slide > .articleListingRightBox > .articleListingCta.link--clicks-link-parent > a[data-cta-region=\"body\"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/home/sustainable-packaging.html\" data-cta-region=\"body\" data-cta-label=\"ITC Sustainable Packaging – Solutions for the future\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-cta-label=\"Innovation at ITC \"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/home/innovation-at-itc.html\" data-cta-region=\"body\" data-cta-label=\"Innovation at ITC \"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-cta-label=\"Digital transformation at ITC \"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/home/digital-transformation-at-itc.html\" data-cta-region=\"body\" data-cta-label=\"Digital transformation at ITC \"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".articleListingCardBox.swiper-slide:nth-child(5) > .articleListingRightBox > .articleListingCta.link--clicks-link-parent > a[data-cta-region=\"body\"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/itc-businesses/agri-business/itc-maars.html\" data-cta-region=\"body\" data-cta-label=\"ITCMAARS – Ushering in NextGen Agriculture\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-cta-label=\"Climate Smart Agriculture \"]",
+          "html": "<a class=\"link--clicks-link\" href=\"https://itcportal.com/about-itc/sustainability/climate-smart-agriculture.html\" data-cta-region=\"body\" data-cta-label=\"Climate Smart Agriculture \"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 24,
+  "altTextViolations": 5,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ITC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `contactus@itc.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contactus@itc.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `15` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ITC Limited\n- **Resolved URL:** [https://www.itcportal.com](https://www.itcportal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contactus@itc.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contactus@itc.in` | **Status:** `Verified` | **Source Page:** https://www.itcportal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1707387764759-tab`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1703268035246-tab`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-active.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n4. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-next.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n5. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(3) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n6. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(4) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n7. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(5) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n8. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(6) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n9. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(7) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n10. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(8) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ITC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ITC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ITC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ITC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `contactus@itc.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contactus@itc.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `15` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ITC Limited\n- **Resolved URL:** [https://www.itcportal.com](https://www.itcportal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contactus@itc.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contactus@itc.in` | **Status:** `Verified` | **Source Page:** https://www.itcportal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1707387764759-tab`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1703268035246-tab`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-active.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n4. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-next.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n5. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(3) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n6. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(4) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n7. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(5) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n8. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(6) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n9. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(7) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n10. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(8) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ITC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ITC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ITC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/ITC_Limited/screenshots/ITC_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — ITC Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `contactus@itc.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contactus@itc.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `15` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 5 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (5 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** ITC Limited\n- **Resolved URL:** [https://www.itcportal.com](https://www.itcportal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contactus@itc.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contactus@itc.in` | **Status:** `Verified` | **Source Page:** https://www.itcportal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1707387764759-tab`\n2. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#item_1703268035246-tab`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-active.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n4. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-slide-next.topHighlights-container-item.swiper-slide > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n5. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(3) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n6. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(4) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n7. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(5) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n8. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(6) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n9. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(7) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n10. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `.swiper-backface-hidden.topHighlights-container.swiper-initialized > .swiper-wrapper > .topHighlights-container-item.swiper-slide:nth-child(8) > .highlights-card-title-description.link--clicks-link-parent > a > span[aria-highlights-icon=\"press_release_white\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/ITC_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/ITC_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/ITC_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 24. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:54:58.746Z"
+}

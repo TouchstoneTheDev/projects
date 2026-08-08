@@ -1,0 +1,343 @@
+{
+  "company": {
+    "srNo": 1,
+    "companyName": "Toyota Kirloskar Motor",
+    "readymadeWebsite": "https://www.toyotabharat.com",
+    "contactPerson": "Head of Facilities",
+    "emailId": "admin@toyotabharat.com",
+    "assignedTo": "Auditor 1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://careers.toyotabharat.com/",
+    "source": "self-search",
+    "confidence": "LOW",
+    "hasConflict": false,
+    "selfSearchUrl": "https://careers.toyotabharat.com/"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@careers.toyotabharat.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@careers.toyotabharat.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@careers.toyotabharat.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://careers.toyotabharat.com/",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "#sizing-addon1",
+          "html": "<span class=\"input-group-addon glyphicon glyphicon-search\" aria-label=\"Search by Keyword\" title=\"Search by Keyword\" id=\"sizing-addon1\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": ".glyphicon-map-marker",
+          "html": "<span class=\"input-group-addon glyphicon glyphicon-map-marker\" aria-label=\"Search by Location\" title=\"Search by Location\"></span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "document-title",
+          "impact": "serious",
+          "description": "Ensure each HTML document contains a non-empty <title> element",
+          "help": "Documents must have <title> element to aid in navigation",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/document-title?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html class=\"html5\" xml:lang=\"en-GB\" lang=\"en-GB\" xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe",
+          "html": "<iframe class=\"embed-responsive-item\" src=\"//www.youtube-nocookie.com/embed/DySOBNdSBaU?rel=0&amp;autoplay=1\" allowfullscreen=\"true\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a > img",
+          "html": "<img class=\"logo\" src=\"//rmkcdn.successfactors.com/dcca2e0e/bac23dc1-e1f7-4070-97e1-d.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a",
+          "html": "<a href=\"https://careers.toyotabharat.com/\" style=\"display:inline-block\">\n                        <img class=\"logo\" src=\"//rmkcdn.successfactors.com/dcca2e0e/bac23dc1-e1f7-4070-97e1-d.png\">\n                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled > .hero-image[target=\"_blank\"]",
+          "html": "<a class=\"hero-image\" href=\"https://www.toyotabharat.com/toyota-in-india/award/2020/\" style=\"height: 210px;\" target=\"_blank\"><span></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled > .hero-image[target=\"_blank\"]",
+          "html": "<a class=\"hero-image\" href=\"https://www.toyotabharat.com/finance/\" style=\"height: 210px;\" target=\"_blank\"><span></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled > .hero-image[target=\"_blank\"]",
+          "html": "<a class=\"hero-image\" href=\"https://www.toyotabharat.com/driving-school/\" style=\"height: 210px;\" target=\"_blank\"><span></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled > .hero-image[target=\"_blank\"]",
+          "html": "<a class=\"hero-image\" href=\"https://www.toyotabharat.com/toyota-in-india/mobility-expo/\" style=\"height: 210px;\" target=\"_blank\"><span></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".imagecarousel3764f81fe7c7a679b > .ic3wrapper.backgroundcolor1e0b0d898c282c10 > .slick-slider.slick-initialized[role=\"region\"] > .slick-list.draggable > .slick-track > .slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"]",
+          "html": "<li class=\"backgroundcolor1e0b0d898c282c10\" aria-roledescription=\"slide\" style=\"width: 100%; display: inline-block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"]",
+          "html": "<li class=\"backgroundcolor1e0b0d898c282c10\" aria-roledescription=\"slide\" style=\"width: 100%; display: inline-block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"]",
+          "html": "<li class=\"backgroundcolor1e0b0d898c282c10\" aria-roledescription=\"slide\" style=\"width: 100%; display: inline-block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"]",
+          "html": "<li class=\"backgroundcolor1e0b0d898c282c10\" aria-roledescription=\"slide\" style=\"width: 100%; display: inline-block;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled",
+          "html": "<div class=\"backgroundimagec3c07ece-765b-4a61-a629-8 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled",
+          "html": "<div class=\"backgroundimage69c0f3d4-47dc-4f44-a526-4 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled",
+          "html": "<div class=\"backgroundimageda952853-097e-4ae6-95fe-2 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled",
+          "html": "<div class=\"backgroundimage6be3c0c3-989d-4ce2-a210-4 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".displayDT.row[role=\"img\"]",
+          "html": "<div class=\"row displayDT \" role=\"img\" style=\" \">\n        <div class=\"col-xs-12 center verticallyhorizontallyscaled backgroundimageb104f3fc-da2e-4b86-93d3-4 large-image-component\" style=\"height: 590px;\"></div>\n    </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled",
+          "html": "<div class=\"backgroundimagec3c07ece-765b-4a61-a629-8 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled",
+          "html": "<div class=\"backgroundimage69c0f3d4-47dc-4f44-a526-4 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled",
+          "html": "<div class=\"backgroundimageda952853-097e-4ae6-95fe-2 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled",
+          "html": "<div class=\"backgroundimage6be3c0c3-989d-4ce2-a210-4 scaled top\" role=\"img\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 23,
+  "altTextViolations": 6,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Toyota Kirloskar Motor\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `info@careers.toyotabharat.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Toyota Kirloskar Motor\n- **Resolved URL:** [https://careers.toyotabharat.com/](https://careers.toyotabharat.com/)\n- **Resolution Source:** `self-search` (LOW Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Auditor 1\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#sizing-addon1`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.glyphicon-map-marker`\n3. **`[other] document-title`** (SERIOUS)\n   - **Help:** Documents must have <title> element to aid in navigation\n   - **Selector:** `html`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a > img`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled > .hero-image[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled > .hero-image[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled > .hero-image[target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled > .hero-image[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Toyota Kirloskar Motor\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `info@careers.toyotabharat.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Toyota Kirloskar Motor\n- **Resolved URL:** [https://careers.toyotabharat.com/](https://careers.toyotabharat.com/)\n- **Resolution Source:** `self-search` (LOW Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Auditor 1\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#sizing-addon1`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.glyphicon-map-marker`\n3. **`[other] document-title`** (SERIOUS)\n   - **Help:** Documents must have <title> element to aid in navigation\n   - **Selector:** `html`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a > img`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled > .hero-image[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled > .hero-image[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled > .hero-image[target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled > .hero-image[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_Dataset_20260806_214019_attempt4_succesful_reviewnotdone_orchavatecore_digital/Toyota_Kirloskar_Motor/screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Toyota Kirloskar Motor\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `info@careers.toyotabharat.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `22` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 6 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (6 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Toyota Kirloskar Motor\n- **Resolved URL:** [https://careers.toyotabharat.com/](https://careers.toyotabharat.com/)\n- **Resolution Source:** `self-search` (LOW Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Auditor 1\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@careers.toyotabharat.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@careers.toyotabharat.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `#sizing-addon1`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `.glyphicon-map-marker`\n3. **`[other] document-title`** (SERIOUS)\n   - **Help:** Documents must have <title> element to aid in navigation\n   - **Selector:** `html`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a > img`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.col-xs-3 > .custom-header-logo.customheaderlinkhovercolor24cae45e.backgroundcolor1e0b0d898c282c10 > .limitwidth > .inner > a`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-current[data-slick-index=\"0\"][aria-label=\"slide 1\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimagec3c07ece-765b-4a61-a629-8.top.scaled > .hero-image[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"1\"][aria-label=\"slide 2\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage69c0f3d4-47dc-4f44-a526-4.top.scaled > .hero-image[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"2\"][aria-label=\"slide 3\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimageda952853-097e-4ae6-95fe-2.top.scaled > .hero-image[target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.slick-active[data-slick-index=\"3\"][aria-label=\"slide 4\"] > div > .backgroundcolor1e0b0d898c282c10[aria-roledescription=\"slide\"] > .imagelink > .backgroundimage6be3c0c3-989d-4ce2-a210-4.top.scaled > .hero-image[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Toyota_Kirloskar_Motor_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Toyota_Kirloskar_Motor_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 23. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:40:25.134Z"
+}

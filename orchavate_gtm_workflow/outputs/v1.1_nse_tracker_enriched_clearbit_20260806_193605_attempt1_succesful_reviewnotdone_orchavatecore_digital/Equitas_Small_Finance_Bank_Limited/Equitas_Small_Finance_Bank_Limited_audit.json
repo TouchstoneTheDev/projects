@@ -1,0 +1,371 @@
+{
+  "company": {
+    "srNo": 647,
+    "companyName": "Equitas Small Finance Bank Limited",
+    "readymadeWebsite": "equitasbank.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://equitasbank.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://equitasbank.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "customerservice@equitas.bank.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://equitasbank.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "customerservice@equitas.bank.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://equitasbank.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://equitasbank.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pt-\\[0\\.2vw\\] > p",
+          "html": "<p> <!-- -->Login</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".w-\\[1vw\\].h-fit.self-center",
+          "html": "<img class=\" w-[1vw] h-fit self-center\" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_4068_2x_f1a73a7abb_1_2b027d2fb3_9f9bcf1a59.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".w-\\[\\.55vw\\]",
+          "html": "<img class=\" w-[.55vw] self-center\" src=\"https://equitas.bank.in/strapi-dev/uploads/Polygon_5_86ad9c2638_3bb95bb40f.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".xl\\:min-h-\\[17vw\\] > .sm\\:h-auto.md\\:h-auto.xs\\:pl-4 > .xs\\:w-\\[7rem\\].xl\\:h-\\[13vw\\].xs\\:h-\\[7rem\\] > .w-full",
+          "html": "<img src=\"https://equitas.bank.in/strapi-dev/uploads/MB_Unit_for_website_2dd91f3684.png\" class=\"w-full\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".mt-0",
+          "html": "<img src=\"https://equitas.bank.in/strapi-dev/uploads/couples_with_phone_c1401c9aab.png\" class=\"mt-0 w-full self-end\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(1) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]",
+          "html": "<img class=\"self-center md:self-start w-[15vw] min-[445px]:w-[12vw] min-[500px]:w-[10vw] pb-4 lg:w-[5vw]\" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_1661_f9a08d10bb.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(2) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]",
+          "html": "<img class=\"self-center md:self-start w-[15vw] min-[445px]:w-[12vw] min-[500px]:w-[10vw] pb-4 lg:w-[5vw]\" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_1667_1845a52fde.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(3) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]",
+          "html": "<img class=\"self-center md:self-start w-[15vw] min-[445px]:w-[12vw] min-[500px]:w-[10vw] pb-4 lg:w-[5vw]\" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_1663_6fdddedbd7.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(4) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]",
+          "html": "<img class=\"self-center md:self-start w-[15vw] min-[445px]:w-[12vw] min-[500px]:w-[10vw] pb-4 lg:w-[5vw]\" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_1665_d1e260147b.svg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".top-36",
+          "html": "<img class=\"absolute top-36 md:top-0 left-0 right-0 w-full h-[75%] md:h-[85%] -z-100\" src=\"https://equitas.bank.in/strapi-dev/uploads/6_aeefc30d5f.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".order-3",
+          "html": "<img class=\"order-3 md:order-2 self-end md:w-[30%] lg:w-auto lg:h-[125%] lg:-mb-[2.5%] w-2/3 mx-auto xl:h-[148%] \" src=\"https://equitas.bank.in/strapi-dev/uploads/Group_540_2x_21089775c0.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".my-0[href=\"tel:18001031222\"][rel=\"noreferrer\"] > .xs\\:-my-4.md\\:my-0.gap-5 > .h-10.xl\\:h-\\[10vh\\].xl\\:w-\\[7vh\\]",
+          "html": "<img src=\"https://equitas.bank.in/strapi-dev/uploads/Group_549_04ff257bfc.svg\" class=\"h-10 xl:h-[10vh] w-10 xl:w-[7vh]\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".my-0[rel=\"noreferrer\"][target=\"_blank\"]:nth-child(3) > .xs\\:-my-4.md\\:my-0.gap-5 > .h-10.xl\\:h-\\[10vh\\].xl\\:w-\\[7vh\\]",
+          "html": "<img src=\"https://equitas.bank.in/strapi-dev/uploads/Group_551_2dcc38fa5e.svg\" class=\"h-10 xl:h-[10vh] w-10 xl:w-[7vh]\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".my-0[rel=\"noreferrer\"][target=\"_blank\"]:nth-child(5) > .xs\\:-my-4.md\\:my-0.gap-5 > .h-10.xl\\:h-\\[10vh\\].xl\\:w-\\[7vh\\]",
+          "html": "<img src=\"https://equitas.bank.in/strapi-dev/uploads/unauthorized_transactions_a6ea51163e.svg\" class=\"h-10 xl:h-[10vh] w-10 xl:w-[7vh]\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[name=\"firstName\"]",
+          "html": "<input name=\"firstName\" autocomplete=\"off\" type=\"\" required=\"\" maxlength=\"33\" minlength=\"3\" class=\"font-poppinsRegular //text-transparent w-full h-full outline-none border-b-[1.5px] border-[#5682C3] bg-transparent p-2 xl:p-[0.5vw] \" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[name=\"phone\"]",
+          "html": "<input name=\"phone\" autocomplete=\"off\" type=\"\" required=\"\" maxlength=\"10\" minlength=\"10\" class=\"font-poppinsRegular //text-transparent w-full h-full outline-none border-b-[1.5px] border-[#5682C3] bg-transparent p-2 xl:p-[0.5vw] \" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[name=\"email\"]",
+          "html": "<input name=\"email\" autocomplete=\"off\" type=\"\" required=\"\" class=\"font-poppinsRegular //text-transparent w-full h-full outline-none border-b-[1.5px] border-[#5682C3] bg-transparent p-2 xl:p-[0.5vw] \" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "input[name=\"pincode\"]",
+          "html": "<input name=\"pincode\" autocomplete=\"off\" type=\"\" required=\"\" maxlength=\"6\" minlength=\"6\" class=\"font-poppinsRegular //text-transparent w-full h-full outline-none border-b-[1.5px] border-[#5682C3] bg-transparent p-2 xl:p-[0.5vw] \" value=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": ".form-module--checkboxInput--2b943",
+          "html": "<input class=\"form-module--checkboxInput--2b943 my-auto self-center //mt-[.5vw] lg:w-4 xl:w-[1vw] border-2 border-[#65C299]\" type=\"checkbox\" name=\"haveAcceptedTermsAndCondition\" required=\"\" value=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".flex-col-reverse.flex:nth-child(5) > .pb-12.relative > .w-\\[90\\%\\].mx-auto:nth-child(2) > .my-\\[1vw\\].lg\\:my-0.justify-center > .lg\\:mt-\\[8vh\\].text-\\[3\\.5vw\\].xl\\:px-\\[2vw\\] > a[target=\"_self\"]",
+          "html": "<a target=\"_self\" href=\"/personal-banking/save/savings-account/\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".lg\\:mt-\\[8vh\\].text-\\[3\\.5vw\\].xl\\:px-\\[2vw\\] > a[href$=\"loan/\"][target=\"_self\"]",
+          "html": "<a target=\"_self\" href=\"/personal-banking/borrow/loan/\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".px-\\[1vw\\]",
+          "html": "<select class=\"cursor-pointer w-1/2 h-fit text-[.8vw] px-[1vw] -mt-[0.5vw] py-[0.7vw] font-medium flex gap-[1vw] justify-center items-center bg-transparent outline-none text-white\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select[placeholder=\"Select Product\"]",
+          "html": "<select placeholder=\"Select Product\" required=\"\" class=\"text-[#FFFFFF] text-xs text-[#FFFFFF] sm:text-sm lg:text-md font-poppinsRegular outline-none bg-transparent w-full h-full mx-auto p-2 xl:p-[0.5vw] \" name=\"product\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select[placeholder=\"City\"]",
+          "html": "<select placeholder=\"City\" class=\"text-[#FFFFFF] text-xs text-[#FFFFFF] sm:text-sm lg:text-md font-poppinsRegular outline-none bg-transparent w-full h-full mx-auto p-2 xl:p-[0.5vw] \" name=\"city\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select[placeholder=\"Branch *\"]",
+          "html": "<select placeholder=\"Branch *\" class=\"text-[#FFFFFF] text-xs text-[#FFFFFF] sm:text-sm lg:text-md font-poppinsRegular outline-none bg-transparent w-full h-full mx-auto p-2 xl:p-[0.5vw] \" name=\"branch\"><option disabled=\"\" value=\"\" class=\"text-[#999999]\" selected=\"\">Branch *</option></select>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 26,
+  "altTextViolations": 13,
+  "contrastViolations": 1,
+  "labelViolations": 5,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Equitas Small Finance Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `26`  \n> **Verified Contact Email:** `customerservice@equitas.bank.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@equitas.bank.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **26 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 5 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (5 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Equitas Small Finance Bank Limited\n- **Resolved URL:** [https://equitasbank.com](https://equitasbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@equitas.bank.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@equitas.bank.in` | **Status:** `Verified` | **Source Page:** https://equitasbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pt-\\[0\\.2vw\\] > p`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[1vw\\].h-fit.self-center`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[\\.55vw\\]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.xl\\:min-h-\\[17vw\\] > .sm\\:h-auto.md\\:h-auto.xs\\:pl-4 > .xs\\:w-\\[7rem\\].xl\\:h-\\[13vw\\].xs\\:h-\\[7rem\\] > .w-full`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.mt-0`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(1) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(2) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(3) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(4) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Equitas Small Finance Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `26`  \n> **Verified Contact Email:** `customerservice@equitas.bank.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@equitas.bank.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **26 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 5 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (5 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Equitas Small Finance Bank Limited\n- **Resolved URL:** [https://equitasbank.com](https://equitasbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@equitas.bank.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@equitas.bank.in` | **Status:** `Verified` | **Source Page:** https://equitasbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pt-\\[0\\.2vw\\] > p`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[1vw\\].h-fit.self-center`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[\\.55vw\\]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.xl\\:min-h-\\[17vw\\] > .sm\\:h-auto.md\\:h-auto.xs\\:pl-4 > .xs\\:w-\\[7rem\\].xl\\:h-\\[13vw\\].xs\\:h-\\[7rem\\] > .w-full`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.mt-0`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(1) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(2) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(3) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(4) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Equitas_Small_Finance_Bank_Limited/screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Equitas Small Finance Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `26`  \n> **Verified Contact Email:** `customerservice@equitas.bank.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@equitas.bank.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **26 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `4` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 13 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 5 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (13 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Form Labels & ARIA (5 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Equitas Small Finance Bank Limited\n- **Resolved URL:** [https://equitasbank.com](https://equitasbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@equitas.bank.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@equitas.bank.in` | **Status:** `Verified` | **Source Page:** https://equitasbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pt-\\[0\\.2vw\\] > p`\n2. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[1vw\\].h-fit.self-center`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-\\[\\.55vw\\]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.xl\\:min-h-\\[17vw\\] > .sm\\:h-auto.md\\:h-auto.xs\\:pl-4 > .xs\\:w-\\[7rem\\].xl\\:h-\\[13vw\\].xs\\:h-\\[7rem\\] > .w-full`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.mt-0`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(1) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(2) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(3) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.hover\\:-translate-y-2.lg\\:p-\\[1\\.8vw\\].p-\\[4vw\\]:nth-child(4) > .md\\:self-start.min-\\[445px\\]\\:w-\\[12vw\\].min-\\[500px\\]\\:w-\\[10vw\\]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Equitas_Small_Finance_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 26. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T22:58:11.608Z"
+}

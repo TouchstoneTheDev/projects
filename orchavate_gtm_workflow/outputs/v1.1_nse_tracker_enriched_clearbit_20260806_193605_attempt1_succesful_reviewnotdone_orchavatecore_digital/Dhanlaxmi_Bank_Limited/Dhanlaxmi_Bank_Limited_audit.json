@@ -1,0 +1,191 @@
+{
+  "company": {
+    "srNo": 547,
+    "companyName": "Dhanlaxmi Bank Limited",
+    "readymadeWebsite": "dhanbank.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://dhanbank.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://dhanbank.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "customercare@dhanbank.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://dhanbank.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "customercare@dhanbank.co.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://dhanbank.com"
+      },
+      {
+        "address": "customercare@dhanbank.co.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://dhanbank.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://dhanbank.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#sideNavMenu",
+          "html": "<div class=\"SideNavMenu_side_nav_menu__7rY_v \" id=\"sideNavMenu\" aria-hidden=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#accessibility-menu-panel",
+          "html": "<div id=\"accessibility-menu-panel\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"accessibility-menu-title-2\" class=\"accessibilityToolbar_panel__jmVBi \" aria-hidden=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot.active[role=\"button\"]",
+          "html": "<button role=\"button\" class=\"owl-dot active\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(2)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(3)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(4)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(5)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot[role=\"button\"]:nth-child(6)",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 64,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 9,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 2,
+  "lighthouseAvgScore": 64,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhanlaxmi Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `customercare@dhanbank.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `customercare@dhanbank.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhanlaxmi Bank Limited\n- **Resolved URL:** [https://dhanbank.com](https://dhanbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customercare@dhanbank.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n- **General Contact Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#sideNavMenu`\n2. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#accessibility-menu-panel`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(6)`\n9. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhanlaxmi Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `customercare@dhanbank.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `customercare@dhanbank.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhanlaxmi Bank Limited\n- **Resolved URL:** [https://dhanbank.com](https://dhanbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customercare@dhanbank.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n- **General Contact Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#sideNavMenu`\n2. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#accessibility-menu-panel`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(6)`\n9. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Dhanlaxmi_Bank_Limited/screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Dhanlaxmi Bank Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `customercare@dhanbank.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `customercare@dhanbank.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `6` | Serious: `2` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Dhanlaxmi Bank Limited\n- **Resolved URL:** [https://dhanbank.com](https://dhanbank.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customercare@dhanbank.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n- **General Contact Email:** `customercare@dhanbank.co.in` | **Status:** `Verified` | **Source Page:** https://dhanbank.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#sideNavMenu`\n2. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#accessibility-menu-panel`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active[role=\"button\"]`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(2)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(3)`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(4)`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(5)`\n8. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot[role=\"button\"]:nth-child(6)`\n9. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Dhanlaxmi_Bank_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 9. Lighthouse A11y: 64/100.",
+  "timestamp": "2026-08-06T22:20:02.171Z"
+}

@@ -1,0 +1,191 @@
+{
+  "company": {
+    "srNo": 62,
+    "companyName": "Aurobindo Pharma Limited",
+    "readymadeWebsite": "https://www.aurobindo.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Compliance Officer (Aurobindo Pharma Limited)",
+    "emailId": "Life@aurobindo2.webp",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.aurobindo.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.aurobindo.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "Life@aurobindo2.webp",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.aurobindo.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "Life@aurobindo2.webp",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.aurobindo.com"
+      },
+      {
+        "address": "Life@aurobindo2.webp",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.aurobindo.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.aurobindo.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".header__area-menubar-right-search-box > form > button[type=\"submit\"]",
+          "html": "<button type=\"submit\"><i class=\"fal fa-search\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#cn-accept-cookie",
+          "html": "<a id=\"cn-accept-cookie\" data-cookie-set=\"accept\" class=\"cn-set-cookie cn-button bootstrap button\" aria-label=\"I Accept\" href=\"#\">I Accept</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#cn-more-info",
+          "html": "<a target=\"_blank\" id=\"cn-more-info\" class=\"cn-more-info cn-button bootstrap button\" aria-label=\"Cookie policy\" href=\"/privacy-policy#cookies\">Cookie policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe",
+          "html": "<iframe src=\"https://11763579e9d24bb6ba08af946d19b65b.elf.site\" frameborder=\"0\" width=\"100%\" height=\"500px\"></iframe>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".header__area-menubar-right-sidebar-popup-icon > a[href$=\"our-presence\"]",
+          "html": "<a href=\"/about-us/our-presence\"><i class=\"flaticon-globe\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mt-4 > li:nth-child(1) > a[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://twitter.com/aurobindoglobal\"><i class=\"fa fa-twitter\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mt-4 > li:nth-child(2) > a[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://www.linkedin.com/company/aurobindopharma\"><i class=\"fab fa-linkedin-in\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer__four-widget-about-social > ul > li:nth-child(1) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://twitter.com/aurobindoglobal\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer__four-widget-about-social > ul > li:nth-child(2) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.linkedin.com/company/aurobindopharma\" target=\"_blank\"><i class=\"fab fa-linkedin-in\"></i></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 64,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 9,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 64,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurobindo Pharma Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `Life@aurobindo2.webp`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `Life@aurobindo2.webp` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurobindo Pharma Limited\n- **Resolved URL:** [https://www.aurobindo.com](https://www.aurobindo.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `Life@aurobindo2.webp` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n- **General Contact Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.header__area-menubar-right-search-box > form > button[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-accept-cookie`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-more-info`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header__area-menubar-right-sidebar-popup-icon > a[href$=\"our-presence\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(1) > a[target=\"_blank\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(2) > a[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(1) > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(2) > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurobindo Pharma Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `Life@aurobindo2.webp`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `Life@aurobindo2.webp` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurobindo Pharma Limited\n- **Resolved URL:** [https://www.aurobindo.com](https://www.aurobindo.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `Life@aurobindo2.webp` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n- **General Contact Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.header__area-menubar-right-search-box > form > button[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-accept-cookie`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-more-info`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header__area-menubar-right-sidebar-popup-icon > a[href$=\"our-presence\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(1) > a[target=\"_blank\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(2) > a[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(1) > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(2) > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_Simple_Accessibility_Outreach_Tracker_official_given_20260806_214647_attempt15_succesful_reviewnotdone_orchavatecore_digital/Aurobindo_Pharma_Limited/screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurobindo Pharma Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `64 / 100`  \n> **Total WCAG Violations:** `9`  \n> **Verified Contact Email:** `Life@aurobindo2.webp`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `Life@aurobindo2.webp` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **64/100** on automated WCAG 2.1 AA accessibility testing with **9 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `64/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurobindo Pharma Limited\n- **Resolved URL:** [https://www.aurobindo.com](https://www.aurobindo.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `Life@aurobindo2.webp` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n- **General Contact Email:** `Life@aurobindo2.webp` | **Status:** `Verified` | **Source Page:** https://www.aurobindo.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.header__area-menubar-right-search-box > form > button[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-accept-cookie`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#cn-more-info`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header__area-menubar-right-sidebar-popup-icon > a[href$=\"our-presence\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(1) > a[target=\"_blank\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.mt-4 > li:nth-child(2) > a[target=\"_blank\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(1) > a[target=\"_blank\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer__four-widget-about-social > ul > li:nth-child(2) > a[target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurobindo_Pharma_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurobindo_Pharma_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 9. Lighthouse A11y: 64/100.",
+  "timestamp": "2026-08-06T21:57:27.760Z"
+}
