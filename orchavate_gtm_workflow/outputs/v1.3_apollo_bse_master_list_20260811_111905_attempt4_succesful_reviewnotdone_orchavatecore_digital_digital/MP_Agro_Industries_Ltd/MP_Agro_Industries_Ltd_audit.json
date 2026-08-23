@@ -1,0 +1,305 @@
+{
+  "company": {
+    "srNo": 532,
+    "companyName": "MP Agro Industries Ltd",
+    "readymadeWebsite": "https://mpagro.com.br",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (MP Agro Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://mpagro.com.br",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://mpagro.com.br"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@mpagro.com.br",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@mpagro.com.br",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@mpagro.com.br",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mpagro.com.br",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".elementor-widget-container > .elementor-loop-container.elementor-grid[role=\"list\"]",
+          "html": "<div class=\"elementor-loop-container elementor-grid\" role=\"list\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".swiper",
+          "html": "<div class=\"swiper elementor-loop-container elementor-grid offset-both swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden\" role=\"list\" dir=\"ltr\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-11d7301 > .elementor-animation-grow.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Conheça nossos produtos</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "button[data-filter=\"__all\"]",
+          "html": "<button class=\"e-filter-item\" data-filter=\"__all\" aria-pressed=\"true\">\n\t\t\t\tTodos\t\t\t</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-377 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item",
+          "html": "<span class=\"elementor-post-info__terms-list-item\">Preparo de solo</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-1317 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item",
+          "html": "<span class=\"elementor-post-info__terms-list-item\">Tecnologia de Fertilização</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-1797 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item",
+          "html": "<span class=\"elementor-post-info__terms-list-item\">Tecnologia de Fertilização</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-1767 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item",
+          "html": "<span class=\"elementor-post-info__terms-list-item\">Tecnologia de Fertilização</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-e7af48d > p",
+          "html": "<p class=\"elementor-heading-title elementor-size-default\">Loja Oficial</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-c0a27f0 > a",
+          "html": "<a href=\"https://www.amazonempagro.com.br\">\n\t\t\t<img width=\"292\" height=\"140\" src=\"https://www.amazonempagro.com.br/wp-content/uploads/2026/04/Logo.png\" class=\"attachment-full size-full wp-image-203\" alt=\"\">\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".e-loop-item-377 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-fd24cd9.elementor-widget-theme-post-featured-image[data-id=\"fd24cd9\"] > a",
+          "html": "<a href=\"https://www.amazonempagro.com.br/produto/catros-2tx-e-2ts/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".e-loop-item-1317 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-fd24cd9.elementor-widget-theme-post-featured-image[data-id=\"fd24cd9\"] > a",
+          "html": "<a href=\"https://www.amazonempagro.com.br/produto/za-ts/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".e-loop-item-1797 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-fd24cd9.elementor-widget-theme-post-featured-image[data-id=\"fd24cd9\"] > a",
+          "html": "<a href=\"https://www.amazonempagro.com.br/produto/taurus-robust-30-000-tx/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".e-loop-item-1767 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-fd24cd9.elementor-widget-theme-post-featured-image[data-id=\"fd24cd9\"] > a",
+          "html": "<a href=\"https://www.amazonempagro.com.br/produto/taurus-12-000-tx/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-309096b",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-animation-grow elementor-repeater-item-309096b\" href=\"https://www.linkedin.com/company/mp-agro-m%C3%A1quinas-agr%C3%ADcolas\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-91be45a",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-animation-grow elementor-repeater-item-91be45a\" href=\"https://www.facebook.com/mp.agro/\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-daf5d4c",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-animation-grow elementor-repeater-item-daf5d4c\" href=\"http://www.instagram.com/amazonempagro\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-c3b668e > a[target=\"_blank\"]",
+          "html": "<a href=\"https://talktoalldigital.com.br/\" target=\"_blank\">\n\t\t\t\t\t\t\t<img width=\"97\" height=\"29\" src=\"https://www.amazonempagro.com.br/wp-content/uploads/2026/04/talktoall.svg\" class=\"elementor-animation-grow attachment-large size-large wp-image-115\" alt=\"\">\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-icon[href$=\"#popup-whatsapp\"]",
+          "html": "<a class=\"elementor-icon\" href=\"#popup-whatsapp\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 19,
+  "altTextViolations": 0,
+  "contrastViolations": 7,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — MP Agro Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `19`  \n> **Verified Contact Email:** `info@mpagro.com.br`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **19 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `17` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** MP Agro Industries Ltd\n- **Resolved URL:** [https://mpagro.com.br](https://mpagro.com.br)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-widget-container > .elementor-loop-container.elementor-grid[role=\"list\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.swiper`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-11d7301 > .elementor-animation-grow.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[data-filter=\"__all\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-377 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1317 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1797 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1767 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e7af48d > p`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-c0a27f0 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — MP Agro Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `19`  \n> **Verified Contact Email:** `info@mpagro.com.br`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **19 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `17` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** MP Agro Industries Ltd\n- **Resolved URL:** [https://mpagro.com.br](https://mpagro.com.br)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-widget-container > .elementor-loop-container.elementor-grid[role=\"list\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.swiper`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-11d7301 > .elementor-animation-grow.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[data-filter=\"__all\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-377 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1317 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1797 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1767 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e7af48d > p`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-c0a27f0 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/MP_Agro_Industries_Ltd/screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — MP Agro Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `19`  \n> **Verified Contact Email:** `info@mpagro.com.br`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **19 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `17` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** MP Agro Industries Ltd\n- **Resolved URL:** [https://mpagro.com.br](https://mpagro.com.br)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mpagro.com.br` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mpagro.com.br` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-widget-container > .elementor-loop-container.elementor-grid[role=\"list\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.swiper`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-11d7301 > .elementor-animation-grow.elementor-button.elementor-button-link > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `button[data-filter=\"__all\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-377 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1317 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1797 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1767 > .elementor-element-a8b9c7d.e-lazyloaded[data-id=\"a8b9c7d\"] > .e-con-inner > .elementor-element-8a4ca9a.elementor-widget-post-info[data-id=\"8a4ca9a\"] > .elementor-inline-items.elementor-icon-list-items.elementor-post-info > .elementor-repeater-item-9114fa4.elementor-icon-list-item[itemprop=\"about\"] > .elementor-post-info__item--type-terms.elementor-icon-list-text.elementor-post-info__item > .elementor-post-info__terms-list > .elementor-post-info__terms-list-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-e7af48d > p`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-c0a27f0 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/MP_Agro_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/MP_Agro_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 19. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:43:51.419Z"
+}

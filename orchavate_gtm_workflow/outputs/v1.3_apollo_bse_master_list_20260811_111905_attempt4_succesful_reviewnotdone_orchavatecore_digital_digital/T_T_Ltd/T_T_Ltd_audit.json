@@ -1,0 +1,415 @@
+{
+  "company": {
+    "srNo": 1002,
+    "companyName": "T T Ltd",
+    "readymadeWebsite": "https://ttu.edu",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (T T Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://ttu.edu",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://ttu.edu"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@ttu.edu",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@ttu.edu",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@ttu.edu",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://ttu.edu",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(1) > a",
+          "html": "<a href=\"https://www.ttu.edu/contact/index.php\">Contact Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(2) > a[href$=\"map/\"]",
+          "html": "<a href=\"https://www.ttu.edu/map/\">Campus Map</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(3) > a",
+          "html": "<a href=\"https://www.texastech.edu/careers/\">Jobs @ TTU</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(4) > a[href$=\"techalert/\"]",
+          "html": "<a href=\"https://www.ttu.edu/techalert/\">TechAlert</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(5) > a[href$=\"policy/\"]",
+          "html": "<a href=\"https://www.ttu.edu/policy/\">General Policy Information</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(6) > a",
+          "html": "<a href=\"https://www.ttu.edu/courseinfo/\">Public Access to Course Info</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(7) > a",
+          "html": "<a href=\"https://www.depts.ttu.edu/utilities/EnergyManagement/Energy-Management.php\">Energy Management</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(8) > a[href$=\"wellbeing/\"]",
+          "html": "<a href=\"https://www.ttu.edu/wellbeing/\">Mental Health Resources</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(9) > a",
+          "html": "<a href=\"https://www.depts.ttu.edu/titleix/\">Title IX</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(10) > a",
+          "html": "<a href=\"https://secure.ethicspoint.com/domain/media/en/gui/12414/index.html\">Fraud and Misconduct Hotline</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(11) > a",
+          "html": "<a href=\"https://apps.highered.texas.gov/index.cfm?page=44D8EA89B7EF3E9BBAB50F71E96AAA13\">Online Institutional Resumes</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(12) > a",
+          "html": "<a href=\"https://comptroller.texas.gov/transparency/\">Texas Transparency</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(13) > a",
+          "html": "<a href=\"https://www.ttu.edu/accessibility/digital-accessibility/\">Digital Accessibility</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(1) > a[href$=\"texastech.edu/\"]",
+          "html": "<a href=\"https://www.texastech.edu/\">TTU System</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(2) > a[href$=\"ttuhsc.edu/\"]",
+          "html": "<a href=\"https://www.ttuhsc.edu/\">TTU Health Sciences Center</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(3) > a[href$=\"elpaso.ttuhsc.edu/\"]",
+          "html": "<a href=\"https://elpaso.ttuhsc.edu/\">TTUHSC El Paso</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(4) > a[href$=\"angelo.edu/\"]",
+          "html": "<a href=\"https://www.angelo.edu/\">Angelo State University</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(5) > a[href$=\"msutexas.edu/\"]",
+          "html": "<a href=\"https://www.msutexas.edu/\">Midwestern State University</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(6) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.tsl.texas.gov/trail/\" target=\"_blank\" aria-label=\"Statewide Search (opens in new window)\">Statewide Search</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(7) > a[href$=\"texas.gov/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://texas.gov/\" target=\"_blank\" aria-label=\"State of Texas (opens in new window)\">State of Texas</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(8) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://gov.texas.gov/organization/hsgd\" target=\"_blank\" aria-label=\"Texas Homeland Security (opens in new window)\">Texas Homeland Security</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(9) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://veterans.portal.texas.gov\" target=\"_blank\" aria-label=\"Texas Veterans Portal (opens in new window)\">Texas Veterans Portal</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(10) > a[href$=\"txcrews.org/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://txcrews.org/\" target=\"_blank\" aria-label=\"Texas CREWS (opens in new window)\">Texas CREWS</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(11) > a[href$=\"sao.fraud.texas.gov/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://sao.fraud.texas.gov/\" target=\"_blank\" aria-label=\"SAO Fraud Reporting (opens in new window)\">SAO Fraud Reporting</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(2) > li:nth-child(12) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://www.texastech.edu/ogc/open-records.php\" target=\"_blank\" aria-label=\"Open Records Requests (opens in new window)\">Open Records Requests</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo-link",
+          "html": "<a href=\"#header\" tabindex=\"-1\" class=\"logo-link\">\n                           <div class=\"logo\" title=\"Double T\">\n                              <div class=\"logo__pic\"></div>\n                           </div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ttu-headline--graduate > .ttu-headline__ctas.ttu-lim-width--desktop > ul > li:nth-child(1) > a",
+          "html": "<a href=\"https://www.depts.ttu.edu/provost/commencement#schedule\" tabindex=\"-1\">\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ttu-headline--graduate > .ttu-headline__ctas.ttu-lim-width--desktop > ul > li:nth-child(2) > a",
+          "html": "<a href=\"https://www.depts.ttu.edu/provost/commencement/parking.php\" tabindex=\"-1\">\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ttu-headline--graduate > .ttu-headline__ctas.ttu-lim-width--desktop > ul > li:nth-child(3) > a",
+          "html": "<a href=\"https://www.depts.ttu.edu/provost/commencement/faq.php\" tabindex=\"-1\">\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 29,
+  "altTextViolations": 0,
+  "contrastViolations": 25,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — T T Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `29`  \n> **Verified Contact Email:** `info@ttu.edu`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ttu.edu` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **29 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 25 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (25 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** T T Ltd\n- **Resolved URL:** [https://ttu.edu](https://ttu.edu)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ttu.edu` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ttu.edu` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ttu.edu` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(1) > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(2) > a[href$=\"map/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(4) > a[href$=\"techalert/\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(5) > a[href$=\"policy/\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(6) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(7) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(8) > a[href$=\"wellbeing/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(9) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(10) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/T_T_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/T_T_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — T T Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `29`  \n> **Verified Contact Email:** `info@ttu.edu`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ttu.edu` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **29 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 25 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (25 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** T T Ltd\n- **Resolved URL:** [https://ttu.edu](https://ttu.edu)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ttu.edu` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ttu.edu` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ttu.edu` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(1) > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(2) > a[href$=\"map/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(4) > a[href$=\"techalert/\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(5) > a[href$=\"policy/\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(6) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(7) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(8) > a[href$=\"wellbeing/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(9) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(10) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/T_T_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/T_T_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/T_T_Ltd/screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — T T Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `29`  \n> **Verified Contact Email:** `info@ttu.edu`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@ttu.edu` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **29 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 25 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (25 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** T T Ltd\n- **Resolved URL:** [https://ttu.edu](https://ttu.edu)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ttu.edu` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ttu.edu` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ttu.edu` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(1) > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(2) > a[href$=\"map/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(3) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(4) > a[href$=\"techalert/\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(5) > a[href$=\"policy/\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(6) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(7) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(8) > a[href$=\"wellbeing/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(9) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ttu-vert-padding--top > .ttu-footer__links[data-silktide=\"ignore\"] > ul:nth-child(1) > li:nth-child(10) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/T_T_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/T_T_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/T_T_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 29. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T15:39:36.159Z"
+}

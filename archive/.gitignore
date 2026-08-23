@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.cache/
+.turbo/
+*.zip
+*.tar.gz
+.DS_Store
+
+# Ignore heavy output screenshots & scans
+orchavate_gtm_workflow/outputs/screenshots/*.png
+orchavate_gtm_workflow/outputs/scans/*.json
+orchavate_gtm_workflow/outputs.zip
+outputs.zip

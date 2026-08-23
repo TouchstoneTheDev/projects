@@ -1,0 +1,343 @@
+{
+  "company": {
+    "srNo": 1087,
+    "companyName": "Aplab Ltd",
+    "readymadeWebsite": "https://ap-lab.ca",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Aplab Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://ap-lab.ca",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://ap-lab.ca"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "mail@ap-lab.ca",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://ap-lab.ca"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "mail@ap-lab.ca",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://ap-lab.ca"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://ap-lab.ca",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": ".flex-ultra-active",
+          "html": "<a href=\"#\" aria-label=\"Show slide 1 of 7\" role=\"tab\" class=\"flex-ultra-active\">1</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 2 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 2 of 7\" role=\"tab\">2</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 3 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 3 of 7\" role=\"tab\">3</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 4 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 4 of 7\" role=\"tab\">4</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 5 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 5 of 7\" role=\"tab\">5</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 6 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 6 of 7\" role=\"tab\">6</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "a[aria-label=\"Show slide 7 of 7\"]",
+          "html": "<a href=\"#\" aria-label=\"Show slide 7 of 7\" role=\"tab\">7</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-item-641 > a[aria-current=\"page\"][href$=\"ap-lab.ca/\"]",
+          "html": "<a href=\"https://ap-lab.ca/\" aria-current=\"page\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ctf-header-name",
+          "html": "<span class=\"ctf-header-name\">AP-Lab</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ctf-header-follow",
+          "html": "<span class=\"ctf-header-follow\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ctf-header-bio",
+          "html": "<p class=\"ctf-header-bio\">\n\t\t\t\t\tResearch Lab at Concordia University working on augmented reality, image-guided surgery, medical image visualization, HCI in health and fitness.                </p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#\\31 931395843061366833 > .ctf-tweet-content > .ctf-tweet-text > a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://twitter.com/hashtag/NSERC\" target=\"_blank\" rel=\"nofollow noopener\">#NSERC</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"59hyu8kr\"]",
+          "html": "<a href=\"http://tinyurl.com/59hyu8kr\" title=\"http://tinyurl.com/59hyu8kr\" target=\"_blank\">http://tinyurl.com/59hyu8kr</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(8)",
+          "html": "<a href=\"https://twitter.com/hashtag/NSERCsupport\" target=\"_blank\" rel=\"nofollow noopener\">#NSERCsupport</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ctf-tweet-text > a[href$=\"Concordia\"]",
+          "html": "<a href=\"https://twitter.com/Concordia\" target=\"_blank\" rel=\"nofollow noopener\">@Concordia</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(11)",
+          "html": "<a href=\"https://twitter.com/GinaCodySchool\" target=\"_blank\" rel=\"nofollow noopener\">@GinaCodySchool</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#\\31 931395843061366833 > .ctf-tweet-actions > .ctf-like[rel=\"nofollow noopener noreferrer\"][target=\"_blank\"] > .ctf-favorite-count.ctf-action-count",
+          "html": "<span class=\"ctf-action-count ctf-favorite-count\">11</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"mbmc_cmcm\"]",
+          "html": "<a href=\"https://twitter.com/mbmc_cmcm\" target=\"_blank\" rel=\"nofollow noopener\">@mbmc_cmcm</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(3)",
+          "html": "<a href=\"https://twitter.com/hashtag/HappyHolidays\" target=\"_blank\" rel=\"nofollow noopener\">#HappyHolidays</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(4)",
+          "html": "<a href=\"https://twitter.com/hashtag/MerryChristmas\" target=\"_blank\" rel=\"nofollow noopener\">#MerryChristmas</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(5)",
+          "html": "<a href=\"https://twitter.com/hashtag/NewYear2025\" target=\"_blank\" rel=\"nofollow noopener\">#NewYear2025</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "#\\31 931395843061366833 > .ctf-tweet-content > .ctf-tweet-text > a[rel=\"nofollow noopener\"][target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://twitter.com/hashtag/NSERC\" target=\"_blank\" rel=\"nofollow noopener\">#NSERC</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "ol",
+          "html": "<ol class=\"flex-ultra-control-nav flex-ultra-control-paging\" aria-label=\"Slide controls\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 23,
+  "altTextViolations": 0,
+  "contrastViolations": 14,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aplab Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `mail@ap-lab.ca`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `mail@ap-lab.ca` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `16` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aplab Ltd\n- **Resolved URL:** [https://ap-lab.ca](https://ap-lab.ca)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `mail@ap-lab.ca` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `mail@ap-lab.ca` | **Status:** `Verified` | **Source Page:** https://ap-lab.ca\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-ultra-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 7\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 7\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 7\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 7\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 7\"]`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 7 of 7\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-641 > a[aria-current=\"page\"][href$=\"ap-lab.ca/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-name`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-follow`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aplab_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aplab_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aplab Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `mail@ap-lab.ca`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `mail@ap-lab.ca` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `16` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aplab Ltd\n- **Resolved URL:** [https://ap-lab.ca](https://ap-lab.ca)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `mail@ap-lab.ca` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `mail@ap-lab.ca` | **Status:** `Verified` | **Source Page:** https://ap-lab.ca\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-ultra-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 7\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 7\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 7\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 7\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 7\"]`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 7 of 7\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-641 > a[aria-current=\"page\"][href$=\"ap-lab.ca/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-name`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-follow`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aplab_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aplab_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Aplab_Ltd/screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aplab Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `23`  \n> **Verified Contact Email:** `mail@ap-lab.ca`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `mail@ap-lab.ca` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **23 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `16` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aplab Ltd\n- **Resolved URL:** [https://ap-lab.ca](https://ap-lab.ca)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `mail@ap-lab.ca` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `mail@ap-lab.ca` | **Status:** `Verified` | **Source Page:** https://ap-lab.ca\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `.flex-ultra-active`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 2 of 7\"]`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 3 of 7\"]`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 4 of 7\"]`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 5 of 7\"]`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 6 of 7\"]`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `a[aria-label=\"Show slide 7 of 7\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-item-641 > a[aria-current=\"page\"][href$=\"ap-lab.ca/\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-name`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ctf-header-follow`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aplab_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aplab_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aplab_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 23. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T15:48:14.521Z"
+}

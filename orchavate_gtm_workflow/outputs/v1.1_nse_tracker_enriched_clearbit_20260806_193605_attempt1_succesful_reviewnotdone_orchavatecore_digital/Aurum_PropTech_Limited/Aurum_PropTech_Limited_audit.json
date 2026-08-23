@@ -1,0 +1,525 @@
+{
+  "company": {
+    "srNo": 223,
+    "companyName": "Aurum PropTech Limited",
+    "readymadeWebsite": "aurumproptech.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://aurumproptech.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://aurumproptech.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "contact@aurumproptech.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://aurumproptech.in"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "contact@aurumproptech.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://aurumproptech.in"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://aurumproptech.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".slick-slide[data-index=\"2\"][aria-hidden=\"true\"]",
+          "html": "<div data-index=\"2\" class=\"slick-slide\" tabindex=\"-1\" aria-hidden=\"true\" style=\"outline: none; width: 438px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".anchor-green > a",
+          "html": "<a href=\"https://www.aurumproptech.in/investor/presentations\">Aurum PropTech Limited</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal",
+          "html": "<div class=\"text-4xl font-normal text-[#bf9724]\" style=\"font-family: PublicSans-Light;\">10<span class=\"text-3xl\">+</span></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal",
+          "html": "<div class=\"text-4xl font-normal text-[#bf9724]\" style=\"font-family: PublicSans-Light;\">10<span class=\"text-3xl\">+</span></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal",
+          "html": "<div class=\"text-4xl font-normal text-[#bf9724]\" style=\"font-family: PublicSans-Light;\">650<span class=\"text-3xl\">+</span></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-index=\"3\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal",
+          "html": "<div class=\"text-4xl font-normal text-[#bf9724]\" style=\"font-family: PublicSans-Light;\">15<span class=\"text-3xl\">+</span></div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(2) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(2) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)",
+          "html": "<li class=\"flex gap-2 items-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".border-\\[\\#6e7588\\] > .address-contianer.mt-\\[40px\\].text-\\[14px\\] > address > .email.items-baseline.not-italic:nth-child(4) > .w-\\[70\\%\\].my-\\[10px\\] > .opacity-\\[0\\.7\\].text-proptech-green[href$=\"contact\"] > .fmain > .text",
+          "html": "<span class=\"text \">Connect With Us</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-7.md\\:mb-1.gap-6:nth-child(1) > .justify-end.flex > .p-\\[6px\\].border-\\[3px\\].border-\\[\\#bf9724\\]",
+          "html": "<a class=\"border-[3px] p-[6px] inline-block rounded-full border-[#bf9724] \" href=\"/rental\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".p-\\[6px\\].border-\\[3px\\][href$=\"ai-for-real-estate\"]",
+          "html": "<a class=\"border-[3px] p-[6px] inline-block rounded-full border-[#bf9724] \" href=\"/ai-for-real-estate\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mb-7.md\\:mb-1.gap-6:nth-child(3) > .justify-end.flex > .p-\\[6px\\].border-\\[3px\\].border-\\[\\#bf9724\\]",
+          "html": "<a class=\"border-[3px] p-[6px] inline-block rounded-full border-[#bf9724] \" href=\"/capital\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > .pt-3.justify-end.flex > .md\\:p-2.p-1.border-\\[3px\\]",
+          "html": "<a class=\"border-[3px] md:p-2 p-1 inline-block rounded-full border-[#bf9724] \" href=\"/rental\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".md\\:p-2.p-1[href$=\"distribution\"]",
+          "html": "<a class=\"border-[3px] md:p-2 p-1 inline-block rounded-full border-[#bf9724] \" href=\"/distribution\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".rounded-xl.bg-white.relative:nth-child(3) > .xl\\:p-5.lg\\:p-2.p-5 > .pt-3.justify-end.flex > .md\\:p-2.p-1.border-\\[3px\\]",
+          "html": "<a class=\"border-[3px] md:p-2 p-1 inline-block rounded-full border-[#bf9724] \" href=\"/capital\" style=\"color: rgb(191, 151, 36);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".social-container.basis-1\\/2.justify-end > .px-\\[10px\\][target=\"_blank\"]:nth-child(1)",
+          "html": "<a target=\"_blank\" class=\"px-[10px]\" href=\"https://www.linkedin.com/company/aurumproptech/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".social-container.basis-1\\/2.justify-end > .px-\\[10px\\][target=\"_blank\"]:nth-child(2)",
+          "html": "<a target=\"_blank\" class=\"px-[10px]\" href=\"https://x.com/AurumProptech?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".social-container.basis-1\\/2.justify-end > .px-\\[10px\\][target=\"_blank\"]:nth-child(3)",
+          "html": "<a target=\"_blank\" class=\"px-[10px]\" href=\"https://www.instagram.com/aurumproptech/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".social-container.basis-1\\/2.justify-end > .px-\\[10px\\][target=\"_blank\"]:nth-child(4)",
+          "html": "<a target=\"_blank\" class=\"px-[10px]\" href=\"https://www.facebook.com/AurumPropTech\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".social-container.basis-1\\/2.justify-end > .px-\\[10px\\][target=\"_blank\"]:nth-child(5)",
+          "html": "<a target=\"_blank\" class=\"px-[10px]\" href=\"https://www.youtube.com/@Aurum_PropTech\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 40,
+  "altTextViolations": 0,
+  "contrastViolations": 28,
+  "labelViolations": 0,
+  "keyboardViolations": 1,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurum PropTech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `40`  \n> **Verified Contact Email:** `contact@aurumproptech.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contact@aurumproptech.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **40 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `40` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 28 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (28 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurum PropTech Limited\n- **Resolved URL:** [https://aurumproptech.in](https://aurumproptech.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@aurumproptech.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@aurumproptech.in` | **Status:** `Verified` | **Source Page:** https://aurumproptech.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.slick-slide[data-index=\"2\"][aria-hidden=\"true\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.anchor-green > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-index=\"3\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurum_PropTech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurum_PropTech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurum PropTech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `40`  \n> **Verified Contact Email:** `contact@aurumproptech.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contact@aurumproptech.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **40 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `40` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 28 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (28 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurum PropTech Limited\n- **Resolved URL:** [https://aurumproptech.in](https://aurumproptech.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@aurumproptech.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@aurumproptech.in` | **Status:** `Verified` | **Source Page:** https://aurumproptech.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.slick-slide[data-index=\"2\"][aria-hidden=\"true\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.anchor-green > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-index=\"3\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurum_PropTech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurum_PropTech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Aurum_PropTech_Limited/screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Aurum PropTech Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `40`  \n> **Verified Contact Email:** `contact@aurumproptech.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `contact@aurumproptech.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **40 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `40` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 28 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 1 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (28 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (1 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Aurum PropTech Limited\n- **Resolved URL:** [https://aurumproptech.in](https://aurumproptech.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `contact@aurumproptech.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `contact@aurumproptech.in` | **Status:** `Verified` | **Source Page:** https://aurumproptech.in\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `.slick-slide[data-index=\"2\"][aria-hidden=\"true\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.anchor-green > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-current[data-index=\"0\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"1\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.slick-active[data-index=\"2\"][aria-hidden=\"false\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-index=\"3\"] > div > .p-4 > .p-6.text-center > .text-\\[\\#bf9724\\].text-4xl.font-normal`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(1)`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(2)`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(3)`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.rounded-xl.bg-white.relative:nth-child(1) > .xl\\:p-5.lg\\:p-2.p-5 > div:nth-child(1) > .mt-2:nth-child(1) > .grid-cols-2.text-xs.md\\:text-sm > .gap-2.items-center:nth-child(4)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Aurum_PropTech_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Aurum_PropTech_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Aurum_PropTech_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 40. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T20:43:21.180Z"
+}

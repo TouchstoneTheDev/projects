@@ -1,0 +1,277 @@
+{
+  "company": {
+    "srNo": 973,
+    "companyName": "Pradeep Metals Ltd",
+    "readymadeWebsite": "https://pradeepmetals.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Pradeep Metals Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://pradeepmetals.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://pradeepmetals.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investors@pradeepmetals.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://pradeepmetals.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investors@pradeepmetals.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://pradeepmetals.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://pradeepmetals.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".right_text01:nth-child(1) > .right_text02.blc",
+          "html": "<span class=\"blc right_text02\" style=\"font-size:11px; font-weight:600;\">BSE SHARE PRICE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".right_text01:nth-child(3) > .right_text02.blc",
+          "html": "<span class=\"blc right_text02\" style=\"font-size:11px; font-weight:600;\">NSE SHARE PRICE</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[aria-current=\"page\"]",
+          "html": "<a href=\"https://www.pradeepmetals.com/\" aria-current=\"page\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe[name=\"rssfeed_frame\"]",
+          "html": "<iframe name=\"rssfeed_frame\" width=\"100%\" height=\"260\" frameborder=\"0\" src=\"https://feed.surfing...\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" scrolling=\"no\" allowtransparency=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]",
+          "html": "<img src=\"https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/linkein.jpg\" name=\"Image16\" width=\"29\" height=\"27\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]",
+          "html": "<img src=\"https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/facebook.png\" name=\"Image16\" width=\"29\" height=\"27\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".contaicfixed > a",
+          "html": "<a href=\"https://www.pradeepmetals.com/contact-us\"><img src=\"https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/contactimg.jpg\" alt=\"\" class=\"img-responsive tales hide_img\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".logo_brand",
+          "html": "<a class=\"logo_brand\" href=\"https://www.pradeepmetals.com\"><img src=\"../wp-content/uploads/2026/05/logo-new2.png\" alt=\"\" class=\"img-responsive tales\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.linkedin.com/company/pradeep-metals-limited\" target=\"_blank\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image16','','https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/linkein.jpg',1)\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.facebook.com/pradeepmetals\" target=\"_blank\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image16','','https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/facebook.png',1)\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(1) > .row > .col-xs-3.imginer01 > a",
+          "html": "<a href=\"https://www.pradeepmetals.com/forged-flanges/\"><img class=\"img-responsive\" src=\"https://www.pradeepmetals.com/wp-content/uploads/2016/09/p1.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > .row > .col-xs-3.imginer01 > a",
+          "html": "<a href=\"https://www.pradeepmetals.com/valves/\"><img class=\"img-responsive\" src=\"https://www.pradeepmetals.com/wp-content/uploads/2016/09/p2.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(3) > .row > .col-xs-3.imginer01 > a",
+          "html": "<a href=\"https://www.pradeepmetals.com/general-engineering/\"><img class=\"img-responsive\" src=\"https://www.pradeepmetals.com/wp-content/uploads/2016/09/p3.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(4) > .row > .col-xs-3.imginer01 > a",
+          "html": "<a href=\"https://www.pradeepmetals.com/manifolds/\"><img class=\"img-responsive\" src=\"https://www.pradeepmetals.com/wp-content/uploads/2016/09/p4.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"datagrid.co.in/\"]",
+          "html": "<a target=\"_blank\" href=\"http://www.datagrid.co.in/\" rel=\"nofollow\"><img src=\"https://www.pradeepmetals.com/wp-content/themes/Pradeep-Metals/img/datagridlogo.jpg\" alt=\"\" class=\"img-responsive\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".col-md-4:nth-child(2) > .boxset > .boxes02.list-unstyled",
+          "html": "<ul class=\"list-unstyled boxes02\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee class=\"marquee_width\">Pradeep Metals has reported a sales total income from operations of Rs 4,602.62 lakhs and a net profit of Rs 291.31 lakhs for the quarter ended March 2019</marquee>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 32,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 17,
+  "altTextViolations": 2,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 32,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Pradeep Metals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@pradeepmetals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@pradeepmetals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 2 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (2 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Pradeep Metals Ltd\n- **Resolved URL:** [https://pradeepmetals.com](https://pradeepmetals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@pradeepmetals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@pradeepmetals.com` | **Status:** `Verified` | **Source Page:** https://pradeepmetals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(1) > .right_text02.blc`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(3) > .right_text02.blc`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[aria-current=\"page\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[name=\"rssfeed_frame\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.contaicfixed > a`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo_brand`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Pradeep_Metals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Pradeep_Metals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Pradeep Metals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@pradeepmetals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@pradeepmetals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 2 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (2 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Pradeep Metals Ltd\n- **Resolved URL:** [https://pradeepmetals.com](https://pradeepmetals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@pradeepmetals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@pradeepmetals.com` | **Status:** `Verified` | **Source Page:** https://pradeepmetals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(1) > .right_text02.blc`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(3) > .right_text02.blc`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[aria-current=\"page\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[name=\"rssfeed_frame\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.contaicfixed > a`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo_brand`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Pradeep_Metals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Pradeep_Metals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Pradeep_Metals_Ltd/screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Pradeep Metals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `32 / 100`  \n> **Total WCAG Violations:** `17`  \n> **Verified Contact Email:** `investors@pradeepmetals.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investors@pradeepmetals.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **32/100** on automated WCAG 2.1 AA accessibility testing with **17 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `32/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 2 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (2 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Pradeep Metals Ltd\n- **Resolved URL:** [https://pradeepmetals.com](https://pradeepmetals.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investors@pradeepmetals.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `investors@pradeepmetals.com` | **Status:** `Verified` | **Source Page:** https://pradeepmetals.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(1) > .right_text02.blc`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.right_text01:nth-child(3) > .right_text02.blc`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[aria-current=\"page\"]`\n4. **`[other] frame-title`** (SERIOUS)\n   - **Help:** Frames must have an accessible name\n   - **Selector:** `iframe[name=\"rssfeed_frame\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"] > img[name=\"Image16\"][width=\"29\"][height=\"27\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.contaicfixed > a`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.logo_brand`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(1) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `li:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][target=\"_blank\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Pradeep_Metals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Pradeep_Metals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Pradeep_Metals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 17. WAVE AIM: N/A. Lighthouse A11y: 32/100.",
+  "timestamp": "2026-08-11T15:37:53.090Z"
+}

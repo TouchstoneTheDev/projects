@@ -1,0 +1,355 @@
+{
+  "company": {
+    "srNo": 484,
+    "companyName": "Crisil Limited",
+    "readymadeWebsite": "crisil.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://crisil.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://crisil.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@crisil.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@crisil.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@crisil.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://crisil.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".item2 > .analytics-cta-title > b",
+          "html": "<b>Case study</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".item3 > .analytics-cta-title > b",
+          "html": "<b>Article</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".delevering-mission > .image-and-text > .banner-wrap > .banner > .hidden-xs",
+          "html": "<img src=\"/content/dam/crisilcom2-0/banner-home.png\" class=\"hidden-xs\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(3) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-1/image_copy_copy.img.jpg/1775561192033.jpg\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-2.col-xs-6.col-sm-6:nth-child(2) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-2/image_copy_copy_copy.img.png/1775561194547.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-2.col-xs-6.col-sm-6:nth-child(3) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-3/image_copy_copy_copy.img.png/1775561194857.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-2.col-xs-6.col-sm-6:nth-child(4) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-4/image_copy_copy_copy.img.png/1775561189373.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-2.col-xs-6.col-sm-6:nth-child(5) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-5/image_copy_copy_copy.img.png/1775561197386.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(4) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_copy_c_266981924/col-100-1-wp/box_copy/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab-mob-50-50-1/image_copy_copy_4422.img.png/1775561196421.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".single-analytics-cta[title=\"Award and Recognitions\"][rel=\"noopener noreferrer\"] > img[height=\"24\"][width=\"24\"]",
+          "html": "<img src=\"/content/dam/crisilcom2-0/Group.png\" style=\"\tdisplay: inline;\n\" width=\"24\" height=\"24\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(1) > .col-xs-12 > .columncontrol > .col-sm-1.col-xs-12 > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/e...\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(2) > .col-xs-12 > .columncontrol > .col-sm-1.col-xs-12 > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/e...\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(3) > .col-xs-12 > .columncontrol > .col-sm-1.col-xs-12 > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/e...\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(4) > .col-xs-12 > .columncontrol > .col-sm-1.col-xs-12 > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/e...\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".columncontrol:nth-child(5) > .col-xs-12 > .columncontrol > .col-sm-1.col-xs-12 > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/e...\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".foundation-banner-image > .image-and-text > .banner-wrap > .banner > .hidden-xs",
+          "html": "<img src=\"/content/dam/crisilcom2-0/crisil-foundation.png\" class=\"hidden-xs\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[title=\"Mein Pragati\"] > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_399248/col-100-1-wp/box/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab50-50-1/image_copy.img.png/1775561241833.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[title=\"Crisil Re\"] > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_399248/col-100-1-wp/box/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab50-50-2/image_copy_copy.img.png/1775561230883.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[title=\"GramShakti\"] > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_399248/col-100-1-wp/box/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab50-50-3/image_copy_copy.img.png/1775561201833.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-md-3.col-xs-6.col-sm-6:nth-child(4) > .image.parbase > a > .cq-dd-image[data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_399248/col-100-1-wp/box/col-100-1/columncontrol/col-100-1-wp/columncontrol/4-col-tab50-50-4/image_copy_copy.img.png/1775561178368.png\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".single-analytics-cta[title=\"Crisil Foundation\"][rel=\"noopener noreferrer\"] > img[height=\"24\"][width=\"24\"]",
+          "html": "<img src=\"/content/dam/crisilcom2-0/Group.png\" style=\"\tdisplay: inline;\n\" width=\"24\" height=\"24\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".webinar-image-meetus-section > .image.parbase > img[width=\"1140\"][height=\"259\"][data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_695744_581502571/col-100-1-wp/columncontrol/col-100-1/box_copy/col-100-1/image_copy_copy_copy_1709163271.img.jpg/1786009698280.jpg\" width=\"1140\" height=\"259\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".col-xs-12 > .image.parbase > img[width=\"1140\"][height=\"259\"][data-emptytext=\"Image\"]",
+          "html": "<img src=\"/content/crisilcom/en/home/jcr:content/content_par/columncontrol_695744_581502571/col-100-1-wp/columncontrol/col-100-1/image_copy_copy_copy.img.jpg/1782387842010.jpg\" width=\"1140\" height=\"259\" class=\"cq-dd-image\" data-emptytext=\"Image\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "a[title=\"Life @ Crisil\"][rel=\"noopener noreferrer\"][target=\"_blank\"]:nth-child(2) > img",
+          "html": "<img src=\"/content/dam/crisilcom2-0/arrow-right2.png\" style=\"\twidth: 24.0px;\n\theight: 24.0px;\n\tdisplay: inline;\n\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 24,
+  "altTextViolations": 22,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Crisil Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `info@crisil.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@crisil.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 22 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (22 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Crisil Limited\n- **Resolved URL:** [https://crisil.com](https://crisil.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@crisil.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@crisil.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@crisil.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item2 > .analytics-cta-title > b`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item3 > .analytics-cta-title > b`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.delevering-mission > .image-and-text > .banner-wrap > .banner > .hidden-xs`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(3) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(2) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(3) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(4) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(5) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(4) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.single-analytics-cta[title=\"Award and Recognitions\"][rel=\"noopener noreferrer\"] > img[height=\"24\"][width=\"24\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Crisil_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Crisil_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Crisil Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `info@crisil.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@crisil.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 22 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (22 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Crisil Limited\n- **Resolved URL:** [https://crisil.com](https://crisil.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@crisil.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@crisil.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@crisil.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item2 > .analytics-cta-title > b`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item3 > .analytics-cta-title > b`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.delevering-mission > .image-and-text > .banner-wrap > .banner > .hidden-xs`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(3) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(2) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(3) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(4) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(5) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(4) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.single-analytics-cta[title=\"Award and Recognitions\"][rel=\"noopener noreferrer\"] > img[height=\"24\"][width=\"24\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Crisil_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Crisil_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Crisil_Limited/screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Crisil Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `24`  \n> **Verified Contact Email:** `info@crisil.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@crisil.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **24 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `22` | Serious: `2` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 22 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (22 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Crisil Limited\n- **Resolved URL:** [https://crisil.com](https://crisil.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@crisil.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@crisil.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@crisil.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item2 > .analytics-cta-title > b`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.item3 > .analytics-cta-title > b`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.delevering-mission > .image-and-text > .banner-wrap > .banner > .hidden-xs`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(3) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(2) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(3) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(4) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.col-md-2.col-xs-6.col-sm-6:nth-child(5) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.columncontrol:nth-child(4) > .no-padding.col-xs-12 > .box > .recognition-content-container > .columncontrol > .no-padding.col-xs-12 > .columncontrol > .fiveColumnctrl > .col-md-2.col-xs-6.col-sm-6:nth-child(1) > .image.parbase > .cq-dd-image[data-emptytext=\"Image\"]`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.single-analytics-cta[title=\"Award and Recognitions\"][rel=\"noopener noreferrer\"] > img[height=\"24\"][width=\"24\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Crisil_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Crisil_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Crisil_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 24. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:53:20.200Z"
+}

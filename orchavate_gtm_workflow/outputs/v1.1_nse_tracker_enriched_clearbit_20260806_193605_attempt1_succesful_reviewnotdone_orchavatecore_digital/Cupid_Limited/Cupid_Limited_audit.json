@@ -1,0 +1,224 @@
+{
+  "company": {
+    "srNo": 495,
+    "companyName": "Cupid Limited",
+    "readymadeWebsite": "cupidlimited.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://cupidlimited.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://cupidlimited.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@cupidlimited.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://cupidlimited.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@cupidlimited.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://cupidlimited.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://cupidlimited.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".elementor-loop-container",
+          "html": "<div class=\"elementor-loop-container elementor-grid\" role=\"list\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-b8dbea7 > .contact-btn.menu-item-1335.menu-item-type-post_type > .elementor-item",
+          "html": "<a href=\"https://www.cupidlimited.com/contact-us/\" class=\"elementor-item\">Contact Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button.elementor-button-link[target=\"_blank\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Download Now</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-button.elementor-button-link[href=\"#\"] > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">View All</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-1 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-391 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-394 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".e-loop-item-399 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text",
+          "html": "<span class=\"elementor-button-text\">Read More</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active[aria-label=\"1 / 4\"][data-slide=\"1\"] > .elementor-element-38f41dc.e-con-boxed[data-id=\"38f41dc\"] > .e-con-inner > .elementor-element-f3fdd53.e-con-full[data-id=\"f3fdd53\"] > .elementor-element-f4c3052.e-con-full[data-id=\"f4c3052\"] > .elementor-element-324ecd6.elementor-view-framed[data-id=\"324ecd6\"] > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.cupidlimited.com/cupid-male-condom/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-next[aria-label=\"2 / 4\"][data-slide=\"2\"] > .elementor-element-b1fc5ed.e-con-boxed[data-id=\"b1fc5ed\"] > .e-con-inner > .elementor-element-b3bf55c.e-con-full[data-id=\"b3bf55c\"] > .elementor-element-996e391.e-con-full[data-id=\"996e391\"] > .elementor-element-7116621.elementor-view-framed[data-id=\"7116621\"] > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.cupidlimited.com/cupid-female-condom/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[aria-label=\"3 / 4\"][data-slide=\"3\"][data-swiper-slide-index=\"2\"]:nth-child(6) > .elementor-element-c7d27ea.e-con-boxed[data-id=\"c7d27ea\"] > .e-con-inner > .elementor-element-a0a7d33.e-con-full[data-id=\"a0a7d33\"] > .elementor-element-839ad5c.e-con-full[data-id=\"839ad5c\"] > .elementor-element-212dbc1.elementor-view-framed[data-id=\"212dbc1\"] > .elementor-icon-wrapper > .elementor-icon",
+          "html": "<a class=\"elementor-icon\" href=\"https://www.cupidlimited.com/water-based-lubricant-jelly/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-b48aff2",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-b48aff2\" href=\"https://www.facebook.com/cupidcondoms\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-repeater-item-7dabecf",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-7dabecf\" href=\"https://www.twitter.com/cupidcondoms\" target=\"_blank\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 48,
+      "screenshots": []
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 13,
+  "altTextViolations": 0,
+  "contrastViolations": 7,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 48,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/screenshots/Cupid_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cupid Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `info@cupidlimited.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cupidlimited.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cupid Limited\n- **Resolved URL:** [https://cupidlimited.com](https://cupidlimited.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cupidlimited.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@cupidlimited.com` | **Status:** `Verified` | **Source Page:** https://cupidlimited.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-loop-container`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-b8dbea7 > .contact-btn.menu-item-1335.menu-item-type-post_type > .elementor-item`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[target=\"_blank\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[href=\"#\"] > .elementor-button-content-wrapper > .elementor-button-text`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-391 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-394 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-399 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-active[aria-label=\"1 / 4\"][data-slide=\"1\"] > .elementor-element-38f41dc.e-con-boxed[data-id=\"38f41dc\"] > .e-con-inner > .elementor-element-f3fdd53.e-con-full[data-id=\"f3fdd53\"] > .elementor-element-f4c3052.e-con-full[data-id=\"f4c3052\"] > .elementor-element-324ecd6.elementor-view-framed[data-id=\"324ecd6\"] > .elementor-icon-wrapper > .elementor-icon`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-next[aria-label=\"2 / 4\"][data-slide=\"2\"] > .elementor-element-b1fc5ed.e-con-boxed[data-id=\"b1fc5ed\"] > .e-con-inner > .elementor-element-b3bf55c.e-con-full[data-id=\"b3bf55c\"] > .elementor-element-996e391.e-con-full[data-id=\"996e391\"] > .elementor-element-7116621.elementor-view-framed[data-id=\"7116621\"] > .elementor-icon-wrapper > .elementor-icon`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cupid_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cupid_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cupid_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/screenshots/Cupid_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cupid Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `info@cupidlimited.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cupidlimited.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cupid Limited\n- **Resolved URL:** [https://cupidlimited.com](https://cupidlimited.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cupidlimited.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@cupidlimited.com` | **Status:** `Verified` | **Source Page:** https://cupidlimited.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-loop-container`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-b8dbea7 > .contact-btn.menu-item-1335.menu-item-type-post_type > .elementor-item`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[target=\"_blank\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[href=\"#\"] > .elementor-button-content-wrapper > .elementor-button-text`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-391 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-394 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-399 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-active[aria-label=\"1 / 4\"][data-slide=\"1\"] > .elementor-element-38f41dc.e-con-boxed[data-id=\"38f41dc\"] > .e-con-inner > .elementor-element-f3fdd53.e-con-full[data-id=\"f3fdd53\"] > .elementor-element-f4c3052.e-con-full[data-id=\"f4c3052\"] > .elementor-element-324ecd6.elementor-view-framed[data-id=\"324ecd6\"] > .elementor-icon-wrapper > .elementor-icon`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-next[aria-label=\"2 / 4\"][data-slide=\"2\"] > .elementor-element-b1fc5ed.e-con-boxed[data-id=\"b1fc5ed\"] > .e-con-inner > .elementor-element-b3bf55c.e-con-full[data-id=\"b3bf55c\"] > .elementor-element-996e391.e-con-full[data-id=\"996e391\"] > .elementor-element-7116621.elementor-view-framed[data-id=\"7116621\"] > .elementor-icon-wrapper > .elementor-icon`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cupid_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cupid_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cupid_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cupid_Limited/screenshots/Cupid_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cupid Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `48 / 100`  \n> **Total WCAG Violations:** `13`  \n> **Verified Contact Email:** `info@cupidlimited.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cupidlimited.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **48/100** on automated WCAG 2.1 AA accessibility testing with **13 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `48/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 7 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (7 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cupid Limited\n- **Resolved URL:** [https://cupidlimited.com](https://cupidlimited.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cupidlimited.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@cupidlimited.com` | **Status:** `Verified` | **Source Page:** https://cupidlimited.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `.elementor-loop-container`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-b8dbea7 > .contact-btn.menu-item-1335.menu-item-type-post_type > .elementor-item`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[target=\"_blank\"] > .elementor-button-content-wrapper > .elementor-button-text`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-button.elementor-button-link[href=\"#\"] > .elementor-button-content-wrapper > .elementor-button-text`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-1 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-391 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-394 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.e-loop-item-399 > .elementor-element-b290a59.blog-item[data-id=\"b290a59\"] > .elementor-element-f7dab0e[data-id=\"f7dab0e\"][data-settings=\"{\\\"position\\\":\\\"absolute\\\"}\"] > .elementor-element-efb3252.blog-more[data-id=\"efb3252\"] > .elementor-button.elementor-button-link.elementor-size-sm > .elementor-button-content-wrapper > .elementor-button-text`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-active[aria-label=\"1 / 4\"][data-slide=\"1\"] > .elementor-element-38f41dc.e-con-boxed[data-id=\"38f41dc\"] > .e-con-inner > .elementor-element-f3fdd53.e-con-full[data-id=\"f3fdd53\"] > .elementor-element-f4c3052.e-con-full[data-id=\"f4c3052\"] > .elementor-element-324ecd6.elementor-view-framed[data-id=\"324ecd6\"] > .elementor-icon-wrapper > .elementor-icon`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-next[aria-label=\"2 / 4\"][data-slide=\"2\"] > .elementor-element-b1fc5ed.e-con-boxed[data-id=\"b1fc5ed\"] > .e-con-inner > .elementor-element-b3bf55c.e-con-full[data-id=\"b3bf55c\"] > .elementor-element-996e391.e-con-full[data-id=\"996e391\"] > .elementor-element-7116621.elementor-view-framed[data-id=\"7116621\"] > .elementor-icon-wrapper > .elementor-icon`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cupid_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cupid_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cupid_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 13. Lighthouse A11y: 48/100.",
+  "timestamp": "2026-08-06T21:59:44.377Z"
+}

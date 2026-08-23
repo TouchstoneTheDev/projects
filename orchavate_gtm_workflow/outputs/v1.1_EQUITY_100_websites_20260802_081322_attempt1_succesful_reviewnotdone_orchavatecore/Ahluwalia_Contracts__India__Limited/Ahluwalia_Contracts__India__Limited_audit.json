@@ -1,0 +1,124 @@
+{
+  "company": {
+    "srNo": 88,
+    "companyName": "Ahluwalia Contracts (India) Limited",
+    "readymadeWebsite": "https://www.ahluwaliacontracts.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.ahluwaliacontracts.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.ahluwaliacontracts.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@ahluwaliacontracts.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@ahluwaliacontracts.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@ahluwaliacontracts.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.ahluwaliacontracts.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[rel=\"nofollow noopener\"]",
+          "html": "<a rel=\"nofollow noopener\" role=\"link\" aria-haspopup=\"true\" data-ux=\"Link\" target=\"_blank\" data-aid=\"FOOTER_POWERED_BY_AI...\" href=\"https://www.godaddy....\" data-typography=\"LinkAlpha\" class=\"x-el x-el-a c1-2k c1...\" data-tccl=\"ux2.FOOTER.footer2.L...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": ".c1-t",
+          "html": "<div role=\"img\" data-aid=\"BACKGROUND_IMAGE_REN...\" data-ux=\"HeaderMediaFillBackg...\" data-ht=\"Fill\" class=\"x-el x-el-div c1-1 c...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".c1-t",
+          "html": "<div role=\"img\" data-aid=\"BACKGROUND_IMAGE_REN...\" data-ux=\"HeaderMediaFillBackg...\" data-ht=\"Fill\" class=\"x-el x-el-div c1-1 c...\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 88,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 3,
+  "altTextViolations": 1,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 88,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `info@ahluwaliacontracts.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://www.ahluwaliacontracts.com](https://www.ahluwaliacontracts.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[rel=\"nofollow noopener\"]`\n2. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `.c1-t`\n3. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.c1-t`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `info@ahluwaliacontracts.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://www.ahluwaliacontracts.com](https://www.ahluwaliacontracts.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[rel=\"nofollow noopener\"]`\n2. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `.c1-t`\n3. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.c1-t`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_EQUITY_100_websites_20260802_081322_attempt1_succesful_reviewnotdone_orchavatecore/Ahluwalia_Contracts__India__Limited/screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Ahluwalia Contracts (India) Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `88 / 100`  \n> **Total WCAG Violations:** `3`  \n> **Verified Contact Email:** `info@ahluwaliacontracts.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **88/100** on automated WCAG 2.1 AA accessibility testing with **3 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `88/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `3` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Ahluwalia Contracts (India) Limited\n- **Resolved URL:** [https://www.ahluwaliacontracts.com](https://www.ahluwaliacontracts.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@ahluwaliacontracts.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@ahluwaliacontracts.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[rel=\"nofollow noopener\"]`\n2. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `.c1-t`\n3. **`[missing_alt_text] role-img-alt`** (SERIOUS)\n   - **Help:** [role=\"img\"] elements must have alternative text\n   - **Selector:** `.c1-t`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Ahluwalia_Contracts__India__Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 3. Lighthouse A11y: 88/100.",
+  "timestamp": "2026-08-02T08:35:58.975Z"
+}

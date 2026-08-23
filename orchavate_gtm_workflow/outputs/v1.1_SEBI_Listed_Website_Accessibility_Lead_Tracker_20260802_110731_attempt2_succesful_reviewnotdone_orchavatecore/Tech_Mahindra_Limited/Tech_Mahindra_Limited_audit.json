@@ -1,0 +1,158 @@
+{
+  "company": {
+    "srNo": 25,
+    "companyName": "Tech Mahindra Limited",
+    "readymadeWebsite": "https://www.techmahindra.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.techmahindra.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.techmahindra.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "umesh.sharma@linkintime.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.techmahindra.com/investors/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "umesh.sharma@linkintime.co.in",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.techmahindra.com/investors/"
+      },
+      {
+        "address": "umesh.sharma@linkintime.co.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.techmahindra.com/investors/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.techmahindra.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"0\"]",
+          "html": "<li class=\"active\" data-slide-to=\"0\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"1\"]",
+          "html": "<li class=\"\" data-slide-to=\"1\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"2\"]",
+          "html": "<li class=\"\" data-slide-to=\"2\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"3\"]",
+          "html": "<li class=\"\" data-slide-to=\"3\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"4\"]",
+          "html": "<li class=\"\" data-slide-to=\"4\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-tab-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA tab node has an accessible name",
+          "help": "ARIA tab nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-tab-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-slide-to=\"5\"]",
+          "html": "<li class=\"\" data-slide-to=\"5\" data-target=\"#vbp-carousel-3157\" role=\"tab\"></li>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 6,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 76,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tech Mahindra Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `umesh.sharma@linkintime.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `umesh.sharma@linkintime.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tech Mahindra Limited\n- **Resolved URL:** [https://www.techmahindra.com](https://www.techmahindra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `umesh.sharma@linkintime.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n- **General Contact Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"0\"]`\n2. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"1\"]`\n3. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"2\"]`\n4. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"3\"]`\n5. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"4\"]`\n6. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"5\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tech_Mahindra_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tech_Mahindra_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tech Mahindra Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `umesh.sharma@linkintime.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `umesh.sharma@linkintime.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tech Mahindra Limited\n- **Resolved URL:** [https://www.techmahindra.com](https://www.techmahindra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `umesh.sharma@linkintime.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n- **General Contact Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"0\"]`\n2. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"1\"]`\n3. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"2\"]`\n4. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"3\"]`\n5. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"4\"]`\n6. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"5\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tech_Mahindra_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tech_Mahindra_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_SEBI_Listed_Website_Accessibility_Lead_Tracker_20260802_110731_attempt2_succesful_reviewnotdone_orchavatecore/Tech_Mahindra_Limited/screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tech Mahindra Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `76 / 100`  \n> **Total WCAG Violations:** `6`  \n> **Verified Contact Email:** `umesh.sharma@linkintime.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `umesh.sharma@linkintime.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **76/100** on automated WCAG 2.1 AA accessibility testing with **6 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `76/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tech Mahindra Limited\n- **Resolved URL:** [https://www.techmahindra.com](https://www.techmahindra.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `umesh.sharma@linkintime.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n- **General Contact Email:** `umesh.sharma@linkintime.co.in` | **Status:** `Verified` | **Source Page:** https://www.techmahindra.com/investors/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"0\"]`\n2. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"1\"]`\n3. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"2\"]`\n4. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"3\"]`\n5. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"4\"]`\n6. **`[other] aria-tab-name`** (SERIOUS)\n   - **Help:** ARIA tab nodes must have an accessible name\n   - **Selector:** `li[data-slide-to=\"5\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tech_Mahindra_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tech_Mahindra_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tech_Mahindra_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 6. Lighthouse A11y: 76/100.",
+  "timestamp": "2026-08-02T11:13:08.807Z"
+}

@@ -1,0 +1,266 @@
+{
+  "company": {
+    "srNo": 289,
+    "companyName": "E & E Enterprises Ltd",
+    "readymadeWebsite": "https://eandeproject.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (E & E Enterprises Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://eandeproject.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://eandeproject.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@eandeproject.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://eandeproject.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@eandeproject.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://eandeproject.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://eandeproject.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[hidden=\"\"][loading=\"lazy\"]",
+          "html": "<img loading=\"lazy\" hidden=\"\" src=\"//eandeproject.com/cdn/shop/files/preview_images/22acd9b7841d49bd879e3750572861cb.thumbnail.0000000000_small.jpg?v=1713560557\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(1) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/sterling-silver-sparkle-ball-chain-necklace#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(2) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-herringbone-snake-chain-necklace#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(3) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/mini-diamond-cross-stud-earring#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(4) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-bow-chain-ring#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(5) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/super-dainty-belly-chain#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(6) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-gold-pear-lab-diamond-ring-copy#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(7) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/mini-letter-stud-earring-with-flat-back#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(8) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/marquise-and-round-lab-diamond-band-14k-gold-half-eternity-stacking-ring-delicate-wedding-band-for-her#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(9) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/oval-lab-grown-diamond-solitaire-ring-vvs-d-e-color-oval-engagement-ring-minimalist-14k-18k-gold-ring-1ct-2ct-3ct-diamond-ring#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(10) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-mini-pearl-studs#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(11) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/mini-letter-stud-earring-with-flat-back#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(12) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-gold-dainty-curb-hand-chain-bracelet#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(13) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-solid-gold-satellite-bracelet#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(14) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/14k-mini-pearl-studs#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".jdgm-carousel-item:nth-child(15) > .jdgm-carousel-item__product.jdgm--shop-review-has-image",
+          "html": "<a class=\"jdgm-carousel-item__product jdgm--shop-review-has-image\" href=\"/products/real-14k-gold-and-diamond-carabiner-screw-clasp-14k-gold-charm-holder#judgeme_product_reviews\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 36,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 16,
+  "altTextViolations": 1,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 36,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — E & E Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@eandeproject.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@eandeproject.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** E & E Enterprises Ltd\n- **Resolved URL:** [https://eandeproject.com](https://eandeproject.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@eandeproject.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@eandeproject.com` | **Status:** `Verified` | **Source Page:** https://eandeproject.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[hidden=\"\"][loading=\"lazy\"]`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(1) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(2) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(3) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(4) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(5) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(6) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(7) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(8) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(9) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/E___E_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/E___E_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — E & E Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@eandeproject.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@eandeproject.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** E & E Enterprises Ltd\n- **Resolved URL:** [https://eandeproject.com](https://eandeproject.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@eandeproject.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@eandeproject.com` | **Status:** `Verified` | **Source Page:** https://eandeproject.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[hidden=\"\"][loading=\"lazy\"]`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(1) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(2) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(3) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(4) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(5) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(6) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(7) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(8) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(9) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/E___E_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/E___E_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/E___E_Enterprises_Ltd/screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — E & E Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@eandeproject.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@eandeproject.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `15` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** E & E Enterprises Ltd\n- **Resolved URL:** [https://eandeproject.com](https://eandeproject.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@eandeproject.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@eandeproject.com` | **Status:** `Verified` | **Source Page:** https://eandeproject.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `img[hidden=\"\"][loading=\"lazy\"]`\n2. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(1) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n3. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(2) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(3) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(4) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(5) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(6) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(7) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(8) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.jdgm-carousel-item:nth-child(9) > .jdgm-carousel-item__product.jdgm--shop-review-has-image`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/E___E_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/E___E_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/E___E_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 16. WAVE AIM: N/A. Lighthouse A11y: 36/100.",
+  "timestamp": "2026-08-11T12:23:16.928Z"
+}

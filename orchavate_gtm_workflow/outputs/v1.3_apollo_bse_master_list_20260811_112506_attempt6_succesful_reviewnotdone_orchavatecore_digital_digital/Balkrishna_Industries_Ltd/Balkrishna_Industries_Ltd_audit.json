@@ -1,0 +1,651 @@
+{
+  "company": {
+    "srNo": 316,
+    "companyName": "Balkrishna Industries Ltd",
+    "readymadeWebsite": "https://balkrishn.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Balkrishna Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://balkrishn.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://balkrishn.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@balkrishn.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://balkrishn.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@balkrishn.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://balkrishn.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://balkrishn.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".open-close-arrow",
+          "html": "<button class=\"open-close-arrow\">\n  <span class=\"open-arrow\"><i class=\"fa fa-chevron-right\"></i></span>\n  <span class=\"close-arrow\"><i class=\"fa fa-chevron-left\"></i></span>\n  </button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(1) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-theme-two[href$=\"electric-boiler.php\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"electric-boiler.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(2) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-theme-two[href$=\"steam-boiler.php\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"steam-boiler.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(3) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-theme-two[href$=\"thermic-fluid-heater.php\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"thermic-fluid-heater.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(4) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-theme-two[href$=\"hot-water-boiler.php\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"hot-water-boiler.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(5) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-theme-two[href$=\"hot-air-generator.php\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"hot-air-generator.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(6) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]",
+          "html": "<a target=\"\" href=\"javascript:void(0)\" class=\"btn-theme-two click1\" contenteditable=\"false\" style=\"cursor: pointer;\">Inquire Now</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(6) > .proejctitem > .product-btn > .btn-theme-two[contenteditable=\"false\"][target=\"\"]:nth-child(3)",
+          "html": "<a target=\"\" href=\"pollution-control-equipment.php\" class=\"btn-theme-two\" contenteditable=\"false\" style=\"cursor: pointer;\">View More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoContent > h5",
+          "html": "<h5>Domestic</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoContent > h5",
+          "html": "<h5>International</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > .title",
+          "html": "<div class=\"title\">\n                                        bulk drugs                                    </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .title",
+          "html": "<div class=\"title\">\n                                        ceramic industries                                    </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .title",
+          "html": "<div class=\"title\">\n                                        chemical pharmaceutical                                    </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .title",
+          "html": "<div class=\"title\">\n                                        dairy food processing                                    </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoWrapper > .clientsLogo:nth-child(1) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/domestic/Khyati-Chemicals.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoWrapper > .clientsLogo:nth-child(2) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/domestic/greenlam.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoWrapper > .clientsLogo:nth-child(3) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/domestic/gujarat-samachar.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoWrapper > .clientsLogo:nth-child(4) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/domestic/shree-ram.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(1) > .clientsLogoWrapper > .clientsLogo:nth-child(5) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/domestic/zydus-cadila.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoWrapper > .clientsLogo:nth-child(1) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/international/bahl.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoWrapper > .clientsLogo:nth-child(2) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/international/bahrain.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoWrapper > .clientsLogo:nth-child(3) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/international/indorama.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoWrapper > .clientsLogo:nth-child(4) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/international/riyadh-cables.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".clientsLogoItem:nth-child(2) > .clientsLogoWrapper > .clientsLogo:nth-child(5) > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/clients/international/sunflag.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-current[data-slick-index=\"0\"][aria-hidden=\"false\"] > .industries-slide.top > img[src$=\"bulk-drugs.webp\"][loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/industries/bulk-drugs.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".industries-call > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=\"1\"][aria-hidden=\"false\"] > .industries-slide.top > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/industries/ceramic-industries.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".industries-call > .slick-list.draggable > .slick-track > .slick-active[data-slick-index=\"2\"][aria-hidden=\"false\"] > .industries-slide.top > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/industries/chemical-pharmaceutical.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".slick-active[data-slick-index=\"3\"][aria-hidden=\"false\"] > .industries-slide.top > img[loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"img/industries/dairy-food-processing.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".inquire-vector > img[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"img/inquire-now/inquire-now.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide10 > .events-slide.industries-slide.top > img[src$=\"01.webp\"][loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"images/Events/01.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide11 > .events-slide.industries-slide.top > img[src$=\"02.webp\"][loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"images/Events/02.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#slick-slide12 > .events-slide.industries-slide.top > img[src$=\"03.webp\"][loading=\"lazy\"][decoding=\"async\"]",
+          "html": "<img loading=\"lazy\" decoding=\"async\" src=\"images/Events/03.webp\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".footerlogo > img[src$=\"logo-balkrishna.png\"]",
+          "html": "<img src=\"img/logo/logo-balkrishna.png\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".inquiery-icon > .click1[href=\"javascript:;\"]",
+          "html": "<a href=\"javascript:;\" class=\"click1\">\n        <span class=\"icon1\"> <i class=\"fa fa-envelope\"></i></span> <span class=\"btn-text\"> Send Inquiry</span>\n      </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".whataspp-icon > a[target=\"_blank\"]",
+          "html": "<a click=\"gtag('event', 'send'...\" id=\"whatsapptrack\" href=\"https://api.whatsapp...\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".header-callbtn[href=\"tel:+919825024450\"]",
+          "html": "<a href=\"tel:+919825024450\" id=\"phonetrack\" class=\"header-callbtn\">\n                                <i class=\"icon fa-light fa-phone-arrow-up-right\"></i>\n\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".header-callbtn[href$=\"mailto:info@balkrishn.com\"]",
+          "html": "<a href=\"mailto:info@balkrishn.com\" id=\"emailtrack\" class=\"header-callbtn\">\n                                <i class=\"icon fa-light fa-solid fa-envelope\"></i>\n\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".product-btn > a[href$=\"electric-boiler.php\"]:nth-child(1)",
+          "html": "<a href=\"electric-boiler.php\" class=\"\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".product-btn > a[href$=\"steam-boiler.php\"]:nth-child(1)",
+          "html": "<a href=\"steam-boiler.php\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".product-btn > a[href$=\"thermic-fluid-heater.php\"]:nth-child(1)",
+          "html": "<a href=\"thermic-fluid-heater.php\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".product-btn > a[href$=\"hot-water-boiler.php\"]:nth-child(1)",
+          "html": "<a href=\"hot-water-boiler.php\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".product-btn > a[href$=\"hot-air-generator.php\"]:nth-child(1)",
+          "html": "<a href=\"hot-air-generator.php\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".productslider-box.prodcutItem.text-center:nth-child(6) > .proejctitem > .product-btn > a:nth-child(1)",
+          "html": "<a href=\"pollution-control-equipment.php\">\n                                        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(1) > a[target=\"_blank\"][href=\"#\"]",
+          "html": "<a target=\"_blank\" href=\"#\">\n                                <span class=\"fab fa-facebook-f\"></span>\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > a[target=\"_blank\"][href=\"#\"]",
+          "html": "<a target=\"_blank\" href=\"#\">\n                                <span class=\"fab fa-instagram\"></span>\n                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"#!\"][target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"#!\">\n                                <span class=\"fab fa-youtube\"></span>\n                            </a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 51,
+  "altTextViolations": 19,
+  "contrastViolations": 18,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Balkrishna Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `51`  \n> **Verified Contact Email:** `info@balkrishn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@balkrishn.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **51 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `20` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 19 violations\n- 🎨 **Color Contrast Failures:** 18 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (19 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (18 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Balkrishna Industries Ltd\n- **Resolved URL:** [https://balkrishn.com](https://balkrishn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@balkrishn.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@balkrishn.com` | **Status:** `Verified` | **Source Page:** https://balkrishn.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.open-close-arrow`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(1) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"electric-boiler.php\"][contenteditable=\"false\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(2) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"steam-boiler.php\"][contenteditable=\"false\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(3) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"thermic-fluid-heater.php\"][contenteditable=\"false\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(4) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"hot-water-boiler.php\"][contenteditable=\"false\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(5) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Balkrishna Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `51`  \n> **Verified Contact Email:** `info@balkrishn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@balkrishn.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **51 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `20` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 19 violations\n- 🎨 **Color Contrast Failures:** 18 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (19 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (18 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Balkrishna Industries Ltd\n- **Resolved URL:** [https://balkrishn.com](https://balkrishn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@balkrishn.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@balkrishn.com` | **Status:** `Verified` | **Source Page:** https://balkrishn.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.open-close-arrow`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(1) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"electric-boiler.php\"][contenteditable=\"false\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(2) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"steam-boiler.php\"][contenteditable=\"false\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(3) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"thermic-fluid-heater.php\"][contenteditable=\"false\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(4) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"hot-water-boiler.php\"][contenteditable=\"false\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(5) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Balkrishna_Industries_Ltd/screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Balkrishna Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `51`  \n> **Verified Contact Email:** `info@balkrishn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@balkrishn.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **51 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `20` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 19 violations\n- 🎨 **Color Contrast Failures:** 18 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (19 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (18 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Balkrishna Industries Ltd\n- **Resolved URL:** [https://balkrishn.com](https://balkrishn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@balkrishn.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@balkrishn.com` | **Status:** `Verified` | **Source Page:** https://balkrishn.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.open-close-arrow`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(1) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"electric-boiler.php\"][contenteditable=\"false\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(2) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"steam-boiler.php\"][contenteditable=\"false\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(3) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"thermic-fluid-heater.php\"][contenteditable=\"false\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(4) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-theme-two[href$=\"hot-water-boiler.php\"][contenteditable=\"false\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.productslider-box.prodcutItem.text-center:nth-child(5) > .proejctitem > .product-btn > .click1[href=\"javascript:void(0)\"][contenteditable=\"false\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Balkrishna_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Balkrishna_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 51. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T12:40:06.201Z"
+}

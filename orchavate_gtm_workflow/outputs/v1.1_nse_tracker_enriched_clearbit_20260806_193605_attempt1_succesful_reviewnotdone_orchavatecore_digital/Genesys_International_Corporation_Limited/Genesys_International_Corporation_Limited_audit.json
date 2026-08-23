@@ -1,0 +1,217 @@
+{
+  "company": {
+    "srNo": 736,
+    "companyName": "Genesys International Corporation Limited",
+    "readymadeWebsite": "igenesys.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://igenesys.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://igenesys.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "user@domain.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://igenesys.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "user@domain.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://igenesys.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://igenesys.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(2) > a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(1)",
+          "html": "<a href=\"/3d-digital-twin\" data-ajax-loader=\"ajax-loader-binded\">GeoTwin</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(2)",
+          "html": "<a href=\"/wonobo\" data-ajax-loader=\"ajax-loader-binded\">,</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(3)",
+          "html": "<a href=\"/wonobo\" data-ajax-loader=\"ajax-loader-binded\">WoNobo</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(4)",
+          "html": "<a href=\"/products/3d-digital-twin\" data-ajax-loader=\"ajax-loader-binded\">,</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#id63e0c96fe1b1e8241c6b61d4 > .subnav > .external:nth-child(5) > a[href=\"\"][data-ajax-loader=\"ajax-loader-binded\"]",
+          "html": "<a href=\"\" data-ajax-loader=\"ajax-loader-binded\">\n                <span></span>\n              </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_124",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/3d-digital-twin\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_137",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/application-develop...\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_147",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/lidar-engineering\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_158",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/building-informatio...\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_168",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/geospatial-mapping\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#yui_3_17_2_1_1786058422323_179",
+          "html": "<a data-sqsp-image-clas...=\"\" href=\"/business-consulting\" class=\"\n                \n  ...\" data-animation-role=\"image\" data-description=\"\" data-animation-overr...=\"\" id=\"yui_3_17_2_1_1786058...\" data-ajax-loader=\"ajax-loader-binded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"telecom-1\"]",
+          "html": "<a href=\"/telecom-1\" target=\"_blank\">  </a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 52,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 12,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 52,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Genesys International Corporation Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `user@domain.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `user@domain.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Genesys International Corporation Limited\n- **Resolved URL:** [https://igenesys.com](https://igenesys.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `user@domain.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `user@domain.com` | **Status:** `Verified` | **Source Page:** https://igenesys.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `p:nth-child(2) > a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(1)`\n2. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(2)`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(3)`\n4. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(4)`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#id63e0c96fe1b1e8241c6b61d4 > .subnav > .external:nth-child(5) > a[href=\"\"][data-ajax-loader=\"ajax-loader-binded\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_124`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_137`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_147`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_158`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_168`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Genesys International Corporation Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `user@domain.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `user@domain.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Genesys International Corporation Limited\n- **Resolved URL:** [https://igenesys.com](https://igenesys.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `user@domain.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `user@domain.com` | **Status:** `Verified` | **Source Page:** https://igenesys.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `p:nth-child(2) > a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(1)`\n2. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(2)`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(3)`\n4. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(4)`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#id63e0c96fe1b1e8241c6b61d4 > .subnav > .external:nth-child(5) > a[href=\"\"][data-ajax-loader=\"ajax-loader-binded\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_124`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_137`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_147`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_158`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_168`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Genesys_International_Corporation_Limited/screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Genesys International Corporation Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `user@domain.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `user@domain.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Clean Codebase:** No automated DOM accessibility defects found on scanned pages. Keep auditing dynamic components.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Genesys International Corporation Limited\n- **Resolved URL:** [https://igenesys.com](https://igenesys.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `user@domain.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `user@domain.com` | **Status:** `Verified` | **Source Page:** https://igenesys.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `p:nth-child(2) > a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(1)`\n2. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(2)`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"wonobo\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(3)`\n4. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"3d-digital-twin\"][data-ajax-loader=\"ajax-loader-binded\"]:nth-child(4)`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#id63e0c96fe1b1e8241c6b61d4 > .subnav > .external:nth-child(5) > a[href=\"\"][data-ajax-loader=\"ajax-loader-binded\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_124`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_137`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_147`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_158`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#yui_3_17_2_1_1786058422323_168`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Genesys_International_Corporation_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Genesys_International_Corporation_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 12. Lighthouse A11y: 52/100.",
+  "timestamp": "2026-08-06T23:20:24.691Z"
+}

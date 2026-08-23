@@ -1,0 +1,316 @@
+{
+  "company": {
+    "srNo": 411,
+    "companyName": "Cello World Limited",
+    "readymadeWebsite": "celloworld.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://celloworld.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://celloworld.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "u003ecellosupport@celloworld.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://celloworld.com/pages/contact-us"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "u003ecellosupport@celloworld.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://celloworld.com/pages/contact-us"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://celloworld.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "div[aria-controls=\"radix-«r3»\"]",
+          "html": "<div class=\"cursor-pointer relative\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-«r3»\" data-state=\"closed\" aria-label=\"Search\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+          "category": "other",
+          "selector": "div[aria-controls=\"radix-«r3»\"]",
+          "html": "<div class=\"cursor-pointer relative\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-«r3»\" data-state=\"closed\" aria-label=\"Search\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".pb-2 > .cursor-not-allowed.opacity-50.hover\\:opacity-50",
+          "html": "<button type=\"button\" class=\"inline-flex outline-none items-center justify-center font-eudoxus transition-all duration-200 rounded cursor-not-allowed opacity-50 hover:opacity-50\" disabled=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".pb-2 > .inline-flex.outline-none[type=\"button\"]:nth-child(3)",
+          "html": "<button type=\"button\" class=\"inline-flex outline-none items-center justify-center font-eudoxus transition-all duration-200 rounded\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#show-text-54b25722-c047-4495-b0b9-cfa9f5b4ab17",
+          "html": "<input id=\"show-text-54b25722-c047-4495-b0b9-cfa9f5b4ab17\" class=\"peer size-[18px] cursor-pointer appearance-none border-[1px] transition-all rounded border-gray checked:border-none checked:bg-red\" type=\"checkbox\" checked=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "label",
+          "impact": "critical",
+          "description": "Ensure every form element has a label",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/label?application=playwright",
+          "category": "form_labels",
+          "selector": "#show-text-4a03ce9b-0e4a-4992-a991-57192fefd835",
+          "html": "<input id=\"show-text-4a03ce9b-0e4a-4992-a991-57192fefd835\" class=\"peer size-[18px] cursor-pointer appearance-none border-[1px] transition-all rounded border-gray checked:bg-red checked:border-none\" type=\"checkbox\" checked=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "section:nth-child(9) > .max-sm\\:hidden.size-full[href$=\"kidzbee\"]",
+          "html": "<a class=\"font-eudoxus flex items-center justify-center transition-all duration-200 rounded size-full max-sm:hidden\" href=\"/collections/kidzbee\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«r7»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«r7»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«r7»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«r8»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«r8»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«r8»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«r9»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«r9»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«r9»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«ra»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«ra»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«ra»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rb»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rb»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rb»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rc»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rc»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rc»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rd»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rd»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rd»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«re»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«re»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«re»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rf»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rf»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rf»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rg»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rg»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rg»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«r6»-trigger-radix-«rh»",
+          "html": "<button id=\"radix-«r6»-trigger-radix-«rh»\" data-state=\"closed\" aria-expanded=\"false\" aria-controls=\"radix-«r6»-content-radix-«rh»\" class=\"group flex-1 gap-x-1 transition-all flex items-center font-medium text-white hover:text-red-500\" data-radix-collection-item=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«rl»",
+          "html": "<button type=\"button\" aria-controls=\"radix-«rm»\" aria-expanded=\"false\" data-state=\"closed\" data-orientation=\"vertical\" id=\"radix-«rl»\" class=\"flex flex-1 items-ce...\" data-radix-collectio...=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#radix-«rn»",
+          "html": "<button type=\"button\" aria-controls=\"radix-«ro»\" aria-expanded=\"false\" data-state=\"closed\" data-orientation=\"vertical\" id=\"radix-«rn»\" class=\"flex flex-1 items-ce...\" data-radix-collectio...=\"\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 21,
+  "altTextViolations": 0,
+  "contrastViolations": 0,
+  "labelViolations": 2,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cello World Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `u003ecellosupport@celloworld.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `u003ecellosupport@celloworld.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `15` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cello World Limited\n- **Resolved URL:** [https://celloworld.com](https://celloworld.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `u003ecellosupport@celloworld.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `u003ecellosupport@celloworld.com` | **Status:** `Verified` | **Source Page:** https://celloworld.com/pages/contact-us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .cursor-not-allowed.opacity-50.hover\\:opacity-50`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .inline-flex.outline-none[type=\"button\"]:nth-child(3)`\n5. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-54b25722-c047-4495-b0b9-cfa9f5b4ab17`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-4a03ce9b-0e4a-4992-a991-57192fefd835`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `section:nth-child(9) > .max-sm\\:hidden.size-full[href$=\"kidzbee\"]`\n8. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r7»`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r8»`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cello_World_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cello_World_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cello World Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `u003ecellosupport@celloworld.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `u003ecellosupport@celloworld.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `15` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cello World Limited\n- **Resolved URL:** [https://celloworld.com](https://celloworld.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `u003ecellosupport@celloworld.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `u003ecellosupport@celloworld.com` | **Status:** `Verified` | **Source Page:** https://celloworld.com/pages/contact-us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .cursor-not-allowed.opacity-50.hover\\:opacity-50`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .inline-flex.outline-none[type=\"button\"]:nth-child(3)`\n5. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-54b25722-c047-4495-b0b9-cfa9f5b4ab17`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-4a03ce9b-0e4a-4992-a991-57192fefd835`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `section:nth-child(9) > .max-sm\\:hidden.size-full[href$=\"kidzbee\"]`\n8. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r7»`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r8»`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cello_World_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cello_World_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Cello_World_Limited/screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Cello World Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `21`  \n> **Verified Contact Email:** `u003ecellosupport@celloworld.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `u003ecellosupport@celloworld.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **21 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `15` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 2 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Form Labels & ARIA (2 issues):** Associate all `<input>` and `<select>` elements with explicit `<label for=\"...\">` tags or `aria-label` attributes.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Cello World Limited\n- **Resolved URL:** [https://celloworld.com](https://celloworld.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `u003ecellosupport@celloworld.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `u003ecellosupport@celloworld.com` | **Status:** `Verified` | **Source Page:** https://celloworld.com/pages/contact-us\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n2. **`[other] aria-prohibited-attr`** (SERIOUS)\n   - **Help:** Elements must only use permitted ARIA attributes\n   - **Selector:** `div[aria-controls=\"radix-«r3»\"]`\n3. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .cursor-not-allowed.opacity-50.hover\\:opacity-50`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.pb-2 > .inline-flex.outline-none[type=\"button\"]:nth-child(3)`\n5. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-54b25722-c047-4495-b0b9-cfa9f5b4ab17`\n6. **`[form_labels] label`** (CRITICAL)\n   - **Help:** Form elements must have labels\n   - **Selector:** `#show-text-4a03ce9b-0e4a-4992-a991-57192fefd835`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `section:nth-child(9) > .max-sm\\:hidden.size-full[href$=\"kidzbee\"]`\n8. **`[other] meta-viewport`** (MODERATE)\n   - **Help:** Zooming and scaling must not be disabled\n   - **Selector:** `meta[name=\"viewport\"]`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r7»`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `#radix-«r6»-trigger-radix-«r8»`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Cello_World_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Cello_World_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Cello_World_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 21. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:25:29.186Z"
+}

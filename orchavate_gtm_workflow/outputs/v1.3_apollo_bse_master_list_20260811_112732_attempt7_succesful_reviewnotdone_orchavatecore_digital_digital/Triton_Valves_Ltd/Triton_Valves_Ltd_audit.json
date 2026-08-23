@@ -1,0 +1,460 @@
+{
+  "company": {
+    "srNo": 488,
+    "companyName": "Triton Valves Ltd",
+    "readymadeWebsite": "https://tritonvalves.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Triton Valves Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://tritonvalves.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://tritonvalves.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@tritonvalves.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://tritonvalves.com/contact/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investors@tritonvalves.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://tritonvalves.com/investors/"
+      },
+      {
+        "address": "info@tritonvalves.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://tritonvalves.com/contact/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://tritonvalves.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-67651 > .drop-menu[role=\"menu\"]",
+          "html": "<ul role=\"menu\" class=\"drop-menu\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65657 > .drop-menu[role=\"menu\"]",
+          "html": "<ul role=\"menu\" class=\"drop-menu\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65680 > .drop-menu[role=\"menu\"]",
+          "html": "<ul role=\"menu\" class=\"drop-menu\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-68053 > .drop-menu[role=\"menu\"]",
+          "html": "<ul role=\"menu\" class=\"drop-menu\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#\\32 92133 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p",
+          "html": "<p style=\"color: #999 !important; font-size: 20px; font-weight: 600; font-style: italic; line-height: 28px;\">At Triton, innovation is at the centre of everything we do.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#\\37 32227 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p",
+          "html": "<p style=\"color: #999 !important; font-size: 20px; font-weight: 600; font-style: italic; line-height: 28px;\">Making OEM specification tyre valves available to even the smallest tyre and puncture repair shops.</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"tyre-and-tubes/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/tyre-and-tubes/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"automotive/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/automotive/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"truck-and-bus-wheel/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/truck-and-bus-wheel/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href=\"/automotive-airconditioning/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/automotive-airconditioning/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"tyre-pressure/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/tyre-pressure/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".eco-links.row-internal.ecosystem:nth-child(2) > .row-child.row > .wpb_row.row-inner > .col-lg-4.column_child.wpb_column:nth-child(3) > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .home-icon.text-left.uncode-single-media > .single-wrapper > .single-media-link",
+          "html": "<a class=\"single-media-link\" href=\"/industrial-and-home-air-conditioning/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"electric/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/electric/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"aerospace/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/aerospace/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".single-media-link[href$=\"mining/\"]",
+          "html": "<a class=\"single-media-link\" href=\"/mining/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-67665",
+          "html": "<li id=\"menu-item-67665\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-67665\"><a title=\"Corporate Information\" href=\"https://tritonvalves.com/about/corporate-information/\">Corporate Information<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-67664",
+          "html": "<li id=\"menu-item-67664\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-67664\"><a title=\"Board of Directors\" href=\"https://tritonvalves.com/about/board-of-directors/\">Board of Directors<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-67797",
+          "html": "<li id=\"menu-item-67797\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-67797\"><a title=\"Vision, Mission and Values\" href=\"https://tritonvalves.com/about/vision-mission-and-values/\">Vision, Mission and Values<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65767",
+          "html": "<li id=\"menu-item-65767\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65767\"><a title=\"CSR\" href=\"https://tritonvalves.com/about/csr/\">CSR<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-66101",
+          "html": "<li id=\"menu-item-66101\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-66101\"><a title=\"Awards and Certifications\" href=\"https://tritonvalves.com/about/awards-and-certifications/\">Awards and Certifications<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-66007",
+          "html": "<li id=\"menu-item-66007\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-66007\"><a title=\"Tyre and Tube Valves\" href=\"https://tritonvalves.com/industries-served/tyre-and-tubes/\">Tyre and Tube Valves<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65678",
+          "html": "<li id=\"menu-item-65678\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65678\"><a title=\"Automotive\" href=\"https://tritonvalves.com/industries-served/automotive/\">Automotive<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65674",
+          "html": "<li id=\"menu-item-65674\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65674\"><a title=\"Truck and Bus Wheels\" href=\"https://tritonvalves.com/industries-served/truck-and-bus-wheels/\">Truck and Bus Wheels<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65675",
+          "html": "<li id=\"menu-item-65675\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65675\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65673",
+          "html": "<li id=\"menu-item-65673\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65673\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65672",
+          "html": "<li id=\"menu-item-65672\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65672\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65677",
+          "html": "<li id=\"menu-item-65677\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65677\"><a title=\"Electric Vehicles\" href=\"https://tritonvalves.com/industries-served/electric-vehicles/\">Electric Vehicles<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65679",
+          "html": "<li id=\"menu-item-65679\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65679\"><a title=\"Aerospace and Defence\" href=\"https://tritonvalves.com/industries-served/aerospace-and-defence/\">Aerospace and Defence<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65676",
+          "html": "<li id=\"menu-item-65676\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65676\"><a title=\"Mining and Construction\" href=\"https://tritonvalves.com/industries-served/mining-and-construction/\">Mining and Construction<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65682",
+          "html": "<li id=\"menu-item-65682\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65682\"><a title=\"Research and Development\" href=\"https://tritonvalves.com/innovation/research-and-development/\">Research and Development<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-65681",
+          "html": "<li id=\"menu-item-65681\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-65681\"><a title=\"Customised Services\" href=\"https://tritonvalves.com/customised-service/\">Customised Services<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-68941",
+          "html": "<li id=\"menu-item-68941\" class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-68941\"><a title=\"Brochures and Flyers\" href=\"https://tritonvalves.com/media/brochures-and-flyers/\">Brochures and Flyers<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": "#menu-item-68054",
+          "html": "<li id=\"menu-item-68054\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-68054\"><a title=\"Press Kit\" target=\"_blank\" href=\"/wp-content/uploads/2018/02/Press-Kit.pdf\">Press Kit<i class=\"fa fa-angle-right fa-dropdown\"></i></a></li>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 33,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Triton Valves Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@tritonvalves.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tritonvalves.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Triton Valves Ltd\n- **Resolved URL:** [https://tritonvalves.com](https://tritonvalves.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tritonvalves.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/investors/\n- **General Contact Email:** `info@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-67651 > .drop-menu[role=\"menu\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65657 > .drop-menu[role=\"menu\"]`\n3. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65680 > .drop-menu[role=\"menu\"]`\n4. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-68053 > .drop-menu[role=\"menu\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\32 92133 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\37 32227 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"tyre-and-tubes/\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"automotive/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"truck-and-bus-wheel/\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href=\"/automotive-airconditioning/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Triton_Valves_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Triton_Valves_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Triton Valves Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@tritonvalves.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tritonvalves.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Triton Valves Ltd\n- **Resolved URL:** [https://tritonvalves.com](https://tritonvalves.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tritonvalves.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/investors/\n- **General Contact Email:** `info@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-67651 > .drop-menu[role=\"menu\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65657 > .drop-menu[role=\"menu\"]`\n3. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65680 > .drop-menu[role=\"menu\"]`\n4. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-68053 > .drop-menu[role=\"menu\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\32 92133 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\37 32227 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"tyre-and-tubes/\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"automotive/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"truck-and-bus-wheel/\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href=\"/automotive-airconditioning/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Triton_Valves_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Triton_Valves_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Triton_Valves_Ltd/screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Triton Valves Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@tritonvalves.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@tritonvalves.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `4` | Serious: `29` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Triton Valves Ltd\n- **Resolved URL:** [https://tritonvalves.com](https://tritonvalves.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@tritonvalves.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investors@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/investors/\n- **General Contact Email:** `info@tritonvalves.com` | **Status:** `Verified` | **Source Page:** https://tritonvalves.com/contact/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-67651 > .drop-menu[role=\"menu\"]`\n2. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65657 > .drop-menu[role=\"menu\"]`\n3. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-65680 > .drop-menu[role=\"menu\"]`\n4. **`[other] aria-required-children`** (CRITICAL)\n   - **Help:** Certain ARIA roles must contain particular children\n   - **Selector:** `#menu-item-68053 > .drop-menu[role=\"menu\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\32 92133 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#\\37 32227 > .limit-width.row-parent[data-imgready=\"true\"] > .wpb_row.row-inner > .col-lg-3.column_parent.wpb_column > .uncol.style-light > .uncoltable > .no-block-padding.uncell.boomapps_vccolumn > .uncont > .uncode_text_column > p`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"tyre-and-tubes/\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"automotive/\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href$=\"truck-and-bus-wheel/\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.single-media-link[href=\"/automotive-airconditioning/\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Triton_Valves_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Triton_Valves_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Triton_Valves_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 33. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T14:45:25.737Z"
+}

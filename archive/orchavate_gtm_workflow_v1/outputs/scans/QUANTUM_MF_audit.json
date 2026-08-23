@@ -1,0 +1,318 @@
+{
+  "company": {
+    "srNo": 45,
+    "assignedTo": "Unassigned",
+    "companyName": "QUANTUM MF",
+    "website": "https://www.quantumamc.com",
+    "contactPerson": "N/A",
+    "emailId": "CustomerCare@QuantumAMC.com; Transact@QuantumAMC.com; Customercare@QuantumAMC.com; Partnercare@QuantumAMC.com",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.quantumamc.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".short-key",
+          "html": "<label class=\"short-key\">Ctrl+F2</label>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Homepage_color_contrast.png"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#dark-btn",
+          "html": "<button aria-label=\"Light Dark Theme\" aria-pressed=\"false\" tabindex=\"9\" id=\"dark-btn\" class=\"uwaw-features__item__i\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Homepage_other.png"
+        }
+      ],
+      "lighthouseScore": 84,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Homepage_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Homepage_other.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://www.quantumamc.com/article/do-you-need-to-update-your-kyc-article",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "other",
+          "selector": ".menu",
+          "html": "<div class=\"menu\" aria-hidden=\"true\" tabindex=\"-1\">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_other.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".short-key",
+          "html": "<label class=\"short-key\">Ctrl+F2</label>",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#uw-widget-custom-trigger > span",
+          "html": "<span>Accessibility Options</span>",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".destop-banner",
+          "html": "<img src=\"https://www.quantumamc.com/FileCDN/QuantumDirect/90e420d8-1f4b-4813-bc81-db290cf21b4f.webp\" class=\"w-100 bnr-img destop-banner rounded\" alt=\" \">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_missing_alt_text.png"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(1) > li:nth-child(1) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(1) > li:nth-child(2) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(1) > li:nth-child(3) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li:nth-child(4) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "li:nth-child(5) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(2) > li:nth-child(1) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(2) > li:nth-child(2) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "ul:nth-child(2) > li:nth-child(3) > img[width=\"15\"][height=\"15\"]",
+          "html": "<img style=\"position: absolute; top: 0; left: 0;\" src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\" width=\"15\" height=\"15\" data-mce-style=\"position: absolute; top: 0; left: 0;\" data-mce-src=\"https://www.quantumamc.com/mailer/2024/QD/QD-KYC_26Apr24/arrow.jpg\">",
+          "pageName": "About"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#dark-btn",
+          "html": "<button aria-label=\"Light Dark Theme\" aria-pressed=\"false\" tabindex=\"9\" id=\"dark-btn\" class=\"uwaw-features__item__i\">",
+          "pageName": "About"
+        }
+      ],
+      "lighthouseScore": 10,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_other.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_About_missing_alt_text.png"
+      ]
+    },
+    {
+      "pageName": "Contact",
+      "url": "https://www.quantumamc.com/contact-us",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".short-key",
+          "html": "<label class=\"short-key\">Ctrl+F2</label>",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Contact_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#uw-widget-custom-trigger > span",
+          "html": "<span>Accessibility Options</span>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#dark-btn",
+          "html": "<button aria-label=\"Light Dark Theme\" aria-pressed=\"false\" tabindex=\"9\" id=\"dark-btn\" class=\"uwaw-features__item__i\">",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Contact_other.png"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Contact_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Contact_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Contact_other.png"
+      ]
+    },
+    {
+      "pageName": "Investor Relations",
+      "url": "https://www.quantumamc.com/investor-education/debt-market-observer",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".short-key",
+          "html": "<label class=\"short-key\">Ctrl+F2</label>",
+          "pageName": "Investor Relations",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Investor_Relations_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#uw-widget-custom-trigger > span",
+          "html": "<span>Accessibility Options</span>",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#dark-btn",
+          "html": "<button aria-label=\"Light Dark Theme\" aria-pressed=\"false\" tabindex=\"9\" id=\"dark-btn\" class=\"uwaw-features__item__i\">",
+          "pageName": "Investor Relations",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Investor_Relations_other.png"
+        }
+      ],
+      "lighthouseScore": 76,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Investor_Relations_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Investor_Relations_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/QUANTUM_MF_Investor_Relations_other.png"
+      ]
+    }
+  ],
+  "totalViolations": 21,
+  "altTextViolations": 9,
+  "contrastViolations": 7,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 62,
+  "remarks": "Scanned 4 pages. Violations: 21. Lighthouse: 62/100.",
+  "timestamp": "2026-08-02T03:51:08.572Z"
+}

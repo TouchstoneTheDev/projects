@@ -1,0 +1,712 @@
+{
+  "company": {
+    "srNo": 356,
+    "companyName": "Bodal Chemicals Limited",
+    "readymadeWebsite": "bodal.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://bodal.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://bodal.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@bodal.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://bodal.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@bodal.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://bodal.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://bodal.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".carousel-inner",
+          "html": "<div class=\"carousel-inner\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn-sm",
+          "html": "<a href=\"/dye_intermediates_manufacturers_&amp;_supplier.php\" class=\"btn btn-default btn-sm\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-advantages-carusel__item:nth-child(2) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn",
+          "html": "<a href=\"/reactive_dye_manufacturers_&amp;_supplier.php\" class=\"btn btn-default btn-small btn-radius-small\" style=\"margin-top: 17px;\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-advantages-carusel__item:nth-child(3) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn",
+          "html": "<a href=\"/sulphuric_acid_manufacturers_&amp;_bulk_chemical_supplier.php\" class=\"btn btn-default btn-small btn-radius-small\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-advantages-carusel__item:nth-child(4) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn",
+          "html": "<a href=\"water-purification-division.php\" class=\"btn btn-default btn-small btn-radius-small\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-advantages-carusel__item:nth-child(5) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn",
+          "html": "<a href=\"https://www.bodal.com/alkali.php\" class=\"btn btn-default btn-small btn-radius-small\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(5) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(6) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(7) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(8) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(9) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default",
+          "html": "<a class=\"btn btn-default btn-radius-small btn-radius-small\" style=\"bottom:0\" href=\"/news_event.php\">Read more</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" class=\"desktop landscape js cssanimations csstransitions\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1542173312_5bebb280c683d.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133644_5b8f8a0c14850.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133505_5b8f898197fe0.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133352_5b8f88e80d0ce.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(5) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133241_5b8f8879c5750.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(6) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133022_5b8f879e27ec8.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(7) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132950_5b8f87562c73c.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(8) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132863_5b8f86ffb6312.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(9) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"] > .icon-services > i > .img-thumbnail.img-responsive",
+          "html": "<img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132786_5b8f86b224509.jpg\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"bestLogo.png\"]",
+          "html": "<a href=\"../img/bestLogo.png\" class=\"box-social__item fancybox\" data-fancybox-group=\"gallery\"><img src=\"../img/bestLogo.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"Bodal Blusign1.png\"]",
+          "html": "<a href=\"../img/Bodal Blusign1.png\" class=\"box-social__item fancybox\" data-fancybox-group=\"gallery\"><img src=\"../img/Bodal Blusign1.png\" width=\"100%\" alt=\"\" class=\"c1\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#next4",
+          "html": "<a href=\"#\" class=\"next-slide\" id=\"next4\"><i class=\"fa fa-angle-right\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#prev4",
+          "html": "<a href=\"#\" class=\"prev-slide\" id=\"prev4\"><i class=\"fa fa-angle-left\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1542173312_5bebb280c683d.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133644_5b8f8a0c14850.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133505_5b8f898197fe0.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133352_5b8f88e80d0ce.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .text-services.newsDiv > .box-title-services > .box-title__link[href$=\"news_event.php\"]",
+          "html": "<a href=\"/news_event.php\" class=\"box-title__link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(5) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133241_5b8f8879c5750.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(5) > .list-services__cont.justify > .list-services__wrap > .text-services.newsDiv > .box-title-services > .box-title__link[href$=\"news_event.php\"]",
+          "html": "<a href=\"/news_event.php\" class=\"box-title__link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(6) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536133022_5b8f879e27ec8.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(7) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132950_5b8f87562c73c.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(8) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132863_5b8f86ffb6312.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".list-partners__item.list-services__item.col-sm-12:nth-child(9) > .list-services__cont.justify > .list-services__wrap > .list-services__img[href$=\"news_event.php\"]",
+          "html": "<a class=\"list-services__img\" href=\"/news_event.php\"><span class=\"icon-services\"><i><img class=\"img-responsive img-thumbnail\" src=\"img/gallery/1536132786_5b8f86b224509.jpg\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"pic-2-big.JPG\"]",
+          "html": "<a href=\"img/gallery/pic-2-big.JPG\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-category=\"BarodaOffice\"] > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811216_5824de50c1981.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-category=\"Plant 7\"] > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811228_5824de5c9678d.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".filter-item[data-category=\"OurPlant\"]:nth-child(4) > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811133_5824ddfde61fe.JPG\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-category=\"labsa\"] > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811094_5824ddd6214ae.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div[data-category=\"MEE\"] > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811035_5824dd9b89e75.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".filter-item[data-category=\"OurPlant\"]:nth-child(7) > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811026_5824dd9227214.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".filter-item[data-category=\"OurPlant\"]:nth-child(8) > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811166_5824de1eed1a4.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"team.png\"]",
+          "html": "<a href=\"img/gallery/team.png\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"lapsa.jpg\"]",
+          "html": "<a href=\"img/gallery/lapsa.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".filter-item[data-category=\"OurPlant\"]:nth-child(11) > .portfolio-filter-item > .img-box > .portfolio-fancy.fancybox[data-fancybox-group=\"gallery\"]",
+          "html": "<a href=\"img/gallery/1478811112_5824dde81bb83.jpg\" data-fancybox-group=\"gallery\" class=\"portfolio-fancy fancybox\"><span class=\"zoom-button\"><i class=\"fa fa-search\" style=\"padding-top: 20px;\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".box-social__item[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.youtube.com/channel/UC56sF-fAXOyS3kaGvAQjcIA\" target=\"_blank\" class=\"box-social__item\"><img class=\"img-responsive\" src=\"img/icon/youtube.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".box-social__item[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://www.facebook.com/BodalChemicals/\" target=\"_blank\" class=\"box-social__item\"><img class=\"img-responsive\" src=\"img/icon/facebook.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".box-social__item[target=\"_blank\"]:nth-child(3)",
+          "html": "<a href=\"https://www.linkedin.com/company/bodal-chemicals-ltd\" target=\"_blank\" class=\"box-social__item\"><img class=\"img-responsive\" src=\"img/icon/linkedin.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".box-social__item[target=\"_blank\"]:nth-child(4)",
+          "html": "<a href=\"https://www.instagram.com/bodalchemicals/\" target=\"_blank\" class=\"box-social__item\"><img class=\"img-responsive\" src=\"img/icon/instagram.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".box-social__item[target=\"_blank\"]:nth-child(5)",
+          "html": "<a href=\"https://twitter.com/bodalchemicals\" target=\"_blank\" class=\"box-social__item\"><img class=\"img-responsive\" src=\"img/icon/twitter.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 57,
+  "altTextViolations": 9,
+  "contrastViolations": 14,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bodal Chemicals Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `57`  \n> **Verified Contact Email:** `info@bodal.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@bodal.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **57 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `47` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 9 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (9 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bodal Chemicals Limited\n- **Resolved URL:** [https://bodal.com](https://bodal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bodal.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@bodal.com` | **Status:** `Verified` | **Source Page:** https://bodal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.carousel-inner`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-sm`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(2) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(3) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(4) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(5) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bodal_Chemicals_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bodal_Chemicals_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bodal Chemicals Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `57`  \n> **Verified Contact Email:** `info@bodal.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@bodal.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **57 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `47` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 9 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (9 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bodal Chemicals Limited\n- **Resolved URL:** [https://bodal.com](https://bodal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bodal.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@bodal.com` | **Status:** `Verified` | **Source Page:** https://bodal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.carousel-inner`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-sm`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(2) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(3) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(4) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(5) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bodal_Chemicals_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bodal_Chemicals_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/Bodal_Chemicals_Limited/screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Bodal Chemicals Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `57`  \n> **Verified Contact Email:** `info@bodal.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@bodal.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **57 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `47` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 9 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (9 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Bodal Chemicals Limited\n- **Resolved URL:** [https://bodal.com](https://bodal.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@bodal.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@bodal.com` | **Status:** `Verified` | **Source Page:** https://bodal.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-input-field-name`** (SERIOUS)\n   - **Help:** ARIA input fields must have an accessible name\n   - **Selector:** `.carousel-inner`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.btn-sm`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(2) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(3) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(4) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-advantages-carusel__item:nth-child(5) > .list-advantages__item-cont > .btn-small.btn-radius-small.btn`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(1) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(2) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(3) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.list-partners__item.list-services__item.col-sm-12:nth-child(4) > .list-services__cont.justify > .list-services__wrap > .btn-radius-small.btn.btn-default`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Bodal_Chemicals_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Bodal_Chemicals_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Bodal_Chemicals_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 57. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:16:19.234Z"
+}

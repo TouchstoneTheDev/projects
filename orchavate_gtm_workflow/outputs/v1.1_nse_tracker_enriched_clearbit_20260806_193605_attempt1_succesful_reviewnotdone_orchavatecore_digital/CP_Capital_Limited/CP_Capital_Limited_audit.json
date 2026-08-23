@@ -1,0 +1,509 @@
+{
+  "company": {
+    "srNo": 475,
+    "companyName": "CP Capital Limited",
+    "readymadeWebsite": "cpcapital.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://cpcapital.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://cpcapital.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@cpcapital.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@cpcapital.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@cpcapital.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://cpcapital.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".pr-6 > .dark\\:bg-accent-pink.btn-header.bg-accent-pink > .gap-2\\.5.items-center.justify-center > .group-hover\\:text-white.dark\\:group-hover\\:text-secondary.md\\:text-sm",
+          "html": "<span class=\"relative inline-flex w-fit whitespace-nowrap text-xs md:text-sm leading-none font-semibold transition-all duration-300 text-white group-hover:text-white dark:group-hover:text-secondary\">Apply for funding</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-accent-pink",
+          "html": "<span class=\"font-semibold text-accent-pink\">*Risk Warning:</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-primary\\/50",
+          "html": "<p class=\"text-xs text-center text-primary/50\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(1) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/del.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(2) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/st100.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(3) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/pa.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(4) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/ft.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(5) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/trustedland_col_Resized_NEW2.png\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(6) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/tdn-logo.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(7) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/del.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(8) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/st100.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(9) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/pa.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(10) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/ft.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(11) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/trustedland_col_Resized_NEW2.png\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(12) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/tdn-logo.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(13) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/del.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(14) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/st100.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(15) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/pa.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(16) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/ft.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(17) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/trustedland_col_Resized_NEW2.png\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(18) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/tdn-logo.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(19) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/del.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(20) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/st100.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(21) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/pa.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(22) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/ft.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(23) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/trustedland_col_Resized_NEW2.png\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".flex:nth-child(24) > .max-h-\\[68px\\].opacity-30.grayscale",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/tdn-logo.svg\" class=\"w-full h-auto relative object-cover max-h-[68px] opacity-30 grayscale\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".lg\\:col-span-6.xl\\:col-span-6.md\\:col-span-12:nth-child(1) > .lg\\:gap-y-\\[35px\\].lg\\:gap-x-\\[70px\\].gap-y-4 > .block > .md\\:min-h-0.min-h-48.rounded-normal > .object-center.h-auto.object-cover",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/yunus-tug-Ja0gDAuYpUk-unsplash.jpg\" class=\"w-full h-auto relative object-cover object-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".inset-0.overflow-hidden.absolute > .object-center.object-cover[decoding=\"async\"]",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/mockup-brokerportal.jpg\" class=\"absolute object-cover object-center w-full h-full\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".lg\\:w-1\\/2.block > .md\\:min-h-0.min-h-48.rounded-normal > .object-center.h-auto.object-cover",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/03/jason-goodman-fXVx1opWGxM-unsplash.jpg\" class=\"w-full h-auto relative object-cover object-center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".xl\\:w-1\\/3.w-full.flex:nth-child(1) > .rounded-normal.overflow-hidden.relative > .gap-y-5.bg-white.h-full > .overflow-hidden.relative.flex > .h-64.md\\:h-96.object-center",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2026/07/Prime-Minister-Andy-Burnham.png\" class=\"relative object-cover object-center w-full h-64 md:h-96\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".xl\\:w-1\\/3.w-full.flex:nth-child(2) > .rounded-normal.overflow-hidden.relative > .gap-y-5.bg-white.h-full > .overflow-hidden.relative.flex > .h-64.md\\:h-96.object-center",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2026/07/sotm-jul-26.png\" class=\"relative object-cover object-center w-full h-64 md:h-96\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".xl\\:w-1\\/3.w-full.flex:nth-child(3) > .rounded-normal.overflow-hidden.relative > .gap-y-5.bg-white.h-full > .overflow-hidden.relative.flex > .h-64.md\\:h-96.object-center",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2026/07/Hall-Grange-development.png\" class=\"relative object-cover object-center w-full h-64 md:h-96\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".object-contain",
+          "html": "<img decoding=\"async\" src=\"https://www.crowdproperty.com/app/uploads/2025/02/1addca5eeb55a8bebddacde4c41dc21c.jpg\" class=\"w-full h-auto relative object-contain object-top\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".xl\\:pl-20 > .max-h-\\[25px\\].gap-6.items-center > .text-\\[\\#32416D\\].hover\\:text-white[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.linkedin.com/company/crowdproperty/\" class=\"text-[#32416D] hover:text-white transition duration-300 ease-in-out\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".xl\\:pl-20 > .max-h-\\[25px\\].gap-6.items-center > .text-\\[\\#32416D\\].hover\\:text-white[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://www.facebook.com/CrowdProperty/\" class=\"text-[#32416D] hover:text-white transition duration-300 ease-in-out\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".xl\\:pl-20 > .max-h-\\[25px\\].gap-6.items-center > .text-\\[\\#32416D\\].hover\\:text-white[target=\"_blank\"]:nth-child(3)",
+          "html": "<a href=\"https://instagram.com/crowdproperty\" class=\"text-[#32416D] hover:text-white transition duration-300 ease-in-out\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".xl\\:pl-20 > .max-h-\\[25px\\].gap-6.items-center > .text-\\[\\#32416D\\].hover\\:text-white[target=\"_blank\"]:nth-child(4)",
+          "html": "<a href=\"https://www.youtube.com/crowdproperty\" class=\"text-[#32416D] hover:text-white transition duration-300 ease-in-out\" target=\"_blank\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 38,
+  "altTextViolations": 31,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CP Capital Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@cpcapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CP Capital Limited\n- **Resolved URL:** [https://cpcapital.com](https://cpcapital.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pr-6 > .dark\\:bg-accent-pink.btn-header.bg-accent-pink > .gap-2\\.5.items-center.justify-center > .group-hover\\:text-white.dark\\:group-hover\\:text-secondary.md\\:text-sm`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-accent-pink`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-primary\\/50`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(1) > .max-h-\\[68px\\].opacity-30.grayscale`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(2) > .max-h-\\[68px\\].opacity-30.grayscale`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(3) > .max-h-\\[68px\\].opacity-30.grayscale`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(4) > .max-h-\\[68px\\].opacity-30.grayscale`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(5) > .max-h-\\[68px\\].opacity-30.grayscale`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(6) > .max-h-\\[68px\\].opacity-30.grayscale`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(7) > .max-h-\\[68px\\].opacity-30.grayscale`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CP_Capital_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CP_Capital_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CP Capital Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@cpcapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CP Capital Limited\n- **Resolved URL:** [https://cpcapital.com](https://cpcapital.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pr-6 > .dark\\:bg-accent-pink.btn-header.bg-accent-pink > .gap-2\\.5.items-center.justify-center > .group-hover\\:text-white.dark\\:group-hover\\:text-secondary.md\\:text-sm`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-accent-pink`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-primary\\/50`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(1) > .max-h-\\[68px\\].opacity-30.grayscale`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(2) > .max-h-\\[68px\\].opacity-30.grayscale`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(3) > .max-h-\\[68px\\].opacity-30.grayscale`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(4) > .max-h-\\[68px\\].opacity-30.grayscale`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(5) > .max-h-\\[68px\\].opacity-30.grayscale`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(6) > .max-h-\\[68px\\].opacity-30.grayscale`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(7) > .max-h-\\[68px\\].opacity-30.grayscale`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CP_Capital_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CP_Capital_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CP_Capital_Limited/screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CP Capital Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `38`  \n> **Verified Contact Email:** `info@cpcapital.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **38 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `7` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CP Capital Limited\n- **Resolved URL:** [https://cpcapital.com](https://cpcapital.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@cpcapital.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@cpcapital.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.pr-6 > .dark\\:bg-accent-pink.btn-header.bg-accent-pink > .gap-2\\.5.items-center.justify-center > .group-hover\\:text-white.dark\\:group-hover\\:text-secondary.md\\:text-sm`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-accent-pink`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.text-primary\\/50`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(1) > .max-h-\\[68px\\].opacity-30.grayscale`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(2) > .max-h-\\[68px\\].opacity-30.grayscale`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(3) > .max-h-\\[68px\\].opacity-30.grayscale`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(4) > .max-h-\\[68px\\].opacity-30.grayscale`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(5) > .max-h-\\[68px\\].opacity-30.grayscale`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(6) > .max-h-\\[68px\\].opacity-30.grayscale`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.flex:nth-child(7) > .max-h-\\[68px\\].opacity-30.grayscale`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CP_Capital_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CP_Capital_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CP_Capital_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 38. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-06T21:51:57.542Z"
+}

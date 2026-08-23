@@ -1,0 +1,453 @@
+{
+  "company": {
+    "srNo": 1160,
+    "companyName": "Vadilal Enterprises Ltd",
+    "readymadeWebsite": "https://vadilalicecreams.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Vadilal Enterprises Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://vadilalicecreams.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://vadilalicecreams.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@vadilalgroup.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://vadilalicecreams.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@vadilalgroup.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://vadilalicecreams.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://vadilalicecreams.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html data-scroll-dir-x=\"0\" data-scroll-dir-y=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(1) > .HomeAbout_feature_icon__ma827",
+          "html": "<img class=\"HomeAbout_feature_icon__ma827\" src=\"/_next/static/media/01_LOOP.9e91085d.gif\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(2) > .HomeAbout_feature_icon__ma827",
+          "html": "<img class=\"HomeAbout_feature_icon__ma827\" src=\"/_next/static/media/02_LOOP.497f5628.gif\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(3) > .HomeAbout_feature_icon__ma827",
+          "html": "<img class=\"HomeAbout_feature_icon__ma827\" src=\"/_next/static/media/03_LOOP.58f87212.gif\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(4) > .HomeAbout_feature_icon__ma827",
+          "html": "<img class=\"HomeAbout_feature_icon__ma827\" src=\"/_next/static/media/04_LOOP.f9f74cd2.gif\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(1) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/fPQb5FK0TJK93IXpmeaY\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(2) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/TwcTOBakSROD7gqkWXKW\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(3) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/cfMFDPISBeyAQBb0qbwb\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(4) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/OY4BzD1xRDWrJ5izJCsW\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(5) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/exAlmFjMTG1w5pHmUrQQ\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(6) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/rKalR3IRAW9vKNRPgAhw\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(7) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/4r8Sail0RFeaFo1L6V9M\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(8) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/T2SmdqdDR4GbuGKMZyoW\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(9) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/GuR0OUYQoOhz9WQggcwA\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(10) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/oN69XlS3RJS5Vudxi5eL\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(1) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/TzwWmlmUTHeDGdszllkQ\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(2) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/oGBHqY8XQPS4jzG4kWiC\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(3) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/EgZMgy2ETmOjMvwGRCiT\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(4) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/FnBN8FSARRqXj1SPK6FY\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(5) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/hsiRdrgKQ82xNBNQJf2Y\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(6) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/TzwWmlmUTHeDGdszllkQ\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(7) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/oGBHqY8XQPS4jzG4kWiC\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(8) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/EgZMgy2ETmOjMvwGRCiT\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(9) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/FnBN8FSARRqXj1SPK6FY\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H.text_xl:nth-child(10) > .HomeFullOfIndulgence_content_img___aGz6 > img",
+          "html": "<img src=\"https://ap-south-1.graphassets.com/A6LZy0i5TRAmuQuzR1MyGz/hsiRdrgKQ82xNBNQJf2Y\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".Header_logo__q5xpd > a[href=\"/\"]",
+          "html": "<a href=\"/\"><img src=\"/_next/static/media/logo.9cfdd9e4.svg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".Header_scrollable_logo__C16AN > a[href=\"/\"]",
+          "html": "<a href=\"/\"><img src=\"/_next/static/media/new_header_logo.d4207e63.png\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".Footer_social_media_btn__JoOAK:nth-child(1) > a[rel=\"noreferrer\"][target=\"_blank\"]",
+          "html": "<a href=\"http://www.facebook.com/vadilalicecreams\" target=\"_blank\" rel=\"noreferrer\"><picture><img class=\"Footer_social_media_icon__5xkw7\" src=\"/_next/static/media/footer_facebook_icon.cc1b1932.svg\" alt=\"\"></picture></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".Footer_social_media_btn__JoOAK:nth-child(2) > a[rel=\"noreferrer\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.instagram.com/vadilalicecreams/\" target=\"_blank\" rel=\"noreferrer\"><picture><img class=\"Footer_social_media_icon__5xkw7\" src=\"/_next/static/media/footer_instagram_icon.da2d2261.svg\" alt=\"\"></picture></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".Footer_social_media_btn__JoOAK:nth-child(3) > a[rel=\"noreferrer\"][target=\"_blank\"]",
+          "html": "<a href=\"http://youtube.com/channel/UCY0lRSXmSo8ExMKoEoPk9Pw\" target=\"_blank\" rel=\"noreferrer\"><picture><img class=\"Footer_social_media_icon__5xkw7\" src=\"/_next/static/media/footer_youtube_icon.b89b65fc.svg\" alt=\"\"></picture></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select[name=\"state\"]",
+          "html": "<select name=\"state\" id=\"\"><option value=\"Gujarat\">Gujarat</option></select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select[name=\"city\"]",
+          "html": "<select name=\"city\" id=\"\"><option value=\"true\" disabled=\"\" selected=\"\">Select City</option><option value=\"Ahmedabad\">Ahmedabad</option><option value=\"Vadodara\">Vadodara</option><option value=\"Anand\">Anand</option></select>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": ".select",
+          "html": "<select name=\"pincode\" class=\"select\" id=\"\"><option value=\"true\" disabled=\"\" selected=\"\">Select Pincode</option></select>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 33,
+  "altTextViolations": 24,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Vadilal Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@vadilalgroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@vadilalgroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `27` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 24 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (24 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Vadilal Enterprises Ltd\n- **Resolved URL:** [https://vadilalicecreams.com](https://vadilalicecreams.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@vadilalgroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@vadilalgroup.com` | **Status:** `Verified` | **Source Page:** https://vadilalicecreams.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(1) > .HomeAbout_feature_icon__ma827`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(2) > .HomeAbout_feature_icon__ma827`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(3) > .HomeAbout_feature_icon__ma827`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(4) > .HomeAbout_feature_icon__ma827`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(1) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(2) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(3) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(4) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(5) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Vadilal Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@vadilalgroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@vadilalgroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `27` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 24 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (24 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Vadilal Enterprises Ltd\n- **Resolved URL:** [https://vadilalicecreams.com](https://vadilalicecreams.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@vadilalgroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@vadilalgroup.com` | **Status:** `Verified` | **Source Page:** https://vadilalicecreams.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(1) > .HomeAbout_feature_icon__ma827`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(2) > .HomeAbout_feature_icon__ma827`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(3) > .HomeAbout_feature_icon__ma827`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(4) > .HomeAbout_feature_icon__ma827`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(1) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(2) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(3) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(4) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(5) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Vadilal_Enterprises_Ltd/screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Vadilal Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `info@vadilalgroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@vadilalgroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `27` | Serious: `6` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 24 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (24 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Vadilal Enterprises Ltd\n- **Resolved URL:** [https://vadilalicecreams.com](https://vadilalicecreams.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@vadilalgroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@vadilalgroup.com` | **Status:** `Verified` | **Source Page:** https://vadilalicecreams.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] html-has-lang`** (SERIOUS)\n   - **Help:** <html> element must have a lang attribute\n   - **Selector:** `html`\n2. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(1) > .HomeAbout_feature_icon__ma827`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(2) > .HomeAbout_feature_icon__ma827`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(3) > .HomeAbout_feature_icon__ma827`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeAbout_features_item__WcnNN.animateDefault[data-scroll=\"out\"]:nth-child(4) > .HomeAbout_feature_icon__ma827`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(1) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(2) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(3) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(4) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.HomeFullOfIndulgence_mainSlider__9JVRB.undefined:nth-child(1) > .HomeFullOfIndulgence_slider__z4Yef > .marquee-container > .marquee:nth-child(2) > .HomeFullOfIndulgence_content__hMT4H:nth-child(5) > .HomeFullOfIndulgence_content_img___aGz6 > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Vadilal_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 33. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T16:00:44.885Z"
+}

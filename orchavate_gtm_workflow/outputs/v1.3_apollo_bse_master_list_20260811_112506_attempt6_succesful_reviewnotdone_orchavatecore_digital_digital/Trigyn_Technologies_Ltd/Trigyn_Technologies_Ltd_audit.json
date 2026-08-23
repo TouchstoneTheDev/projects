@@ -1,0 +1,272 @@
+{
+  "company": {
+    "srNo": 1145,
+    "companyName": "Trigyn Technologies Ltd",
+    "readymadeWebsite": "https://trigyn.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Trigyn Technologies Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://trigyn.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://trigyn.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@trigyn.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@trigyn.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@trigyn.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://trigyn.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": ".gva-mega-menu",
+          "html": "<li class=\"menu-item menu-item--expanded gva-mega-menu mega-menu-block\" aria-selected=\"true\" style=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-1",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"true\" aria-expanded=\"true\" href=\"#qt-what_we_do_tabs-ui-tabs1\" class=\"ui-tabs-anchor\" id=\"ui-id-1\" data-once=\"wrap-h2\">Services</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-3",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\" href=\"#qt-what_we_do_tabs-ui-tabs3\" class=\"ui-tabs-anchor\" id=\"ui-id-3\" data-once=\"wrap-h2\">Industries</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-4",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"true\" aria-expanded=\"true\" href=\"#qt-service_inner_tabs-ui-tabs1\" class=\"ui-tabs-anchor\" id=\"ui-id-4\" data-once=\"wrap-h2\">AI &amp; Data</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-8",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\" href=\"#qt-service_inner_tabs-ui-tabs5\" class=\"ui-tabs-anchor\" id=\"ui-id-8\" data-once=\"wrap-h2\">Cloud &amp; Infrastructure</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-5",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\" href=\"#qt-service_inner_tabs-ui-tabs2\" class=\"ui-tabs-anchor\" id=\"ui-id-5\" data-once=\"wrap-h2\">Digital Services</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-7",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\" href=\"#qt-service_inner_tabs-ui-tabs4\" class=\"ui-tabs-anchor\" id=\"ui-id-7\" data-once=\"wrap-h2\">Quality Assurance Services</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-parent",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+          "help": "Certain ARIA roles must be contained by particular parents",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-parent?application=playwright",
+          "category": "other",
+          "selector": "#ui-id-6",
+          "html": "<a role=\"tab\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\" href=\"#qt-service_inner_tabs-ui-tabs3\" class=\"ui-tabs-anchor\" id=\"ui-id-6\" data-once=\"wrap-h2\">Staffing &amp; Consulting</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-what_we_do_tabs-ui-tabs1\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active\" aria-controls=\"qt-what_we_do_tabs-ui-tabs1\" aria-labelledby=\"ui-id-1\" tabindex=\"0\" aria-selected=\"true\" aria-expanded=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-what_we_do_tabs-ui-tabs3\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab\" aria-controls=\"qt-what_we_do_tabs-ui-tabs3\" aria-labelledby=\"ui-id-3\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-service_inner_tabs-ui-tabs1\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active\" aria-controls=\"qt-service_inner_tabs-ui-tabs1\" aria-labelledby=\"ui-id-4\" tabindex=\"0\" aria-selected=\"true\" aria-expanded=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-service_inner_tabs-ui-tabs5\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab\" aria-controls=\"qt-service_inner_tabs-ui-tabs5\" aria-labelledby=\"ui-id-8\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-service_inner_tabs-ui-tabs2\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab\" aria-controls=\"qt-service_inner_tabs-ui-tabs2\" aria-labelledby=\"ui-id-5\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-service_inner_tabs-ui-tabs4\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab\" aria-controls=\"qt-service_inner_tabs-ui-tabs4\" aria-labelledby=\"ui-id-7\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "li[aria-controls=\"qt-service_inner_tabs-ui-tabs3\"]",
+          "html": "<li role=\"tab\" class=\"ui-tabs-tab ui-corner-top ui-state-default ui-tab\" aria-controls=\"qt-service_inner_tabs-ui-tabs3\" aria-labelledby=\"ui-id-6\" tabindex=\"-1\" aria-selected=\"false\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "role-img-alt",
+          "impact": "serious",
+          "description": "Ensure [role=\"img\"] elements have alternative text",
+          "help": "[role=\"img\"] elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/role-img-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".panel-glance",
+          "html": "<div role=\"img\" data-src=\"https://d14pyqxcw7nd...\" class=\"b-lazy panel-glance ...\" style=\"background-image:url...\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 36,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 16,
+  "altTextViolations": 1,
+  "contrastViolations": 0,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 36,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Trigyn Technologies Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@trigyn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@trigyn.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Trigyn Technologies Ltd\n- **Resolved URL:** [https://trigyn.com](https://trigyn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@trigyn.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@trigyn.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@trigyn.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.gva-mega-menu`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-3`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-4`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-8`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-5`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-7`\n8. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-6`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs1\"]`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs3\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Trigyn Technologies Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@trigyn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@trigyn.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Trigyn Technologies Ltd\n- **Resolved URL:** [https://trigyn.com](https://trigyn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@trigyn.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@trigyn.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@trigyn.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.gva-mega-menu`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-3`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-4`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-8`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-5`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-7`\n8. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-6`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs1\"]`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs3\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Trigyn_Technologies_Ltd/screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Trigyn Technologies Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `36 / 100`  \n> **Total WCAG Violations:** `16`  \n> **Verified Contact Email:** `info@trigyn.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@trigyn.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **36/100** on automated WCAG 2.1 AA accessibility testing with **16 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `36/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `8` | Serious: `8` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 0 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Trigyn Technologies Ltd\n- **Resolved URL:** [https://trigyn.com](https://trigyn.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@trigyn.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@trigyn.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@trigyn.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `.gva-mega-menu`\n2. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-1`\n3. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-3`\n4. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-4`\n5. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-8`\n6. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-5`\n7. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-7`\n8. **`[other] aria-required-parent`** (CRITICAL)\n   - **Help:** Certain ARIA roles must be contained by particular parents\n   - **Selector:** `#ui-id-6`\n9. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs1\"]`\n10. **`[other] nested-interactive`** (SERIOUS)\n   - **Help:** Interactive controls must not be nested\n   - **Selector:** `li[aria-controls=\"qt-what_we_do_tabs-ui-tabs3\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Trigyn_Technologies_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Trigyn_Technologies_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 16. WAVE AIM: N/A. Lighthouse A11y: 36/100.",
+  "timestamp": "2026-08-11T15:58:48.625Z"
+}

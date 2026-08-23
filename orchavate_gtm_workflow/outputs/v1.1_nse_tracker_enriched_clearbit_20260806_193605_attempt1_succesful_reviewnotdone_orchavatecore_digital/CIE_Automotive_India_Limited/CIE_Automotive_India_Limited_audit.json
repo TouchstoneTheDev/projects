@@ -1,0 +1,206 @@
+{
+  "company": {
+    "srNo": 437,
+    "companyName": "CIE Automotive India Limited",
+    "readymadeWebsite": "cieautomotive.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "None",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://cieautomotive.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://cieautomotive.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "ir@cieautomotive.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://cieautomotive.com/web/investors-website/informacion-general"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "ir@cieautomotive.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://cieautomotive.com/web/investors-website/informacion-general"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://cieautomotive.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#fragment-3d843181-e62c-9241-db1a-750fdef4f643 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .attributed-text-segment-list__btn-truncation",
+          "html": "<button class=\"attributed-text-segm...\" data-feed-action=\"see-more-post\" data-feed-action-cat...=\"EXPAND\" data-feed-action-typ...=\"expandCommentaryText\" data-feed-control=\"commentary_expand\" aria-hidden=\"true\" tabindex=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": "iframe[height=\"800\"] > .h-\\[293px\\] > .ssplayer-progress-bar",
+          "html": "<div class=\"ssplayer-progress-bar\" role=\"progressbar\" tabindex=\"0\" aria-valuemin=\"1\" aria-valuemax=\"5\" aria-valuenow=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": "#fragment-69a72d01-9935-3cc8-e61d-43262e18f136 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .h-\\[293px\\] > .ssplayer-progress-bar",
+          "html": "<div class=\"ssplayer-progress-bar\" role=\"progressbar\" tabindex=\"0\" aria-valuemin=\"1\" aria-valuemax=\"3\" aria-valuenow=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#cie-auto-menu-icon-desktop",
+          "html": "<button class=\"d-flex align-items-center cie-auto-menu-button desktop\" id=\"cie-auto-menu-icon-desktop\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#fragment-9892372d-7664-8a49-450e-79825b0b8632 > .component-heading[data-lfr-editable-type=\"text\"]",
+          "html": "<h2 class=\"component-heading mb-0 text-break cie-h-m\" style=\"color: var(--cie-orange-primary);\" data-lfr-editable-id=\"element-text\" data-lfr-editable-type=\"text\">Presencia en el mundo</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#fragment-f8a739e4-7f4a-373e-d307-db680057c89d > .component-heading[data-lfr-editable-type=\"text\"]",
+          "html": "<h2 class=\"component-heading mb-0 text-break cie-h-m\" style=\"color: var(--cie-orange-primary);\" data-lfr-editable-id=\"element-text\" data-lfr-editable-type=\"text\">Actualidad</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton",
+          "html": "<button class=\"btn btn-sm btn-link\" id=\"_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton\" type=\"button\">Configuración</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"inicio\"]",
+          "html": "<a href=\"/inicio\"><img alt=\"\" class=\"w-100\" data-lfr-editable-id=\"image-square\" data-lfr-editable-type=\"image\" src=\"/documents/d/guest/logo-cie-letras?imagePreview=1\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#fragment-axmp-link",
+          "html": "<a class=\"btn btn-nm btn-link\" data-lfr-editable-id=\"link\" data-lfr-editable-type=\"link\" href=\"\" id=\"fragment-axmp-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/scrollable-region-focusable?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": ".lfr-layout-structure-item-e4f11a06-79e9-4194-20ae-6876a34f2c43",
+          "html": "<div class=\"lfr-layout-structure-item-e4f11a06-79e9-4194-20ae-6876a34f2c43 lfr-layout-structure-item-container linkedin-container\" data-layout-structure-item-id=\"e4f11a06-79e9-4194-20ae-6876a34f2c43\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "other",
+          "selector": "select",
+          "html": "<select class=\"cie-language-selector\" name=\"cie-language\" onchange=\"if (this.value) window.location.href = this.value;\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 56,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 11,
+  "altTextViolations": 0,
+  "contrastViolations": 3,
+  "labelViolations": 0,
+  "keyboardViolations": 2,
+  "lighthouseAvgScore": 56,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CIE Automotive India Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `ir@cieautomotive.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `ir@cieautomotive.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CIE Automotive India Limited\n- **Resolved URL:** [https://cieautomotive.com](https://cieautomotive.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ir@cieautomotive.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ir@cieautomotive.com` | **Status:** `Verified` | **Source Page:** https://cieautomotive.com/web/investors-website/informacion-general\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#fragment-3d843181-e62c-9241-db1a-750fdef4f643 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .attributed-text-segment-list__btn-truncation`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `iframe[height=\"800\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `#fragment-69a72d01-9935-3cc8-e61d-43262e18f136 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#cie-auto-menu-icon-desktop`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-9892372d-7664-8a49-450e-79825b0b8632 > .component-heading[data-lfr-editable-type=\"text\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-f8a739e4-7f4a-373e-d307-db680057c89d > .component-heading[data-lfr-editable-type=\"text\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"inicio\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#fragment-axmp-link`\n10. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.lfr-layout-structure-item-e4f11a06-79e9-4194-20ae-6876a34f2c43`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CIE_Automotive_India_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CIE_Automotive_India_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CIE Automotive India Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `ir@cieautomotive.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `ir@cieautomotive.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CIE Automotive India Limited\n- **Resolved URL:** [https://cieautomotive.com](https://cieautomotive.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ir@cieautomotive.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ir@cieautomotive.com` | **Status:** `Verified` | **Source Page:** https://cieautomotive.com/web/investors-website/informacion-general\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#fragment-3d843181-e62c-9241-db1a-750fdef4f643 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .attributed-text-segment-list__btn-truncation`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `iframe[height=\"800\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `#fragment-69a72d01-9935-3cc8-e61d-43262e18f136 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#cie-auto-menu-icon-desktop`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-9892372d-7664-8a49-450e-79825b0b8632 > .component-heading[data-lfr-editable-type=\"text\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-f8a739e4-7f4a-373e-d307-db680057c89d > .component-heading[data-lfr-editable-type=\"text\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"inicio\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#fragment-axmp-link`\n10. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.lfr-layout-structure-item-e4f11a06-79e9-4194-20ae-6876a34f2c43`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CIE_Automotive_India_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CIE_Automotive_India_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.1_nse_tracker_enriched_clearbit_20260806_193605_attempt1_succesful_reviewnotdone_orchavatecore_digital/CIE_Automotive_India_Limited/screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — CIE Automotive India Limited\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `56 / 100`  \n> **Total WCAG Violations:** `11`  \n> **Verified Contact Email:** `ir@cieautomotive.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `ir@cieautomotive.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **56/100** on automated WCAG 2.1 AA accessibility testing with **11 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `56/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `9` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 3 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 2 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (3 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (2 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** CIE Automotive India Limited\n- **Resolved URL:** [https://cieautomotive.com](https://cieautomotive.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ir@cieautomotive.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ir@cieautomotive.com` | **Status:** `Verified` | **Source Page:** https://cieautomotive.com/web/investors-website/informacion-general\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#fragment-3d843181-e62c-9241-db1a-750fdef4f643 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .attributed-text-segment-list__btn-truncation`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `iframe[height=\"800\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `#fragment-69a72d01-9935-3cc8-e61d-43262e18f136 > .component-html[data-lfr-editable-id=\"element-html\"][data-lfr-editable-type=\"html\"] > p > iframe[height=\"670\"][allowfullscreen=\"\"][frameborder=\"0\"] > .h-\\[293px\\] > .ssplayer-progress-bar`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#cie-auto-menu-icon-desktop`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-9892372d-7664-8a49-450e-79825b0b8632 > .component-heading[data-lfr-editable-type=\"text\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#fragment-f8a739e4-7f4a-373e-d307-db680057c89d > .component-heading[data-lfr-editable-type=\"text\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#_com_liferay_cookies_banner_web_portlet_CookiesBannerPortlet_configurationButton`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href$=\"inicio\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#fragment-axmp-link`\n10. **`[keyboard_navigation] scrollable-region-focusable`** (SERIOUS)\n   - **Help:** Scrollable region must have keyboard access\n   - **Selector:** `.lfr-layout-structure-item-e4f11a06-79e9-4194-20ae-6876a34f2c43`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/CIE_Automotive_India_Limited_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/CIE_Automotive_India_Limited_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/CIE_Automotive_India_Limited_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 11. Lighthouse A11y: 56/100.",
+  "timestamp": "2026-08-06T21:33:35.786Z"
+}

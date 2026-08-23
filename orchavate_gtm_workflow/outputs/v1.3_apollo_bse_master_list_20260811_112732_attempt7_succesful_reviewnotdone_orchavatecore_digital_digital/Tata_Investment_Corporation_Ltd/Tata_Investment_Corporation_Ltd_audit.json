@@ -1,0 +1,750 @@
+{
+  "company": {
+    "srNo": 283,
+    "companyName": "Tata Investment Corporation Ltd",
+    "readymadeWebsite": "https://tatainvestment.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Tata Investment Corporation Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://tatainvestment.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://tatainvestment.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "ticl@tata.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://tatainvestment.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "ticl@tata.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://tatainvestment.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://tatainvestment.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide00",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation00\" id=\"slick-slide00\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-prev",
+          "html": "<span class=\"slick-prev slick-arrow\" data-role=\"none\" role=\"button\" style=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-command-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+          "help": "ARIA commands must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-command-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-next",
+          "html": "<span class=\"slick-next slick-arrow\" data-role=\"none\" role=\"button\" style=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide01",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation01\" id=\"slick-slide01\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">2</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide02",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation02\" id=\"slick-slide02\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">3</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide03",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation03\" id=\"slick-slide03\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">4</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide04",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation04\" id=\"slick-slide04\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">5</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide05",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation05\" id=\"slick-slide05\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">6</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide06",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation06\" id=\"slick-slide06\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">7</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-hidden-focus?application=playwright",
+          "category": "keyboard_navigation",
+          "selector": "#slick-slide07",
+          "html": "<li aria-hidden=\"true\" role=\"presentation\" aria-selected=\"false\" aria-controls=\"navigation07\" id=\"slick-slide07\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">8</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-input-field-name?application=playwright",
+          "category": "other",
+          "selector": ".slick-track",
+          "html": "<div class=\"slick-track\" style=\"opacity: 1; width: 11200px; transform: translate3d(-1120px, 0px, 0px);\" role=\"listbox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-children?application=playwright",
+          "category": "other",
+          "selector": ".slick-dots",
+          "html": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide00",
+          "html": "<li class=\"slick-active\" aria-hidden=\"false\" role=\"presentation\" aria-selected=\"true\" aria-controls=\"navigation00\" id=\"slick-slide00\"><button type=\"button\" data-role=\"none\" role=\"button\" tabindex=\"0\">1</button></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-08eaf65 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\">Shareholding Pattern</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-08eaf65 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\"> Financials</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-08eaf65 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\">Bloomberg / Reuters Code</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-2e3e887 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\"> Corporate Governance Report</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-2e3e887 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\">Buyback of Equity Shares</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-2e3e887 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\"> Corporate Benefits</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-04ff916 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(1) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\">Credit Ratings</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-04ff916 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(2) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\"> Stock Exchange Information</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-04ff916 > .elementor-widget-container > .elementor-icon-list-items > .elementor-icon-list-item:nth-child(3) > a > .elementor-icon-list-text",
+          "html": "<span class=\"elementor-icon-list-text\"> Registrars &amp; Transfer Agents</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#text-3 > .textwidget > p",
+          "html": "<p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-62 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button",
+          "html": "<a href=\"https://tatainvestment.com/saksham-niveshak/\" class=\"more-button\">\n\t\t\t\t\tInitiative under 100 days campaign titled “Saksham Niveshak”\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-49 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/08/SE_Int_Outcome.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tStatement of Standalone Consolidated Financial Results (Ind AS) for the quarter ended June 30, 2026\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-54 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Integrated-CG.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tIntegrated Corporate Governance Report of our Company for the quarter ended June 30, 2026\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-59 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/BSE_NSE_Intimation-of-BM_04082026.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tNotice of Board Meeting Scheduled on 04/08/2026\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-55 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Shareholding-Pattern-for-the-Quarter-ended-June-30-2026.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tShareholding Pattern as on 30.06.2026\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-61 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/04/SE_Int.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tReconciliation of Share Capital Audit Report - 31.03.2026\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-63 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2025/09/Tata%20Investment%20Corp%20Ltd%20-%20Memorandum%20and%20Articles%20of%20AssociationF.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tMemorandum and Articles of Association\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-41 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2021/10/Caution%20%20newspaper%20Notice%20%28003%29.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tNewspaper Advertisement cautioning about fraudulent website\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#circleicon-widget-8 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .more-button[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://www.tatainvestment.com/images/Ticl%20Announcement.pdf\" class=\"more-button\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\tBeware of Fake Job Offers\t\t\t\t\t<i></i>\n\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p[align=\"center\"]",
+          "html": "<p align=\"center\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "p[align=\"center\"] > b",
+          "html": "<b>Tata Investment Corporation Limited </b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-62 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon",
+          "html": "<a href=\"https://tatainvestment.com/saksham-niveshak/\" class=\"link-icon\">\t\t\t\t\t<div class=\"circle-icon icon-style-set\" style=\"background-image: url(https://tatainvestment.com/wp-content/uploads/2025/09/right-arrow.png)\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-62 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title",
+          "html": "<a href=\"https://tatainvestment.com/saksham-niveshak/\" class=\"link-title\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-50 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2024/06/TICL_Caution_notice_Chetan-edit.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-50 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2024/06/TICL_Caution_notice_Chetan-edit.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-58 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2023/05/TICL_Caution_notice.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-58 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2023/05/TICL_Caution_notice.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-42 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2022/12/TICL_Caution_notice.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-42 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2022/12/TICL_Caution_notice.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-39 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2021/07/Caution-Notice.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-39 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2021/07/Caution-Notice.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-49 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/08/SE_Int_Outcome.pdf\" class=\"link-icon\" target=\"_blank\">\t\t\t\t\t<div class=\"circle-icon icon-style-set\" style=\"background-image: url(https://tatainvestment.com/wp-content/uploads/2019/10/Financial-results.png)\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-49 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/08/SE_Int_Outcome.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-54 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Integrated-CG.pdf\" class=\"link-icon\" target=\"_blank\">\t\t\t\t\t<div class=\"circle-icon icon-style-set\" style=\"background-image: url(https://tatainvestment.com/wp-content/uploads/2019/01/shares.png)\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-54 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Integrated-CG.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-59 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/BSE_NSE_Intimation-of-BM_04082026.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-59 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/BSE_NSE_Intimation-of-BM_04082026.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-55 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Shareholding-Pattern-for-the-Quarter-ended-June-30-2026.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-55 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/07/Shareholding-Pattern-for-the-Quarter-ended-June-30-2026.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-61 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/04/SE_Int.pdf\" class=\"link-icon\" target=\"_blank\">\t\t\t\t\t<div class=\"circle-icon icon-style-set\" style=\"background-image: url(https://tatainvestment.com/wp-content/uploads/2019/03/Audit-report.png)\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-61 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2026/04/SE_Int.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-63 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2025/09/Tata%20Investment%20Corp%20Ltd%20-%20Memorandum%20and%20Articles%20of%20AssociationF.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-63 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2025/09/Tata%20Investment%20Corp%20Ltd%20-%20Memorandum%20and%20Articles%20of%20AssociationF.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-41 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2021/10/Caution%20%20newspaper%20Notice%20%28003%29.pdf\" class=\"link-icon\" target=\"_blank\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-41 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://tatainvestment.com/wp-content/uploads/2021/10/Caution%20%20newspaper%20Notice%20%28003%29.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-8 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .circle-icon-wrapper > .link-icon[target=\"_blank\"]",
+          "html": "<a href=\"https://www.tatainvestment.com/images/Ticl%20Announcement.pdf\" class=\"link-icon\" target=\"_blank\">\t\t\t\t\t<div class=\"circle-icon icon-style-set\" style=\"background-image: url(https://tatainvestment.com/wp-content/uploads/2019/01/fake.png)\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#circleicon-widget-8 > .circle-icon-box.circle-icon-position-left.circle-icon-hide-box > .link-title[target=\"\\\"_blank\\\"\"]",
+          "html": "<a href=\"https://www.tatainvestment.com/images/Ticl%20Announcement.pdf\" class=\"link-title\" target=\"&quot;_blank&quot;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 60,
+  "altTextViolations": 0,
+  "contrastViolations": 21,
+  "labelViolations": 0,
+  "keyboardViolations": 7,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Investment Corporation Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ticl@tata.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ticl@tata.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 21 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 7 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (21 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (7 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Investment Corporation Ltd\n- **Resolved URL:** [https://tatainvestment.com](https://tatainvestment.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ticl@tata.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ticl@tata.com` | **Status:** `Verified` | **Source Page:** https://tatainvestment.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-prev`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-next`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide05`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide06`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide07`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Investment Corporation Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ticl@tata.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ticl@tata.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 21 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 7 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (21 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (7 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Investment Corporation Ltd\n- **Resolved URL:** [https://tatainvestment.com](https://tatainvestment.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ticl@tata.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ticl@tata.com` | **Status:** `Verified` | **Source Page:** https://tatainvestment.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-prev`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-next`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide05`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide06`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide07`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Tata_Investment_Corporation_Ltd/screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Tata Investment Corporation Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `ticl@tata.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `ticl@tata.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `57` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 21 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 7 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (21 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n- **Keyboard & Focus Management (7 issues):** Ensure all interactive buttons/links are focusable via `Tab` key and visual focus outlines are visible.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Tata Investment Corporation Ltd\n- **Resolved URL:** [https://tatainvestment.com](https://tatainvestment.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `ticl@tata.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `ticl@tata.com` | **Status:** `Verified` | **Source Page:** https://tatainvestment.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `#slick-slide00`\n2. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-prev`\n3. **`[other] aria-command-name`** (SERIOUS)\n   - **Help:** ARIA commands must have an accessible name\n   - **Selector:** `.slick-next`\n4. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide01`\n5. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide02`\n6. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide03`\n7. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide04`\n8. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide05`\n9. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide06`\n10. **`[keyboard_navigation] aria-hidden-focus`** (SERIOUS)\n   - **Help:** ARIA hidden element must not be focusable or contain focusable elements\n   - **Selector:** `#slick-slide07`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Tata_Investment_Corporation_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 60. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:56:50.221Z"
+}

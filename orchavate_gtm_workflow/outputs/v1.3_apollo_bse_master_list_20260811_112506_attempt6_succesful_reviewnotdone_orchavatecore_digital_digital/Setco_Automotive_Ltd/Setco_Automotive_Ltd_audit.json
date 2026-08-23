@@ -1,0 +1,750 @@
+{
+  "company": {
+    "srNo": 425,
+    "companyName": "Setco Automotive Ltd",
+    "readymadeWebsite": "https://setcoauto.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Setco Automotive Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://setcoauto.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://setcoauto.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "care@setcoauto.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://setcoauto.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "care@setcoauto.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://setcoauto.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://setcoauto.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".uc-ajax-search__btn",
+          "html": "<button type=\"button\" class=\"uc-ajax-search__btn uc-inactive\" value=\"\"><span class=\"uc-ajax-search__btn_icon\"><i class=\"fas fa-search\"></i></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330025426-1",
+          "html": "<a href=\"https://setcoauto.com/products/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330025426-1\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330025426-2\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-d3348c9 > .menu-item-555.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/services/\" class=\"elementor-item\">Services</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330025426-3",
+          "html": "<a href=\"https://setcoauto.com/company/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330025426-3\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330025426-4\" aria-expanded=\"false\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-d3348c9 > .menu-item-1550.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/research-development/\" class=\"elementor-item\">R &amp; D</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".multi-language-heading",
+          "html": "<strong class=\"multi-language-heading\">\nEfficient<br>\nengineering<br>\nto drive<br>\ngrowth\n</strong>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-home.current-menu-item.page_item > .elementor-item-active[aria-current=\"page\"][href$=\"setcoauto.com/\"]",
+          "html": "<a href=\"https://setcoauto.com/\" aria-current=\"page\" class=\"elementor-item elementor-item-active\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6341.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/services/\" class=\"elementor-item\">Services</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6342.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"company/\"]",
+          "html": "<a href=\"https://setcoauto.com/company/\" class=\"elementor-item\">Company</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6343.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/research-development/\" class=\"elementor-item\">R &amp; D</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6344.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"careers/\"]",
+          "html": "<a href=\"https://setcoauto.com/careers/\" class=\"elementor-item\">Careers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6392.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"gallery/\"]",
+          "html": "<a href=\"https://setcoauto.com/gallery/\" class=\"elementor-item\">Gallery</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-98aff6d > .menu-item-6421.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/media-and-news/\" class=\"elementor-item\">Media and News</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6370.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/setco-automotive-limited/\" class=\"elementor-item\">Investors SAL</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6371.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/setco-auto-systems-private-limited/\" class=\"elementor-item\">Investors SASPL</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6420.menu-item-type-custom.menu-item-object-custom > .elementor-item[href$=\"quality-policy/\"]",
+          "html": "<a href=\"/quality-policy/\" class=\"elementor-item\">Quality Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6403.menu-item-type-custom.menu-item-object-custom > .elementor-item[href$=\"suppliers/\"]",
+          "html": "<a href=\"/suppliers/\" class=\"elementor-item\">Suppliers</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6391.menu-item-type-custom.menu-item-object-custom > .elementor-item[target=\"_blank\"]",
+          "html": "<a target=\"_blank\" href=\"https://www.bseindia.com/stock-share-price/setco-automotive-ltd/setco/505075/\" class=\"elementor-item\">Stocks</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-13859.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/privacy-notice/\" class=\"elementor-item\">Privacy Notice</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-75876ac > .menu-item-6372.menu-item-type-post_type.menu-item-object-page > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/contact-us/\" class=\"elementor-item\">Contact Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-13706.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-disc/\" class=\"elementor-item\">Brake Disc</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-9811.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-lining/\" class=\"elementor-item\">Brake Lining</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330047872-1",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330047872-1\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330047872-2\" aria-expanded=\"false\">Clutch<span class=\"sub-arrow\"><i aria-hidden=\"true\" class=\"\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-9920.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/center-support-bearing/\" class=\"elementor-item\">Center Support Bearing</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-9941.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch-release-bearing/\" class=\"elementor-item\">Clutch Release Bearing</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-8253.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/coolant/\" class=\"elementor-item\">Coolant</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-8626.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/flywheel/\" class=\"elementor-item\">Flywheel</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#menu-1-7f0e5d1 > .menu-item-9812.menu-item-type-taxonomy.menu-item-object-product_cat > .elementor-item",
+          "html": "<a href=\"https://setcoauto.com/product-category/universal-joint-cross/\" class=\"elementor-item\">Universal Joint Cross</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330047872-15",
+          "html": "<a href=\"https://setcoauto.com/product-category/water-pump/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330047872-15\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330047872-16\" aria-expanded=\"false\">Water Pump<span class=\"sub-arrow\"><i aria-hidden=\"true\" class=\"\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330047872-17",
+          "html": "<a href=\"https://setcoauto.com/product-category/load-cushion/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330047872-17\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330047872-18\" aria-expanded=\"false\">Load Cushion<span class=\"sub-arrow\"><i aria-hidden=\"true\" class=\"\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#sm-1786453330047872-19",
+          "html": "<a href=\"https://setcoauto.com/product-category/torque-rod-bush/\" class=\"elementor-item has-submenu\" id=\"sm-1786453330047872-19\" aria-haspopup=\"true\" aria-controls=\"sm-1786453330047872-20\" aria-expanded=\"false\">Torque Rod Bush<span class=\"sub-arrow\"><i aria-hidden=\"true\" class=\"\"></i></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".moove-gdpr-infobar-allow-all",
+          "html": "<button class=\"mgbutton moove-gdpr-infobar-allow-all gdpr-fbo-0\" aria-label=\"Accept\">Accept</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"home/\"]",
+          "html": "<a class=\"elementor-icon\" href=\"/home/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#uc_uc_material_bullets_elementor_537fe95 > .ue-bullets.uc-items-wrapper > .uc_material_bullets_row.elementor-repeater-item-acfdb14 > .ue-item-link[href=\"tel:1800-889-6092\"]",
+          "html": "<a href=\"tel:1800-889-6092\" class=\"ue-item-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-9c1638c > a[target=\"_blank\"]",
+          "html": "<a href=\"https://play.google.com/store/apps/details?id=com.martios4.setco\" target=\"_blank\">\n<img width=\"100\" height=\"34\" src=\"https://setcoauto.com/wp-content/uploads/2024/08/Google-Play-Store.svg\" class=\"attachment-medium size-medium wp-image-5972\" alt=\"\" sizes=\"100vw\">\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-0060263 > a[href$=\"setcoauto.com\"]",
+          "html": "<a href=\"https://setcoauto.com\">\n<img width=\"221\" height=\"57\" src=\"https://setcoauto.com/wp-content/uploads/2024/08/setco-logo.svg\" class=\"attachment-full size-full wp-image-447\" alt=\"\" sizes=\"100vw\">\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(1) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/coolant/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2026/05/LIPE-Coolant.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(2) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/flywheel/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/01/Fly-Wheel.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(3) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/load-cushion/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SSLC-10001HD.png)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(4) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/torque-rod-bush/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SSTRB-1001S.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(5) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/universal-joint-cross/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/01/UJ-Cross.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(6) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/water-pump/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SWP-9028_1.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(7) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-disc/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2026/03/Brake-Disc-Image.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".uc-active-item.active.owl-item > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-lining/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Brake-Lining.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(9) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/center-support-bearing/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Center-Support-Bearing.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(10) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/310-MM-DIA-LIPE-EuroStar-Clutch-Assembly.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(11) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch-release-bearing/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Center-Release-Bearing.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(12) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/coolant/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2026/05/LIPE-Coolant.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(13) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/flywheel/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/01/Fly-Wheel.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(14) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/load-cushion/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SSLC-10001HD.png)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(15) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/torque-rod-bush/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SSTRB-1001S.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(16) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/universal-joint-cross/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/01/UJ-Cross.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(17) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/water-pump/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2025/06/SWP-9028_1.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(18) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-disc/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2026/03/Brake-Disc-Image.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(19) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/brake-lining/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Brake-Lining.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(20) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/center-support-bearing/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Center-Support-Bearing.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(21) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/310-MM-DIA-LIPE-EuroStar-Clutch-Assembly.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(22) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/clutch-release-bearing/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2024/12/Center-Release-Bearing.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(23) > .uc_image_carousel_container_holder.ue-item > .uc_image_carousel_placeholder > a[target=\"_self\"]",
+          "html": "<a href=\"https://setcoauto.com/product-category/coolant/\" target=\"_self\"><div style=\"background-image:url(https://setcoauto.com/wp-content/uploads/2026/05/LIPE-Coolant.webp)\" class=\"carousel-image\"></div></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-5942.elementor-location-footer[data-elementor-id=\"5942\"] > .elementor-element-813b14a.elementor-top-section[data-id=\"813b14a\"] > .elementor-column-gap-default.elementor-container > .elementor-element-d5d64bc.elementor-col-100[data-id=\"d5d64bc\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-eb9a5f6[data-id=\"eb9a5f6\"][data-widget_type=\"image.default\"] > a[target=\"_blank\"]",
+          "html": "<a href=\"https://play.google.com/store/apps/details?id=com.martios4.setco\" target=\"_blank\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 60,
+  "altTextViolations": 0,
+  "contrastViolations": 31,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Setco Automotive Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `care@setcoauto.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@setcoauto.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `59` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 31 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (31 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Setco Automotive Ltd\n- **Resolved URL:** [https://setcoauto.com](https://setcoauto.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@setcoauto.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@setcoauto.com` | **Status:** `Verified` | **Source Page:** https://setcoauto.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.uc-ajax-search__btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-555.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-3`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-1550.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.multi-language-heading`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-home.current-menu-item.page_item > .elementor-item-active[aria-current=\"page\"][href$=\"setcoauto.com/\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6341.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6342.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"company/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6343.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Setco_Automotive_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Setco_Automotive_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Setco Automotive Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `care@setcoauto.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@setcoauto.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `59` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 31 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (31 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Setco Automotive Ltd\n- **Resolved URL:** [https://setcoauto.com](https://setcoauto.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@setcoauto.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@setcoauto.com` | **Status:** `Verified` | **Source Page:** https://setcoauto.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.uc-ajax-search__btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-555.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-3`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-1550.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.multi-language-heading`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-home.current-menu-item.page_item > .elementor-item-active[aria-current=\"page\"][href$=\"setcoauto.com/\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6341.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6342.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"company/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6343.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Setco_Automotive_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Setco_Automotive_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Setco_Automotive_Ltd/screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Setco Automotive Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `60`  \n> **Verified Contact Email:** `care@setcoauto.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `care@setcoauto.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **60 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `1` | Serious: `59` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 31 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (31 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Setco Automotive Ltd\n- **Resolved URL:** [https://setcoauto.com](https://setcoauto.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `care@setcoauto.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `care@setcoauto.com` | **Status:** `Verified` | **Source Page:** https://setcoauto.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.uc-ajax-search__btn`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-1`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-555.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#sm-1786453330025426-3`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-d3348c9 > .menu-item-1550.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.multi-language-heading`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-home.current-menu-item.page_item > .elementor-item-active[aria-current=\"page\"][href$=\"setcoauto.com/\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6341.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6342.menu-item-type-post_type.menu-item-object-page > .elementor-item[href$=\"company/\"]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#menu-1-98aff6d > .menu-item-6343.menu-item-type-post_type.menu-item-object-page > .elementor-item`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Setco_Automotive_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Setco_Automotive_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Setco_Automotive_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 60. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:02:26.699Z"
+}

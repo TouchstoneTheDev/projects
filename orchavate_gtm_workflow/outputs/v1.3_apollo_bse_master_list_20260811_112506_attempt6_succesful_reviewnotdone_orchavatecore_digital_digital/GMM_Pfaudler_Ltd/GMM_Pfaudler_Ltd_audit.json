@@ -1,0 +1,481 @@
+{
+  "company": {
+    "srNo": 436,
+    "companyName": "GMM Pfaudler Ltd",
+    "readymadeWebsite": "https://gmmpfaudler.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (GMM Pfaudler Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://gmmpfaudler.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://gmmpfaudler.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@gmmpfaudler.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@gmmpfaudler.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@gmmpfaudler.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://gmmpfaudler.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".form-search > .input-group.w-100 > .btn[type=\"submit\"]",
+          "html": "<button class=\"btn\" type=\"submit\"><i class=\"fas fa-search\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".d-block.font-weight-normal",
+          "html": "<span class=\"d-block font-weight-normal\">Subscribe to our</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-inline-item:nth-child(1) > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/en.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-inline-item:nth-child(2) > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/de.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".list-inline-item:nth-child(3) > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/zh.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".men-link.align-items-center.d-flex > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/en.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/de.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]",
+          "html": "<img src=\"/assets/site/custom/images/flag/zh.png\" width=\"20\" height=\"20\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".w-100-lg > .wrap-img > img",
+          "html": "<img src=\"/assets/site/custom/images/home/life-cycle.jpg\" style=\"min-height: 200px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".stretched-link[title=\"Our values define who we are\"] > img",
+          "html": "<img src=\"/assets/site/custom/images/home/core-values.jpg\" style=\"min-height: 200px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".closems",
+          "html": "<a onclick=\"closeMen();\" href=\"javascript:void(0);\" class=\"closems rounded-circle\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".h-100 > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/engineering-design\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(1) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/reaction-system\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(2) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/evaporation-distillation\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(3) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/acid-recovery\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(4) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/filtration-drying-systems\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(5) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/systems-processes/process-systems-packages/absorption-systems\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-xl-4.systems-new.col-sm-6:nth-child(6) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/membrane-separation-systems-1\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(1) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/glass-lined-equipment-1\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(2) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/lab-and-process-glass\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(3) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/filtration-drying\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(4) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/mixing-technology\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(5) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/sealing-technology\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(6) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/alloy-equipment-systems\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(7) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/fluoropolymers\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md.mt-4[data-aos=\"zoom-in\"]:nth-child(8) > figure > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/services/machined-ptfe-engineered-plastics\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-6.mt-5.col-12:nth-child(1) > .rounded-xl.border.my-0 > a",
+          "html": "<a href=\"https://www.gmmpfaudler.com/gmm-pfaudler-evolves-into-a-global-vertically-aligned-organization\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-6.mt-5.col-12:nth-child(1) > .rounded-xl.border.my-0 > .text-grey.px-3.p-mb > .float-right.hexagon-arrow-l.mt-4",
+          "html": "<a class=\"hexagon-arrow-l stretched-link float-right mt-4\" href=\"https://www.gmmpfaudler.com/gmm-pfaudler-evolves-into-a-global-vertically-aligned-organization\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-6.mt-5.col-12:nth-child(2) > .rounded-xl.border.my-0 > a",
+          "html": "<a href=\"https://www.gmmpfaudler.com/advanced-treatment-of-oil-emulsions-industrial-wastewaters\">\n                                    <img src=\"https://www.gmmpfaudler.com/thumb/740/New-home-preview-–-3.jpg\" class=\"figure-img img-fluid\" alt=\"\">\n                                </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-lg-6.mt-5.col-12:nth-child(2) > .rounded-xl.border.my-0 > .text-grey.px-3.p-mb > .float-right.hexagon-arrow-l.mt-4",
+          "html": "<a class=\"hexagon-arrow-l stretched-link float-right mt-4\" href=\"https://www.gmmpfaudler.com/advanced-treatment-of-oil-emulsions-industrial-wastewaters\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".eliterature > .stretched-link",
+          "html": "<a href=\"https://www.gmmpfaudler.com/eliterature\" class=\"stretched-link\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#child-5",
+          "html": "<ul class=\"child-mn\" id=\"child-5\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#child-271",
+          "html": "<ul class=\"child-mn\" id=\"child-271\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#child-369",
+          "html": "<ul class=\"child-mn\" id=\"child-369\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": "#child-203",
+          "html": "<ul class=\"child-mn\" id=\"child-203\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 35,
+  "altTextViolations": 8,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — GMM Pfaudler Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `35`  \n> **Verified Contact Email:** `info@gmmpfaudler.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **35 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `26` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** GMM Pfaudler Ltd\n- **Resolved URL:** [https://gmmpfaudler.com](https://gmmpfaudler.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.form-search > .input-group.w-100 > .btn[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.d-block.font-weight-normal`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(1) > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(2) > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(3) > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-100-lg > .wrap-img > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.stretched-link[title=\"Our values define who we are\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — GMM Pfaudler Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `35`  \n> **Verified Contact Email:** `info@gmmpfaudler.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **35 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `26` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** GMM Pfaudler Ltd\n- **Resolved URL:** [https://gmmpfaudler.com](https://gmmpfaudler.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.form-search > .input-group.w-100 > .btn[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.d-block.font-weight-normal`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(1) > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(2) > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(3) > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-100-lg > .wrap-img > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.stretched-link[title=\"Our values define who we are\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/GMM_Pfaudler_Ltd/screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — GMM Pfaudler Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `35`  \n> **Verified Contact Email:** `info@gmmpfaudler.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **35 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `9` | Serious: `26` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 8 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (8 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** GMM Pfaudler Ltd\n- **Resolved URL:** [https://gmmpfaudler.com](https://gmmpfaudler.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gmmpfaudler.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gmmpfaudler.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.form-search > .input-group.w-100 > .btn[type=\"submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.d-block.font-weight-normal`\n3. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(1) > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n4. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(2) > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n5. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.list-inline-item:nth-child(3) > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n6. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href$=\"www.gmmpfaudler.com\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n7. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/de\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n8. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.men-link.align-items-center.d-flex > a[href=\"https://www.gmmpfaudler.com/zh\"][data-toggle=\"tooltip\"][data-placement=\"top\"] > img[width=\"20\"][height=\"20\"]`\n9. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.w-100-lg > .wrap-img > img`\n10. **`[missing_alt_text] image-alt`** (CRITICAL)\n   - **Help:** Images must have alternative text\n   - **Selector:** `.stretched-link[title=\"Our values define who we are\"] > img`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/GMM_Pfaudler_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/GMM_Pfaudler_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 35. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:03:44.996Z"
+}

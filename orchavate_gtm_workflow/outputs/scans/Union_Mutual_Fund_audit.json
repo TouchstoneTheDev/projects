@@ -1,0 +1,290 @@
+{
+  "company": {
+    "srNo": 34,
+    "companyName": "Union Mutual Fund",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://www.unionmf.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://www.unionmf.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investorcare@unionmf.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://www.unionmf.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "partner.assist@unionmf.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.unionmf.com/about-us/contact-us"
+      },
+      {
+        "address": "investorcare@unionmf.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://www.unionmf.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.unionmf.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mini-popup-bubble",
+          "html": "<div class=\"mini-popup-bubble mini-greeting-in\">Hi! I am Union. Your Virtual Assistant</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(1) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/mitra-website-banner-w389px-h165px.jpg?sfvrsn=3ffa5159_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(2) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/be-on-same-page.jpg?sfvrsn=ece7e963_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(3) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/rules-on-investing129b33ed-641c-4880-bb37-9fc75376c8fd.jpg?sfvrsn=9aef2581_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(4) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/sip-and-swp-2.jpg?sfvrsn=bd2799e5_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(5) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/mitra-vc72fdb0e5e764a6da9f155711f2509b0.jpg?sfvrsn=404f348_2\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(6) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/mutual-funds.jpg?sfvrsn=f7a42912_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".investmentList-item.swiper-slide:nth-child(7) > .imgWrap > img",
+          "html": "<img src=\"https://www.unionmf.com/images/default-source/about-us/power-of-compounding.jpg?sfvrsn=4e836015_1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active > .banner-cont > p:nth-child(3) > strong > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\">&nbsp;</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate.swiper-slide[data-swiper-slide-index=\"5\"]:nth-child(6) > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"]:nth-child(1)",
+          "html": "<a href=\"https://www.unionmf.com/Investorlogin/UMFEKYC_KYC.aspx\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate-active > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate-active > .banner-cont > p:nth-child(3) > strong > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\">&nbsp;</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate-prev > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"]:nth-child(1)",
+          "html": "<a href=\"https://www.unionmf.com/Investorlogin/UMFEKYC_KYC.aspx\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate.swiper-slide[data-swiper-slide-index=\"0\"]:nth-child(13) > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate.swiper-slide[data-swiper-slide-index=\"0\"]:nth-child(13) > .banner-cont > p:nth-child(3) > strong > a[data-sf-ec-immutable=\"\"][target=\"_blank\"]",
+          "html": "<a href=\"https://app.mfcentral.com/investor/signup\" target=\"_blank\" data-sf-ec-immutable=\"\">&nbsp;</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-prev > .banner-cont > p:nth-child(3) > a[data-sf-ec-immutable=\"\"]:nth-child(1)",
+          "html": "<a href=\"https://www.unionmf.com/Investorlogin/UMFEKYC_KYC.aspx\" data-sf-ec-immutable=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.5\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Union_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Union_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Union_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 18,
+  "altTextViolations": 7,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Union_Mutual_Fund/Union_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Union_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — Union Mutual Fund\n\n- **Company Name:** Union Mutual Fund\n- **Resolved URL:** https://www.unionmf.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://www.unionmf.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Union_Mutual_Fund/Union_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Union_Mutual_Fund/Union_Mutual_Fund_email_evidence.png",
+      "markdownContent": "# Email Discovery Report — Union Mutual Fund\n\n- **Primary Contact Email:** `investorcare@unionmf.com`\n- **Primary Email Status:** `Verified`\n\n### Regarding Accessibility Emails\n- **Investor Grievance / Compliance Officer Email:** `partner.assist@unionmf.com` | **Status:** `Verified` | **Source Page:** https://www.unionmf.com/about-us/contact-us\n- **General Contact Email:** `investorcare@unionmf.com` | **Status:** `Verified` | **Source Page:** https://www.unionmf.com\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Union_Mutual_Fund/Union_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Union_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — Union Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 18\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 7\n- **Color Contrast Failures:** 1\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `Union_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `Union_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `Union_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 18. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T05:59:05.564Z"
+}

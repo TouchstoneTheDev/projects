@@ -1,0 +1,300 @@
+{
+  "company": {
+    "srNo": 29,
+    "companyName": "Nippon India Mutual Fund",
+    "readymadeWebsite": "",
+    "assignedTo": "Unassigned",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1"
+  },
+  "resolution": {
+    "resolvedUrl": "https://mf.nipponindiaim.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://mf.nipponindiaim.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@mf.nipponindiaim.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@mf.nipponindiaim.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@mf.nipponindiaim.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mf.nipponindiaim.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".leftLst",
+          "html": "<button class=\"leftLst over\" onclick=\"return false;\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".rightLst",
+          "html": "<button class=\"rightLst\" onclick=\"return false;\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#lnkLogin",
+          "html": "<a id=\"lnkLogin\" title=\"A secure access for ...\" class=\"btnLogin btn btn-lg ...\" href=\"https://invest.nippo...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".KYCText",
+          "html": "<span class=\"KYCText\">Verify KYC</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".clickHere-btn",
+          "html": "<a href=\"https://mf.nipponindiaim.com/Pages/ESG.aspx\" target=\"_blank\" class=\"clickHere-btn\">Read Our ESG &amp; CSR Framework</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-2 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/expert-icon.png\" alt=\"Mutual Fund Experts\"> Expert Review\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-3 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/infographic.png\" alt=\"NAM India Insights\"> Insights on Economy\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-4 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/Insight-articlelogo.png\" alt=\"Article Section at Nippon India Mutual Fund\"> Market Outlook\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.left.item > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-2\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"prev\">\n                                                        <i class=\"fa fa-angle-left\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.left.item > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-2\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"next\">\n                                                        <i class=\"fa fa-angle-right\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".next > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-2\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"prev\">\n                                                        <i class=\"fa fa-angle-left\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".next > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-2\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"next\">\n                                                        <i class=\"fa fa-angle-right\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".left[href$=\"#carousel-Insight-3\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-3\" data-slide=\"prev\">\n                                                <i class=\"fa fa-angle-left\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[href$=\"#carousel-Insight-3\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-3\" data-slide=\"next\">\n                                                <i class=\"fa fa-angle-right\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.item > div:nth-child(3) > .col-sm-6:nth-child(2) > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-4\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-4\" data-slide=\"prev\">\n                                                <i class=\"fa fa-angle-left\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.item > div:nth-child(3) > .col-sm-6:nth-child(2) > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-4\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-4\" data-slide=\"next\">\n                                                <i class=\"fa fa-angle-right\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#heading1",
+          "html": "<div class=\"panel-heading\" role=\"tab\" id=\"heading1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#heading3",
+          "html": "<div class=\"panel-heading\" role=\"tab\" id=\"heading3\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 19,
+  "altTextViolations": 0,
+  "contrastViolations": 6,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Nippon_India_Mutual_Fund/Nippon_India_Mutual_Fund_website_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Official Website Verification Report — Nippon India Mutual Fund\n\n- **Company Name:** Nippon India Mutual Fund\n- **Resolved URL:** https://mf.nipponindiaim.com\n- **Resolution Source:** readymade-fallback (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n\n\n- **Readymade List URL:** https://mf.nipponindiaim.com\n\n---\n*Generated by Orchavate Accessibility Audit Tool v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Nippon_India_Mutual_Fund/Nippon_India_Mutual_Fund_email_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Email Discovery Report — Nippon India Mutual Fund\n\n- **Primary Contact Email:** `info@mf.nipponindiaim.com`\n- **Primary Email Status:** `Unverified - guessed pattern`\n\n### Regarding Accessibility Emails\n- **General Contact Email (Guessed Pattern):** `info@mf.nipponindiaim.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@mf.nipponindiaim.com` | **Status:** `Unverified - guessed pattern`\n\n---\n*Note: If marked as \"Unverified - guessed pattern\", no visible email address was listed on public contact pages and a standard domain pattern was generated.*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/deliverables/Nippon_India_Mutual_Fund/Nippon_India_Mutual_Fund_accessibility_report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility Tool Scan Report — Nippon India Mutual Fund\n\n- **Scan Status:** `Completed`\n- **Total WCAG Violations:** 19\n- **Lighthouse A11y Score:** 30 / 100\n\n### Violation Breakdown\n- **Missing Alt Text:** 0\n- **Color Contrast Failures:** 6\n- **Form & Structural Labels:** 0\n- **Keyboard Navigation Issues:** 0\n\n\n\n---\n\n### Compulsory Tool Screenshots\n1. **WAVE Overlay Screenshot:** `Nippon_India_Mutual_Fund_Homepage_WAVE_Overlay.png`\n2. **Axe DevTools Panel Screenshot:** `Nippon_India_Mutual_Fund_Homepage_Axe_DevTools.png`\n3. **Lighthouse Summary Screenshot:** `Nippon_India_Mutual_Fund_Homepage_Lighthouse_Summary.png`\n\n*Evaluated across Homepage, About, Contact, Investor Relations & Statutory Pages via WAVE, Axe DevTools & Lighthouse.*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 19. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-02T05:57:52.142Z"
+}

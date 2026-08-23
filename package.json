@@ -1,0 +1,55 @@
+{
+  "name": "digital-accessibility-outreach-platform",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Automated digital accessibility outreach platform for SEBI-listed companies.",
+  "main": "dist/cli.js",
+  "bin": {
+    "orachavate": "dist/cli.js"
+  },
+  "scripts": {
+    "clean": "rm -rf dist node_modules .turbo .cache",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src tests --ext .ts",
+    "test": "vitest run",
+    "start": "node dist/cli.js",
+    "scan": "node --enable-source-maps dist/cli.js",
+    "infoharvester": "./bin/infoharvester"
+  },
+  "keywords": [
+    "accessibility",
+    "sebi",
+    "playwright",
+    "axe-core",
+    "lighthouse",
+    "a11y"
+  ],
+  "author": "TouchstoneTheDev",
+  "license": "MIT",
+  "dependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "axe-core": "^4.8.0",
+    "cheerio": "^1.0.0-rc.12",
+    "chrome-launcher": "^1.2.1",
+    "csv-parse": "^5.4.0",
+    "exceljs": "^4.3.0",
+    "lighthouse": "^11.0.0",
+    "pino": "^8.18.0",
+    "playwright": "^1.40.0",
+    "xlsx": "^0.18.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.5",
+    "eslint-plugin-prettier": "^5.1.4",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "5.5.4",
+    "vitest": "^1.5.4"
+  }
+}

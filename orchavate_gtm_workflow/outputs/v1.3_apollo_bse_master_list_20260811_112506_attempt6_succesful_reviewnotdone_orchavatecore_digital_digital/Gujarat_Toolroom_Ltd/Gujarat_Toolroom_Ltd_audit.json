@@ -1,0 +1,250 @@
+{
+  "company": {
+    "srNo": 946,
+    "companyName": "Gujarat Toolroom Ltd",
+    "readymadeWebsite": "https://gujarattoolroom.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Gujarat Toolroom Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://gujarattoolroom.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://gujarattoolroom.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@gujarattoolroom.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Unverified - guessed pattern"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@gujarattoolroom.com",
+        "type": "general",
+        "label": "General Contact Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      },
+      {
+        "address": "contact@gujarattoolroom.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance Email (Guessed Pattern)",
+        "status": "Unverified - guessed pattern"
+      }
+    ],
+    "overallStatus": "Unverified - guessed pattern",
+    "evidenceScreenshots": [
+      "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_EmailEvidence_NotFound_ContactPage.png"
+    ]
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://gujarattoolroom.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide-control20",
+          "html": "<button type=\"button\" role=\"tab\" id=\"slick-slide-control20\" aria-controls=\"slick-slide2undefined\" aria-label=\"1 of 0\" tabindex=\"0\" aria-selected=\"true\">1</button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".search-submit",
+          "html": "<button type=\"submit\" class=\"search-submit\"><i class=\"caseicon-search\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".ct-button-text",
+          "html": "<span class=\"ct-button-text\">Contact us</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-146 > .elementor-element-c3042f2.elementor-section-content-middle[data-id=\"c3042f2\"] > .elementor-column-gap-extended.elementor-container > .elementor-element-ffb1a05.elementor-col-50[data-id=\"ffb1a05\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-a52c402.elementor-widget-ct_logo[data-id=\"a52c402\"] > .elementor-widget-container > .ct-logo.style1 > a",
+          "html": "<a href=\"https://www.gujarattoolroom.com/\">            <img width=\"200\" height=\"200\" src=\"https://www.gujarattoolroom.com/wp-content/uploads/2026/02/logo-light.png\" class=\"attachment-full\" alt=\"\">        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide10 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore",
+          "html": "<a class=\"btn-readmore\" href=\"https://www.gujarattoolroom.com/service/power-energy/\" tabindex=\"0\"><i class=\"caseicon-long-arrow-right-three\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide11 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore",
+          "html": "<a class=\"btn-readmore\" href=\"https://www.gujarattoolroom.com/service/mechanical-works/\" tabindex=\"0\"><i class=\"caseicon-long-arrow-right-three\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide12 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore",
+          "html": "<a class=\"btn-readmore\" href=\"https://www.gujarattoolroom.com/service/petroleum-refinery/\" tabindex=\"0\"><i class=\"caseicon-long-arrow-right-three\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "#slick-slide40 > .item--inner-primary > .item--holder > .item--link[href=\"#\"]",
+          "html": "<a class=\"item--link\" href=\"#\" tabindex=\"0\"><i class=\"caseicon-long-arrow-right-three\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ct-image-single--inner > a",
+          "html": "<a href=\"https://www.gujarattoolroom.com/\">                            </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-element-1c451fc > .elementor-widget-container > .ct-logo.style1 > a",
+          "html": "<a href=\"https://www.gujarattoolroom.com/\">            <img width=\"200\" height=\"200\" src=\"https://www.gujarattoolroom.com/wp-content/uploads/2026/02/logo-light.png\" class=\"attachment-full\" alt=\"\">        </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ct_icon-646fd33-0",
+          "html": "<a class=\"ct_icon-646fd33-0 elementor-repeater-item-b3af812\" href=\"#\">\n                    <i aria-hidden=\"true\" class=\"fab fa-facebook-f\"></i>                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ct_icon-646fd33-1",
+          "html": "<a class=\"ct_icon-646fd33-1 elementor-repeater-item-ab7a0af\" href=\"#\">\n                    <i aria-hidden=\"true\" class=\"fab fa-twitter\"></i>                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ct_icon-646fd33-2",
+          "html": "<a class=\"ct_icon-646fd33-2 elementor-repeater-item-e4229df\" href=\"#\">\n                    <i aria-hidden=\"true\" class=\"fab fa-dribbble\"></i>                                    </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".ct_icon-646fd33-3",
+          "html": "<a class=\"ct_icon-646fd33-3 elementor-repeater-item-c78aaf1\" href=\"#\">\n                    <i aria-hidden=\"true\" class=\"fab fa-behance\"></i>                                    </a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 44,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 14,
+  "altTextViolations": 0,
+  "contrastViolations": 1,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 44,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Toolroom Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@gujarattoolroom.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Toolroom Ltd\n- **Resolved URL:** [https://gujarattoolroom.com](https://gujarattoolroom.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#slick-slide-control20`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.search-submit`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ct-button-text`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-146 > .elementor-element-c3042f2.elementor-section-content-middle[data-id=\"c3042f2\"] > .elementor-column-gap-extended.elementor-container > .elementor-element-ffb1a05.elementor-col-50[data-id=\"ffb1a05\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-a52c402.elementor-widget-ct_logo[data-id=\"a52c402\"] > .elementor-widget-container > .ct-logo.style1 > a`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide10 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide11 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide12 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide40 > .item--inner-primary > .item--holder > .item--link[href=\"#\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.ct-image-single--inner > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-1c451fc > .elementor-widget-container > .ct-logo.style1 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Toolroom Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@gujarattoolroom.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Toolroom Ltd\n- **Resolved URL:** [https://gujarattoolroom.com](https://gujarattoolroom.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#slick-slide-control20`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.search-submit`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ct-button-text`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-146 > .elementor-element-c3042f2.elementor-section-content-middle[data-id=\"c3042f2\"] > .elementor-column-gap-extended.elementor-container > .elementor-element-ffb1a05.elementor-col-50[data-id=\"ffb1a05\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-a52c402.elementor-widget-ct_logo[data-id=\"a52c402\"] > .elementor-widget-container > .ct-logo.style1 > a`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide10 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide11 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide12 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide40 > .item--inner-primary > .item--holder > .item--link[href=\"#\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.ct-image-single--inner > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-1c451fc > .elementor-widget-container > .ct-logo.style1 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Toolroom_Ltd/screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Toolroom Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `44 / 100`  \n> **Total WCAG Violations:** `14`  \n> **Verified Contact Email:** `info@gujarattoolroom.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **44/100** on automated WCAG 2.1 AA accessibility testing with **14 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `44/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `2` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 1 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (1 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Toolroom Ltd\n- **Resolved URL:** [https://gujarattoolroom.com](https://gujarattoolroom.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujarattoolroom.com` (`Unverified - guessed pattern`)\n- **Overall Discovery Status:** `Unverified - guessed pattern`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email (Guessed Pattern):** `info@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n- **Investor Grievance Email (Guessed Pattern):** `contact@gujarattoolroom.com` | **Status:** `Unverified - guessed pattern`\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-valid-attr-value`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid values\n   - **Selector:** `#slick-slide-control20`\n2. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.search-submit`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.ct-button-text`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-146 > .elementor-element-c3042f2.elementor-section-content-middle[data-id=\"c3042f2\"] > .elementor-column-gap-extended.elementor-container > .elementor-element-ffb1a05.elementor-col-50[data-id=\"ffb1a05\"] > .elementor-element-populated.elementor-widget-wrap > .elementor-element-a52c402.elementor-widget-ct_logo[data-id=\"a52c402\"] > .elementor-widget-container > .ct-logo.style1 > a`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide10 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide11 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide12 > .grid-item-inner[data-wow-duration=\"1.2s\"] > .item--body > .item-readmore > .btn-readmore`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `#slick-slide40 > .item--inner-primary > .item--holder > .item--link[href=\"#\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.ct-image-single--inner > a`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.elementor-element-1c451fc > .elementor-widget-container > .ct-logo.style1 > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Toolroom_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 14. WAVE AIM: N/A. Lighthouse A11y: 44/100.",
+  "timestamp": "2026-08-11T15:20:34.813Z"
+}

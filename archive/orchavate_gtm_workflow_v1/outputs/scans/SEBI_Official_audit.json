@@ -1,0 +1,235 @@
+{
+  "company": {
+    "srNo": 1,
+    "assignedTo": "Auditor 1",
+    "companyName": "SEBI Official",
+    "website": "https://www.sebi.gov.in",
+    "contactPerson": "Compliance Officer",
+    "emailId": "dvsekhar@sebi.gov.in",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.sebi.gov.in",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee scrollamount=\"2\" onmouseover=\"this.stop();\" onfocus=\"this.stop();\" onmouseout=\"this.start();\" onblur=\"this.start();\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Homepage_other.png"
+        }
+      ],
+      "lighthouseScore": 92,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Homepage_other.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://www.sebi.gov.in/about.html",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee scrollamount=\"2\" onmouseover=\"this.stop();\" onfocus=\"this.stop();\" onmouseout=\"this.start();\" onblur=\"this.start();\">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_About_other.png"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "About"
+        }
+      ],
+      "lighthouseScore": 89,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_About_other.png"
+      ]
+    },
+    {
+      "pageName": "Contact",
+      "url": "https://www.sebi.gov.in/contact-us.html#contact-us-main",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "strong > a[href$=\"#contact-us-main\"]",
+          "html": "<a href=\"#contact-us-main\">List of all SEBI Offices</a>",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#btnFO > strong",
+          "html": "<strong style=\"color:#fff;\" tabindex=\"0\">Find Offices</strong>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".accordion_head.cont-accordian > h2",
+          "html": "<h2 style=\"color:#fff; display: inline; line-height: 25px\" tabindex=\"0\">Contact Us / Feedback</h2>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href=\"javascript: submitQuery();\"]",
+          "html": "<a href=\"javascript: submitQuery();\" class=\"submit submit_reset\" title=\"Submit\" tabindex=\"0\">Submit</a>",
+          "pageName": "Contact"
+        },
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee scrollamount=\"2\" onmouseover=\"this.stop();\" onfocus=\"this.stop();\" onmouseout=\"this.start();\" onblur=\"this.start();\">",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_other.png"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Contact"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "form_labels",
+          "selector": "select[onchange=\"javascript: changeOffice();\"]",
+          "html": "<select onchange=\"javascript: changeOffice();\" name=\"officeType\">",
+          "pageName": "Contact",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_form_labels.png"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "form_labels",
+          "selector": "#travelType",
+          "html": "<select name=\"travelType\" id=\"travelType\">",
+          "pageName": "Contact"
+        },
+        {
+          "id": "select-name",
+          "impact": "critical",
+          "description": "Ensure select element has an accessible name",
+          "help": "Select element must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/select-name?application=playwright",
+          "category": "form_labels",
+          "selector": "select[onchange=\"javascript: disableField();\"]",
+          "html": "<select onchange=\"javascript: disableField();\" name=\"subject\" style=\"overflow:scroll;\">",
+          "pageName": "Contact"
+        }
+      ],
+      "lighthouseScore": 12,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_other.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Contact_form_labels.png"
+      ]
+    },
+    {
+      "pageName": "Investor Relations",
+      "url": "https://www.sebi.gov.in/statistics/fpi-investment.html",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "marquee",
+          "impact": "serious",
+          "description": "Ensure <marquee> elements are not used",
+          "help": "<marquee> elements are deprecated and must not be used",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/marquee?application=playwright",
+          "category": "other",
+          "selector": "marquee",
+          "html": "<marquee scrollamount=\"2\" onmouseover=\"this.stop();\" onfocus=\"this.stop();\" onmouseout=\"this.start();\" onblur=\"this.start();\">",
+          "pageName": "Investor Relations",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Investor_Relations_other.png"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Investor Relations"
+        }
+      ],
+      "lighthouseScore": 89,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Investor_Relations_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/SEBI_Official_Investor_Relations_other.png"
+      ]
+    }
+  ],
+  "totalViolations": 14,
+  "altTextViolations": 0,
+  "contrastViolations": 4,
+  "labelViolations": 3,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 71,
+  "remarks": "Scanned 4 pages. Violations: 14. Lighthouse: 71/100.",
+  "timestamp": "2026-08-02T03:29:50.608Z"
+}

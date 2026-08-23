@@ -1,0 +1,603 @@
+{
+  "company": {
+    "srNo": 1116,
+    "companyName": "Gujarat Intrux Ltd",
+    "readymadeWebsite": "https://gujaratintrux.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Gujarat Intrux Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://gujaratintrux.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://gujaratintrux.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@gujaratintrux.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://gujaratintrux.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "cs@gujaratintrux.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://gujaratintrux.com/investor-contact/"
+      },
+      {
+        "address": "info@gujaratintrux.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://gujaratintrux.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://gujaratintrux.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".button_label",
+          "html": "<span class=\"button_label\">Find out more</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(1) > a[href$=\"gujaratintrux.com/\"]",
+          "html": "<a href=\"https://gujaratintrux.com/\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(2) > a",
+          "html": "<a href=\"https://gujaratintrux.com/company/\">Company</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(3) > a",
+          "html": "<a href=\"https://gujaratintrux.com/why-us/\">Why Us</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(4) > a",
+          "html": "<a href=\"https://gujaratintrux.com/infrastructure/\">Infrastructure</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(5) > a",
+          "html": "<a href=\"https://gujaratintrux.com/quality/\">Quality</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(6) > a",
+          "html": "<a href=\"https://gujaratintrux.com/products/\">Products</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(7) > a",
+          "html": "<a href=\"https://gujaratintrux.com/certifications/\">Certifications</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(8) > a",
+          "html": "<a href=\"https://gujaratintrux.com/awards/\">Awards</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".textwidget > ul > li:nth-child(9) > a",
+          "html": "<a href=\"https://gujaratintrux.com/contacts/\">Contacts</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href=\"mailto:info@gujaratintrux.com\"]",
+          "html": "<a href=\"mailto:info@gujaratintrux.com\">info@gujaratintrux.com</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a:nth-child(5)",
+          "html": "<a href=\"mailto:dilip.d@intrucastindia.com\">dilip.d@intrucastindia.com</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - 9001-2015\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - 9001-2015\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - 14001-2015\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - 14001-2015\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - 45001-2015\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - 45001-2015\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - ad 2000-w0\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - ad 2000-w0\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - bv\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - bv\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - dnv\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - dnv\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - lloyds\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - lloyds\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl[data-title=\"intricast - ped\"]",
+          "html": "<dl class=\"gallery-item\" data-title=\"intricast - ped\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(9)",
+          "html": "<dl class=\"gallery-item\" data-title=\"gujarat intrux ltd - certificate - abs\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(10)",
+          "html": "<dl class=\"gallery-item\" data-title=\"gujarat intrux ltd - certificate - ibr\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(11)",
+          "html": "<dl class=\"gallery-item\" data-title=\"gujarat intrux ltd - certificate - tuvindia\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/definition-list?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(12)",
+          "html": "<dl class=\"gallery-item\" data-title=\"gujarat intrux ltd - certificate - tuv-nord\" data-description=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+          "category": "other",
+          "selector": "iframe",
+          "html": "<iframe src=\"https://www.google.c...\" width=\"100%\" height=\"400px\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-dow...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - 9001-2015\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-9001-2015.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - 9001-2015\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - 14001-2015\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-14001-2015.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - 14001-2015\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - 45001-2015\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-45001-2015.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - 45001-2015\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - ad 2000-w0\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-ad-2000-w0.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - ad 2000-w0\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - bv\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-bv.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - bv\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - dnv\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-dnv.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - dnv\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - lloyds\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-lloyds.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - lloyds\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-elementor-lightbox-title=\"intricast - ped\"]",
+          "html": "<a href=\"https://gujaratintrux.com/wp-content/uploads/2024/04/intricast-ped.png\" rel=\"lightbox[sc_gallery-4059]\" data-elementor-lightbox-slideshow=\"sc_gallery-4059\" data-elementor-lightbox-title=\"intricast - ped\" data-elementor-lightbox-description=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(9) > dt > .image_frame.scale-with-grid > .image_wrapper > a[rel=\"lightbox[sc_gallery-4059]\"][data-elementor-lightbox-slideshow=\"sc_gallery-4059\"][data-elementor-lightbox-description=\"\"]",
+          "html": "<a href=\"https://gujaratintru...\" rel=\"lightbox[sc_gallery-...\" data-elementor-light...=\"sc_gallery-4059\" data-elementor-light...=\"gujarat intrux ltd -...\" data-elementor-light...=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(10) > dt > .image_frame.scale-with-grid > .image_wrapper > a[rel=\"lightbox[sc_gallery-4059]\"][data-elementor-lightbox-slideshow=\"sc_gallery-4059\"][data-elementor-lightbox-description=\"\"]",
+          "html": "<a href=\"https://gujaratintru...\" rel=\"lightbox[sc_gallery-...\" data-elementor-light...=\"sc_gallery-4059\" data-elementor-light...=\"gujarat intrux ltd -...\" data-elementor-light...=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(11) > dt > .image_frame.scale-with-grid > .image_wrapper > a[rel=\"lightbox[sc_gallery-4059]\"][data-elementor-lightbox-slideshow=\"sc_gallery-4059\"][data-elementor-lightbox-description=\"\"]",
+          "html": "<a href=\"https://gujaratintru...\" rel=\"lightbox[sc_gallery-...\" data-elementor-light...=\"sc_gallery-4059\" data-elementor-light...=\"gujarat intrux ltd -...\" data-elementor-light...=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "dl:nth-child(12) > dt > .image_frame.scale-with-grid > .image_wrapper > a[rel=\"lightbox[sc_gallery-4059]\"][data-elementor-lightbox-slideshow=\"sc_gallery-4059\"][data-elementor-lightbox-description=\"\"]",
+          "html": "<a href=\"https://gujaratintru...\" rel=\"lightbox[sc_gallery-...\" data-elementor-light...=\"sc_gallery-4059\" data-elementor-light...=\"gujarat intrux ltd -...\" data-elementor-light...=\"\" data-lightbox-type=\"gallery\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-gtxk6lx > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"gujaratintrux.com\"][target=\"_blank\"]",
+          "html": "<a href=\"https://gujaratintrux.com\" target=\"_blank\" tabindex=\"-1\"><div class=\"mask\"></div><img width=\"62\" height=\"60\" src=\"https://gujaratintrux.com/wp-content/uploads/2024/04/logo-i-s.png\" class=\"scale-with-grid\" alt=\"\" style=\"\" decoding=\"async\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-5rww9na9y > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"gujaratintrux.com\"][target=\"_blank\"]",
+          "html": "<a href=\"https://gujaratintrux.com\" target=\"_blank\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-83ce0wm6 > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"intricastindia.com\"]",
+          "html": "<a href=\"https://intricastindia.com\" tabindex=\"-1\"><div class=\"mask\"></div><img width=\"62\" height=\"60\" src=\"https://gujaratintrux.com/wp-content/uploads/2024/04/logo-i-s-g.png\" class=\"scale-with-grid\" alt=\"\" style=\"\" decoding=\"async\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-0pd4at0mh > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"intricastindia.com\"]",
+          "html": "<a href=\"https://intricastindia.com\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-bbtdaw32 > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"intolcast.com/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://intolcast.com/\" target=\"_blank\" tabindex=\"-1\"><div class=\"mask\"></div><img width=\"62\" height=\"60\" src=\"https://gujaratintrux.com/wp-content/uploads/2024/04/logo-i-s-g.png\" class=\"scale-with-grid\" alt=\"\" style=\"\" decoding=\"async\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-2ewmgt7pw > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"intolcast.com/\"][target=\"_blank\"]",
+          "html": "<a href=\"https://intolcast.com/\" target=\"_blank\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-ofart49mc > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"invaccast.com\"][target=\"_blank\"]",
+          "html": "<a href=\"https://invaccast.com\" target=\"_blank\" tabindex=\"-1\"><div class=\"mask\"></div><img width=\"62\" height=\"60\" src=\"https://gujaratintrux.com/wp-content/uploads/2024/04/logo-i-s-g.png\" class=\"scale-with-grid\" alt=\"\" style=\"\" decoding=\"async\" loading=\"lazy\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".mcb-column-inner-mm54q505f > .hover-disable.image_item[aria-label=\"Image with links\"] > .image_wrapper > a[href$=\"invaccast.com\"][target=\"_blank\"]",
+          "html": "<a href=\"https://invaccast.com\" target=\"_blank\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 46,
+  "altTextViolations": 0,
+  "contrastViolations": 12,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Intrux Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `46`  \n> **Verified Contact Email:** `info@gujaratintrux.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujaratintrux.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **46 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `45` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Intrux Ltd\n- **Resolved URL:** [https://gujaratintrux.com](https://gujaratintrux.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujaratintrux.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `cs@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com/investor-contact/\n- **General Contact Email:** `info@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.button_label`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(1) > a[href$=\"gujaratintrux.com/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(2) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(3) > a`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(4) > a`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(5) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(6) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(7) > a`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(8) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(9) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Intrux Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `46`  \n> **Verified Contact Email:** `info@gujaratintrux.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujaratintrux.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **46 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `45` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Intrux Ltd\n- **Resolved URL:** [https://gujaratintrux.com](https://gujaratintrux.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujaratintrux.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `cs@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com/investor-contact/\n- **General Contact Email:** `info@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.button_label`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(1) > a[href$=\"gujaratintrux.com/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(2) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(3) > a`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(4) > a`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(5) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(6) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(7) > a`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(8) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(9) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Gujarat_Intrux_Ltd/screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Gujarat Intrux Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `46`  \n> **Verified Contact Email:** `info@gujaratintrux.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `info@gujaratintrux.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **46 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `45` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 12 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (12 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Gujarat Intrux Ltd\n- **Resolved URL:** [https://gujaratintrux.com](https://gujaratintrux.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@gujaratintrux.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `cs@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com/investor-contact/\n- **General Contact Email:** `info@gujaratintrux.com` | **Status:** `Verified` | **Source Page:** https://gujaratintrux.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.button_label`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(1) > a[href$=\"gujaratintrux.com/\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(2) > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(3) > a`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(4) > a`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(5) > a`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(6) > a`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(7) > a`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(8) > a`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.textwidget > ul > li:nth-child(9) > a`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Gujarat_Intrux_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Gujarat_Intrux_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 46. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T15:53:35.274Z"
+}

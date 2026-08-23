@@ -1,0 +1,904 @@
+{
+  "company": {
+    "srNo": 1084,
+    "companyName": "Salzer Electronics Ltd",
+    "readymadeWebsite": "https://salzerelectonics.net",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Salzer Electronics Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://salzerelectonics.net",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://salzerelectonics.net"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "rajesh@salzergroup.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://salzerelectonics.net"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "rajesh@salzergroup.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://salzerelectonics.net"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://salzerelectonics.net",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".fr.dib:nth-child(3) > .theme2.smsBtn[data-fancybox=\"sendSMS\"] > .mt1px.ffrc.fw7",
+          "html": "<span class=\"dib vam mt1px ffrc fw7 ts0\">Send SMS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".on > a[title=\"Home\"]",
+          "html": "<a href=\"https://www.salzerelectonics.net/\" title=\"Home\">Home</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#dynFrm_subject_10034",
+          "html": "<input type=\"text\" id=\"dynFrm_subject_10034\" class=\"p12px w100 bsbb c2px bdr bsbb ui-autocomplete-input\" name=\"dynFrm_subject\" placeholder=\"Product / Service Looking for\" autocomplete=\"off\" role=\"textbox\" aria-autocomplete=\"list\" aria-haspopup=\"true\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "input[name=\"submit\"]",
+          "html": "<input type=\"submit\" name=\"submit\" value=\"Send Message\" class=\"button\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mt7px.dib:nth-child(2) > .emailBtn[data-fancybox=\"sendEmail\"][data-src$=\"#sendEmail\"] > .ffrc.fw7.mt1px",
+          "html": "<span class=\"dib ffrc fw7 mt1px ts0 vam\">Send Email</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"www.weblink.in\"]",
+          "html": "<a href=\"https://www.weblink.in\" rel=\"nofollow\" target=\"_blank\">Weblink.In Pvt. Ltd.</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-fancybox=\"showZoomImage\"]",
+          "html": "<a data-fancybox=\"showZoomImage\" href=\"https://www.youtube.com/watch?v=OM4KttOn6nw&autoplay=1&mute=1&rel=0\" class=\"dib\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(1) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13127\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(1) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13127\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(2) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13128\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(2) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13128\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(3) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13129\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(3) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13129\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(4) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13130\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(4) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13130\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(5) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13131\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(5) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13131\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(6) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13111\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(6) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13111\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(7) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13112\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(7) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13112\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(8) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13113\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(8) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13113\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(9) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13114\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(9) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13114\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(10) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13116\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(10) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13116\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(11) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13117\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(11) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13117\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(12) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13118\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(12) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13118\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(13) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13119\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(13) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13119\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(14) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13120\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(14) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13120\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(15) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13121\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(15) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13121\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(16) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13122\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(16) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13122\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(17) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13123\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(17) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13123\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(18) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13124\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(18) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13124\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(19) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13125\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(19) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13125\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(20) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13126\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(20) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13126\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(21) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13127\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(21) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13127\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(22) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13128\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(22) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13128\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(23) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13129\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(23) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13129\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(24) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13130\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(24) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13130\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(25) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13131\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(25) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13131\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(26) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13111\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(26) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13111\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(27) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13112\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(27) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13112\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(28) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13113\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(28) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13113\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(29) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13114\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(29) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13114\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(30) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13116\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".bx-clone:nth-child(30) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]",
+          "html": "<a title=\"\" href=\"https://www.salzerelectonics.net/best-delivery-performance-award-to-salzer-electronics-in-valeo-supplier-convention-8th-oct-14.htm#13116\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(2)",
+          "html": "<li><b>Cable Channels,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(4)",
+          "html": "<li><b>Electrical Relays,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(6)",
+          "html": "<li><b>Electrical Switches,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(8)",
+          "html": "<li><b>Energy Saving Device,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(10)",
+          "html": "<li><b>Switch Plates,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(12)",
+          "html": "<li><b>Terminal Connectors,</b></li>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "listitem",
+          "impact": "serious",
+          "description": "Ensure <li> elements are used semantically",
+          "help": "<li> elements must be contained in a <ul> or <ol>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/listitem?application=playwright",
+          "category": "other",
+          "selector": ".pt10px.pr > li:nth-child(13)",
+          "html": "<li><b>Toroidal Transformers.</b></li>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 74,
+  "altTextViolations": 0,
+  "contrastViolations": 5,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Salzer Electronics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `rajesh@salzergroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `rajesh@salzergroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `74` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Salzer Electronics Ltd\n- **Resolved URL:** [https://salzerelectonics.net](https://salzerelectonics.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rajesh@salzergroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `rajesh@salzergroup.com` | **Status:** `Verified` | **Source Page:** https://salzerelectonics.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fr.dib:nth-child(3) > .theme2.smsBtn[data-fancybox=\"sendSMS\"] > .mt1px.ffrc.fw7`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.on > a[title=\"Home\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#dynFrm_subject_10034`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[name=\"submit\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt7px.dib:nth-child(2) > .emailBtn[data-fancybox=\"sendEmail\"][data-src$=\"#sendEmail\"] > .ffrc.fw7.mt1px`\n6. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.weblink.in\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-fancybox=\"showZoomImage\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(2) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Salzer_Electronics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Salzer_Electronics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Salzer Electronics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `rajesh@salzergroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `rajesh@salzergroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `74` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Salzer Electronics Ltd\n- **Resolved URL:** [https://salzerelectonics.net](https://salzerelectonics.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rajesh@salzergroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `rajesh@salzergroup.com` | **Status:** `Verified` | **Source Page:** https://salzerelectonics.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fr.dib:nth-child(3) > .theme2.smsBtn[data-fancybox=\"sendSMS\"] > .mt1px.ffrc.fw7`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.on > a[title=\"Home\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#dynFrm_subject_10034`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[name=\"submit\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt7px.dib:nth-child(2) > .emailBtn[data-fancybox=\"sendEmail\"][data-src$=\"#sendEmail\"] > .ffrc.fw7.mt1px`\n6. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.weblink.in\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-fancybox=\"showZoomImage\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(2) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Salzer_Electronics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Salzer_Electronics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Salzer_Electronics_Ltd/screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Salzer Electronics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `74`  \n> **Verified Contact Email:** `rajesh@salzergroup.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `rajesh@salzergroup.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **74 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `74` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 5 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (5 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Salzer Electronics Ltd\n- **Resolved URL:** [https://salzerelectonics.net](https://salzerelectonics.net)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `rajesh@salzergroup.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `rajesh@salzergroup.com` | **Status:** `Verified` | **Source Page:** https://salzerelectonics.net\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.fr.dib:nth-child(3) > .theme2.smsBtn[data-fancybox=\"sendSMS\"] > .mt1px.ffrc.fw7`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.on > a[title=\"Home\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#dynFrm_subject_10034`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[name=\"submit\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.mt7px.dib:nth-child(2) > .emailBtn[data-fancybox=\"sendEmail\"][data-src$=\"#sendEmail\"] > .ffrc.fw7.mt1px`\n6. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.weblink.in\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[data-fancybox=\"showZoomImage\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(1) > .cp.pr > .pr5px.lh12em.pl5px > a[title=\"\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.bx-clone:nth-child(2) > .cp.pr > .dib > .m0a.bdr.imgFrame > .picBg.dtc.lh0 > a[title=\"\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Salzer_Electronics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Salzer_Electronics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Salzer_Electronics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 74. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T15:58:39.865Z"
+}

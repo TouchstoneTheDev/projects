@@ -1,0 +1,222 @@
+{
+  "company": {
+    "srNo": 1045,
+    "companyName": "Mangalam Organics Ltd",
+    "readymadeWebsite": "https://mangalamorganics.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Mangalam Organics Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://mangalamorganics.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://mangalamorganics.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@mangalamorganics.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://mangalamorganics.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@mangalamorganics.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://mangalamorganics.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mangalamorganics.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "input[value=\"Submit\"]",
+          "html": "<input type=\"submit\" data-wait=\"Please wait...\" class=\"submit-button footer w-button\" value=\"Submit\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".copy-text",
+          "html": "<div class=\"copy-text\">© mangalam organics • Developed by Aliza Baidya &amp; Maintained by Rajesh Mishra</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-lang-valid",
+          "impact": "serious",
+          "description": "Ensure the lang attribute of the <html> element has a valid value",
+          "help": "<html> element must have a valid value for the lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-lang-valid?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html data-wf-domain=\"www.mangalamorganics.com\" data-wf-page=\"6173d2812ea50edd3467463f\" data-wf-site=\"6173d2812ea50ef2de67463e\" lang=\"\"en\"\" class=\"w-mod-js wf-hind-n3-active wf-hind-n4-active wf-hind-n5-active wf-hind-n6-active wf-hind-n7-active wf-active\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".header-section > .header-img.w-nav-brand.w--current",
+          "html": "<a href=\"/\" aria-current=\"page\" class=\"header-img w-nav-brand w--current\"><img alt=\"\" loading=\"lazy\" src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/617409a6e390bdb884feba7e_logo1.png\" class=\"header-logo\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".embed.none > .html-embed.w-embed.w-script > .tradingview-widget-container > .tradingview-widget-copyright > a[rel=\"noopener\"][target=\"_self\"]",
+          "html": "<a href=\"https://in.tradingview.com/symbols/BSE-MANORG/?utm_source=www.mangalamorganics.com&amp;utm_medium=widget_new&amp;utm_campaign=single-quote\" rel=\"noopener\" target=\"_self\"><span class=\"blue-text\"></span></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "._2 > .link-block.w-inline-block[href=\"#\"]",
+          "html": "<a href=\"#\" class=\"link-block w-inline-block\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "._3 > .link-block.w-inline-block[href=\"#\"]",
+          "html": "<a href=\"#\" class=\"link-block w-inline-block\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(1)",
+          "html": "<a href=\"https://houseofmangalam.com/\" class=\"footer-logo w-inline-block\"><img src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/61974eb6e2df8c7b20e89f4d_imgpsh_fullsize_anim%20(1).png\" loading=\"lazy\" alt=\"\" class=\"image-9\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(2)",
+          "html": "<a href=\"https://houseofmangalam.com/\" class=\"footer-logo w-inline-block\"><img src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/61974eb6fad7204db862d194_imgpsh_fullsize_anim.png\" loading=\"lazy\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link-block-2.w-inline-block[target=\"_self\"]:nth-child(1)",
+          "html": "<a href=\"https://www.facebook.com/MangalamCamphor\" target=\"_self\" class=\"link-block-2 w-inline-block\"><img src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/6177e4e69ec9346e0cdc0000_facebook%20(3).png\" loading=\"lazy\" alt=\"\" class=\"image-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link-block-2.w-inline-block[target=\"_self\"]:nth-child(2)",
+          "html": "<a href=\"https://twitter.com/CampureIndia\" target=\"_self\" class=\"link-block-2 w-inline-block\"><img src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/6177e031bff3e55631587bb8_733579.png\" loading=\"lazy\" alt=\"\" class=\"image-2\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".link-block-2.w-inline-block[target=\"_self\"]:nth-child(3)",
+          "html": "<a href=\"https://www.instagram.com/mangalam.camphor/\" target=\"_self\" class=\"link-block-2 w-inline-block\"><img src=\"https://cdn.prod.website-files.com/6173d2812ea50ef2de67463e/6177e4e7246f118dc37391fc_instagram%20(11).png\" loading=\"lazy\" alt=\"\" class=\"image-2\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 52,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 12,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 52,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mangalam Organics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@mangalamorganics.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mangalamorganics.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mangalam Organics Ltd\n- **Resolved URL:** [https://mangalamorganics.com](https://mangalamorganics.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mangalamorganics.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@mangalamorganics.com` | **Status:** `Verified` | **Source Page:** https://mangalamorganics.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[value=\"Submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.copy-text`\n3. **`[other] html-lang-valid`** (SERIOUS)\n   - **Help:** <html> element must have a valid value for the lang attribute\n   - **Selector:** `html`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-section > .header-img.w-nav-brand.w--current`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.embed.none > .html-embed.w-embed.w-script > .tradingview-widget-container > .tradingview-widget-copyright > a[rel=\"noopener\"][target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._2 > .link-block.w-inline-block[href=\"#\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._3 > .link-block.w-inline-block[href=\"#\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(1)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(2)`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.link-block-2.w-inline-block[target=\"_self\"]:nth-child(1)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mangalam_Organics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mangalam_Organics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mangalam Organics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@mangalamorganics.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mangalamorganics.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mangalam Organics Ltd\n- **Resolved URL:** [https://mangalamorganics.com](https://mangalamorganics.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mangalamorganics.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@mangalamorganics.com` | **Status:** `Verified` | **Source Page:** https://mangalamorganics.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[value=\"Submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.copy-text`\n3. **`[other] html-lang-valid`** (SERIOUS)\n   - **Help:** <html> element must have a valid value for the lang attribute\n   - **Selector:** `html`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-section > .header-img.w-nav-brand.w--current`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.embed.none > .html-embed.w-embed.w-script > .tradingview-widget-container > .tradingview-widget-copyright > a[rel=\"noopener\"][target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._2 > .link-block.w-inline-block[href=\"#\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._3 > .link-block.w-inline-block[href=\"#\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(1)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(2)`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.link-block-2.w-inline-block[target=\"_self\"]:nth-child(1)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mangalam_Organics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mangalam_Organics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Mangalam_Organics_Ltd/screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Mangalam Organics Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@mangalamorganics.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@mangalamorganics.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Mangalam Organics Ltd\n- **Resolved URL:** [https://mangalamorganics.com](https://mangalamorganics.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@mangalamorganics.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@mangalamorganics.com` | **Status:** `Verified` | **Source Page:** https://mangalamorganics.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `input[value=\"Submit\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.copy-text`\n3. **`[other] html-lang-valid`** (SERIOUS)\n   - **Help:** <html> element must have a valid value for the lang attribute\n   - **Selector:** `html`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.header-section > .header-img.w-nav-brand.w--current`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.embed.none > .html-embed.w-embed.w-script > .tradingview-widget-container > .tradingview-widget-copyright > a[rel=\"noopener\"][target=\"_self\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._2 > .link-block.w-inline-block[href=\"#\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `._3 > .link-block.w-inline-block[href=\"#\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(1)`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.footer-logo.w-inline-block[href$=\"houseofmangalam.com/\"]:nth-child(2)`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.link-block-2.w-inline-block[target=\"_self\"]:nth-child(1)`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Mangalam_Organics_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Mangalam_Organics_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Mangalam_Organics_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 12. WAVE AIM: N/A. Lighthouse A11y: 52/100.",
+  "timestamp": "2026-08-11T15:42:12.132Z"
+}

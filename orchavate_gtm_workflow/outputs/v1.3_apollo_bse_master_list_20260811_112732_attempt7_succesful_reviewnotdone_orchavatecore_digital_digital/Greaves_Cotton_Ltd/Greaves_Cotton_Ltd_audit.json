@@ -1,0 +1,317 @@
+{
+  "company": {
+    "srNo": 295,
+    "companyName": "Greaves Cotton Ltd",
+    "readymadeWebsite": "https://greavescotton.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Greaves Cotton Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://greavescotton.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://greavescotton.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "investorservices@greavescotton.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://greavescotton.com/investor-relations/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investorservices@greavescotton.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://greavescotton.com/investor-relations/"
+      },
+      {
+        "address": "investorservices@greavescotton.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://greavescotton.com/investor-relations/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://greavescotton.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-f76502c > .elementor-heading-title.elementor-size-default > a",
+          "html": "<a href=\"https://greavescotton.com/privacy-policy/\">Privacy Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-b9a685e > .elementor-heading-title.elementor-size-default > a",
+          "html": "<a href=\"https://greavescotton.com/terms-and-conditions/\">Terms &amp; Conditions</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".elementor-element-bcae0c2 > .elementor-heading-title.elementor-size-default > a",
+          "html": "<a href=\"https://greavescotton.com/cookie-policy/\">Cookie Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "h5",
+          "html": "<h5 class=\"elementor-heading-title elementor-size-default\">Greaves Cotton Limited © 2026. All rights reserved.</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate-prev.post-42661[aria-label=\"1 / 5\"]:nth-child(1) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/a-complete-guide-to-the-engines-that-power-fire-fighting-pumps/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42658.swiper-slide-duplicate-active[aria-label=\"2 / 5\"]:nth-child(2) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-euro-v-is-transforming-contemporary-engines/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42649.swiper-slide-duplicate-next[aria-label=\"3 / 5\"]:nth-child(3) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-often-should-you-service-a-diesel-generator-a-complete-maintenance-guide/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/concrete-cutters-walk-behind-rollers-power-trowels/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(5) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/the-complete-guide-to-2000-kva-diesel-generators/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-prev.post-42661[aria-label=\"1 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/a-complete-guide-to-the-engines-that-power-fire-fighting-pumps/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-active.post-42658[aria-label=\"2 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-euro-v-is-transforming-contemporary-engines/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-next.post-42649[aria-label=\"3 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-often-should-you-service-a-diesel-generator-a-complete-maintenance-guide/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(9) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/concrete-cutters-walk-behind-rollers-power-trowels/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(10) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/the-complete-guide-to-2000-kva-diesel-generators/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".swiper-slide-duplicate-prev.post-42661[aria-label=\"1 / 5\"]:nth-child(11) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/a-complete-guide-to-the-engines-that-power-fire-fighting-pumps/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42658.swiper-slide-duplicate-active[aria-label=\"2 / 5\"]:nth-child(12) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-euro-v-is-transforming-contemporary-engines/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42649.swiper-slide-duplicate-next[aria-label=\"3 / 5\"]:nth-child(13) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/how-often-should-you-service-a-diesel-generator-a-complete-maintenance-guide/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(14) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/concrete-cutters-walk-behind-rollers-power-trowels/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(15) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]",
+          "html": "<a itemprop=\"url\" href=\"https://greavescotton.com/blogs/the-complete-guide-to-2000-kva-diesel-generators/\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".elementor-social-icon-",
+          "html": "<a class=\"elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-9cf67a5\" href=\"https://twitter.com/GreavesCottonIN\" target=\"_blank\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 20,
+  "altTextViolations": 0,
+  "contrastViolations": 4,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Greaves Cotton Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `20`  \n> **Verified Contact Email:** `investorservices@greavescotton.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investorservices@greavescotton.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **20 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `20` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Greaves Cotton Ltd\n- **Resolved URL:** [https://greavescotton.com](https://greavescotton.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investorservices@greavescotton.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n- **General Contact Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-f76502c > .elementor-heading-title.elementor-size-default > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-b9a685e > .elementor-heading-title.elementor-size-default > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-bcae0c2 > .elementor-heading-title.elementor-size-default > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-duplicate-prev.post-42661[aria-label=\"1 / 5\"]:nth-child(1) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42658.swiper-slide-duplicate-active[aria-label=\"2 / 5\"]:nth-child(2) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42649.swiper-slide-duplicate-next[aria-label=\"3 / 5\"]:nth-child(3) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(5) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-prev.post-42661[aria-label=\"1 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Greaves_Cotton_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Greaves_Cotton_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Greaves Cotton Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `20`  \n> **Verified Contact Email:** `investorservices@greavescotton.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investorservices@greavescotton.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **20 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `20` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Greaves Cotton Ltd\n- **Resolved URL:** [https://greavescotton.com](https://greavescotton.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investorservices@greavescotton.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n- **General Contact Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-f76502c > .elementor-heading-title.elementor-size-default > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-b9a685e > .elementor-heading-title.elementor-size-default > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-bcae0c2 > .elementor-heading-title.elementor-size-default > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-duplicate-prev.post-42661[aria-label=\"1 / 5\"]:nth-child(1) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42658.swiper-slide-duplicate-active[aria-label=\"2 / 5\"]:nth-child(2) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42649.swiper-slide-duplicate-next[aria-label=\"3 / 5\"]:nth-child(3) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(5) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-prev.post-42661[aria-label=\"1 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Greaves_Cotton_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Greaves_Cotton_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Greaves_Cotton_Ltd/screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Greaves Cotton Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `20`  \n> **Verified Contact Email:** `investorservices@greavescotton.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `investorservices@greavescotton.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **20 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `20` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 4 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (4 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Greaves Cotton Ltd\n- **Resolved URL:** [https://greavescotton.com](https://greavescotton.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `investorservices@greavescotton.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n- **General Contact Email:** `investorservices@greavescotton.com` | **Status:** `Verified` | **Source Page:** https://greavescotton.com/investor-relations/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-f76502c > .elementor-heading-title.elementor-size-default > a`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-b9a685e > .elementor-heading-title.elementor-size-default > a`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.elementor-element-bcae0c2 > .elementor-heading-title.elementor-size-default > a`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `h5`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-duplicate-prev.post-42661[aria-label=\"1 / 5\"]:nth-child(1) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42658.swiper-slide-duplicate-active[aria-label=\"2 / 5\"]:nth-child(2) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42649.swiper-slide-duplicate-next[aria-label=\"3 / 5\"]:nth-child(3) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42645[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.post-42614[aria-label=\"5 / 5\"][data-swiper-slide-index=\"4\"]:nth-child(5) > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.swiper-slide-prev.post-42661[aria-label=\"1 / 5\"] > .qodef-e-inner > .qodef-e-media-holder > .qodef-e-media > .qodef-e-media-image > a[itemprop=\"url\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Greaves_Cotton_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Greaves_Cotton_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Greaves_Cotton_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 20. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T14:00:24.143Z"
+}

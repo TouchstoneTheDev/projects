@@ -1,0 +1,816 @@
+{
+  "company": {
+    "srNo": 580,
+    "companyName": "Foods & Inns Ltd",
+    "readymadeWebsite": "https://foodservicedirect.com",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Foods & Inns Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://foodservicedirect.com",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://foodservicedirect.com"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "customerservice@foodservicedirect.com",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://foodservicedirect.com"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "customerservice@foodservicedirect.com",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://foodservicedirect.com"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://foodservicedirect.com",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lg\\:text-left > .text-green",
+          "html": "<span class=\"text-green\">Free Shipping</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-testid=\"header-nav-link-direct-deals\"]",
+          "html": "<a class=\"font-medium text-base text-yellow-400\" data-testid=\"header-nav-link-direct-deals\" href=\"/deals\">Direct Deals</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-testid=\"header-nav-link-liquidation\"]",
+          "html": "<a class=\"font-medium text-base text-yellow-400\" data-testid=\"header-nav-link-liquidation\" href=\"/clearance.html\">Clearance</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[data-testid=\"header-nav-link-new-arrivals\"]",
+          "html": "<a class=\"font-medium text-base text-yellow-400\" data-testid=\"header-nav-link-new-arrivals\" href=\"/new-arrivals.html\">New Arrivals</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:mt-5",
+          "html": "<p class=\"text-base text-grey-300 sm:mt-5 sm:mb-4 font-normal font-poppins\">Don’t miss out on today’s best deals. Limited-time savings on top products—shop now before they’re gone!</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-dealsoftheday-product-per-case(1)\" style=\"top: -3px;\">1 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-dealsoftheday-ship(1)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-dealsoftheday-pr(1)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-dealsoftheday-strike-price(1)\">$123.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-dealsoftheday-product-per-case(2)\" style=\"top: -3px;\">1 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-dealsoftheday-ship(2)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-dealsoftheday-pr(2)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-dealsoftheday-strike-price(2)\">$82.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(3)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-dealsoftheday-product-per-case(3)\" style=\"top: -3px;\">50 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(3)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-dealsoftheday-ship(3)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-dealsoftheday-pr(3)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-dealsoftheday-strike-price(3)\">$72.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-dealsoftheday(4)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-dealsoftheday-product-per-case(4)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-dealsoftheday-pr(4)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-dealsoftheday-strike-price(4)\">$70.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".max-w-3xl",
+          "html": "<h2 class=\"text-[#8A8A8A] !mb-10 px-3 text-center max-w-3xl mx-auto font-poppins text-[16px] font-normal\">Discover incredible deals on our top products! Browse our direct deals section now and snag your favorites at unbeatable prices—while supplies last!</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-brand-bggray.min-w-\\[200px\\].sm\\:min-w-\\[126px\\]:nth-child(1)",
+          "html": "<button data-testid=\"home-directdeals-btn...\" class=\"category-button  min...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-brand-bggray.min-w-\\[200px\\].sm\\:min-w-\\[126px\\]:nth-child(2)",
+          "html": "<button data-testid=\"home-directdeals-btn...\" class=\"category-button  min...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-brand-bggray.min-w-\\[200px\\].sm\\:min-w-\\[126px\\]:nth-child(4)",
+          "html": "<button data-testid=\"home-directdeals-btn...\" class=\"category-button  min...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".bg-brand-bggray.min-w-\\[200px\\].sm\\:min-w-\\[126px\\]:nth-child(5)",
+          "html": "<button data-testid=\"home-directdeals-btn...\" class=\"category-button  min...\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(1)\" style=\"top: -3px;\">1 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(1)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(1)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(1)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(1)\">$123.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(2)\" style=\"top: -3px;\">1 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(2)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(2)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(2)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(2)\">$82.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(3)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(3)\" style=\"top: -3px;\">50 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(3)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(3)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(3)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(3)\">$72.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(4)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(4)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(4)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(4)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(4)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(4)\">$70.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(5)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(5)\" style=\"top: -3px;\">12 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(5)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(5)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(5)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(5)\">$64.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(6)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(6)\" style=\"top: -3px;\">1 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(6)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(6)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(6)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(6)\">$57.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(7)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(7)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-text-directdeals-pr(7)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-directdeals-strike-price(7)\">$45.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(8)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(8)\" style=\"top: -3px;\">700 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(8)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(8)\">3 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(9)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(9)\" style=\"top: -3px;\">50 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(9)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(9)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[data-testid=\"home-wrap-directdeals(10)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-directdeals-product-per-case(10)\" style=\"top: -3px;\">50 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "span[data-testid=\"home-text-directdeals-ship(10)\"]",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-directdeals-ship(10)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".\\!mb-10.max-w-2xl.text-\\[\\#8A8A8A\\]",
+          "html": "<h2 class=\"text-[#8A8A8A] !mb-10 text-center max-w-2xl mx-auto font-poppins text-[16px] font-normal px-3\">Don’t know where to start? Don’t worry, here are our top product categories to kickstart your foodservice journey!</h2>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(1) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-ship(1)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(1) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .w-full--.md\\:pl-\\[4px\\].bottom-\\[8px\\] > .max-400\\:mb-1.sm\\:-mb-2 > del",
+          "html": "<del class=\"text-[14px] max-400:text-[11px] font-medium text-brand-gray\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-strike-price(1)\">$96.95</del>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(2) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-product-per-case(2)\" style=\"top: -3px;\">1000 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(2) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-ship(2)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(3) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-product-per-case(3)\" style=\"top: -3px;\">400 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(3) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-ship(3)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(4) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-product-per-case(4)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(2) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(4) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-top-saveon-ship(4)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(1) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-product-per-case(1)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(1) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-ship(1)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(2) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-product-per-case(2)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(2) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-yellow",
+          "html": "<span class=\"text-yellow\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-ship(2)\">3-4 week(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(3) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-product-per-case(3)\" style=\"top: -3px;\">400 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(3) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-ship(3)\">3 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(4) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]",
+          "html": "<span class=\"relative text-[11px] sm:text-[12px] whitespace-nowrap xsp:whitespace-normal font-medium leading-[21px] text-brand-gray font-poppins\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-product-per-case(4)\" style=\"top: -3px;\">500 per case</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lgp\\:flex-row.lgp\\:items-start.flex-col:nth-child(3) > .sm\\:grid-cols-2.md\\:grid-cols-2.lg\\:grid-cols-3 > .shadow-bestSeller.borobazar-alpine-product-card.hover\\:shadow-product-hover:nth-child(4) > article > .min-h-\\[inherit\\] > .prod-card.relative--.rounded-lg > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green",
+          "html": "<span class=\"text-brand-green\" data-testid=\"home-text-brandhighlight-kitch-bottom-affordablespices-ship(4)\">1 day(s)</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".lg\\:\\!mb-10",
+          "html": "<h2 class=\"text-[#8A8A8A] mb-4 lg:!mb-10 text-center max-w-2xl mx-auto font-poppins text-[16px] font-normal\" data-testid=\"home-social-text-subheading\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".mb-5",
+          "html": "<h2 class=\"text-[#8A8A8A] mb-5 lg:!mb-10-- text-center max-w-2xl mx-auto font-poppins text-[16px] font-normal\" data-testid=\"home-reviews-text-subheading\">Overall 4.5 out of 5 from the 10,000+ Reviews</h2>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 66,
+  "altTextViolations": 0,
+  "contrastViolations": 66,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Foods & Inns Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `66`  \n> **Verified Contact Email:** `customerservice@foodservicedirect.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@foodservicedirect.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **66 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `66` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 66 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (66 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Foods & Inns Ltd\n- **Resolved URL:** [https://foodservicedirect.com](https://foodservicedirect.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@foodservicedirect.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@foodservicedirect.com` | **Status:** `Verified` | **Source Page:** https://foodservicedirect.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.lg\\:text-left > .text-green`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-direct-deals\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-liquidation\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-new-arrivals\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sm\\:mt-5`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-text-dealsoftheday-pr(1)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Foods___Inns_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Foods___Inns_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Foods & Inns Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `66`  \n> **Verified Contact Email:** `customerservice@foodservicedirect.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@foodservicedirect.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **66 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `66` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 66 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (66 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Foods & Inns Ltd\n- **Resolved URL:** [https://foodservicedirect.com](https://foodservicedirect.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@foodservicedirect.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@foodservicedirect.com` | **Status:** `Verified` | **Source Page:** https://foodservicedirect.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.lg\\:text-left > .text-green`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-direct-deals\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-liquidation\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-new-arrivals\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sm\\:mt-5`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-text-dealsoftheday-pr(1)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Foods___Inns_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Foods___Inns_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Foods___Inns_Ltd/screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Foods & Inns Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `66`  \n> **Verified Contact Email:** `customerservice@foodservicedirect.com`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `customerservice@foodservicedirect.com` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **66 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `66` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 66 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (66 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Foods & Inns Ltd\n- **Resolved URL:** [https://foodservicedirect.com](https://foodservicedirect.com)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `customerservice@foodservicedirect.com` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `customerservice@foodservicedirect.com` | **Status:** `Verified` | **Source Page:** https://foodservicedirect.com\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.lg\\:text-left > .text-green`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-direct-deals\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-liquidation\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[data-testid=\"header-nav-link-new-arrivals\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.sm\\:mt-5`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(1)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-text-dealsoftheday-pr(1)\"] > .max-400\\:mb-1.sm\\:-mb-2 > del`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .text-\\[11px\\].text-brand-gray.sm\\:text-\\[12px\\]`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `div[data-testid=\"home-wrap-dealsoftheday(2)\"] > .p-2\\.5.md\\:px-4.px-2\\.5 > .font-\\[500\\].\\!mb-\\[2\\.85rem\\].leading-\\[18px\\] > .text-brand-green`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Foods___Inns_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Foods___Inns_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Foods___Inns_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 66. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:59:09.338Z"
+}

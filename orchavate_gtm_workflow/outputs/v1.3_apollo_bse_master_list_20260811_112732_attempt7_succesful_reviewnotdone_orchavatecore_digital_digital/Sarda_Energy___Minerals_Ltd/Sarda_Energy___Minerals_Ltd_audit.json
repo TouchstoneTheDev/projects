@@ -1,0 +1,702 @@
+{
+  "company": {
+    "srNo": 402,
+    "companyName": "Sarda Energy & Minerals Ltd",
+    "readymadeWebsite": "https://seml.co.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Sarda Energy & Minerals Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://seml.co.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://seml.co.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "bbalachandran at seml.co.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://seml.co.in/contact.php"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "investor@bigshareonline.com",
+        "type": "compliance_grievance",
+        "label": "Investor Grievance / Compliance Officer Email",
+        "status": "Verified",
+        "sourceUrl": "https://seml.co.in/contactdetails.php"
+      },
+      {
+        "address": "bbalachandran at seml.co.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://seml.co.in/contact.php"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://seml.co.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"4,-2,64,27\"]",
+          "html": "<area shape=\"rect\" coords=\"4,-2,64,27\" href=\"#\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "area-alt",
+          "impact": "critical",
+          "description": "Ensure <area> elements of image maps have alternative text",
+          "help": "Active <area> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/area-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "area[coords=\"78,5,106,41\"]",
+          "html": "<area shape=\"rect\" coords=\"78,5,106,41\" href=\"#\" onmouseover=\"return xxx('sw-pop')\" onmouseout=\"return xxx('sw-pop')\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".content-link",
+          "html": "<a href=\"companyprofile.php\" class=\"content-link\">Read  More</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "tr:nth-child(1) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]",
+          "html": "<a href=\"http://www.seml.co.in/uploads-seml/pressrelease_documents/Q1_Unaudited_Results_for_the_quarter_ended_30th_June_2026.pdf\" class=\"content-link-bold1\" target=\"_blank\">01 Aug 26</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "tr:nth-child(3) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]",
+          "html": "<a href=\"http://www.seml.co.in/uploads-seml/pressrelease_documents/Q4 Audited Financial Results for the Quarter &amp; Year Ended 31st March 2026.pdf\" class=\"content-link-bold1\" target=\"_blank\">23 May 26</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "tr:nth-child(5) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]",
+          "html": "<a href=\"http://www.seml.co.in/uploads-seml/pressrelease_documents/Q3_Unaudited_Results_for_the_quarter_ended_31st_December_2025.pdf\" class=\"content-link-bold1\" target=\"_blank\">07 Feb 26</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "tr:nth-child(7) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]",
+          "html": "<a href=\"http://www.seml.co.in/uploads-seml/pressrelease_documents/Q2_Unaudited_Results_for_the_quarter_ended_30th_September_2025.pdf\" class=\"content-link-bold1\" target=\"_blank\">10 Nov 25</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "tr:nth-child(9) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]",
+          "html": "<a href=\"http://www.seml.co.in/uploads-seml/pressrelease_documents/Q1_Unaudited_Results_for_the_quarter_ended_30th_June_2025.pdf\" class=\"content-link-bold1\" target=\"_blank\">02 Aug 25</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".footer",
+          "html": "<td height=\"30\" align=\"left\" valign=\"middle\" class=\"footer\"><a href=\"sitemap.php\" class=\"footer-links\">Sitemap</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"terms.php\" class=\"footer-links\">Terms of use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=\"privacy.php\" class=\"footer-links\">Privacy Policy</a></td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"sitemap.php\"]",
+          "html": "<a href=\"sitemap.php\" class=\"footer-links\">Sitemap</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"terms.php\"]",
+          "html": "<a href=\"terms.php\" class=\"footer-links\">Terms of use</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"privacy.php\"]",
+          "html": "<a href=\"privacy.php\" class=\"footer-links\">Privacy Policy</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".copyright",
+          "html": "<td align=\"right\" valign=\"middle\" class=\"copyright\">Copyright © 2008 Sarda Energy &amp; Minerals Limited</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html xmlns=\"http://www.w3.org/1999/xhtml\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"top_lt.jpg\"]",
+          "html": "<img src=\"images/top_lt.jpg\" width=\"6\" height=\"6\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "table[width=\"100%\"]:nth-child(5) > tbody > tr > td[align=\"left\"][valign=\"top\"]:nth-child(2) > img[width=\"1\"][src$=\"spacer.gif\"][height=\"1\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"top_rt.jpg\"]",
+          "html": "<img src=\"images/top_rt.jpg\" width=\"6\" height=\"6\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "table[width=\"100%\"]:nth-child(7) > tbody > tr > td[width=\"18\"][align=\"left\"][valign=\"top\"]:nth-child(1) > img[src$=\"spacer.gif\"][height=\"1\"][width=\"18\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"18\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"sardalogo.jpg\"]",
+          "html": "<img src=\"images/sardalogo.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image64",
+          "html": "<img src=\"images/compliance_off.jpg\" name=\"Image64\" border=\"0\" id=\"Image64\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image63",
+          "html": "<img src=\"images/business-off.gif\" name=\"Image63\" border=\"0\" id=\"Image63\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image62",
+          "html": "<img src=\"images/contact-off.gif\" name=\"Image62\" border=\"0\" id=\"Image62\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "table[width=\"100%\"]:nth-child(7) > tbody > tr > td[width=\"18\"][align=\"left\"][valign=\"top\"]:nth-child(4) > img[src$=\"spacer.gif\"][height=\"1\"][width=\"18\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"18\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "table[width=\"100%\"]:nth-child(8) > tbody > tr > td > table[width=\"100%\"] > tbody > tr > td[width=\"18\"][align=\"left\"][valign=\"top\"]:nth-child(1) > img[src$=\"spacer.gif\"][height=\"1\"][width=\"18\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"18\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image74",
+          "html": "<img src=\"images/company-off.jpg\" name=\"Image74\" width=\"124\" height=\"31\" border=\"0\" id=\"Image74\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image75",
+          "html": "<img src=\"images/product-off.jpg\" name=\"Image75\" width=\"119\" height=\"31\" border=\"0\" id=\"Image75\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image76",
+          "html": "<img src=\"images/investor-off.jpg\" name=\"Image76\" width=\"115\" height=\"31\" border=\"0\" id=\"Image76\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image8",
+          "html": "<img src=\"images/corporate-off.jpg\" name=\"Image8\" width=\"248\" height=\"31\" border=\"0\" id=\"Image8\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image77",
+          "html": "<img src=\"images/media-off.jpg\" name=\"Image83\" width=\"96\" height=\"31\" border=\"0\" id=\"Image77\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image82",
+          "html": "<img src=\"images/career-off.jpg\" name=\"Image82\" width=\"107\" height=\"31\" border=\"0\" id=\"Image82\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"8\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"8\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "tr:nth-child(3) > td > table[width=\"100%\"] > tbody > tr > td[width=\"18\"][align=\"left\"][valign=\"top\"]:nth-child(1) > img[src$=\"spacer.gif\"][height=\"1\"][width=\"18\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"18\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "tr:nth-child(3) > td > table[width=\"100%\"] > tbody > tr > td[align=\"left\"][valign=\"top\"]:nth-child(2) > img[border=\"0\"]",
+          "html": "<img src=\"images/Home_Energy-810-x-184.jpg\" border=\"0\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"22\"][width=\"1\"][src$=\"spacer.gif\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"22\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image79",
+          "html": "<img src=\"images/saradaenergy.gif\" name=\"Image79\" border=\"0\" id=\"Image79\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image18",
+          "html": "<img src=\"images/products-head-off.gif\" border=\"0\" id=\"Image18\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Image811",
+          "html": "<img src=\"images/corporate-news.gif\" name=\"Image811\" border=\"0\" id=\"Image811\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[height=\"17\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"17\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "tr[bgcolor=\"#FFFFFF\"]:nth-child(2) > td > table[width=\"100%\"]:nth-child(1) > tbody > tr > td[width=\"18\"][align=\"left\"][valign=\"top\"]:nth-child(1) > img[src$=\"spacer.gif\"][height=\"1\"][width=\"18\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"18\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "td[bgcolor=\"#e6e6e6\"] > img[width=\"1\"][src$=\"spacer.gif\"][height=\"1\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"btm_lt.jpg\"]",
+          "html": "<img src=\"images/btm_lt.jpg\" width=\"5\" height=\"5\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "tr[bgcolor=\"#FFFFFF\"]:nth-child(3) > td > table[width=\"100%\"] > tbody > tr > td[align=\"left\"][valign=\"top\"]:nth-child(2) > img[width=\"1\"][src$=\"spacer.gif\"][height=\"1\"]",
+          "html": "<img src=\"images/spacer.gif\" width=\"1\" height=\"1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"btm_rt.jpg\"]",
+          "html": "<img src=\"images/btm_rt.jpg\" width=\"5\" height=\"5\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"projdisplay.php\"]",
+          "html": "<a href=\"projdisplay.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image64','','images/compliance_on.jpg',1)\"><img src=\"images/compliance_off.jpg\" name=\"Image64\" border=\"0\" id=\"Image64\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"openenquiries.php\"]",
+          "html": "<a href=\"openenquiries.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image63','','images/business-on.gif',1)\"><img src=\"images/business-off.gif\" name=\"Image63\" border=\"0\" id=\"Image63\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"contact.php\"]",
+          "html": "<a href=\"contact.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image62','','images/contact-hdg.gif',1)\"><img src=\"images/contact-off.gif\" name=\"Image62\" border=\"0\" id=\"Image62\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".MenuBarItemSubmenu[href$=\"companyprofile.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"companyprofile.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image74','','images/company-on.jpg',0)\" class=\"MenuBarItemSubmenu\"><img src=\"images/company-off.jpg\" name=\"Image74\" width=\"124\" height=\"31\" border=\"0\" id=\"Image74\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".MenuBarItemSubmenu[href$=\"finance.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"finance.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image76','','images/investor-on.jpg',1)\" class=\"MenuBarItemSubmenu\"><img src=\"images/investor-off.jpg\" name=\"Image76\" width=\"115\" height=\"31\" border=\"0\" id=\"Image76\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".MenuBarItemSubmenu[href$=\"social-respo.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"social-respo.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image8','','images/corporate-on.jpg',1)\" class=\"MenuBarItemSubmenu\"><img src=\"images/corporate-off.jpg\" name=\"Image8\" width=\"248\" height=\"31\" border=\"0\" id=\"Image8\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".MenuBarItemSubmenu[href$=\"pressrealease.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"pressrealease.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image83','','images/media-on.jpg',1)\" class=\"MenuBarItemSubmenu\"><img src=\"images/media-off.jpg\" name=\"Image83\" width=\"96\" height=\"31\" border=\"0\" id=\"Image77\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"careers.php\"]",
+          "html": "<a href=\"careers.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image82','','images/career-on.jpg',1)\" class=\"MenuBarItemSubmenu\"><img src=\"images/career-off.jpg\" name=\"Image82\" width=\"107\" height=\"31\" border=\"0\" id=\"Image82\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "td[width=\"230\"] > a[href$=\"companyprofile.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"companyprofile.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image79','','images/saradaenergy-on.gif',1)\"><img src=\"images/saradaenergy.gif\" name=\"Image79\" border=\"0\" id=\"Image79\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"products.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"products.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image18','','images/products-head-on.gif',1)\"><img src=\"images/products-head-off.gif\" border=\"0\" id=\"Image18\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "td[width=\"250\"] > a[href$=\"pressrealease.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"pressrealease.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image811','','images/corporate-news-on.gif',1)\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".content[align=\"left\"][valign=\"top\"] > a[href$=\"pressrealease.php\"][onmouseout=\"MM_swapImgRestore()\"]",
+          "html": "<a href=\"pressrealease.php\" onmouseout=\"MM_swapImgRestore()\" onmouseover=\"MM_swapImage('Image811','','images/corporate-news-on.gif',1)\"><img src=\"images/corporate-news.gif\" name=\"Image811\" border=\"0\" id=\"Image811\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 55,
+  "altTextViolations": 31,
+  "contrastViolations": 11,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Sarda Energy & Minerals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `55`  \n> **Verified Contact Email:** `bbalachandran at seml.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `bbalachandran at seml.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **55 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `24` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Sarda Energy & Minerals Ltd\n- **Resolved URL:** [https://seml.co.in](https://seml.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `bbalachandran at seml.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contactdetails.php\n- **General Contact Email:** `bbalachandran at seml.co.in` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contact.php\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,-2,64,27\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"78,5,106,41\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(1) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(3) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(5) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(7) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(9) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.footer`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"sitemap.php\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Sarda Energy & Minerals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `55`  \n> **Verified Contact Email:** `bbalachandran at seml.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `bbalachandran at seml.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **55 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `24` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Sarda Energy & Minerals Ltd\n- **Resolved URL:** [https://seml.co.in](https://seml.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `bbalachandran at seml.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contactdetails.php\n- **General Contact Email:** `bbalachandran at seml.co.in` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contact.php\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,-2,64,27\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"78,5,106,41\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(1) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(3) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(5) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(7) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(9) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.footer`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"sitemap.php\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/Sarda_Energy___Minerals_Ltd/screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Sarda Energy & Minerals Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `55`  \n> **Verified Contact Email:** `bbalachandran at seml.co.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `bbalachandran at seml.co.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **55 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `31` | Serious: `24` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 31 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (31 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Sarda Energy & Minerals Ltd\n- **Resolved URL:** [https://seml.co.in](https://seml.co.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `bbalachandran at seml.co.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **Investor Grievance / Compliance Officer Email:** `investor@bigshareonline.com` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contactdetails.php\n- **General Contact Email:** `bbalachandran at seml.co.in` | **Status:** `Verified` | **Source Page:** https://seml.co.in/contact.php\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"4,-2,64,27\"]`\n2. **`[missing_alt_text] area-alt`** (CRITICAL)\n   - **Help:** Active <area> elements must have alternative text\n   - **Selector:** `area[coords=\"78,5,106,41\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.content-link`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(1) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(3) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(5) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(7) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `tr:nth-child(9) > td[width=\"30%\"][valign=\"top\"] > .content-link-bold1[target=\"_blank\"]`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.footer`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"sitemap.php\"]`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Sarda_Energy___Minerals_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 55. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T14:29:10.940Z"
+}

@@ -1,0 +1,174 @@
+2026-07-01T05:57:25.166Z  INFO   Cache: removed 16 expired entries (>24hrs old)
+2026-07-01T05:57:25.167Z  INFO   Cache: removed 16 expired entries (>24hrs old)
+2026-07-01T05:57:25.168Z  INFO   Cache: empty — no applications recorded yet
+2026-07-01T05:57:25.168Z  INFO   Scraping Remotive...
+2026-07-01T05:57:25.352Z  INFO   Remotive [all-others]: 34 fetched → 34 not-MechDesign, 0 wrong-location, 0 wrong-exp, 0 kept
+2026-07-01T05:57:26.466Z  INFO   Remotive [product]: 34 fetched → 34 not-MechDesign, 0 wrong-location, 0 wrong-exp, 0 kept
+2026-07-01T05:57:27.477Z  INFO   Remotive → 0 jobs total
+2026-07-01T05:57:27.487Z  INFO   Scraping Arbeitnow...
+2026-07-01T05:57:28.401Z  INFO   Arbeitnow [mechanical+design+engineer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:29.790Z  INFO   Arbeitnow [cad+engineer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:31.223Z  INFO   Arbeitnow [design+engineer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:32.651Z  INFO   Arbeitnow [product+design+engineer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:34.098Z  INFO   Arbeitnow [solidworks+designer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:35.531Z  INFO   Arbeitnow [machine+design+engineer+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:36.948Z  INFO   Arbeitnow [engineering+automation+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:38.338Z  INFO   Arbeitnow [cad+automation+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:39.799Z  INFO   Arbeitnow [sheet+metal+design+pune]: 30 fetched → 30 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:40.811Z  INFO   Arbeitnow → 0 jobs total
+2026-07-01T05:57:40.814Z  INFO   Scraping Jobicy...
+2026-07-01T05:57:41.453Z  INFO   Jobicy [engineering]: 32 fetched → 32 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:42.864Z  INFO   Jobicy [product]: 50 fetched → 49 not-MechDesign, 0 wrong-location
+2026-07-01T05:57:43.901Z  ERROR  Jobicy: Request failed with status code 404
+2026-07-01T05:57:43.902Z  INFO   Jobicy → 1 jobs total
+2026-07-01T05:57:43.903Z  INFO   Scraping HackerNews...
+2026-07-01T05:57:44.690Z  INFO   HN thread: Ask HN: Who is hiring right now?
+2026-07-01T05:57:46.370Z  INFO   HN scanning 200 comments...
+2026-07-01T05:57:46.378Z  INFO   HN → 0 jobs (0 with HR email)
+2026-07-01T05:57:46.379Z  INFO   Scraping Indeed RSS...
+2026-07-01T05:57:46.586Z  ERROR  Indeed: Request failed with status code 403
+2026-07-01T05:57:46.586Z  INFO   Indeed → 0 jobs
+2026-07-01T05:57:46.588Z  INFO   Scraping LinkedIn...
+2026-07-01T05:57:46.590Z  INFO   LinkedIn → launching browser...
+2026-07-01T05:57:47.739Z  INFO   LinkedIn → navigating to login page...
+2026-07-01T05:57:56.349Z  INFO   LinkedIn → current URL after goto: https://www.linkedin.com/login/
+2026-07-01T05:57:59.413Z  INFO   LinkedIn → found 6 input fields: [{"id":"«Refvd3ksopa55j6»","name":"","type":"email","placeholder":"","autocomplete":"username","visible":false},{"id":"«R2nvd3ksopa55j6»","name":"","type":"password","placeholder":"","autocomplete":"current-password","visible":false},{"id":"«R5tfvd3ksopa55j6»","name":"","type":"checkbox","placeholder":"","autocomplete":"","visible":false},{"id":"«Refvl3ksopa55j6»","name":"","type":"email","placeholder":"","autocomplete":"username webauthn","visible":true},{"id":"«R2nvl3ksopa55j6»","name":"","type":"password","placeholder":"","autocomplete":"current-password","visible":true},{"id":"«R5tfvl3ksopa55j6»","name":"","type":"checkbox","placeholder":"","autocomplete":"","visible":true}]
+2026-07-01T05:57:59.475Z  INFO   LinkedIn → typing email...
+2026-07-01T05:58:06.804Z  INFO   LinkedIn → typing password...
+2026-07-01T05:58:09.789Z  INFO   LinkedIn → submitting...
+2026-07-01T05:58:16.351Z  INFO   LinkedIn → post-login URL: https://www.linkedin.com/checkpoint/challenge/AQGHq-28T_ECVQAAAZ8cQZ8Fms_NDSfnv3DXBnCh_vJbqFzwUGsVzyboME6BjxwXd6qFNMZ120oLgmUk-E5lg9QPDMU59A/?ut=2yDDV6Xwh6qsk1
+2026-07-01T05:58:16.357Z  WARN   LinkedIn → 2FA required. Complete it in the browser (waiting 90s)...
+2026-07-01T05:58:48.630Z  INFO   LinkedIn → after checkpoint URL: https://www.linkedin.com/feed/
+2026-07-01T05:58:48.632Z  INFO   LinkedIn → logged in successfully ✓
+2026-07-01T05:58:50.636Z  INFO   Cache: removed 16 expired entries (>24hrs old)
+2026-07-01T05:58:50.638Z  INFO   LinkedIn → [JOBS] searching job listings (with pagination)...
+2026-07-01T05:58:50.639Z  INFO   LinkedIn → [JOBS] location: Pune
+2026-07-01T05:58:50.640Z  INFO   LinkedIn → [JOB] [Pune] "Mechanical Design Engineer AND ("hiring" OR "requirement")"
+2026-07-01T05:59:01.966Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T05:59:03.977Z  INFO   LinkedIn → [JOB] [Pune] "CAD Engineer AND ("hiring" OR "requirement")"
+2026-07-01T05:59:17.085Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T05:59:19.088Z  INFO   LinkedIn → [JOB] [Pune] "Design Engineer AND ("hiring" OR "requirement")"
+2026-07-01T05:59:29.519Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T05:59:31.532Z  INFO   LinkedIn → [JOB] [Pune] "Product Design Engineer AND ("hiring" OR "requirement")"
+2026-07-01T05:59:41.728Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T05:59:43.744Z  INFO   LinkedIn → [JOB] [Pune] "SolidWorks Designer AND ("hiring" OR "requirement")"
+2026-07-01T05:59:53.347Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T05:59:55.354Z  INFO   LinkedIn → [JOB] [Pune] "Machine Design Engineer AND ("hiring" OR "requirement")"
+2026-07-01T06:00:05.499Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T06:00:07.501Z  INFO   LinkedIn → [JOB] [Pune] "Engineering Automation AND ("hiring" OR "requirement")"
+2026-07-01T06:00:17.873Z  INFO   LinkedIn → [JOB] [Pune] page 1: 7 cards, 7 new
+2026-07-01T06:00:19.887Z  INFO   LinkedIn → [POSTS] searching recruiter posts (with deep scroll)...
+2026-07-01T06:00:19.889Z  INFO   LinkedIn → [POST] "Mechanical Design Engineer AND ("hiring" OR "we are hiring") AND Pune"
+2026-07-01T06:00:31.416Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:00:31.417Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:00:31.700Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:00:33.259Z  INFO   LinkedIn → [POST] 🎯 Found 1 mailto: email links!
+2026-07-01T06:00:33.261Z  INFO   LinkedIn → [POST] 📧 recruitment@acebrain.com
+2026-07-01T06:00:33.319Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:00:33.366Z  INFO   LinkedIn → [POST] 1 post links queued for Step 3 deep scan
+2026-07-01T06:00:35.879Z  INFO   LinkedIn → [POST] "CAD Engineer AND ("hiring" OR "we are hiring") AND Pune"
+2026-07-01T06:00:47.990Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:00:47.992Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:00:48.276Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:00:49.832Z  INFO   LinkedIn → [POST] 🎯 Found 1 mailto: email links!
+2026-07-01T06:00:49.834Z  INFO   LinkedIn → [POST] 📧 Career@acebrain.com
+2026-07-01T06:00:49.879Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:00:49.926Z  INFO   LinkedIn → [POST] 2 post links queued for Step 3 deep scan
+2026-07-01T06:00:52.437Z  INFO   LinkedIn → [POST] "Design Engineer AND ("hiring" OR "we are hiring") AND Pune"
+2026-07-01T06:01:03.561Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:01:03.562Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:01:03.849Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:01:05.412Z  INFO   LinkedIn → [POST] 🎯 Found 3 mailto: email links!
+2026-07-01T06:01:05.413Z  INFO   LinkedIn → [POST] 📧 apatil@hr-hyre.com
+2026-07-01T06:01:05.415Z  INFO   LinkedIn → [POST] 📧 Vyshnavi.Venigallav@hankersystems.in
+2026-07-01T06:01:05.416Z  INFO   LinkedIn → [POST] 📧 s.mishra@handt.ai
+2026-07-01T06:01:05.473Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:01:05.520Z  INFO   LinkedIn → [POST] 0 post links queued for Step 3 deep scan
+2026-07-01T06:01:08.035Z  INFO   LinkedIn → [POST] ""looking for" Mechanical Design Engineer Pune"
+2026-07-01T06:01:19.073Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:01:19.075Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:01:19.358Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:01:20.918Z  INFO   LinkedIn → [POST] 🎯 Found 1 mailto: email links!
+2026-07-01T06:01:20.921Z  INFO   LinkedIn → [POST] 📧 recruitment@acebrain.com
+2026-07-01T06:01:20.979Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:01:21.026Z  INFO   LinkedIn → [POST] 1 post links queued for Step 3 deep scan
+2026-07-01T06:01:23.540Z  INFO   LinkedIn → [POST] ""looking for" CAD Engineer Pune"
+2026-07-01T06:01:34.021Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:01:34.023Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:01:34.307Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:01:35.868Z  INFO   LinkedIn → [POST] 🎯 Found 1 mailto: email links!
+2026-07-01T06:01:35.871Z  INFO   LinkedIn → [POST] 📧 Shilpa.td@praxien.com
+2026-07-01T06:01:35.931Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:01:35.977Z  INFO   LinkedIn → [POST] 2 post links queued for Step 3 deep scan
+2026-07-01T06:01:38.484Z  INFO   LinkedIn → [POST] "SolidWorks Designer AND Pune AND hiring"
+2026-07-01T06:01:48.201Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:01:48.203Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:01:48.486Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:01:50.087Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:01:50.134Z  INFO   LinkedIn → [POST] 0 post links queued for Step 3 deep scan
+2026-07-01T06:01:52.644Z  INFO   LinkedIn → [POST] "Product Design Engineer AND Pune AND hiring"
+2026-07-01T06:02:03.366Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:02:03.368Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:02:03.666Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:02:05.228Z  INFO   LinkedIn → [POST] 🎯 Found 2 mailto: email links!
+2026-07-01T06:02:05.230Z  INFO   LinkedIn → [POST] 📧 mahitha@uniquehire.co.in
+2026-07-01T06:02:05.232Z  INFO   LinkedIn → [POST] 📧 ashwini.chavan@sourcepro-consulting.com
+2026-07-01T06:02:05.289Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:02:05.337Z  INFO   LinkedIn → [POST] 1 post links queued for Step 3 deep scan
+2026-07-01T06:02:07.845Z  INFO   LinkedIn → [POST] "Engineering Automation AND Pune AND hiring"
+2026-07-01T06:02:18.672Z  INFO   LinkedIn → [POST] scroll 1: 0 posts
+2026-07-01T06:02:18.673Z  INFO   LinkedIn → [POST] expanding all post cards...
+2026-07-01T06:02:18.957Z  INFO   LinkedIn → [POST] expanded 0 post cards
+2026-07-01T06:02:20.517Z  INFO   LinkedIn → [POST] 🎯 Found 2 mailto: email links!
+2026-07-01T06:02:20.518Z  INFO   LinkedIn → [POST] 📧 apatil@hr-hyre.com
+2026-07-01T06:02:20.520Z  INFO   LinkedIn → [POST] 📧 Chaudhary.Aayushi@net2source.co.in
+2026-07-01T06:02:20.579Z  INFO   LinkedIn → [POST] scanning 1 post cards for emails...
+2026-07-01T06:02:20.625Z  INFO   LinkedIn → [POST] 0 post links queued for Step 3 deep scan
+2026-07-01T06:02:23.130Z  INFO   LinkedIn → opening 12 links to scan for HR emails...
+2026-07-01T06:02:39.665Z  INFO   LinkedIn [ 1/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:02:58.875Z  INFO   LinkedIn [ 2/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:03:17.654Z  INFO   LinkedIn [ 3/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:03:36.567Z  INFO   LinkedIn [ 4/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:03:55.310Z  INFO   LinkedIn [ 5/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:04:14.449Z  INFO   LinkedIn [ 6/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:04:34.689Z  INFO   LinkedIn [ 7/12] [JOB ]                                | See LinkedIn         | ❌ no email
+2026-07-01T06:04:54.591Z  INFO   LinkedIn [8] No email in post → searching Google for LinkedIn Recruiter HR email...
+2026-07-01T06:04:59.521Z  INFO   LinkedIn [ 8/12] [POST] Recruiter Post                 | LinkedIn Recruiter   | ❌ no email
+2026-07-01T06:05:17.980Z  INFO   LinkedIn [9] No email in post → searching Google for LinkedIn Recruiter HR email...
+2026-07-01T06:05:24.953Z  INFO   LinkedIn [ 9/12] [POST] Recruiter Post                 | LinkedIn Recruiter   | ❌ no email
+2026-07-01T06:05:44.217Z  INFO   LinkedIn [10] No email in post → searching Google for LinkedIn Recruiter HR email...
+2026-07-01T06:05:51.176Z  INFO   LinkedIn [10/12] [POST] Recruiter Post                 | LinkedIn Recruiter   | ❌ no email
+2026-07-01T06:06:10.908Z  INFO   LinkedIn [11] No email in post → searching Google for LinkedIn Recruiter HR email...
+2026-07-01T06:06:18.211Z  INFO   LinkedIn [11/12] [POST] Recruiter Post                 | LinkedIn Recruiter   | ❌ no email
+2026-07-01T06:06:36.758Z  INFO   LinkedIn [12] No email in post → searching Google for LinkedIn Recruiter HR email...
+2026-07-01T06:06:42.180Z  INFO   LinkedIn [12/12] [POST] Recruiter Post                 | LinkedIn Recruiter   | ❌ no email
+2026-07-01T06:06:45.078Z  INFO   LinkedIn → 16 jobs total (11 with HR email, 5 for digest)
+2026-07-01T06:06:45.084Z  INFO   --- AUTO-APPLYING to 11 jobs ---
+2026-07-01T06:06:45.084Z  INFO     1. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 recruitment@acebrain.com
+2026-07-01T06:06:45.085Z  INFO     2. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 Career@acebrain.com
+2026-07-01T06:06:45.085Z  INFO     3. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 apatil@hr-hyre.com
+2026-07-01T06:06:45.085Z  INFO     4. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 Vyshnavi.Venigallav@hankersystems.in
+2026-07-01T06:06:45.086Z  INFO     5. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 s.mishra@handt.ai
+2026-07-01T06:06:45.086Z  INFO     6. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 recruitment@acebrain.com
+2026-07-01T06:06:45.087Z  INFO     7. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 Shilpa.td@praxien.com
+2026-07-01T06:06:45.087Z  INFO     8. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 mahitha@uniquehire.co.in
+2026-07-01T06:06:45.087Z  INFO     9. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 ashwini.chavan@sourcepro-consulting.com
+2026-07-01T06:06:45.088Z  INFO     10. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 apatil@hr-hyre.com
+2026-07-01T06:06:45.088Z  INFO     11. Mechanical Design Engineer | Recruiter (LinkedIn Post) | 📧 Chaudhary.Aayushi@net2source.co.in
+2026-07-01T06:06:45.090Z  INFO   Cache: removed 16 expired entries (>24hrs old)
+2026-07-01T06:06:52.111Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (recruitment@acebrain.com) with resume
+2026-07-01T06:06:52.112Z  INFO   Cache: removed 16 expired entries (>24hrs old)
+2026-07-01T06:07:03.884Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (Career@acebrain.com) with resume
+2026-07-01T06:07:15.195Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (apatil@hr-hyre.com) with resume
+2026-07-01T06:07:26.008Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (Vyshnavi.Venigallav@hankersystems.in) with resume
+2026-07-01T06:07:36.670Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (s.mishra@handt.ai) with resume
+2026-07-01T06:07:47.983Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (recruitment@acebrain.com) with resume
+2026-07-01T06:07:58.811Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (Shilpa.td@praxien.com) with resume
+2026-07-01T06:08:09.950Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (mahitha@uniquehire.co.in) with resume
+2026-07-01T06:08:21.612Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (ashwini.chavan@sourcepro-consulting.com) with resume
+2026-07-01T06:08:33.956Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (apatil@hr-hyre.com) with resume
+2026-07-01T06:08:46.034Z  INFO   ✓ Applied → Recruiter (LinkedIn Post) (Chaudhary.Aayushi@net2source.co.in) with resume
+2026-07-01T06:08:51.052Z  INFO   Auto-applied: 11/11
+2026-07-01T06:08:51.054Z  INFO   --- Sending digest (6 manual jobs) ---
+2026-07-01T06:08:56.280Z  INFO   Digest sent → darshan278782@gmail.com
+2026-07-01T06:08:56.283Z  INFO   Done! Check your inbox and the log file.

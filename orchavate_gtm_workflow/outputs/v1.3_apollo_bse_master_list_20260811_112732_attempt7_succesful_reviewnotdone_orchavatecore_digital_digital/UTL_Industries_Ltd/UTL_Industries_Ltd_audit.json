@@ -1,0 +1,453 @@
+{
+  "company": {
+    "srNo": 212,
+    "companyName": "UTL Industries Ltd",
+    "readymadeWebsite": "https://utleon.edu.mx",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (UTL Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://utleon.edu.mx",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://utleon.edu.mx"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "difusion@utleon.edu.mx",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://utleon.edu.mx"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "difusion@utleon.edu.mx",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://utleon.edu.mx"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://utleon.edu.mx",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "description": "Ensure an element's role supports its ARIA attributes",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-allowed-attr?application=playwright",
+          "category": "other",
+          "selector": "div[aria-haspopup=\"true\"]",
+          "html": "<div class=\"v-image v-responsive rounded-lg theme--light\" aria-haspopup=\"true\" aria-expanded=\"false\" style=\"height: 100%; cursor: pointer;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--visible v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--visible v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--visible v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".elevation-5 > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-7 > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-sm-12.col-lg-3.col-xl-3:nth-child(1) > .v-card--link.v-card.mx-auto > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-sm-12.col-lg-3.col-xl-3:nth-child(2) > .v-card--link.v-card.mx-auto > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-sm-12.col-lg-3.col-xl-3:nth-child(3) > .v-card--link.v-card.mx-auto > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-progressbar-name?application=playwright",
+          "category": "other",
+          "selector": ".col-sm-12.col-lg-3.col-xl-3:nth-child(4) > .v-card--link.v-card.mx-auto > .v-image.v-responsive.theme--light > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text",
+          "html": "<div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"v-progress-circular v-progress-circular--indeterminate grey--text text--lighten-5\" style=\"height: 32px; width: 32px;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".v-btn--fab",
+          "html": "<button type=\"button\" class=\"v-btn v-btn--is-elevated v-btn--fab v-btn--has-bg v-btn--right v-btn--round v-btn--top theme--light v-size--large\" style=\"background-color: rgb(76, 175, 80); color: rgb(255, 255, 255);\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".v-toolbar--flat > .v-toolbar__content > .v-size--default.v-btn--icon.v-btn--round",
+          "html": "<button type=\"button\" class=\"v-btn v-btn--icon v-btn--round theme--light v-size--default\"><span class=\"v-btn__content\"><i aria-hidden=\"true\" class=\"v-icon notranslate mdi mdi-close theme--light\"></i></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".v-btn--outlined > .v-btn__content",
+          "html": "<span class=\"v-btn__content\">\n\t\t\t\t\t\t\tCerrar\n\t\t\t\t\t\t</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".body-1",
+          "html": "<div class=\"white--text body-1\">Inspira y transforma con la llave del conocimiento.</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "div[aria-haspopup=\"true\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>OFERTA EDUCATIVA</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-4.col:nth-child(1) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 21px;\">PROCURADURÍA DE DERECHOS UNIVERSITARIOS Y DE GÉNERO</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-8.col:nth-child(2) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 30px;\">INTERNACIONALIZACIÓN</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 30px;\">TIENDA SOMOS LEONES</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 25px;\">ACTIVIDADES DEPORTIVAS</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b style=\"font-size: 25px;\">ACTIVIDADES CULTURALES</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>TRANSPARENCIA</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>UTL SENIOR</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-responsive__content > .align-end.fill-height.row > span > b",
+          "html": "<b>¿QUIERES TRABAJAR EN LA UTL?</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "html-has-lang",
+          "impact": "serious",
+          "description": "Ensure every HTML document has a lang attribute",
+          "help": "<html> element must have a lang attribute",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+          "category": "other",
+          "selector": "html",
+          "html": "<html data-uw-w-loader=\"\" class=\"\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "head > meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "body > meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "object-alt",
+          "impact": "serious",
+          "description": "Ensure <object> elements have alternative text",
+          "help": "<object> elements must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/object-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "object",
+          "html": "<object data=\"../../resource/popup/Calendariopop-up_202607160503.jpg\" width=\"100%\" height=\"100%\" style=\"cursor: pointer;\"></object>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 33,
+  "altTextViolations": 1,
+  "contrastViolations": 11,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `28` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-haspopup=\"true\"]`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n4. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n5. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n6. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n7. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n8. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n9. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n10. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `28` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-haspopup=\"true\"]`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n4. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n5. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n6. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n7. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n8. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n9. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n10. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112732_attempt7_succesful_reviewnotdone_orchavatecore_digital_digital/UTL_Industries_Ltd/screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — UTL Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `33`  \n> **Verified Contact Email:** `difusion@utleon.edu.mx`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `difusion@utleon.edu.mx` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **33 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `3` | Serious: `28` | Moderate: `2`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 1 violations\n- 🎨 **Color Contrast Failures:** 11 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (1 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (11 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** UTL Industries Ltd\n- **Resolved URL:** [https://utleon.edu.mx](https://utleon.edu.mx)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `difusion@utleon.edu.mx` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `difusion@utleon.edu.mx` | **Status:** `Verified` | **Source Page:** https://utleon.edu.mx\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-allowed-attr`** (CRITICAL)\n   - **Help:** Elements must only use supported ARIA attributes\n   - **Selector:** `div[aria-haspopup=\"true\"]`\n2. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n3. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n4. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.v-progress-circular--visible.v-progress-circular.v-progress-circular--indeterminate`\n5. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-8.col:nth-child(3) > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n6. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(1) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n7. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-6.col-12:nth-child(2) > .row--dense.row > .col-4.align-center.col > .row--dense.row:nth-child(2) > .col-12.col > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n8. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-2.col-12 > .rounded-lg.v-image.v-responsive > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n9. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(2) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n10. **`[other] aria-progressbar-name`** (SERIOUS)\n   - **Help:** ARIA progressbar nodes must have an accessible name\n   - **Selector:** `.col-md-5.col-12:nth-child(3) > .rounded-lg.v-image[__max-height=\"100%\"] > .v-image__placeholder > .ma-0.loader-imagen.align-center > .v-progress-circular.v-progress-circular--indeterminate.grey--text`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/UTL_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/UTL_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/UTL_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 33. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:36:32.673Z"
+}

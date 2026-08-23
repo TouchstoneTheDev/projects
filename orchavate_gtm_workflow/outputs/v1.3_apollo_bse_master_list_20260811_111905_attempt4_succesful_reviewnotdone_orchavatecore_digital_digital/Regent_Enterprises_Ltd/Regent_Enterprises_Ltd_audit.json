@@ -1,0 +1,222 @@
+{
+  "company": {
+    "srNo": 921,
+    "companyName": "Regent Enterprises Ltd",
+    "readymadeWebsite": "https://regententerprises.in",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Regent Enterprises Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://regententerprises.in",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://regententerprises.in"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "info@regententerprises.in",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://regententerprises.in/contact-us/"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "info@regententerprises.in",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://regententerprises.in/contact-us/"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://regententerprises.in",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "font",
+          "html": "<font color=\"#FF0000\">Buy Online</font>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"www.maanik.in\"]",
+          "html": "<a href=\"http://www.maanik.in\">maanik.in</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-in-text-block?application=playwright",
+          "category": "other",
+          "selector": "a[href$=\"www.maanik.in\"]",
+          "html": "<a href=\"http://www.maanik.in\">maanik.in</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".menu-item-search > a[href=\"#\"]",
+          "html": "<a href=\"#\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"#1566821592081-d48ef2eb-c150\"]",
+          "html": "<a href=\"#1566821592081-d48ef2eb-c150\" class=\"vc_pagination-trigger\" data-vc-tabs=\"\" data-vc-container=\".vc_tta\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[href=\"#1566821592147-5170b057-9321\"]",
+          "html": "<a href=\"#1566821592147-5170b057-9321\" class=\"vc_pagination-trigger\" data-vc-tabs=\"\" data-vc-container=\".vc_tta\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".vc_col-sm-3.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox",
+          "html": "<a href=\"https://regententerprises.in/wp-content/uploads/2019/08/maanik-soya.png\" class=\"fancybox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".vc_col-sm-3.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox",
+          "html": "<a href=\"https://regententerprises.in/wp-content/uploads/2019/08/moti-musturd.png\" class=\"fancybox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".vc_col-sm-3.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox",
+          "html": "<a href=\"https://regententerprises.in/wp-content/uploads/2019/08/shaan-palmolin.png\" class=\"fancybox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".vc_col-sm-3.wpb_column.vc_column_container:nth-child(4) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox",
+          "html": "<a href=\"https://regententerprises.in/wp-content/uploads/2019/10/gio-canola.png\" class=\"fancybox\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".gem-prev",
+          "html": "<a href=\"javascript:void(0);\" class=\"gem-prev gem-testimonials-prev\" style=\"display: block;\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".gem-next",
+          "html": "<a href=\"javascript:void(0);\" class=\"gem-next gem-testimonials-next\" style=\"display: block;\"></a>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 52,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 12,
+  "altTextViolations": 0,
+  "contrastViolations": 2,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 52,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Regent Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@regententerprises.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@regententerprises.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Regent Enterprises Ltd\n- **Resolved URL:** [https://regententerprises.in](https://regententerprises.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@regententerprises.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@regententerprises.in` | **Status:** `Verified` | **Source Page:** https://regententerprises.in/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `font`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.menu-item-search > a[href=\"#\"]`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592081-d48ef2eb-c150\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592147-5170b057-9321\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(4) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Regent_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Regent_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Regent Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@regententerprises.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@regententerprises.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Regent Enterprises Ltd\n- **Resolved URL:** [https://regententerprises.in](https://regententerprises.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@regententerprises.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@regententerprises.in` | **Status:** `Verified` | **Source Page:** https://regententerprises.in/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `font`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.menu-item-search > a[href=\"#\"]`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592081-d48ef2eb-c150\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592147-5170b057-9321\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(4) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Regent_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Regent_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Regent_Enterprises_Ltd/screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Regent Enterprises Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `52 / 100`  \n> **Total WCAG Violations:** `12`  \n> **Verified Contact Email:** `info@regententerprises.in`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🟠 Moderate (Needs Improvement)\n- **What this Score Means:** The website is partially accessible but contains noticeable barriers in image descriptions, color contrast, or navigation controls.\n- **Business & Legal Risk:** Moderate compliance risk. Potential loss of disabled customers and non-compliance with digital accessibility guidelines.\n- **Primary Outreach Contact:** `info@regententerprises.in` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **52/100** on automated WCAG 2.1 AA accessibility testing with **12 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `52/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `0` | Serious: `12` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 2 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (2 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Regent Enterprises Ltd\n- **Resolved URL:** [https://regententerprises.in](https://regententerprises.in)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `info@regententerprises.in` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `info@regententerprises.in` | **Status:** `Verified` | **Source Page:** https://regententerprises.in/contact-us/\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `font`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n3. **`[other] link-in-text-block`** (SERIOUS)\n   - **Help:** Links must be distinguishable without relying on color\n   - **Selector:** `a[href$=\"www.maanik.in\"]`\n4. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.menu-item-search > a[href=\"#\"]`\n5. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592081-d48ef2eb-c150\"]`\n6. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `a[href=\"#1566821592147-5170b057-9321\"]`\n7. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n8. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n9. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n10. **`[other] link-name`** (SERIOUS)\n   - **Help:** Links must have discernible text\n   - **Selector:** `.vc_col-sm-3.wpb_column.vc_column_container:nth-child(4) > .vc_column-inner > .wpb_wrapper > .lazy-loading.lazy-loading-before-start-animation[data-ll-item-delay=\"0\"] > .gem-textbox.centered-box.lazy-loading-item-move-up > .gem-textbox-inner > .gem-textbox-content > .gem-image-centered-box.centered-box > .gem-wrapbox-position-centered.gem-image.gem-wrapbox > .gem-wrapbox-inner.lazy-loading-item-move-up[data-ll-effect=\"move-up\"] > .fancybox`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Regent_Enterprises_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Regent_Enterprises_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Regent_Enterprises_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 12. WAVE AIM: N/A. Lighthouse A11y: 52/100.",
+  "timestamp": "2026-08-11T15:24:52.186Z"
+}

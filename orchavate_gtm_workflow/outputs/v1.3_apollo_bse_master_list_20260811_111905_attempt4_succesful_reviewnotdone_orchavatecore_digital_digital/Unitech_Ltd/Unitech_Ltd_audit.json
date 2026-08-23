@@ -1,0 +1,486 @@
+{
+  "company": {
+    "srNo": 607,
+    "companyName": "Unitech Ltd",
+    "readymadeWebsite": "https://unitech-mo.ru",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Unitech Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://unitech-mo.ru",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://unitech-mo.ru"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "media@ut-mo.ru",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://unitech-mo.ru"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "media@ut-mo.ru",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://unitech-mo.ru"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://unitech-mo.ru",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "button[name=\"s\"]",
+          "html": "<button name=\"s\" type=\"submit\"><i class=\"fas fa-search\"></i></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "td[data-date=\"1785110400000\"]",
+          "html": "<td class=\"old day\" data-date=\"1785110400000\">27</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "td[data-date=\"1785196800000\"]",
+          "html": "<td class=\"old day\" data-date=\"1785196800000\">28</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "td[data-date=\"1785283200000\"]",
+          "html": "<td class=\"old day\" data-date=\"1785283200000\">29</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "td[data-date=\"1785369600000\"]",
+          "html": "<td class=\"old day\" data-date=\"1785369600000\">30</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "td[data-date=\"1785456000000\"]",
+          "html": "<td class=\"old day\" data-date=\"1785456000000\">31</td>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#bx_3322728009_35875 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">Образовательный кредит для СПО</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".g-font-weight-300.g-font-size-14[href$=\"schedule-classes/\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">РАСПИСАНИЕ ЗАНЯТИЙ</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"es.unitech-mo.ru/\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">ОБРАЗОВАТЕЛЬНЫЙ ПОРТАЛ</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".g-font-weight-300.g-font-size-14[href$=\"open-day/\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">ДЕНЬ ОТКРЫТЫХ ДВЕРЕЙ</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"golden-ratio/\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">ЗОЛОТОЕ СЕЧЕНИЕ 2025</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#bx_3322728009_20122 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">ГОРЯЧАЯ ЛИНИЯ ДЛЯ СТУДЕНТОВ</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#bx_3322728009_20145 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">ДОСТУПНАЯ СРЕДА</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".g-font-weight-300.g-font-size-14[rel=\"nofollow\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">НАЦИОНАЛЬНЫЙ ПРОЕКТ ОБРАЗОВАНИЕ</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".g-font-weight-300.g-font-size-14[href$=\"library/\"] > .g-mb-0.g-font-weight-400",
+          "html": "<h3 class=\"g-font-size-16 g-font-weight-400 g-mb-0\">БИБЛИОТЕКА</h3>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "p:nth-child(2) > a[target=\"_blank\"] > .img-thumbnail.img-fluid[width=\"350\"]",
+          "html": "<img style=\"border: none !important; border-radius: 20px;\" class=\"img-fluid img-thumbnail\" src=\"https://unitech-mo.ru/upload/medialibrary/9d5/ggqfwk2xmo0zl4q4qjqiwryk71nkyywg/osnovnoy_logotip.png\" width=\"350\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"kkmt.jpg\"]",
+          "html": "<img class=\"img-fluid img-thumbnail\" style=\"border-radius: 20px\" src=\"/upload/files/banners/kkmt.jpg\" width=\"350\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[src$=\"IC.jpg\"]",
+          "html": "<img class=\"img-fluid img-thumbnail\" style=\"border-radius: 15px\" src=\"/upload/files/banners/IC.jpg\" width=\"350\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "p:nth-child(5) > a[target=\"_blank\"] > .img-thumbnail.img-fluid[width=\"350\"]",
+          "html": "<img class=\"img-fluid img-thumbnail\" style=\"border-radius: 15px\" src=\"/upload/medialibrary/e25/mekthm81c45tkeysmzx67s93fqtunsvs.jpg\" width=\"350\" loading=\"lazy\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".g-mt-25 > .list-inline-item.g-mx-5[data-original-title=\"Вконтакте\"] > a[href$=\"unitechmo\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://vk.com/unitechmo\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-vk\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".g-mt-25 > .list-inline-item.g-mx-5[data-original-title=\"Telegram\"] > a[href$=\"unitech_mo\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://t.me/unitech_mo\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-telegram\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".g-mt-25 > .list-inline-item.g-mx-5[data-original-title=\"Дзен\"] > .g-text-decoration--none[href$=\"unitech\"][rel=\"nofollow\"]",
+          "html": "<a href=\"https://dzen.ru/unitech\" target=\"_blank\" class=\"g-color-white g-color-white--hover g-text-decoration--none g-text-decoration--none--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"un-icon-dzen\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".g-mt-25 > .list-inline-item.g-mx-5[data-original-title=\"Rutube\"] > .g-text-decoration--none.g-text-decoration--none--hover[rel=\"nofollow\"]",
+          "html": "<a href=\"https://rutube.ru/channel/32791598\" target=\"_blank\" class=\"g-color-white g-color-white--hover g-text-decoration--none g-text-decoration--none--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"un-icon-rutube\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "a[data-original-title=\"Версия для слабовидящих\"]",
+          "html": "<a href=\"#!\" class=\"g-color-white g-color-white--hover g-font-size-16 eye-panel__open g-text-decoration--none g-text-decoration--none--hover\" itemprop=\"copy\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"\" data-original-title=\"Версия для слабовидящих\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".reorganization",
+          "html": "<a class=\"reorganization g-font-size-14 g-font-weight-300 g-color-white g-text-decoration--none g-text-decoration--none--hover\" href=\"/sveden/reorganizatsiya/\" target=\"_blank\" style=\"color: #fff !important;\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(2) > a[target=\"_blank\"]",
+          "html": "<a href=\"/information/natsionalnyy-proekt-nauka-i-universitety/\" target=\"_blank\" style=\"border-radius: 20px\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div:nth-child(2) > p:nth-child(3) > a[target=\"_blank\"]",
+          "html": "<a href=\"/obrazovanie/school-divisions/college-space-engineering-technology/\" target=\"_blank\" style=\"border-radius: 20px\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid img-thumbnail\" style=\"border-radius: 20px\" src=\"/upload/files/banners/kkmt.jpg\" width=\"350\" loading=\"lazy\">\n\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "div:nth-child(2) > p:nth-child(4) > a[target=\"_blank\"]",
+          "html": "<a href=\"https://unitech-mo.ru/science/research-activities-/research-base/engineering-center/\" target=\"_blank\" style=\"border-radius: 15px\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img class=\"img-fluid img-thumbnail\" style=\"border-radius: 15px\" src=\"/upload/files/banners/IC.jpg\" width=\"350\" loading=\"lazy\">\n\t\t\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "p:nth-child(5) > a[target=\"_blank\"]",
+          "html": "<a href=\"/science/research-activities-/research-base/tsentr-additivnogo-proizvodstva-i-lazernykh-tekhnologiy/\" target=\"_blank\" style=\"border-radius: 15px\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".text-md-right > .list-inline-item.g-mx-5[data-original-title=\"Вконтакте\"] > a[href$=\"unitechmo\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://vk.com/unitechmo\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-vk\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-original-title=\"Одноклассники\"] > .g-color-white--hover[rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://ok.ru/group/70000004672912\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-odnoklassniki\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".text-md-right > .list-inline-item.g-mx-5[data-original-title=\"Telegram\"] > a[href$=\"unitech_mo\"][rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://t.me/unitech_mo\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-telegram\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".text-md-right > .list-inline-item.g-mx-5[data-original-title=\"Дзен\"] > .g-text-decoration--none[href$=\"unitech\"][rel=\"nofollow\"]",
+          "html": "<a href=\"https://dzen.ru/unitech\" target=\"_blank\" class=\"g-color-white g-color-white--hover g-text-decoration--none g-text-decoration--none--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"un-icon-dzen\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".text-md-right > .list-inline-item.g-mx-5[data-original-title=\"Rutube\"] > .g-text-decoration--none.g-text-decoration--none--hover[rel=\"nofollow\"]",
+          "html": "<a href=\"https://rutube.ru/channel/32791598\" target=\"_blank\" class=\"g-color-white g-color-white--hover g-text-decoration--none g-text-decoration--none--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"un-icon-rutube\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li[data-original-title=\"Youtube\"] > .g-color-white--hover[rel=\"nofollow\"][target=\"_blank\"]",
+          "html": "<a href=\"https://www.youtube.com/channel/UC30_r6NLs0m-hn757ZJWD2w\" target=\"_blank\" class=\"g-color-white g-color-white--hover\" rel=\"nofollow\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fab fa-youtube\"></i>\n\t\t\t\t\t\t\t\t\t</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".js-go-to",
+          "html": "<a class=\"js-go-to u-go-to-v1 animated\" href=\"#!\" data-type=\"fixed\" data-position=\"{\"bottom\": 15, \"left\": 15}\" data-offset-top=\"400\" data-compensation=\"#js-header\" data-show-effect=\"zoomIn\" style=\"display: inline-block; position: fixed; opacity: 0; bottom: 15px; left: 15px;\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 36,
+  "altTextViolations": 4,
+  "contrastViolations": 14,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Unitech Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `36`  \n> **Verified Contact Email:** `media@ut-mo.ru`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `media@ut-mo.ru` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **36 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Unitech Ltd\n- **Resolved URL:** [https://unitech-mo.ru](https://unitech-mo.ru)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `media@ut-mo.ru` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `media@ut-mo.ru` | **Status:** `Verified` | **Source Page:** https://unitech-mo.ru\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[name=\"s\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785110400000\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785196800000\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785283200000\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785369600000\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785456000000\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#bx_3322728009_35875 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"schedule-classes/\"] > .g-mb-0.g-font-weight-400`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"es.unitech-mo.ru/\"] > .g-mb-0.g-font-weight-400`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"open-day/\"] > .g-mb-0.g-font-weight-400`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Unitech_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Unitech_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Unitech Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `36`  \n> **Verified Contact Email:** `media@ut-mo.ru`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `media@ut-mo.ru` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **36 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Unitech Ltd\n- **Resolved URL:** [https://unitech-mo.ru](https://unitech-mo.ru)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `media@ut-mo.ru` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `media@ut-mo.ru` | **Status:** `Verified` | **Source Page:** https://unitech-mo.ru\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[name=\"s\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785110400000\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785196800000\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785283200000\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785369600000\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785456000000\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#bx_3322728009_35875 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"schedule-classes/\"] > .g-mb-0.g-font-weight-400`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"es.unitech-mo.ru/\"] > .g-mb-0.g-font-weight-400`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"open-day/\"] > .g-mb-0.g-font-weight-400`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Unitech_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Unitech_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_111905_attempt4_succesful_reviewnotdone_orchavatecore_digital_digital/Unitech_Ltd/screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Unitech Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `36`  \n> **Verified Contact Email:** `media@ut-mo.ru`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `media@ut-mo.ru` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **36 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `5` | Serious: `31` | Moderate: `0`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 4 violations\n- 🎨 **Color Contrast Failures:** 14 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Image Alt Attributes (4 issues):** Add meaningful `alt=\"...\"` text to all `<img>` tags. Use `alt=\"\"` for purely decorative images.\n- **Color Contrast Ratios (14 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Unitech Ltd\n- **Resolved URL:** [https://unitech-mo.ru](https://unitech-mo.ru)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `media@ut-mo.ru` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `media@ut-mo.ru` | **Status:** `Verified` | **Source Page:** https://unitech-mo.ru\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `button[name=\"s\"]`\n2. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785110400000\"]`\n3. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785196800000\"]`\n4. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785283200000\"]`\n5. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785369600000\"]`\n6. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `td[data-date=\"1785456000000\"]`\n7. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#bx_3322728009_35875 > .g-py-15.g-px-20.text-center > .g-font-weight-300.g-font-size-14.g-text-decoration--none > .g-mb-0.g-font-weight-400`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"schedule-classes/\"] > .g-mb-0.g-font-weight-400`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[href$=\"es.unitech-mo.ru/\"] > .g-mb-0.g-font-weight-400`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `.g-font-weight-300.g-font-size-14[href$=\"open-day/\"] > .g-mb-0.g-font-weight-400`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Unitech_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Unitech_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Unitech_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 36. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T14:10:04.383Z"
+}

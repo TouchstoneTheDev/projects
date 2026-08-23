@@ -1,0 +1,893 @@
+{
+  "company": {
+    "srNo": 417,
+    "companyName": "Stovec Industries Ltd",
+    "readymadeWebsite": "https://stoveconnection.com.au",
+    "assignedTo": "Unassigned",
+    "contactPerson": "Company Secretary (Stovec Industries Ltd)",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool v1.1",
+    "isFullyPopulated": false,
+    "missingFields": [
+      "Email ID 1",
+      "Scan Completed"
+    ]
+  },
+  "resolution": {
+    "resolvedUrl": "https://stoveconnection.com.au",
+    "source": "readymade-fallback",
+    "confidence": "HIGH",
+    "hasConflict": false,
+    "readymadeUrl": "https://stoveconnection.com.au"
+  },
+  "emailDiscovery": {
+    "primaryEmail": {
+      "address": "spareparts@stoveconnection.com.au",
+      "type": "primary",
+      "label": "Primary Contact Email",
+      "status": "Verified",
+      "sourceUrl": "https://stoveconnection.com.au"
+    },
+    "regardingAccessibility": [
+      {
+        "address": "spareparts@stoveconnection.com.au",
+        "type": "general",
+        "label": "General Contact Email",
+        "status": "Verified",
+        "sourceUrl": "https://stoveconnection.com.au"
+      }
+    ],
+    "overallStatus": "Verified",
+    "evidenceScreenshots": []
+  },
+  "botBlock": {
+    "isBlocked": false
+  },
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://stoveconnection.com.au",
+      "accessible": true,
+      "axeViolations": [
+        {
+          "id": "aria-required-attr",
+          "impact": "critical",
+          "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+          "help": "Required ARIA attributes must be provided",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-required-attr?application=playwright",
+          "category": "other",
+          "selector": "#search",
+          "html": "<input id=\"search\" data-mage-init=\"{\"quickSearch\":{\n   ...\" type=\"text\" name=\"q\" value=\"\" placeholder=\"Search...\" class=\"input-text\" maxlength=\"128\" role=\"combobox\" aria-haspopup=\"false\" aria-autocomplete=\"both\" autocomplete=\"off\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": "#tab-label-featured",
+          "html": "<div class=\"data item title\" aria-labeledby=\"tab-label-featured-title\" data-role=\"collapsible\" id=\"tab-label-featured\">\n            <a class=\"data switch\" tabindex=\"-1\" data-toggle=\"switch\" href=\"#featured\" id=\"tab-label-featured-title\">Featured Products</a>\n          </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "aria-valid-attr",
+          "impact": "critical",
+          "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+          "help": "ARIA attributes must conform to valid names",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+          "category": "other",
+          "selector": "#tab-label-latest",
+          "html": "<div class=\"data item title\" aria-labeledby=\"tab-label-latest-title\" data-role=\"collapsible\" id=\"tab-label-latest\">\n            <a class=\"data switch\" tabindex=\"-1\" data-toggle=\"switch\" href=\"#latest\" id=\"tab-label-latest-title\">Latest Products</a>\n          </div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot:nth-child(1)",
+          "html": "<button role=\"button\" class=\"owl-dot active\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-dot.active",
+          "html": "<button role=\"button\" class=\"owl-dot\"><span></span></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-prev[type=\"button\"][role=\"presentation\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-prev\"><em class=\"porto-icon-chevron-left\"></em></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": "#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]",
+          "html": "<button type=\"button\" role=\"presentation\" class=\"owl-next\"><em class=\"porto-icon-chevron-right\"></em></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#search",
+          "html": "<input id=\"search\" data-mage-init=\"{\"quickSearch\":{\n   ...\" type=\"text\" name=\"q\" value=\"\" placeholder=\"Search...\" class=\"input-text\" maxlength=\"128\" role=\"combobox\" aria-haspopup=\"false\" aria-autocomplete=\"both\" autocomplete=\"off\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"Search by Brand\"] > span",
+          "html": "<span>Search by Brand</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"COOKING PARTS\"] > span",
+          "html": "<span>COOKING PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"DISHWASHER PARTS\"] > span",
+          "html": "<span>DISHWASHER PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"LAUNDRY PARTS\"] > span",
+          "html": "<span>LAUNDRY PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"RANGEHOOD PARTS\"] > span",
+          "html": "<span>RANGEHOOD PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"REFRIGERATOR PARTS\"] > span",
+          "html": "<span>REFRIGERATOR PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[title=\"HOTWATER PARTS\"] > span",
+          "html": "<span>HOTWATER PARTS</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".level0.ui-menu-item:nth-child(8) > .level-top > span",
+          "html": "<span>Contact Us</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-6np1.nth-child-7np1.nth-child-8np1 > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-14%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-3n.nth-child-2np1.product-item:nth-child(3) > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-24%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-4n.nth-child-3np1.nth-child-2n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-8%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-6n.nth-child-5np1.nth-child-3n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-36%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-8np1.nth-child-4np1.nth-child-3n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-7%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".nth-child-5np1.nth-child-2np1.product-item:nth-child(11) > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > .product-labels > .product-label.sale-label",
+          "html": "<div class=\"product-label sale-label\">-10%</div>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(1) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/search-by-brand.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(2) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/cooking-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/stove-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(3) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/dishwasher-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/dishwasher-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(4) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/laundry.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/dryer-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(5) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/rangehood-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/rangehood-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(6) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/fridge-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/fridge-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(7) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/hotwater-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/hotwater-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-sm-4:nth-child(8) > .mainsec > h4:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/vacuum-parts.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/categories/home-page/vacuum-parts.jpg\" alt=\"\" width=\"300\" height=\"300\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-6np1.nth-child-7np1.nth-child-8np1 > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/dwv001.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-2n.product-item.item:nth-child(2) > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/062090004.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-3n.nth-child-2np1.product-item:nth-child(3) > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/g-301-00-14.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-4n.nth-child-3np1.nth-child-2n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/g3030014-1.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-5n.nth-child-4np1.nth-child-2np1 > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/19ag150-1.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-6n.nth-child-5np1.nth-child-3n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/19ag150.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-7n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/a-466-54.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-8n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/4055560686.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-8np1.nth-child-4np1.nth-child-3n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/g-301-06-08.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-5n.nth-child-3np1.nth-child-2n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/smeg12570030-1.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-5np1.nth-child-2np1.product-item:nth-child(11) > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/g-348-06-08.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".nth-child-6n.nth-child-4n.nth-child-3n > .product-item-info.porto-tb-item.type-product > .p-0.porto-section > .photo.product-item-photo.product-image > .porto-tb-featured-image.tb-image-type-hover > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/p073737493.html\" tabindex=\"-1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(1) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/blanco.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/blanco-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(2) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/chef.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/chef-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(3) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/dishlex.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/dishlex-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(4) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/fisher-paykel.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/fisher-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(5) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/ilve.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/ilve-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(6) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/omega.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/omega-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(7) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/simpson.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/simpson-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "ol > li:nth-child(8) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/smeg.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/sm-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(9) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/stgeorge.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/stgeorge-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(10) > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/westinghouse.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/westinghouse-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(1) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/smeg.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/sm-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(2) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/fisher-paykel.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/fisher-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(3) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/omega.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/omega-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(4) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/blanco.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/blanco-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(5) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/ilve.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/ilve-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(6) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/westinghouse.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/westinghouse-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(7) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/chef.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/chef-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(8) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/simpson.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/simpson-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(9) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/dishlex.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/dishlex-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(10) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/stgeorge.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/stgeorge-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.owl-item:nth-child(11) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/smeg.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/sm-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(12) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/fisher-paykel.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/fisher-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(13) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/omega.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/omega-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(14) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/blanco.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/blanco-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".owl-item:nth-child(15) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/ilve.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/ilve-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(16) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/westinghouse.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/westinghouse-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(17) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/chef.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/chef-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(18) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/simpson.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/simpson-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(19) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/dishlex.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/dishlex-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".cloned.owl-item:nth-child(20) > .item > a",
+          "html": "<a href=\"https://stoveconnection.com.au/shop/index.php/brand/stgeorge.html\"><img src=\"https://stoveconnection.com.au/shop/pub/media/wysiwyg/brand/stgeorge-logo.jpg\" alt=\"\"></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 30,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_Homepage_Axe_DevTools.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_Homepage_Lighthouse_Summary.png"
+      ]
+    }
+  ],
+  "status": "Completed",
+  "totalViolations": 73,
+  "altTextViolations": 0,
+  "contrastViolations": 15,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 30,
+  "deliverables": {
+    "websitePair": {
+      "name": "Official Website",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Stovec Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `73`  \n> **Verified Contact Email:** `spareparts@stoveconnection.com.au`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `spareparts@stoveconnection.com.au` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **73 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `65` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Stovec Industries Ltd\n- **Resolved URL:** [https://stoveconnection.com.au](https://stoveconnection.com.au)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `spareparts@stoveconnection.com.au` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `spareparts@stoveconnection.com.au` | **Status:** `Verified` | **Source Page:** https://stoveconnection.com.au\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-featured`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-latest`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot:nth-child(1)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-prev[type=\"button\"][role=\"presentation\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#search`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"Search by Brand\"] > span`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"COOKING PARTS\"] > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Stovec_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Stovec_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "emailPair": {
+      "name": "Email Addresses",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_EmailEvidence_NotFound_ContactPage.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Stovec Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `73`  \n> **Verified Contact Email:** `spareparts@stoveconnection.com.au`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `spareparts@stoveconnection.com.au` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **73 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `65` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Stovec Industries Ltd\n- **Resolved URL:** [https://stoveconnection.com.au](https://stoveconnection.com.au)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `spareparts@stoveconnection.com.au` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `spareparts@stoveconnection.com.au` | **Status:** `Verified` | **Source Page:** https://stoveconnection.com.au\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-featured`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-latest`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot:nth-child(1)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-prev[type=\"button\"][role=\"presentation\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#search`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"Search by Brand\"] > span`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"COOKING PARTS\"] > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Stovec_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Stovec_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    },
+    "toolsPair": {
+      "name": "Tool Scans",
+      "reportPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/Audit_Report.md",
+      "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/v1.3_apollo_bse_master_list_20260811_112506_attempt6_succesful_reviewnotdone_orchavatecore_digital_digital/Stovec_Industries_Ltd/screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png",
+      "markdownContent": "# Accessibility & GTM Outreach Audit Report — Stovec Industries Ltd\n\n> **Audit Status:** `Completed`  \n> **Lighthouse Accessibility Score:** `30 / 100`  \n> **Total WCAG Violations:** `73`  \n> **Verified Contact Email:** `spareparts@stoveconnection.com.au`  \n\n---\n\n## 👔 Executive Summary (For Non-Technical & Business Stakeholders)\n\n- **Accessibility Rating:** 🔴 Critical (High Legal & Compliance Risk)\n- **What this Score Means:** The website has severe accessibility barriers. Screen readers, keyboard-only users, and visually impaired visitors will struggle or fail to use key services.\n- **Business & Legal Risk:** High compliance and legal risk under WCAG 2.1 AA standards. Immediate outreach recommended to offer remediation.\n- **Primary Outreach Contact:** `spareparts@stoveconnection.com.au` (`Verified`)\n\n### Executive Overview & Pitch Angle\nThis company currently scores **30/100** on automated WCAG 2.1 AA accessibility testing with **73 identified WCAG violations**. \nAddressing these compliance barriers will improve digital reach, satisfy regulatory requirements, and protect against accessibility lawsuits.\n\n---\n\n## 💻 Developer & Engineering Technical Breakdown\n\n- **Lighthouse A11y Metric:** `30/100`\n- **Axe-core Rule Engine Status:** Evaluated across Homepage DOM tree.\n- **Impact Breakdown:** Critical: `7` | Serious: `65` | Moderate: `1`\n\n### Technical Violation Breakdown\n- 🖼️ **Missing Alt Text:** 0 violations\n- 🎨 **Color Contrast Failures:** 15 violations\n- 📝 **Form & Structural Labels:** 0 violations\n- ⌨️ **Keyboard Navigation & Focus:** 0 violations\n\n### Priority Code Remediation Steps for Developers\n- **Color Contrast Ratios (15 issues):** Ensure text contrast against background meets minimum 4.5:1 ratio for normal text and 3:1 for large text.\n\n---\n\n## 1. Company & Website Verification\n- **Company Name:** Stovec Industries Ltd\n- **Resolved URL:** [https://stoveconnection.com.au](https://stoveconnection.com.au)\n- **Resolution Source:** `readymade-fallback` (HIGH Confidence)\n- **Status:** ✓ Verified & Confirmed\n- **Assigned Auditor:** Unassigned\n- **Verified By:** Orchavate Automated Tool v1.1\n\n\n---\n\n## 2. Email & Contact Discovery\n- **Primary Contact Email:** `spareparts@stoveconnection.com.au` (`Verified`)\n- **Overall Discovery Status:** `Verified`\n\n### Discovered Accessibility / Compliance Endpoints\n- **General Contact Email:** `spareparts@stoveconnection.com.au` | **Status:** `Verified` | **Source Page:** https://stoveconnection.com.au\n\n---\n\n## 3. Detailed WCAG Violation Log (DOM Selectors)\n1. **`[other] aria-required-attr`** (CRITICAL)\n   - **Help:** Required ARIA attributes must be provided\n   - **Selector:** `#search`\n2. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-featured`\n3. **`[other] aria-valid-attr`** (CRITICAL)\n   - **Help:** ARIA attributes must conform to valid names\n   - **Selector:** `#tab-label-latest`\n4. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot:nth-child(1)`\n5. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `.owl-dot.active`\n6. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-prev[type=\"button\"][role=\"presentation\"]`\n7. **`[other] button-name`** (CRITICAL)\n   - **Help:** Buttons must have discernible text\n   - **Selector:** `#brands-slider-demo-8 > .owl-carousel.owl-loaded.owl-drag > .owl-nav > .owl-next[type=\"button\"][role=\"presentation\"]`\n8. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `#search`\n9. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"Search by Brand\"] > span`\n10. **`[color_contrast] color-contrast`** (SERIOUS)\n   - **Help:** Elements must meet minimum color contrast ratio thresholds\n   - **Selector:** `a[title=\"COOKING PARTS\"] > span`\n\n---\n\n## 4. Evidence & Tool Screenshots\n- 🎨 **WAVE WebAIM Overlay:** `screenshots/Stovec_Industries_Ltd_Homepage_WAVE_Overlay.png`\n- 🛡️ **Axe DevTools Panel:** `screenshots/Stovec_Industries_Ltd_Homepage_Axe_DevTools.png`\n- ⚡ **Lighthouse Summary:** `screenshots/Stovec_Industries_Ltd_Homepage_Lighthouse_Summary.png`\n\n---\n*Report generated automatically by Orchavate GTM Accessibility Workflow v1.1*\n"
+    }
+  },
+  "remarks": "Scanned 1 page. Violations: 73. WAVE AIM: N/A. Lighthouse A11y: 30/100.",
+  "timestamp": "2026-08-11T13:00:35.068Z"
+}
