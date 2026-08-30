@@ -1,0 +1,611 @@
+{
+  "company": {
+    "srNo": 40,
+    "assignedTo": "Unassigned",
+    "companyName": "Nippon India Mutual Fund",
+    "website": "https://mf.nipponindiaim.com",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://mf.nipponindiaim.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".leftLst",
+          "html": "<button class=\"leftLst over\" onclick=\"return false;\"></button>",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_other.png"
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+          "category": "other",
+          "selector": ".rightLst",
+          "html": "<button class=\"rightLst\" onclick=\"return false;\"></button>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#lnkLogin",
+          "html": "<a id=\"lnkLogin\" title=\"A secure access for ...\" class=\"btnLogin btn btn-lg ...\" href=\"https://invest.nippo...\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".KYCText",
+          "html": "<span class=\"KYCText\">Verify KYC</span>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".quickLink_list.col-xs-6.col-md-2:nth-child(1) > .icon-box.animated.fadeInUp > a > h5",
+          "html": "<h5 class=\"text-center\" id=\"quicklinkSubMenu\">Locate Branch</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "a[href$=\"navs\"] > h5",
+          "html": "<h5 class=\"text-center\" id=\"quicklinkSubMenu\">Track NAVs</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".quickLink_list.col-xs-6.col-md-2:nth-child(3) > .icon-box.animated.fadeInUp > a > h5",
+          "html": "<h5 class=\"text-center\" id=\"quicklinkSubMenu\">Funds At A Glance</h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".clickHere-btn",
+          "html": "<a href=\"https://mf.nipponindiaim.com/Pages/ESG.aspx\" target=\"_blank\" class=\"clickHere-btn\">Read Our ESG &amp; CSR Framework</a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-2 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/expert-icon.png\" alt=\"Mutual Fund Experts\"> Expert Review\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-3 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/infographic.png\" alt=\"NAM India Insights\"> Insights on Economy\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#carousel-Insight-4 > .row > .col-md-12 > .col-md-12 > h5",
+          "html": "<h5>\n                                    <img src=\"/SiteCollectionImages/RMFWebsiteImage/Insight-articlelogo.png\" alt=\"Article Section at Nippon India Mutual Fund\"> Market Outlook\n                                </h5>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.left.item > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-2\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"prev\">\n                                                        <i class=\"fa fa-angle-left\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.left.item > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-2\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"next\">\n                                                        <i class=\"fa fa-angle-right\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".next > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-2\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"prev\">\n                                                        <i class=\"fa fa-angle-left\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".next > .row > .col-md-12 > div > .col-md-6 > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-2\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-2\" data-slide=\"next\">\n                                                        <i class=\"fa fa-angle-right\"></i></a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".left[href$=\"#carousel-Insight-3\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-3\" data-slide=\"prev\">\n                                                <i class=\"fa fa-angle-left\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".right[href$=\"#carousel-Insight-3\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-3\" data-slide=\"next\">\n                                                <i class=\"fa fa-angle-right\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.item > div:nth-child(3) > .col-sm-6:nth-child(2) > .pull-right.col-md-4 > .left[href$=\"#carousel-Insight-4\"][data-slide=\"prev\"]",
+          "html": "<a class=\"left carousel-control\" role=\"button\" href=\"#carousel-Insight-4\" data-slide=\"prev\">\n                                                <i class=\"fa fa-angle-left\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".active.item > div:nth-child(3) > .col-sm-6:nth-child(2) > .pull-right.col-md-4 > .right[href$=\"#carousel-Insight-4\"][data-slide=\"next\"]",
+          "html": "<a class=\"right carousel-control\" role=\"button\" href=\"#carousel-Insight-4\" data-slide=\"next\">\n                                                <i class=\"fa fa-angle-right\"></i> </a>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#heading1",
+          "html": "<div class=\"panel-heading\" role=\"tab\" id=\"heading1\">",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/nested-interactive?application=playwright",
+          "category": "other",
+          "selector": "#heading3",
+          "html": "<div class=\"panel-heading\" role=\"tab\" id=\"heading3\">",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 10,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_other.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Homepage_color_contrast.png"
+      ]
+    },
+    {
+      "pageName": "About",
+      "url": "https://mf.nipponindiaim.com/knowledge-center/all-about-sip",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "#lnkLogin",
+          "html": "<a id=\"lnkLogin\" title=\"A secure access for ...\" class=\"btnLogin btn btn-lg ...\" href=\"https://invest.nippo...\">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_color_contrast.png"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".boxbenfitSIP:nth-child(1) > a[target=\"_blank\"]:nth-child(1) > span > img",
+          "html": "<img src=\"/InvestorServices/InvestorServiceImages/SIP-Set-Your-Goal.png\">",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_missing_alt_text.png"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".boxbenfitSIP:nth-child(2) > a[target=\"_blank\"]:nth-child(1) > span > img",
+          "html": "<img src=\"/InvestorServices/InvestorServiceImages/SIP-Choose-Right-SIP.png\">",
+          "pageName": "About"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": ".boxbenfitSIP:nth-child(3) > a[target=\"_blank\"]:nth-child(1) > span > img",
+          "html": "<img src=\"/InvestorServices/InvestorServiceImages/SIP-KYC.png\">",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".no-padding.col-md-12.col-xs-12:nth-child(3) > .col-md-4.col-xs-12:nth-child(1) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/power-of-compounding.htm\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-Power-Of-Computing.png\" alt=\"\"></a>",
+          "pageName": "About",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_other.png"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".no-padding.col-md-12.col-xs-12:nth-child(3) > .col-md-4.col-xs-12:nth-child(2) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/rupee-cost-averaging.htm\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-Rupee-Cost-Averaging.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-4.col-xs-12:nth-child(3) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]",
+          "html": "<a href=\"https://mf.nipponindiaim.com/investeasy\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-Ease-of-investing.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".no-padding.col-md-12.col-xs-12:nth-child(4) > .col-md-4.col-xs-12:nth-child(1) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]",
+          "html": "<a href=\" https://mf.nipponindiaim.com/our-products/sip-calculator\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-Discipline.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".no-padding.col-md-12.col-xs-12:nth-child(4) > .col-md-4.col-xs-12:nth-child(2) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]",
+          "html": "<a href=\"https://mf.nipponindiaim.com/mutual-fund-articles/all-about-systematic-investment-plan\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-Start-Simple.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".boxbenfitSIP:nth-child(1) > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/goal-planner\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><span><img src=\"/InvestorServices/InvestorServiceImages/SIP-Set-Your-Goal.png\"></span></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".boxbenfitSIP:nth-child(2) > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/sip/how-to-choose-SIP.html\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><span><img src=\"/InvestorServices/InvestorServiceImages/SIP-Choose-Right-SIP.png\"></span></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".boxbenfitSIP:nth-child(3) > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/investor-services/transaction-related-services/know-your-customer\" target=\"_blank\" style=\"color:black;text-decoration:underline;\"><span><img src=\"/InvestorServices/InvestorServiceImages/SIP-KYC.png\"></span></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-xs-12:nth-child(1) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/SIP-as-per-age-and-income.html\" target=\"_blank\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-20s.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-xs-12:nth-child(2) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/SIP-as-per-age-and-income.html\" target=\"_blank\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-30s.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-xs-12:nth-child(3) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/SIP-as-per-age-and-income.html\" target=\"_blank\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-40s.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-3.col-xs-12:nth-child(4) > .Box1.col-md-12.col-xs-12 > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://mf.nipponindiaim.com/InvestorEducation/SIP-as-per-age-and-income.html\" target=\"_blank\"><img src=\"/InvestorServices/InvestorServiceImages/SIP-50s.png\" alt=\"\"></a>",
+          "pageName": "About"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "About"
+        }
+      ],
+      "lighthouseScore": 10,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_color_contrast.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_missing_alt_text.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_About_other.png"
+      ]
+    },
+    {
+      "pageName": "Investor Relations",
+      "url": "https://mf.nipponindiaim.com/investoreducation",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "img[align=\"\"]",
+          "html": "<img src=\"/investor-education/Style%20Library/images/logo.png\" align=\"\">",
+          "pageName": "Investor Relations",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Investor_Relations_missing_alt_text.png"
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/image-alt?application=playwright",
+          "category": "missing_alt_text",
+          "selector": "#Init_url_Img",
+          "html": "<img id=\"Init_url_Img\" src=\"\">",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".faqOut > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"/investor-service/customer-service/faqs\" target=\"_blank\" style=\"color:#333333;\">",
+          "pageName": "Investor Relations",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Investor_Relations_other.png"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".faqOut > a[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"/investoreducation/terms-of-week\" target=\"_blank\" style=\"color:#333333;\">",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-xs-12:nth-child(2) > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"/TotalExpenseRatio/IAP-Schedule-Jul-26.xls\" target=\"_blank\" style=\"color:#333333;\">",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": ".col-md-6.col-xs-12:nth-child(2) > a[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"/RightToWealth/Pages/index_bkp.html\" target=\"_blank\" style=\"color:#333333;\">",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > a[target=\"_blank\"]:nth-child(1)",
+          "html": "<a href=\"https://www.facebook.com/NipponIndiaMF\" target=\"_blank\"><img src=\"/investor-education/Style%20Library/images/fb.png\" alt=\"\" align=\"absmiddle\"></a>",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+          "category": "other",
+          "selector": "li:nth-child(2) > a[target=\"_blank\"]:nth-child(2)",
+          "html": "<a href=\"https://twitter.com/NipponIndiaMF\" target=\"_blank\"><img src=\"/investor-education/Style%20Library/images/twt.png\" alt=\"\" align=\"absmiddle\"></a>",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "list",
+          "impact": "serious",
+          "description": "Ensure that lists are structured correctly",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=playwright",
+          "category": "other",
+          "selector": ".no-padding.col-md-10.col-xs-12 > ul",
+          "html": "<ul>",
+          "pageName": "Investor Relations"
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/meta-viewport?application=playwright",
+          "category": "other",
+          "selector": "meta[name=\"viewport\"]",
+          "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+          "pageName": "Investor Relations"
+        }
+      ],
+      "lighthouseScore": 11,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Investor_Relations_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Investor_Relations_missing_alt_text.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Nippon_India_Mutual_Fund_Investor_Relations_other.png"
+      ]
+    }
+  ],
+  "totalViolations": 49,
+  "altTextViolations": 5,
+  "contrastViolations": 10,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 10,
+  "remarks": "Scanned 3 pages. Violations: 49. Lighthouse: 10/100.",
+  "timestamp": "2026-08-02T03:50:11.350Z"
+}

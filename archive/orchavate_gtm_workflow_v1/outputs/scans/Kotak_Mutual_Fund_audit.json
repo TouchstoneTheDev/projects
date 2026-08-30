@@ -1,0 +1,93 @@
+{
+  "company": {
+    "srNo": 32,
+    "assignedTo": "Unassigned",
+    "companyName": "Kotak Mutual Fund",
+    "website": "https://www.kotakmf.com",
+    "contactPerson": "N/A",
+    "emailId": "N/A",
+    "verifiedBy": "Orchavate Automated Tool"
+  },
+  "websiteVerified": true,
+  "scanCompleted": true,
+  "screenshotTaken": true,
+  "status": "Completed",
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://www.kotakmf.com",
+      "accessible": false,
+      "axeViolations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".btn",
+          "html": "<input type=\"submit\" class=\"btn btn-success btn-sm\" value=\"Submit\">",
+          "pageName": "Homepage",
+          "screenshotPath": "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_color_contrast.png"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-muted",
+          "html": "<p class=\"text-muted credit\">\n\t\tYou reached this page when trying to access\n\t\t<b>https://www.kotakmf.com/</b> from\n\t\t<b>23.97.62.113</b> on\n\t\t<b>August 02 2026, 03:49:02 UTC</b>\n\t</p>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": ".text-muted > b:nth-child(1)",
+          "html": "<b>https://www.kotakmf.com/</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "b:nth-child(2)",
+          "html": "<b>23.97.62.113</b>",
+          "pageName": "Homepage"
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+          "category": "color_contrast",
+          "selector": "b:nth-child(3)",
+          "html": "<b>August 02 2026, 03:49:02 UTC</b>",
+          "pageName": "Homepage"
+        }
+      ],
+      "lighthouseScore": 60,
+      "screenshots": [
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_Overview.png",
+        "/workspaces/projects/orchavate_gtm_workflow/outputs/screenshots/Kotak_Mutual_Fund_Homepage_color_contrast.png"
+      ]
+    }
+  ],
+  "totalViolations": 5,
+  "altTextViolations": 0,
+  "contrastViolations": 5,
+  "labelViolations": 0,
+  "keyboardViolations": 0,
+  "lighthouseAvgScore": 60,
+  "remarks": "Scanned 1 pages. Violations: 5. Lighthouse: 60/100.",
+  "timestamp": "2026-08-02T03:49:03.994Z"
+}
